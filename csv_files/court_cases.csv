@@ -1,0 +1,301 @@
+court_case_id,fir_id,court_name,judge_name,chargesheet_date,hearing_date,judgement_date,case_status,sentence
+CCI001,FIR001,"District and Sessions Court, Belagavi",Hon'ble Judge Manoj Choudhury,2025-02-23 09:50:08,N/A,N/A,Chargesheet Filed,None
+CCI002,FIR002,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Vikram Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI003,FIR003,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Priya Kumar,2026-01-25 05:50:24,2026-02-18 07:50:24,N/A,Trial in Progress,None
+CCI004,FIR004,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Aarav Rao,N/A,N/A,N/A,Under Investigation,None
+CCI005,FIR005,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Suresh Nair,2025-04-26 06:39:30,2025-05-17 07:39:30,N/A,Trial in Progress,None
+CCI006,FIR006,"District and Sessions Court, Mangaluru",Hon'ble Judge Vikram Das,N/A,N/A,N/A,Under Investigation,None
+CCI007,FIR007,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Rohan Singh,N/A,N/A,N/A,Under Investigation,None
+CCI008,FIR008,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Pooja Nair,N/A,N/A,N/A,Under Investigation,None
+CCI009,FIR009,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Deepa Reddy,2025-04-13 15:26:24,2025-05-27 17:26:24,N/A,Trial in Progress,None
+CCI010,FIR010,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Pooja Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI011,FIR011,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Kiran Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI012,FIR012,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Deepak Jadav,2026-05-15 12:42:37,N/A,N/A,Committed to Court,None
+CCI013,FIR013,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Geeta Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI014,FIR014,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sneha Jadav,N/A,N/A,N/A,Under Investigation,None
+CCI015,FIR015,"District and Sessions Court, Bengaluru",Hon'ble Judge Geeta Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI016,FIR016,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Aarav Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI017,FIR017,"District and Sessions Court, Bengaluru",Hon'ble Judge Arjun Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI018,FIR018,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Suresh Rao,2025-12-29 18:15:05,2026-01-13 19:15:05,2026-05-05 22:15:05,Convicted,"Fine of Rs. 15,000, in default 3 months simple imprisonment."
+CCI019,FIR019,"District and Sessions Court, Dharwad",Hon'ble Judge Sandip Chawla,2025-12-10 00:53:30,N/A,N/A,Chargesheet Filed,None
+CCI020,FIR020,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Rahul Gill,2025-10-19 12:45:42,2025-11-12 16:45:42,N/A,Trial in Progress,None
+CCI021,FIR021,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Anita Choudhury,2026-06-30 15:35:21,N/A,N/A,Chargesheet Filed,None
+CCI022,FIR022,"Civil Judge and JMFC Court, Hubballi",Hon'ble Judge Ritu Reddy,2026-03-13 21:42:07,N/A,N/A,Chargesheet Filed,None
+CCI023,FIR023,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Priya Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI024,FIR024,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Babita Banerjee,2026-01-25 03:57:17,N/A,N/A,Committed to Court,None
+CCI025,FIR025,"District and Sessions Court, Bengaluru",Hon'ble Judge Aaradhya Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI026,FIR026,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sanjay Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI027,FIR027,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sneha Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI028,FIR028,"District and Sessions Court, Mysuru",Hon'ble Judge Aarav Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI029,FIR029,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sunita Mishra,2026-01-29 13:49:02,N/A,N/A,Chargesheet Filed,None
+CCI030,FIR030,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sandip Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI031,FIR031,"Judicial Magistrate First Class (JMFC), Belagavi",Hon'ble Judge Preeti Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI032,FIR032,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Harish Yadav,2026-06-07 03:12:42,2026-07-02 03:12:42,N/A,Trial in Progress,None
+CCI033,FIR033,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Vikram Verma,2025-06-18 11:44:22,N/A,N/A,Chargesheet Filed,None
+CCI034,FIR034,"District and Sessions Court, Bengaluru",Hon'ble Judge Swati Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI035,FIR035,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Amit Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI036,FIR036,"District and Sessions Court, Dharwad",Hon'ble Judge Aarav Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI037,FIR037,"District and Sessions Court, Bengaluru",Hon'ble Judge Babita Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI038,FIR038,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Vijay Chawla,2025-10-05 10:45:57,N/A,N/A,Chargesheet Filed,None
+CCI039,FIR039,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Amit Rao,N/A,N/A,N/A,Under Investigation,None
+CCI040,FIR040,"District and Sessions Court, Bengaluru",Hon'ble Judge Vikram Verma,2026-05-27 04:39:40,N/A,N/A,Committed to Court,None
+CCI041,FIR041,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Anil Prasad,2026-03-05 18:43:38,N/A,N/A,Committed to Court,None
+CCI042,FIR042,"District and Sessions Court, Bengaluru",Hon'ble Judge Arjun Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI043,FIR043,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sunita Singh,2025-09-28 14:23:57,2025-11-04 14:23:57,N/A,Trial in Progress,None
+CCI044,FIR044,"District and Sessions Court, Bengaluru",Hon'ble Judge Swati Patel,N/A,N/A,N/A,Under Investigation,None
+CCI045,FIR045,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Geeta Joshi,2025-11-19 06:53:46,N/A,N/A,Chargesheet Filed,None
+CCI046,FIR046,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sneha Rao,N/A,N/A,N/A,Under Investigation,None
+CCI047,FIR047,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Arjun Nair,2025-10-20 04:28:04,N/A,N/A,Chargesheet Filed,None
+CCI048,FIR048,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Neha Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI049,FIR049,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Jyoti Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI050,FIR050,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Kiran Das,2025-04-16 11:23:30,N/A,N/A,Chargesheet Filed,None
+CCI051,FIR051,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Meena Rao,N/A,N/A,N/A,Under Investigation,None
+CCI052,FIR052,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Aarav Nair,N/A,N/A,N/A,Under Investigation,None
+CCI053,FIR053,"District and Sessions Court, Bengaluru",Hon'ble Judge Deepak Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI054,FIR054,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Sharda Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI055,FIR055,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Vinay Yadav,2026-02-23 22:03:22,2026-04-02 01:03:22,2026-05-20 01:03:22,Convicted,"Simple Imprisonment for 1 year and a fine of Rs. 5,000."
+CCI056,FIR056,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Rajesh Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI057,FIR057,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Karan Das,N/A,N/A,N/A,Under Investigation,None
+CCI058,FIR058,"District and Sessions Court, Bengaluru",Hon'ble Judge Vinay Singh,2025-05-07 08:54:58,2025-05-31 08:54:58,2025-09-12 13:54:58,Closed,None
+CCI059,FIR059,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Rajesh Rao,N/A,N/A,N/A,Under Investigation,None
+CCI060,FIR060,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Anjali Mehta,2026-03-01 14:03:13,2026-03-16 19:03:13,N/A,Trial in Progress,None
+CCI061,FIR061,"District and Sessions Court, Belagavi",Hon'ble Judge Ajay Das,2025-11-24 06:35:51,N/A,N/A,Chargesheet Filed,None
+CCI062,FIR062,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Priya Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI063,FIR063,"District and Sessions Court, Mysuru",Hon'ble Judge Sanjay Rao,N/A,N/A,N/A,Under Investigation,None
+CCI064,FIR064,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Vinay Prasad,2025-10-07 01:02:57,2025-11-19 06:02:57,2025-12-19 07:02:57,Acquitted,None
+CCI065,FIR065,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Kiran Singh,N/A,N/A,N/A,Under Investigation,None
+CCI066,FIR066,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Deepak Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI067,FIR067,"District and Sessions Court, Bengaluru",Hon'ble Judge Neha Das,2025-11-11 20:56:13,N/A,N/A,Chargesheet Filed,None
+CCI068,FIR068,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Anita Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI069,FIR069,"District and Sessions Court, Bengaluru",Hon'ble Judge Arjun Yadav,2025-10-04 23:39:19,2025-10-23 00:39:19,2026-01-23 00:39:19,Acquitted,None
+CCI070,FIR070,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Swati Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI071,FIR071,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Arjun Jadav,2026-06-06 08:41:10,2026-07-04 09:41:10,N/A,Trial in Progress,None
+CCI072,FIR072,"District and Sessions Court, Bengaluru",Hon'ble Judge Meena Gill,N/A,N/A,N/A,Under Investigation,None
+CCI073,FIR073,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Sunil Kumar,2026-02-21 19:59:21,N/A,N/A,Chargesheet Filed,None
+CCI074,FIR074,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Karan Mishra,N/A,N/A,N/A,Under Investigation,None
+CCI075,FIR075,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Anjali Banerjee,2025-11-19 00:36:30,2025-12-19 04:36:30,2026-01-27 04:36:30,Acquitted,None
+CCI076,FIR076,"District and Sessions Court, Mangaluru",Hon'ble Judge Kiran Reddy,2025-04-11 05:01:57,2025-05-09 09:01:57,2025-07-13 12:01:57,Convicted,"Rigorous Imprisonment for 3 years and a fine of Rs. 10,000."
+CCI077,FIR077,"District and Sessions Court, Bengaluru",Hon'ble Judge Sandip Verma,N/A,N/A,N/A,Under Investigation,None
+CCI078,FIR078,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Sanjay Gill,2025-11-25 19:38:59,2025-12-30 19:38:59,N/A,Trial in Progress,None
+CCI079,FIR079,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Anita Singh,2025-09-02 11:34:40,2025-10-04 13:34:40,N/A,Trial in Progress,None
+CCI080,FIR080,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Suresh Verma,N/A,N/A,N/A,Under Investigation,None
+CCI081,FIR081,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Sneha Verma,2025-09-12 15:08:08,N/A,N/A,Committed to Court,None
+CCI082,FIR082,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Anil Patel,2026-05-18 08:33:21,2026-06-30 10:33:21,2026-10-19 14:33:21,Convicted,"Imprisonment for life and a fine of Rs. 50,000."
+CCI083,FIR083,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Karan Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI084,FIR084,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Rohan Verma,2026-05-10 06:41:52,N/A,N/A,Committed to Court,None
+CCI085,FIR085,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Vijay Patel,N/A,N/A,N/A,Under Investigation,None
+CCI086,FIR086,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Anjali Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI087,FIR087,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sneha Nair,N/A,N/A,N/A,Under Investigation,None
+CCI088,FIR088,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Ajay Singh,2025-11-03 22:52:40,N/A,N/A,Committed to Court,None
+CCI089,FIR089,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Ajay Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI090,FIR090,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Preeti Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI091,FIR091,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Harish Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI092,FIR092,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Harish Patel,2025-05-26 18:42:54,N/A,N/A,Chargesheet Filed,None
+CCI093,FIR093,"District and Sessions Court, Mysuru",Hon'ble Judge Preeti Verma,2026-03-22 19:49:47,N/A,N/A,Committed to Court,None
+CCI094,FIR094,"District and Sessions Court, Mangaluru",Hon'ble Judge Aarav Das,N/A,N/A,N/A,Under Investigation,None
+CCI095,FIR095,"District and Sessions Court, Belagavi",Hon'ble Judge Aarav Prasad,2026-02-20 04:16:45,N/A,N/A,Chargesheet Filed,None
+CCI096,FIR096,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Karan Joshi,2025-08-02 09:39:49,N/A,N/A,Chargesheet Filed,None
+CCI097,FIR097,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Suresh Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI098,FIR098,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Rahul Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI099,FIR099,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Aarav Das,2026-06-25 04:14:55,2026-08-03 06:14:55,2026-10-11 09:14:55,Acquitted,None
+CCI100,FIR100,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Sharda Chawla,2025-03-28 11:32:43,N/A,N/A,Committed to Court,None
+CCI101,FIR101,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Sunil Chawla,2026-01-28 15:32:28,2026-02-25 16:32:28,2026-05-04 20:32:28,Acquitted,None
+CCI102,FIR102,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Rajesh Chawla,2025-12-30 01:37:31,N/A,N/A,Chargesheet Filed,None
+CCI103,FIR103,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Renu Gill,N/A,N/A,N/A,Under Investigation,None
+CCI104,FIR104,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Rohan Mishra,2025-02-19 16:51:46,2025-03-06 16:51:46,2025-05-08 16:51:46,Convicted,"Simple Imprisonment for 6 months and a fine of Rs. 2,000."
+CCI105,FIR105,"District and Sessions Court, Belagavi",Hon'ble Judge Rajesh Mehta,2026-01-02 03:20:02,N/A,N/A,Chargesheet Filed,None
+CCI106,FIR106,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Vikram Sharma,N/A,N/A,N/A,Under Investigation,None
+CCI107,FIR107,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sneha Gupta,2025-10-18 02:28:19,2025-11-17 02:28:19,N/A,Trial in Progress,None
+CCI108,FIR108,"District and Sessions Court, Mysuru",Hon'ble Judge Deepak Nair,N/A,N/A,N/A,Under Investigation,None
+CCI109,FIR109,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Jyoti Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI110,FIR110,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Aarav Gill,2026-02-03 18:42:42,2026-03-06 21:42:42,N/A,Trial in Progress,None
+CCI111,FIR111,"District and Sessions Court, Bengaluru",Hon'ble Judge Renu Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI112,FIR112,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Harish Nair,2025-06-04 14:51:07,N/A,N/A,Chargesheet Filed,None
+CCI113,FIR113,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Geeta Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI114,FIR114,"District and Sessions Court, Bengaluru",Hon'ble Judge Kiran Das,2025-02-06 01:12:47,2025-02-22 03:12:47,2025-05-10 06:12:47,Acquitted,None
+CCI115,FIR115,"District and Sessions Court, Bengaluru",Hon'ble Judge Swati Rao,N/A,N/A,N/A,Under Investigation,None
+CCI116,FIR116,"District and Sessions Court, Bengaluru",Hon'ble Judge Arjun Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI117,FIR117,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Deepak Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI118,FIR118,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Manoj Sharma,N/A,N/A,N/A,Under Investigation,None
+CCI119,FIR119,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Babita Choudhury,2026-02-06 05:28:13,2026-03-23 05:28:13,2026-06-22 10:28:13,Closed,None
+CCI120,FIR120,"District and Sessions Court, Bengaluru",Hon'ble Judge Rajesh Gill,2025-09-15 06:42:22,N/A,N/A,Chargesheet Filed,None
+CCI121,FIR121,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Ajay Verma,N/A,N/A,N/A,Under Investigation,None
+CCI122,FIR122,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Jyoti Yadav,2025-11-20 22:39:24,N/A,N/A,Committed to Court,None
+CCI123,FIR123,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Ajay Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI124,FIR124,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Sharda Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI125,FIR125,"District and Sessions Court, Bengaluru",Hon'ble Judge Renu Das,2025-03-11 04:32:23,N/A,N/A,Committed to Court,None
+CCI126,FIR126,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Rahul Jadav,N/A,N/A,N/A,Under Investigation,None
+CCI127,FIR127,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Preeti Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI128,FIR128,"District and Sessions Court, Bengaluru",Hon'ble Judge Meena Nair,2025-12-22 03:32:06,2026-02-05 05:32:06,2026-04-25 10:32:06,Convicted,"Rigorous Imprisonment for 7 years and a fine of Rs. 25,000."
+CCI129,FIR129,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Meena Nair,N/A,N/A,N/A,Under Investigation,None
+CCI130,FIR130,"District and Sessions Court, Mysuru",Hon'ble Judge Preeti Singh,N/A,N/A,N/A,Under Investigation,None
+CCI131,FIR131,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Anita Gupta,2026-07-10 15:16:28,N/A,N/A,Committed to Court,None
+CCI132,FIR132,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Amit Jadav,N/A,N/A,N/A,Under Investigation,None
+CCI133,FIR133,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Karan Sharma,2026-03-03 19:32:51,N/A,N/A,Committed to Court,None
+CCI134,FIR134,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Anil Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI135,FIR135,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Babita Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI136,FIR136,"District and Sessions Court, Mysuru",Hon'ble Judge Anil Banerjee,2025-11-26 16:45:21,N/A,N/A,Committed to Court,None
+CCI137,FIR137,"District and Sessions Court, Bengaluru",Hon'ble Judge Preeti Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI138,FIR138,"Judicial Magistrate First Class (JMFC), Belagavi",Hon'ble Judge Aaradhya Patel,2026-03-31 00:57:59,N/A,N/A,Chargesheet Filed,None
+CCI139,FIR139,"Judicial Magistrate First Class (JMFC), Belagavi",Hon'ble Judge Geeta Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI140,FIR140,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Sharda Verma,N/A,N/A,N/A,Under Investigation,None
+CCI141,FIR141,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sunita Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI142,FIR142,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Aarav Das,2025-02-24 06:15:54,2025-03-17 08:15:54,N/A,Trial in Progress,None
+CCI143,FIR143,"District and Sessions Court, Bengaluru",Hon'ble Judge Vinay Gill,2025-02-04 21:45:13,2025-03-19 02:45:13,N/A,Trial in Progress,None
+CCI144,FIR144,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Deepa Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI145,FIR145,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Rajesh Patel,2025-01-31 17:29:19,N/A,N/A,Committed to Court,None
+CCI146,FIR146,"District and Sessions Court, Bengaluru",Hon'ble Judge Aarav Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI147,FIR147,"Judicial Magistrate First Class (JMFC), Belagavi",Hon'ble Judge Aaradhya Verma,N/A,N/A,N/A,Under Investigation,None
+CCI148,FIR148,"District and Sessions Court, Bengaluru",Hon'ble Judge Jyoti Mishra,N/A,N/A,N/A,Under Investigation,None
+CCI149,FIR149,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Babita Sharma,2026-05-25 02:11:24,2026-06-12 04:11:24,N/A,Trial in Progress,None
+CCI150,FIR150,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Jyoti Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI151,FIR151,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Anil Rao,2025-06-03 17:07:07,2025-07-05 20:07:07,2025-08-09 01:07:07,Convicted,"Fine of Rs. 15,000, in default 3 months simple imprisonment."
+CCI152,FIR152,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sandip Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI153,FIR153,"Civil Judge and JMFC Court, Dharwad",Hon'ble Judge Vijay Rao,2025-10-22 21:04:14,2025-11-30 01:04:14,N/A,Trial in Progress,None
+CCI154,FIR154,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Rohan Nair,N/A,N/A,N/A,Under Investigation,None
+CCI155,FIR155,"District and Sessions Court, Bengaluru",Hon'ble Judge Geeta Gupta,2026-03-23 23:07:46,N/A,N/A,Committed to Court,None
+CCI156,FIR156,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Karan Mehta,2026-05-04 07:52:50,2026-06-12 11:52:50,2026-09-03 13:52:50,Convicted,"Simple Imprisonment for 6 months and a fine of Rs. 2,000."
+CCI157,FIR157,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Deepak Kumar,2026-02-13 06:11:00,2026-03-13 10:11:00,N/A,Trial in Progress,None
+CCI158,FIR158,"District and Sessions Court, Mysuru",Hon'ble Judge Manoj Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI159,FIR159,"District and Sessions Court, Mysuru",Hon'ble Judge Swati Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI160,FIR160,"District and Sessions Court, Mysuru",Hon'ble Judge Meena Joshi,2025-06-20 20:35:16,N/A,N/A,Committed to Court,None
+CCI161,FIR161,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Babita Choudhury,2025-11-21 06:44:35,2026-01-04 11:44:35,N/A,Trial in Progress,None
+CCI162,FIR162,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Geeta Singh,2025-12-10 23:37:40,N/A,N/A,Chargesheet Filed,None
+CCI163,FIR163,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Sharda Gill,2025-05-31 11:07:44,2025-06-29 15:07:44,2025-10-06 20:07:44,Convicted,"Rigorous Imprisonment for 3 years and a fine of Rs. 10,000."
+CCI164,FIR164,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Anita Kumar,2026-02-25 22:16:17,2026-03-21 00:16:17,N/A,Trial in Progress,None
+CCI165,FIR165,"District and Sessions Court, Bengaluru",Hon'ble Judge Swati Verma,2026-06-05 14:17:33,N/A,N/A,Committed to Court,None
+CCI166,FIR166,"District and Sessions Court, Hubballi",Hon'ble Judge Harish Jadav,2025-08-22 00:24:35,N/A,N/A,Committed to Court,None
+CCI167,FIR167,"District and Sessions Court, Mysuru",Hon'ble Judge Priya Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI168,FIR168,"District and Sessions Court, Mysuru",Hon'ble Judge Rohan Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI169,FIR169,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Harish Prasad,2025-02-16 08:21:49,2025-03-20 13:21:49,2025-06-07 16:21:49,Convicted,"Simple Imprisonment for 6 months and a fine of Rs. 2,000."
+CCI170,FIR170,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Aaradhya Singh,2026-02-23 13:34:22,2026-03-17 17:34:22,N/A,Trial in Progress,None
+CCI171,FIR171,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Karan Rao,2025-07-06 12:15:14,N/A,N/A,Chargesheet Filed,None
+CCI172,FIR172,"Judicial Magistrate First Class (JMFC), Dharwad",Hon'ble Judge Kiran Gupta,2026-07-03 19:46:02,2026-07-27 20:46:02,2026-08-28 20:46:02,Convicted,"Simple Imprisonment for 1 year and a fine of Rs. 5,000."
+CCI173,FIR173,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Deepa Prasad,2025-08-29 15:13:38,N/A,N/A,Committed to Court,None
+CCI174,FIR174,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Harish Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI175,FIR175,"District and Sessions Court, Tumakuru",Hon'ble Judge Rahul Nair,N/A,N/A,N/A,Under Investigation,None
+CCI176,FIR176,"Judicial Magistrate First Class (JMFC), Hubballi",Hon'ble Judge Swati Prasad,N/A,N/A,N/A,Under Investigation,None
+CCI177,FIR177,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Anil Rao,N/A,N/A,N/A,Under Investigation,None
+CCI178,FIR178,"District and Sessions Court, Bengaluru",Hon'ble Judge Manoj Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI179,FIR179,"District and Sessions Court, Dharwad",Hon'ble Judge Arjun Verma,2025-04-10 13:33:39,N/A,N/A,Chargesheet Filed,None
+CCI180,FIR180,"Civil Judge and JMFC Court, Dharwad",Hon'ble Judge Arjun Choudhury,2026-03-15 17:05:07,N/A,N/A,Chargesheet Filed,None
+CCI181,FIR181,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Kavita Nair,N/A,N/A,N/A,Under Investigation,None
+CCI182,FIR182,"Civil Judge and JMFC Court, Belagavi",Hon'ble Judge Anjali Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI183,FIR183,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Sandip Banerjee,2026-05-06 19:27:10,N/A,N/A,Chargesheet Filed,None
+CCI184,FIR184,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Sharda Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI185,FIR185,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Preeti Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI186,FIR186,"Judicial Magistrate First Class (JMFC), Hubballi",Hon'ble Judge Babita Sharma,N/A,N/A,N/A,Under Investigation,None
+CCI187,FIR187,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Vinay Gill,N/A,N/A,N/A,Under Investigation,None
+CCI188,FIR188,"Civil Judge and JMFC Court, Dharwad",Hon'ble Judge Sneha Rao,2025-06-18 12:00:47,N/A,N/A,Committed to Court,None
+CCI189,FIR189,"District and Sessions Court, Mysuru",Hon'ble Judge Ajay Sharma,N/A,N/A,N/A,Under Investigation,None
+CCI190,FIR190,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Anita Gupta,2026-06-02 20:50:23,N/A,N/A,Chargesheet Filed,None
+CCI191,FIR191,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Anil Nair,N/A,N/A,N/A,Under Investigation,None
+CCI192,FIR192,"District and Sessions Court, Bengaluru",Hon'ble Judge Swati Nair,2026-01-08 22:58:05,2026-01-27 22:58:05,N/A,Trial in Progress,None
+CCI193,FIR193,"Judicial Magistrate First Class (JMFC), Dharwad",Hon'ble Judge Vijay Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI194,FIR194,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Preeti Chawla,2025-05-11 07:39:56,2025-06-17 09:39:56,2025-09-02 09:39:56,Acquitted,None
+CCI195,FIR195,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Rohan Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI196,FIR196,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Anil Reddy,2026-06-07 19:40:52,N/A,N/A,Committed to Court,None
+CCI197,FIR197,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Amit Mishra,2026-06-23 17:19:16,N/A,N/A,Chargesheet Filed,None
+CCI198,FIR198,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Neha Jadav,2026-06-04 13:42:46,2026-06-30 16:42:46,2026-08-18 17:42:46,Convicted,"Rigorous Imprisonment for 3 years and a fine of Rs. 10,000."
+CCI199,FIR199,"District and Sessions Court, Bengaluru",Hon'ble Judge Ajay Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI200,FIR200,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Harish Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI201,FIR201,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Sunil Mehta,2026-06-12 17:03:07,N/A,N/A,Committed to Court,None
+CCI202,FIR202,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Suresh Patel,N/A,N/A,N/A,Under Investigation,None
+CCI203,FIR203,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Aaradhya Rao,N/A,N/A,N/A,Under Investigation,None
+CCI204,FIR204,"District and Sessions Court, Bengaluru",Hon'ble Judge Vikram Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI205,FIR205,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Vijay Patel,N/A,N/A,N/A,Under Investigation,None
+CCI206,FIR206,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Swati Mishra,2026-04-24 23:15:01,2026-05-23 02:15:01,2026-08-21 06:15:01,Convicted,"Rigorous Imprisonment for 7 years and a fine of Rs. 25,000."
+CCI207,FIR207,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Sharda Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI208,FIR208,"District and Sessions Court, Bengaluru",Hon'ble Judge Rohan Singh,N/A,N/A,N/A,Under Investigation,None
+CCI209,FIR209,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Pooja Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI210,FIR210,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Ramesh Rao,2025-04-02 07:26:22,N/A,N/A,Committed to Court,None
+CCI211,FIR211,"District and Sessions Court, Hubballi",Hon'ble Judge Kavita Reddy,2025-03-25 18:25:43,N/A,N/A,Chargesheet Filed,None
+CCI212,FIR212,"District and Sessions Court, Mangaluru",Hon'ble Judge Preeti Prasad,N/A,N/A,N/A,Under Investigation,None
+CCI213,FIR213,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Kavita Mishra,2025-02-04 20:27:28,N/A,N/A,Chargesheet Filed,None
+CCI214,FIR214,"Judicial Magistrate First Class (JMFC), Mangaluru",Hon'ble Judge Rohan Kumar,2026-03-29 10:06:04,N/A,N/A,Chargesheet Filed,None
+CCI215,FIR215,"District and Sessions Court, Mysuru",Hon'ble Judge Rohan Nair,2025-04-18 09:52:43,N/A,N/A,Chargesheet Filed,None
+CCI216,FIR216,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sandip Prasad,2025-03-20 19:04:37,N/A,N/A,Chargesheet Filed,None
+CCI217,FIR217,"District and Sessions Court, Dharwad",Hon'ble Judge Deepak Mishra,2025-12-13 10:48:35,N/A,N/A,Chargesheet Filed,None
+CCI218,FIR218,"District and Sessions Court, Bengaluru",Hon'ble Judge Karan Jadav,2026-05-31 17:24:39,N/A,N/A,Committed to Court,None
+CCI219,FIR219,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Anita Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI220,FIR220,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Swati Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI221,FIR221,"District and Sessions Court, Mysuru",Hon'ble Judge Rohan Gupta,2025-08-21 01:47:34,2025-09-13 03:47:34,2025-12-23 06:47:34,Convicted,"Fine of Rs. 15,000, in default 3 months simple imprisonment."
+CCI222,FIR222,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Kavita Rao,N/A,N/A,N/A,Under Investigation,None
+CCI223,FIR223,"District and Sessions Court, Mangaluru",Hon'ble Judge Vinay Rao,N/A,N/A,N/A,Under Investigation,None
+CCI224,FIR224,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Vikram Gupta,2025-01-31 20:05:31,2025-03-04 00:05:31,2025-05-29 01:05:31,Convicted,"Imprisonment for life and a fine of Rs. 50,000."
+CCI225,FIR225,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Priya Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI226,FIR226,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Preeti Choudhury,2025-12-10 21:26:29,2026-01-17 22:26:29,N/A,Trial in Progress,None
+CCI227,FIR227,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Aaradhya Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI228,FIR228,"District and Sessions Court, Mangaluru",Hon'ble Judge Sneha Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI229,FIR229,"District and Sessions Court, Bengaluru",Hon'ble Judge Deepak Mehta,2025-08-15 22:48:29,N/A,N/A,Chargesheet Filed,None
+CCI230,FIR230,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Meena Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI231,FIR231,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Meena Singh,N/A,N/A,N/A,Under Investigation,None
+CCI232,FIR232,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Rajesh Kumar,2025-07-18 07:08:16,N/A,N/A,Chargesheet Filed,None
+CCI233,FIR233,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Sunita Patel,2025-09-24 01:14:32,2025-10-31 05:14:32,2025-12-16 10:14:32,Convicted,"Simple Imprisonment for 6 months and a fine of Rs. 2,000."
+CCI234,FIR234,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Geeta Verma,2026-05-14 22:35:57,N/A,N/A,Chargesheet Filed,None
+CCI235,FIR235,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Renu Reddy,2025-06-28 19:00:35,N/A,N/A,Committed to Court,None
+CCI236,FIR236,"District and Sessions Court, Mangaluru",Hon'ble Judge Rohan Reddy,N/A,N/A,N/A,Under Investigation,None
+CCI237,FIR237,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Suresh Jadav,N/A,N/A,N/A,Under Investigation,None
+CCI238,FIR238,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Babita Patel,2025-11-07 19:33:24,N/A,N/A,Committed to Court,None
+CCI239,FIR239,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Preeti Verma,N/A,N/A,N/A,Under Investigation,None
+CCI240,FIR240,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Ritu Joshi,2025-03-04 19:54:20,2025-03-24 22:54:20,N/A,Trial in Progress,None
+CCI241,FIR241,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Vijay Das,N/A,N/A,N/A,Under Investigation,None
+CCI242,FIR242,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Meena Kumar,2025-06-14 03:10:31,2025-07-21 08:10:31,N/A,Trial in Progress,None
+CCI243,FIR243,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Swati Prasad,2026-05-27 02:07:58,2026-06-25 03:07:58,N/A,Trial in Progress,None
+CCI244,FIR244,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Deepak Prasad,N/A,N/A,N/A,Under Investigation,None
+CCI245,FIR245,"District and Sessions Court, Bengaluru",Hon'ble Judge Aarav Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI246,FIR246,"District and Sessions Court, Bengaluru",Hon'ble Judge Anita Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI247,FIR247,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Karan Verma,2025-03-29 23:13:03,2025-04-15 00:13:03,2025-05-25 05:13:03,Convicted,"Rigorous Imprisonment for 7 years and a fine of Rs. 25,000."
+CCI248,FIR248,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Amit Prasad,2025-09-09 03:05:22,2025-10-02 06:05:22,N/A,Trial in Progress,None
+CCI249,FIR249,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Ritu Rao,2025-10-02 11:15:38,2025-11-07 14:15:38,2026-01-07 16:15:38,Acquitted,None
+CCI250,FIR250,"District and Sessions Court, Bengaluru",Hon'ble Judge Harish Joshi,2025-12-30 19:11:48,N/A,N/A,Chargesheet Filed,None
+CCI251,FIR251,"District and Sessions Court, Bengaluru",Hon'ble Judge Vikram Kumar,2025-07-17 03:01:54,2025-08-22 08:01:54,N/A,Trial in Progress,None
+CCI252,FIR252,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Manoj Nair,2025-07-05 03:45:57,N/A,N/A,Chargesheet Filed,None
+CCI253,FIR253,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Geeta Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI254,FIR254,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Babita Yadav,2025-03-25 15:05:07,2025-04-29 15:05:07,2025-08-04 17:05:07,Acquitted,None
+CCI255,FIR255,"District and Sessions Court, Mysuru",Hon'ble Judge Deepa Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI256,FIR256,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Meena Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI257,FIR257,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Jyoti Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI258,FIR258,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Vikram Rao,N/A,N/A,N/A,Under Investigation,None
+CCI259,FIR259,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Rohan Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI260,FIR260,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Ritu Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI261,FIR261,"Civil Judge and JMFC Court, Mysuru",Hon'ble Judge Sandip Verma,N/A,N/A,N/A,Under Investigation,None
+CCI262,FIR262,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Aaradhya Chawla,N/A,N/A,N/A,Under Investigation,None
+CCI263,FIR263,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Renu Mehta,2025-07-19 12:56:38,2025-08-04 15:56:38,N/A,Trial in Progress,None
+CCI264,FIR264,"District and Sessions Court, Bengaluru",Hon'ble Judge Kavita Nair,N/A,N/A,N/A,Under Investigation,None
+CCI265,FIR265,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Neha Das,N/A,N/A,N/A,Under Investigation,None
+CCI266,FIR266,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Sneha Patel,N/A,N/A,N/A,Under Investigation,None
+CCI267,FIR267,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Karan Das,2026-05-02 19:13:55,N/A,N/A,Chargesheet Filed,None
+CCI268,FIR268,"Judicial Magistrate First Class (JMFC), Tumakuru",Hon'ble Judge Vinay Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI269,FIR269,"District and Sessions Court, Mysuru",Hon'ble Judge Babita Patel,N/A,N/A,N/A,Under Investigation,None
+CCI270,FIR270,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Vinay Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI271,FIR271,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Vijay Kumar,2026-01-31 16:57:27,N/A,N/A,Chargesheet Filed,None
+CCI272,FIR272,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Rajesh Banerjee,2025-06-03 20:12:09,2025-07-08 20:12:09,2025-08-25 01:12:09,Convicted,"Fine of Rs. 15,000, in default 3 months simple imprisonment."
+CCI273,FIR273,"City Civil and Sessions Court, Bengaluru",Hon'ble Judge Sunita Mehta,2026-04-07 06:33:00,N/A,N/A,Chargesheet Filed,None
+CCI274,FIR274,"District and Sessions Court, Mysuru",Hon'ble Judge Priya Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI275,FIR275,"District and Sessions Court, Belagavi",Hon'ble Judge Deepak Banerjee,N/A,N/A,N/A,Under Investigation,None
+CCI276,FIR276,"District and Sessions Court, Bengaluru",Hon'ble Judge Ramesh Sharma,N/A,N/A,N/A,Under Investigation,None
+CCI277,FIR277,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Swati Jadav,2025-08-18 02:15:24,N/A,N/A,Chargesheet Filed,None
+CCI278,FIR278,"District and Sessions Court, Mysuru",Hon'ble Judge Sandip Verma,N/A,N/A,N/A,Under Investigation,None
+CCI279,FIR279,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Sanjay Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI280,FIR280,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Ramesh Patel,2025-11-01 03:38:33,N/A,N/A,Chargesheet Filed,None
+CCI281,FIR281,"Civil Judge and JMFC Court, Bengaluru",Hon'ble Judge Renu Choudhury,N/A,N/A,N/A,Under Investigation,None
+CCI282,FIR282,"Judicial Magistrate First Class (JMFC), Mysuru",Hon'ble Judge Manoj Rao,2025-06-24 15:22:52,2025-08-08 17:22:52,2025-11-14 19:22:52,Closed,None
+CCI283,FIR283,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Anjali Gupta,N/A,N/A,N/A,Under Investigation,None
+CCI284,FIR284,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Vijay Mehta,N/A,N/A,N/A,Under Investigation,None
+CCI285,FIR285,"District and Sessions Court, Bengaluru",Hon'ble Judge Kiran Patel,2025-08-15 03:10:29,N/A,N/A,Chargesheet Filed,None
+CCI286,FIR286,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Swati Patel,N/A,N/A,N/A,Under Investigation,None
+CCI287,FIR287,"Judicial Magistrate First Class (JMFC), Bengaluru",Hon'ble Judge Sharda Banerjee,2026-04-15 02:34:22,2026-05-17 03:34:22,2026-06-25 07:34:22,Convicted,"Imprisonment for life and a fine of Rs. 50,000."
+CCI288,FIR288,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Meena Gill,N/A,N/A,N/A,Under Investigation,None
+CCI289,FIR289,"Civil Judge and JMFC Court, Dharwad",Hon'ble Judge Sharda Kumar,N/A,N/A,N/A,Under Investigation,None
+CCI290,FIR290,"District and Sessions Court, Bengaluru",Hon'ble Judge Deepa Gupta,2025-12-08 14:26:46,N/A,N/A,Chargesheet Filed,None
+CCI291,FIR291,"Judicial Magistrate First Class (JMFC), Belagavi",Hon'ble Judge Vijay Mishra,2026-05-14 07:10:02,N/A,N/A,Chargesheet Filed,None
+CCI292,FIR292,"District and Sessions Court, Tumakuru",Hon'ble Judge Sandip Joshi,N/A,N/A,N/A,Under Investigation,None
+CCI293,FIR293,"Civil Judge and JMFC Court, Hubballi",Hon'ble Judge Aarav Jadav,2025-07-05 07:15:31,N/A,N/A,Chargesheet Filed,None
+CCI294,FIR294,"Civil Judge and JMFC Court, Mangaluru",Hon'ble Judge Rohan Singh,2025-08-09 03:23:30,2025-08-28 05:23:30,N/A,Trial in Progress,None
+CCI295,FIR295,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Manoj Rao,2026-02-19 10:14:35,2026-04-03 10:14:35,2026-06-30 13:14:35,Convicted,"Simple Imprisonment for 6 months and a fine of Rs. 2,000."
+CCI296,FIR296,"District and Sessions Court, Bengaluru",Hon'ble Judge Kiran Banerjee,2025-08-27 09:07:18,N/A,N/A,Chargesheet Filed,None
+CCI297,FIR297,"District and Sessions Court, Mangaluru",Hon'ble Judge Meena Gill,2026-04-03 04:37:16,N/A,N/A,Chargesheet Filed,None
+CCI298,FIR298,"District and Sessions Court, Hubballi",Hon'ble Judge Suresh Patel,N/A,N/A,N/A,Under Investigation,None
+CCI299,FIR299,"Judicial Magistrate First Class (JMFC), Hubballi",Hon'ble Judge Jyoti Yadav,N/A,N/A,N/A,Under Investigation,None
+CCI300,FIR300,"Chief Metropolitan Magistrate Court, Bengaluru",Hon'ble Judge Suresh Verma,2026-01-05 18:21:53,2026-01-24 20:21:53,2026-03-15 23:21:53,Acquitted,None

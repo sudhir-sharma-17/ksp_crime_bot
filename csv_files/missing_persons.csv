@@ -1,0 +1,201 @@
+missing_person_id,case_id,fir_id,person_name,gender,age,last_seen_location,last_seen_date,status,found_date,remarks
+MP001,CASE102,FIR102,Anil Banerjee,Male,60,Mailoor Lane,2025-11-29 21:16:17,Missing,N/A,Reported missing in case CASE102.
+MP002,CASE052,FIR052,Sandip Verma,Male,46,Hanumanthnagar Junction Road,2025-03-06 03:13:48,Missing,N/A,Reported missing in case CASE052.
+MP003,CASE144,FIR144,Aarav Mishra,Male,53,Malpe Club Road,2025-12-02 13:21:19,Traced,2025-12-13 22:35:16,Reported missing in case CASE144.
+MP004,CASE184,FIR184,Manoj Chawla,Male,9,Vidyanagar Davanagere Junction Road,2026-04-13 18:28:00,Found,2026-05-01 09:35:02,Reported missing in case CASE184.
+MP005,CASE267,FIR267,Pooja Patel,Female,47,Chidri Lane,2026-04-02 16:49:14,Traced,2026-05-14 00:39:56,Reported missing in case CASE267.
+MP006,CASE183,FIR183,Sunita Rao,Female,51,CV Raman Nagar Club Road,2026-04-06 18:08:10,Found,2026-05-08 12:26:16,Reported missing in case CASE183.
+MP007,CASE152,FIR152,Amit Choudhury,Male,71,RT Nagar Main Road,2025-04-05 08:06:08,Traced,2025-05-04 11:52:07,Reported missing in case CASE152.
+MP008,CASE128,FIR128,Ajay Patel,Male,26,Vidyaranyapuram Mysuru 4th Station Road,2025-11-22 00:25:28,Missing,N/A,Reported missing in case CASE128.
+MP009,CASE179,FIR179,Ajay Choudhury,Male,32,Patel Nagar Hosapete Galli,2025-03-11 11:34:36,Missing,N/A,Reported missing in case CASE179.
+MP010,CASE271,FIR271,Neha Kumar,Female,48,BTM 2nd Stage 16th Main,2026-01-01 12:42:58,Missing,N/A,Reported missing in case CASE271.
+MP011,CASE102,FIR102,Ajay Patel,Male,22,Gottigere 5th Galli,2025-11-30 00:16:17,Missing,N/A,Reported missing in case CASE102.
+MP012,CASE089,FIR089,Kiran Reddy,Female,66,Chamundipuram Highway,2025-03-29 07:15:21,Missing,N/A,Reported missing in case CASE089.
+MP013,CASE154,FIR154,Sandip Banerjee,Male,42,Banashankari 2th Church Road,2026-03-15 15:38:58,Traced,2026-03-27 08:52:49,Reported missing in case CASE154.
+MP014,CASE007,FIR007,Vinay Jadav,Male,18,3rd Block East Road Jayanagar,2025-12-28 04:43:42,Traced,2025-12-31 05:47:17,Reported missing in case CASE007.
+MP015,CASE089,FIR089,Deepa Mehta,Female,9,Chamundipuram Highway,2025-03-29 07:15:21,Traced,2025-05-04 20:01:23,Reported missing in case CASE089.
+MP016,CASE007,FIR007,Rohan Verma,Male,57,Hosur Road,2025-12-28 04:43:42,Traced,2026-02-01 05:47:17,Reported missing in case CASE007.
+MP017,CASE152,FIR152,Renu Choudhury,Female,72,Bendoorwell Main Road,2025-04-05 06:06:08,Found,2025-05-09 11:52:07,Reported missing in case CASE152.
+MP018,CASE267,FIR267,Pooja Joshi,Female,49,Sahakara Nagar Bazaar Street,2026-04-02 14:49:14,Found,2026-04-28 00:39:56,Reported missing in case CASE267.
+MP019,CASE154,FIR154,Preeti Banerjee,Female,51,Vidyagiri Main Road,2026-03-15 15:38:58,Found,2026-03-26 08:52:49,Reported missing in case CASE154.
+MP020,CASE183,FIR183,Ramesh Jadav,Male,48,Velankani Drive,2026-04-06 18:08:10,Traced,2026-04-22 12:26:16,Reported missing in case CASE183.
+MP021,CASE050,FIR050,Pooja Reddy,Female,61,Tavarekere Main Road,2025-03-17 08:27:39,Missing,N/A,Reported missing in case CASE050.
+MP022,CASE052,FIR052,Rajesh Reddy,Male,54,BTM 2nd Stage 16th Main,2025-03-06 03:13:48,Missing,N/A,Reported missing in case CASE052.
+MP023,CASE063,FIR063,Rohan Gill,Male,75,Super Market Bazaar Street,2026-05-06 06:19:40,Traced,2026-05-26 20:00:29,Reported missing in case CASE063.
+MP024,CASE052,FIR052,Arjun Banerjee,Male,63,Indrali Double Road,2025-03-06 02:13:48,Traced,2025-03-23 06:33:40,Reported missing in case CASE052.
+MP025,CASE037,FIR037,Rohan Verma,Male,42,Kumaraswamy Layout Station Road,2025-12-11 18:42:41,Traced,2025-12-27 06:07:34,Reported missing in case CASE037.
+MP026,CASE128,FIR128,Arjun Gupta,Male,67,Lakshmipuram Station Road,2025-11-22 00:25:28,Missing,N/A,Reported missing in case CASE128.
+MP027,CASE063,FIR063,Deepa Choudhury,Female,66,Vinoba Nagar Club Road,2026-05-06 03:19:40,Missing,N/A,Reported missing in case CASE063.
+MP028,CASE007,FIR007,Meena Prasad,Female,50,Cantonment Ballari 2th Lane,2025-12-28 03:43:42,Found,2026-01-26 05:47:17,Reported missing in case CASE007.
+MP029,CASE116,FIR116,Sneha Gill,Female,13,Jayalakshmipuram Main Road,2026-05-10 11:51:02,Missing,N/A,Reported missing in case CASE116.
+MP030,CASE215,FIR215,Arjun Jadav,Male,70,Kudlu Gate Club Road,2025-03-19 08:38:50,Found,2025-05-01 13:15:48,Reported missing in case CASE215.
+MP031,CASE267,FIR267,Pooja Chawla,Female,72,Ganga Nagar Station Road,2026-04-02 14:49:14,Traced,2026-05-03 00:39:56,Reported missing in case CASE267.
+MP032,CASE139,FIR139,Sandip Sharma,Male,63,Madiwala Lane,2026-01-29 07:36:55,Found,2026-02-26 04:52:25,Reported missing in case CASE139.
+MP033,CASE022,FIR022,Anil Mishra,Male,51,Vijayanagar Bypass Road,2026-02-11 20:40:43,Found,2026-03-05 05:07:34,Reported missing in case CASE022.
+MP034,CASE184,FIR184,Harish Yadav,Male,56,Urwa Temple Road,2026-04-13 18:28:00,Missing,N/A,Reported missing in case CASE184.
+MP035,CASE116,FIR116,Rajesh Jadav,Male,14,Gandhinagar Ballari Bypass Road,2026-05-10 11:51:02,Missing,N/A,Reported missing in case CASE116.
+MP036,CASE183,FIR183,Aaradhya Gupta,Female,28,Vidyanagar Hubli 4th Link Road,2026-04-06 17:08:10,Traced,2026-04-16 12:26:16,Reported missing in case CASE183.
+MP037,CASE116,FIR116,Neha Das,Female,28,Yelahanka New Town Road,2026-05-10 11:51:02,Missing,N/A,Reported missing in case CASE116.
+MP038,CASE116,FIR116,Suresh Nair,Male,66,Gokul Road Galli,2026-05-10 14:51:02,Found,2026-05-29 20:18:33,Reported missing in case CASE116.
+MP039,CASE064,FIR064,Pooja Nair,Female,75,Sarjapur Road Cross Road,2025-09-06 23:52:46,Traced,2025-09-27 13:48:14,Reported missing in case CASE064.
+MP040,CASE271,FIR271,Sunita Chawla,Female,5,Kaikondrahalli 5th Ring Road,2026-01-01 14:42:58,Missing,N/A,Reported missing in case CASE271.
+MP041,CASE152,FIR152,Amit Jadav,Male,36,Sarjapur Road Cross Road,2025-04-05 06:06:08,Found,2025-04-29 11:52:07,Reported missing in case CASE152.
+MP042,CASE184,FIR184,Suresh Joshi,Male,35,100 Feet Road Indiranagar,2026-04-13 17:28:00,Found,2026-05-17 09:35:02,Reported missing in case CASE184.
+MP043,CASE184,FIR184,Sunil Reddy,Male,37,Hebbal Kempapura Main Road,2026-04-13 18:28:00,Found,2026-04-23 09:35:02,Reported missing in case CASE184.
+MP044,CASE022,FIR022,Rohan Nair,Male,31,Outer Ring Road Hebbal,2026-02-11 20:40:43,Traced,2026-03-30 05:07:34,Reported missing in case CASE022.
+MP045,CASE128,FIR128,Aaradhya Gupta,Female,73,Ambalpady Galli,2025-11-22 01:25:28,Found,2025-11-25 05:13:32,Reported missing in case CASE128.
+MP046,CASE267,FIR267,Kavita Choudhury,Female,51,Sanjaynagar 4th Ring Road,2026-04-02 17:49:14,Traced,2026-04-10 00:39:56,Reported missing in case CASE267.
+MP047,CASE064,FIR064,Vijay Mishra,Male,42,Narayanpur Dharwad 4th Church Road,2025-09-06 23:52:46,Traced,2025-10-15 13:48:14,Reported missing in case CASE064.
+MP048,CASE152,FIR152,Rohan Singh,Male,35,Mandi Mohalla Main Road,2025-04-05 08:06:08,Found,2025-04-23 11:52:07,Reported missing in case CASE152.
+MP049,CASE271,FIR271,Ajay Reddy,Male,37,SIT Extension Church Road,2026-01-01 15:42:58,Traced,2026-02-07 22:46:47,Reported missing in case CASE271.
+MP050,CASE267,FIR267,Pooja Chawla,Female,39,Ganganagar Station Road,2026-04-02 14:49:14,Traced,2026-05-18 00:39:56,Reported missing in case CASE267.
+MP051,CASE037,FIR037,Rajesh Choudhury,Male,47,Hulimavu Highway,2025-12-11 19:42:41,Traced,2026-01-24 06:07:34,Reported missing in case CASE037.
+MP052,CASE004,FIR004,Pooja Sharma,Female,61,Ravindra Nagar 3th Galli,2025-05-26 06:25:27,Traced,2025-06-18 18:45:55,Reported missing in case CASE004.
+MP053,CASE267,FIR267,Meena Prasad,Female,43,BTM Layout 80 Feet Road,2026-04-02 16:49:14,Missing,N/A,Reported missing in case CASE267.
+MP054,CASE052,FIR052,Swati Nair,Female,5,Kaikondrahalli Lane,2025-03-06 05:13:48,Traced,2025-03-12 06:33:40,Reported missing in case CASE052.
+MP055,CASE139,FIR139,Swati Kumar,Female,47,Jalahalli 3th Double Road,2026-01-29 04:36:55,Traced,2026-02-13 04:52:25,Reported missing in case CASE139.
+MP056,CASE279,FIR279,Kiran Das,Female,49,Kadugodi Junction Road,2025-07-17 22:06:19,Found,2025-08-17 17:25:35,Reported missing in case CASE279.
+MP057,CASE152,FIR152,Pooja Gupta,Female,5,Patel Nagar Hosapete Galli,2025-04-05 07:06:08,Missing,N/A,Reported missing in case CASE152.
+MP058,CASE139,FIR139,Rohan Choudhury,Male,30,Batawadi Highway,2026-01-29 07:36:55,Missing,N/A,Reported missing in case CASE139.
+MP059,CASE267,FIR267,Neha Banerjee,Female,61,Jayalakshmipuram 2th Double Road,2026-04-02 15:49:14,Missing,N/A,Reported missing in case CASE267.
+MP060,CASE064,FIR064,Anjali Banerjee,Female,31,Kadirenahalli 2th Cross Road,2025-09-06 20:52:46,Missing,N/A,Reported missing in case CASE064.
+MP061,CASE102,FIR102,Renu Gill,Female,70,New BEL Road Lane,2025-11-29 23:16:17,Missing,N/A,Reported missing in case CASE102.
+MP062,CASE113,FIR113,Sunil Sharma,Male,28,Vidyaranyapura Double Road,2025-01-14 22:44:53,Found,2025-02-02 09:07:41,Reported missing in case CASE113.
+MP063,CASE215,FIR215,Babita Sharma,Female,29,Gottigere Cross Road,2025-03-19 06:38:50,Found,2025-03-27 13:15:48,Reported missing in case CASE215.
+MP064,CASE064,FIR064,Aaradhya Banerjee,Female,72,Kunjibettu Ring Road,2025-09-06 20:52:46,Traced,2025-09-29 13:48:14,Reported missing in case CASE064.
+MP065,CASE050,FIR050,Sanjay Gupta,Male,25,Rashtreeya Vidyalaya Road,2025-03-17 10:27:39,Traced,2025-04-07 19:00:42,Reported missing in case CASE050.
+MP066,CASE004,FIR004,Vikram Das,Male,22,JP Nagar 24th Main Road,2025-05-26 07:25:27,Missing,N/A,Reported missing in case CASE004.
+MP067,CASE267,FIR267,Deepa Prasad,Female,43,Hampankatta Highway,2026-04-02 16:49:14,Found,2026-04-06 00:39:56,Reported missing in case CASE267.
+MP068,CASE007,FIR007,Suresh Banerjee,Male,57,JP Nagar 7th Phase Link Road,2025-12-28 03:43:42,Found,2026-01-23 05:47:17,Reported missing in case CASE007.
+MP069,CASE139,FIR139,Deepa Reddy,Female,48,Cantonment Ballari Link Road,2026-01-29 04:36:55,Traced,2026-03-12 04:52:25,Reported missing in case CASE139.
+MP070,CASE102,FIR102,Sandip Chawla,Male,66,Galipur Galli,2025-11-29 22:16:17,Traced,2025-12-10 00:34:22,Reported missing in case CASE102.
+MP071,CASE064,FIR064,Kavita Banerjee,Female,46,Padmanabhanagar Bazaar Street,2025-09-06 22:52:46,Traced,2025-10-02 13:48:14,Reported missing in case CASE064.
+MP072,CASE152,FIR152,Deepa Jadav,Female,45,Gachinakatti Colony 2th Ring Road,2025-04-05 06:06:08,Missing,N/A,Reported missing in case CASE152.
+MP073,CASE179,FIR179,Rajesh Yadav,Male,74,Chidri Lane,2025-03-11 09:34:36,Missing,N/A,Reported missing in case CASE179.
+MP074,CASE128,FIR128,Sneha Patel,Female,36,Austin Town 5th Temple Road,2025-11-22 01:25:28,Traced,2025-11-26 05:13:32,Reported missing in case CASE128.
+MP075,CASE184,FIR184,Suresh Banerjee,Male,38,Mahadevapura Church Road,2026-04-13 15:28:00,Traced,2026-04-26 09:35:02,Reported missing in case CASE184.
+MP076,CASE102,FIR102,Preeti Sharma,Female,50,Kadirenahalli 2th Cross Road,2025-11-30 00:16:17,Missing,N/A,Reported missing in case CASE102.
+MP077,CASE267,FIR267,Priya Reddy,Female,52,Gandhi Bazaar 5th Station Road,2026-04-02 14:49:14,Found,2026-04-26 00:39:56,Reported missing in case CASE267.
+MP078,CASE037,FIR037,Manoj Jadav,Male,40,Green Glen Layout Road,2025-12-11 18:42:41,Found,2025-12-28 06:07:34,Reported missing in case CASE037.
+MP079,CASE116,FIR116,Vikram Yadav,Male,36,Kathriguppe Highway,2026-05-10 12:51:02,Found,2026-05-22 20:18:33,Reported missing in case CASE116.
+MP080,CASE183,FIR183,Arjun Choudhury,Male,46,Amaragol Main Road,2026-04-06 16:08:10,Missing,N/A,Reported missing in case CASE183.
+MP081,CASE113,FIR113,Vijay Mehta,Male,11,Austin Town 5th Temple Road,2025-01-14 22:44:53,Found,2025-01-19 09:07:41,Reported missing in case CASE113.
+MP082,CASE113,FIR113,Preeti Reddy,Female,51,Saptapur Main Road,2025-01-15 01:44:53,Missing,N/A,Reported missing in case CASE113.
+MP083,CASE089,FIR089,Arjun Choudhury,Male,38,Vijayanagar Bypass Road,2025-03-29 05:15:21,Found,2025-05-01 20:01:23,Reported missing in case CASE089.
+MP084,CASE183,FIR183,Babita Mehta,Female,70,Commercial Street Bazaar Street,2026-04-06 16:08:10,Traced,2026-04-19 12:26:16,Reported missing in case CASE183.
+MP085,CASE184,FIR184,Rahul Gill,Male,33,Jayanagar Shivamogga Bypass Road,2026-04-13 17:28:00,Found,2026-05-25 09:35:02,Reported missing in case CASE184.
+MP086,CASE215,FIR215,Sandip Verma,Male,71,Jigani 3th Main Road,2025-03-19 08:38:50,Traced,2025-03-25 13:15:48,Reported missing in case CASE215.
+MP087,CASE271,FIR271,Renu Reddy,Female,62,Srinagar Cross Road,2026-01-01 13:42:58,Found,2026-02-05 22:46:47,Reported missing in case CASE271.
+MP088,CASE139,FIR139,Deepa Kumar,Female,5,KB Extension Station Road,2026-01-29 07:36:55,Traced,2026-02-06 04:52:25,Reported missing in case CASE139.
+MP089,CASE037,FIR037,Geeta Das,Female,37,Hoodi Bypass Road,2025-12-11 20:42:41,Found,2026-01-21 06:07:34,Reported missing in case CASE037.
+MP090,CASE152,FIR152,Karan Rao,Male,12,Hoodi Bypass Road,2025-04-05 06:06:08,Missing,N/A,Reported missing in case CASE152.
+MP091,CASE279,FIR279,Kiran Sharma,Female,49,Chamrajpet Cross Road,2025-07-17 22:06:19,Traced,2025-07-24 17:25:35,Reported missing in case CASE279.
+MP092,CASE183,FIR183,Geeta Prasad,Female,45,Kadugodi Junction Road,2026-04-06 18:08:10,Found,2026-04-27 12:26:16,Reported missing in case CASE183.
+MP093,CASE052,FIR052,Sunita Choudhury,Female,21,Kaggadasapura Ring Road,2025-03-06 02:13:48,Found,2025-03-10 06:33:40,Reported missing in case CASE052.
+MP094,CASE102,FIR102,Sunita Joshi,Female,26,Chidri Lane,2025-11-29 22:16:17,Traced,2026-01-08 00:34:22,Reported missing in case CASE102.
+MP095,CASE215,FIR215,Ajay Sharma,Male,19,Sarakki Lake Road,2025-03-19 07:38:50,Found,2025-04-17 13:15:48,Reported missing in case CASE215.
+MP096,CASE267,FIR267,Anjali Gupta,Female,19,100 Feet Road Indiranagar,2026-04-02 17:49:14,Found,2026-05-15 00:39:56,Reported missing in case CASE267.
+MP097,CASE183,FIR183,Rohan Nair,Male,9,Varthur 2th Double Road,2026-04-06 17:08:10,Traced,2026-05-19 12:26:16,Reported missing in case CASE183.
+MP098,CASE116,FIR116,Babita Chawla,Female,63,Peenya Temple Road,2026-05-10 11:51:02,Missing,N/A,Reported missing in case CASE116.
+MP099,CASE037,FIR037,Priya Yadav,Female,14,Karthik Nagar Road,2025-12-11 18:42:41,Found,2026-01-11 06:07:34,Reported missing in case CASE037.
+MP100,CASE007,FIR007,Pooja Chawla,Female,50,Khuba Plot Station Road,2025-12-28 04:43:42,Missing,N/A,Reported missing in case CASE007.
+MP101,CASE113,FIR113,Priya Nair,Female,39,Commercial Street Bazaar Street,2025-01-15 00:44:53,Missing,N/A,Reported missing in case CASE113.
+MP102,CASE116,FIR116,Sharda Yadav,Female,67,Shahapur Belagavi Galli,2026-05-10 14:51:02,Traced,2026-06-07 20:18:33,Reported missing in case CASE116.
+MP103,CASE102,FIR102,Sunita Joshi,Female,15,Commercial Street Bazaar Street,2025-11-29 23:16:17,Found,2026-01-08 00:34:22,Reported missing in case CASE102.
+MP104,CASE128,FIR128,Anil Gill,Male,31,Indrali Double Road,2025-11-22 02:25:28,Traced,2025-12-19 05:13:32,Reported missing in case CASE128.
+MP105,CASE050,FIR050,Pooja Patel,Female,47,CV Raman Nagar Club Road,2025-03-17 07:27:39,Found,2025-04-01 19:00:42,Reported missing in case CASE050.
+MP106,CASE128,FIR128,Suresh Patel,Male,71,Vidya Nagar Hassan Bazaar Street,2025-11-21 23:25:28,Missing,N/A,Reported missing in case CASE128.
+MP107,CASE271,FIR271,Swati Singh,Female,60,Kammanahalli Main Road,2026-01-01 13:42:58,Found,2026-01-26 22:46:47,Reported missing in case CASE271.
+MP108,CASE102,FIR102,Priya Verma,Female,60,Chikkalasandra 2th Ring Road,2025-11-29 21:16:17,Missing,N/A,Reported missing in case CASE102.
+MP109,CASE089,FIR089,Babita Gill,Female,40,Infactor Colony Junction Road,2025-03-29 06:15:21,Traced,2025-05-10 20:01:23,Reported missing in case CASE089.
+MP110,CASE116,FIR116,Priya Singh,Female,60,Amaragol Main Road,2026-05-10 12:51:02,Traced,2026-06-07 20:18:33,Reported missing in case CASE116.
+MP111,CASE144,FIR144,Renu Gill,Female,47,Gottigere 5th Galli,2025-12-02 13:21:19,Found,2026-01-12 22:35:16,Reported missing in case CASE144.
+MP112,CASE144,FIR144,Deepa Gill,Female,31,9th Main Road Jayanagar,2025-12-02 13:21:19,Traced,2025-12-29 22:35:16,Reported missing in case CASE144.
+MP113,CASE022,FIR022,Vijay Nair,Male,7,Padmanabhanagar Bazaar Street,2026-02-11 17:40:43,Missing,N/A,Reported missing in case CASE022.
+MP114,CASE215,FIR215,Preeti Choudhury,Female,21,Sanjaynagar Double Road,2025-03-19 05:38:50,Traced,2025-04-01 13:15:48,Reported missing in case CASE215.
+MP115,CASE144,FIR144,Vikram Rao,Male,15,Vinoba Nagar Club Road,2025-12-02 14:21:19,Traced,2025-12-31 22:35:16,Reported missing in case CASE144.
+MP116,CASE113,FIR113,Ajay Choudhury,Male,56,Hoodi 4th Temple Road,2025-01-15 00:44:53,Missing,N/A,Reported missing in case CASE113.
+MP117,CASE089,FIR089,Meena Choudhury,Female,46,Kulshekar Main Road,2025-03-29 05:15:21,Found,2025-04-24 20:01:23,Reported missing in case CASE089.
+MP118,CASE064,FIR064,Deepa Nair,Female,29,Dam Road Bazaar Street,2025-09-06 23:52:46,Missing,N/A,Reported missing in case CASE064.
+MP119,CASE184,FIR184,Vijay Joshi,Male,31,BTM 2nd Stage 16th Main,2026-04-13 16:28:00,Missing,N/A,Reported missing in case CASE184.
+MP120,CASE037,FIR037,Arjun Jadav,Male,75,Kodigehalli Galli,2025-12-11 21:42:41,Found,2026-01-24 06:07:34,Reported missing in case CASE037.
+MP121,CASE179,FIR179,Babita Mehta,Female,68,Rashtreeya Vidyalaya Road,2025-03-11 12:34:36,Missing,N/A,Reported missing in case CASE179.
+MP122,CASE064,FIR064,Sunil Rao,Male,32,Ambalpady Galli,2025-09-06 20:52:46,Traced,2025-09-30 13:48:14,Reported missing in case CASE064.
+MP123,CASE184,FIR184,Rajesh Joshi,Male,21,Kaikondrahalli Lane,2026-04-13 17:28:00,Missing,N/A,Reported missing in case CASE184.
+MP124,CASE022,FIR022,Vikram Rao,Male,6,Kalasipalyam Main Road,2026-02-11 18:40:43,Found,2026-03-03 05:07:34,Reported missing in case CASE022.
+MP125,CASE271,FIR271,Harish Banerjee,Male,11,Gandhi Nagar Shivamogga Station Road,2026-01-01 13:42:58,Traced,2026-02-12 22:46:47,Reported missing in case CASE271.
+MP126,CASE022,FIR022,Arjun Gill,Male,24,Keelu Kote 4th Bazaar Street,2026-02-11 19:40:43,Missing,N/A,Reported missing in case CASE022.
+MP127,CASE139,FIR139,Kavita Gill,Female,35,Kempegowdanagar Ramanagara Highway,2026-01-29 06:36:55,Found,2026-03-08 04:52:25,Reported missing in case CASE139.
+MP128,CASE064,FIR064,Arjun Prasad,Male,6,Electronic City Flyover Road,2025-09-06 22:52:46,Missing,N/A,Reported missing in case CASE064.
+MP129,CASE179,FIR179,Arjun Reddy,Male,63,RT Nagar 4th Junction Road,2025-03-11 09:34:36,Missing,N/A,Reported missing in case CASE179.
+MP130,CASE102,FIR102,Rahul Jadav,Male,57,Brigade Road,2025-11-29 22:16:17,Found,2025-12-29 00:34:22,Reported missing in case CASE102.
+MP131,CASE022,FIR022,Sharda Singh,Female,69,Ramamurthy Nagar Lane,2026-02-11 20:40:43,Missing,N/A,Reported missing in case CASE022.
+MP132,CASE128,FIR128,Pooja Chawla,Female,28,Lingarajapuram Station Road,2025-11-22 01:25:28,Missing,N/A,Reported missing in case CASE128.
+MP133,CASE279,FIR279,Renu Chawla,Female,48,Ganesh Nagar Bidar 4th Galli,2025-07-17 21:06:19,Traced,2025-08-30 17:25:35,Reported missing in case CASE279.
+MP134,CASE050,FIR050,Rajesh Verma,Male,71,St Mark's Road,2025-03-17 10:27:39,Found,2025-03-29 19:00:42,Reported missing in case CASE050.
+MP135,CASE064,FIR064,Vijay Jadav,Male,43,Narayanpur Dharwad Galli,2025-09-06 22:52:46,Missing,N/A,Reported missing in case CASE064.
+MP136,CASE022,FIR022,Kiran Singh,Female,5,Cantonment Ballari 2th Lane,2026-02-11 19:40:43,Found,2026-03-03 05:07:34,Reported missing in case CASE022.
+MP137,CASE089,FIR089,Sunil Patel,Male,67,Shanti Nagar Highway,2025-03-29 06:15:21,Found,2025-05-08 20:01:23,Reported missing in case CASE089.
+MP138,CASE102,FIR102,Ramesh Yadav,Male,47,Vinayaka Nagar Ramanagara 5th Club Road,2025-11-29 22:16:17,Found,2026-01-03 00:34:22,Reported missing in case CASE102.
+MP139,CASE007,FIR007,Vikram Chawla,Male,21,Cantonment Ballari Link Road,2025-12-28 03:43:42,Missing,N/A,Reported missing in case CASE007.
+MP140,CASE007,FIR007,Anil Rao,Male,13,Basavanagudi Galli,2025-12-28 04:43:42,Found,2026-02-09 05:47:17,Reported missing in case CASE007.
+MP141,CASE064,FIR064,Babita Joshi,Female,35,Adugodi Bypass Road,2025-09-06 23:52:46,Missing,N/A,Reported missing in case CASE064.
+MP142,CASE267,FIR267,Rahul Kumar,Male,49,Rashtreeya Vidyalaya Road,2026-04-02 15:49:14,Traced,2026-05-17 00:39:56,Reported missing in case CASE267.
+MP143,CASE128,FIR128,Suresh Verma,Male,53,Cox Town Junction Road,2025-11-21 23:25:28,Traced,2025-12-12 05:13:32,Reported missing in case CASE128.
+MP144,CASE102,FIR102,Harish Rao,Male,64,Saptapur Main Road,2025-11-29 21:16:17,Missing,N/A,Reported missing in case CASE102.
+MP145,CASE271,FIR271,Jyoti Prasad,Female,61,Kodigehalli Galli,2026-01-01 12:42:58,Missing,N/A,Reported missing in case CASE271.
+MP146,CASE279,FIR279,Rahul Joshi,Male,68,Siddhartha Layout Lane,2025-07-17 22:06:19,Missing,N/A,Reported missing in case CASE279.
+MP147,CASE022,FIR022,Sunita Verma,Female,8,Kuvempunagar Hassan Highway,2026-02-11 19:40:43,Found,2026-03-23 05:07:34,Reported missing in case CASE022.
+MP148,CASE215,FIR215,Vikram Verma,Male,54,Jayalakshmipuram Main Road,2025-03-19 08:38:50,Missing,N/A,Reported missing in case CASE215.
+MP149,CASE152,FIR152,Sharda Joshi,Female,46,Varthur Temple Road,2025-04-05 06:06:08,Missing,N/A,Reported missing in case CASE152.
+MP150,CASE154,FIR154,Amit Choudhury,Male,58,80 Feet Road Koramangala,2026-03-15 15:38:58,Found,2026-04-12 08:52:49,Reported missing in case CASE154.
+MP151,CASE183,FIR183,Anil Verma,Male,69,Austin Town 5th Temple Road,2026-04-06 16:08:10,Traced,2026-04-14 12:26:16,Reported missing in case CASE183.
+MP152,CASE152,FIR152,Rohan Kumar,Male,11,Okalipuram Ring Road,2025-04-05 05:06:08,Missing,N/A,Reported missing in case CASE152.
+MP153,CASE004,FIR004,Sharda Prasad,Female,61,Kuvempunagar Cross Road,2025-05-26 07:25:27,Found,2025-06-10 18:45:55,Reported missing in case CASE004.
+MP154,CASE052,FIR052,Karan Das,Male,42,Hoodi 4th Temple Road,2025-03-06 04:13:48,Missing,N/A,Reported missing in case CASE052.
+MP155,CASE267,FIR267,Sunil Prasad,Male,11,Jalahalli Lane,2026-04-02 17:49:14,Missing,N/A,Reported missing in case CASE267.
+MP156,CASE063,FIR063,Swati Sharma,Female,8,Kaggadasapura Ring Road,2026-05-06 05:19:40,Missing,N/A,Reported missing in case CASE063.
+MP157,CASE113,FIR113,Vikram Banerjee,Male,8,Vidyagiri 4th Station Road,2025-01-15 00:44:53,Found,2025-02-05 09:07:41,Reported missing in case CASE113.
+MP158,CASE267,FIR267,Anil Jadav,Male,11,Cantonment Ballari 2th Lane,2026-04-02 16:49:14,Missing,N/A,Reported missing in case CASE267.
+MP159,CASE154,FIR154,Priya Das,Female,17,Kulshekar 3th Bypass Road,2026-03-15 17:38:58,Found,2026-03-31 08:52:49,Reported missing in case CASE154.
+MP160,CASE113,FIR113,Anjali Choudhury,Female,19,Gandhinagar Ballari Bypass Road,2025-01-15 00:44:53,Found,2025-02-08 09:07:41,Reported missing in case CASE113.
+MP161,CASE267,FIR267,Preeti Choudhury,Female,58,Langford Town Bazaar Street,2026-04-02 16:49:14,Missing,N/A,Reported missing in case CASE267.
+MP162,CASE064,FIR064,Rohan Sharma,Male,32,3rd Block East Road Jayanagar,2025-09-06 21:52:46,Traced,2025-09-13 13:48:14,Reported missing in case CASE064.
+MP163,CASE154,FIR154,Anil Yadav,Male,49,Arekere Link Road,2026-03-15 15:38:58,Missing,N/A,Reported missing in case CASE154.
+MP164,CASE139,FIR139,Sandip Kumar,Male,51,Keelu Kote Cross Road,2026-01-29 07:36:55,Traced,2026-03-11 04:52:25,Reported missing in case CASE139.
+MP165,CASE184,FIR184,Geeta Gupta,Female,37,JP Nagar 7th Phase Link Road,2026-04-13 15:28:00,Missing,N/A,Reported missing in case CASE184.
+MP166,CASE064,FIR064,Rajesh Joshi,Male,31,Ravindra Nagar Highway,2025-09-06 20:52:46,Traced,2025-09-30 13:48:14,Reported missing in case CASE064.
+MP167,CASE113,FIR113,Sharda Banerjee,Female,12,Cox Town Junction Road,2025-01-15 00:44:53,Missing,N/A,Reported missing in case CASE113.
+MP168,CASE215,FIR215,Anil Mehta,Male,74,Austin Town Main Road,2025-03-19 05:38:50,Traced,2025-05-02 13:15:48,Reported missing in case CASE215.
+MP169,CASE183,FIR183,Ajay Gill,Male,52,Hebbal Flyover Road,2026-04-06 17:08:10,Missing,N/A,Reported missing in case CASE183.
+MP170,CASE279,FIR279,Sneha Banerjee,Female,14,Kempegowdanagar Ramanagara Highway,2025-07-17 21:06:19,Traced,2025-08-12 17:25:35,Reported missing in case CASE279.
+MP171,CASE184,FIR184,Rohan Reddy,Male,19,Lingarajapuram 3th Club Road,2026-04-13 18:28:00,Missing,N/A,Reported missing in case CASE184.
+MP172,CASE279,FIR279,Priya Rao,Female,69,Jigani 3th Main Road,2025-07-17 20:06:19,Missing,N/A,Reported missing in case CASE279.
+MP173,CASE004,FIR004,Preeti Gupta,Female,58,Yelahanka New Town Road,2025-05-26 08:25:27,Traced,2025-05-28 18:45:55,Reported missing in case CASE004.
+MP174,CASE179,FIR179,Suresh Rao,Male,35,Adugodi Bypass Road,2025-03-11 09:34:36,Missing,N/A,Reported missing in case CASE179.
+MP175,CASE052,FIR052,Anil Mishra,Male,33,JP Nagar 8th Phase Cross Road,2025-03-06 02:13:48,Found,2025-03-21 06:33:40,Reported missing in case CASE052.
+MP176,CASE037,FIR037,Meena Kumar,Female,74,Lalbagh Mangaluru 4th Cross Road,2025-12-11 21:42:41,Missing,N/A,Reported missing in case CASE037.
+MP177,CASE267,FIR267,Rohan Sharma,Male,11,27th Main Road HSR,2026-04-02 16:49:14,Found,2026-05-10 00:39:56,Reported missing in case CASE267.
+MP178,CASE063,FIR063,Meena Prasad,Female,15,Ravindra Nagar 3th Galli,2026-05-06 05:19:40,Found,2026-05-10 20:00:29,Reported missing in case CASE063.
+MP179,CASE215,FIR215,Sanjay Kumar,Male,65,Hanumanthnagar Junction Road,2025-03-19 08:38:50,Traced,2025-04-22 13:15:48,Reported missing in case CASE215.
+MP180,CASE183,FIR183,Ritu Jadav,Female,71,Kathriguppe Highway,2026-04-06 17:08:10,Missing,N/A,Reported missing in case CASE183.
+MP181,CASE116,FIR116,Harish Verma,Male,25,Vidyagiri Main Road,2026-05-10 12:51:02,Missing,N/A,Reported missing in case CASE116.
+MP182,CASE037,FIR037,Babita Kumar,Female,73,Cowl Bazar Cross Road,2025-12-11 19:42:41,Missing,N/A,Reported missing in case CASE037.
+MP183,CASE128,FIR128,Rohan Choudhury,Male,67,Vinoba Nagar Club Road,2025-11-22 01:25:28,Found,2026-01-04 05:13:32,Reported missing in case CASE128.
+MP184,CASE184,FIR184,Geeta Mehta,Female,24,Channasandra Main Road,2026-04-13 16:28:00,Found,2026-04-20 09:35:02,Reported missing in case CASE184.
+MP185,CASE116,FIR116,Aaradhya Das,Female,50,Sanjaynagar Double Road,2026-05-10 13:51:02,Missing,N/A,Reported missing in case CASE116.
+MP186,CASE102,FIR102,Rohan Gill,Male,39,College Road Hosapete 2th Lane,2025-11-30 00:16:17,Found,2026-01-08 00:34:22,Reported missing in case CASE102.
+MP187,CASE179,FIR179,Deepak Yadav,Male,65,Shanti Nagar Highway,2025-03-11 10:34:36,Missing,N/A,Reported missing in case CASE179.
+MP188,CASE064,FIR064,Deepa Singh,Female,38,Marathahalli Bridge Road,2025-09-06 22:52:46,Traced,2025-09-09 13:48:14,Reported missing in case CASE064.
+MP189,CASE064,FIR064,Amit Prasad,Male,18,Outer Ring Road,2025-09-06 22:52:46,Traced,2025-09-13 13:48:14,Reported missing in case CASE064.
+MP190,CASE022,FIR022,Rahul Sharma,Male,67,Jayalakshmipuram Main Road,2026-02-11 18:40:43,Traced,2026-03-15 05:07:34,Reported missing in case CASE022.
+MP191,CASE179,FIR179,Neha Gupta,Female,58,Kammasandra Temple Road,2025-03-11 10:34:36,Traced,2025-04-01 14:34:36,Reported missing in case CASE179.
+MP192,CASE279,FIR279,Anjali Verma,Female,47,Horamavu Agara 2th Galli,2025-07-17 20:06:19,Found,2025-08-29 17:25:35,Reported missing in case CASE279.
+MP193,CASE152,FIR152,Ritu Sharma,Female,70,Shivajinagar Station Road,2025-04-05 07:06:08,Traced,2025-04-15 11:52:07,Reported missing in case CASE152.
+MP194,CASE154,FIR154,Deepak Gupta,Male,34,KB Extension Station Road,2026-03-15 17:38:58,Traced,2026-04-06 08:52:49,Reported missing in case CASE154.
+MP195,CASE267,FIR267,Ramesh Patel,Male,23,SIT Extension 1th Lane,2026-04-02 17:49:14,Found,2026-04-28 00:39:56,Reported missing in case CASE267.
+MP196,CASE064,FIR064,Meena Choudhury,Female,23,Vidya Nagar Hassan Bazaar Street,2025-09-06 21:52:46,Found,2025-10-11 13:48:14,Reported missing in case CASE064.
+MP197,CASE139,FIR139,Harish Rao,Male,27,JP Nagar Outer Ring Road,2026-01-29 06:36:55,Missing,N/A,Reported missing in case CASE139.
+MP198,CASE063,FIR063,Vijay Kumar,Male,66,Doddaballapur Road Yelahanka,2026-05-06 04:19:40,Traced,2026-05-24 20:00:29,Reported missing in case CASE063.
+MP199,CASE064,FIR064,Ramesh Choudhury,Male,8,Richards Town Galli,2025-09-06 20:52:46,Found,2025-09-29 13:48:14,Reported missing in case CASE064.
+MP200,CASE179,FIR179,Geeta Joshi,Female,38,Siddhartha Layout Lane,2025-03-11 12:34:36,Missing,N/A,Reported missing in case CASE179.

@@ -1,0 +1,251 @@
+officer_id,badge_number,first_name,last_name,gender,rank,specialization,station_id,phone,email,joining_date
+OFF001,KSP42098,Aarav,Das,Male,Inspector,Traffic Control,PS001,+91-7117550026,aarav.das@ksp.gov.in,2006-04-06
+OFF002,KSP87236,Anjali,Rao,Female,Sub Inspector,Women Protection,PS001,+91-8808631930,anjali.rao@ksp.gov.in,2018-01-11
+OFF003,KSP80284,Priya,Rao,Female,Assistant Sub Inspector,General Duty,PS001,+91-6935868570,priya.rao@ksp.gov.in,2014-02-16
+OFF004,KSP59823,Arjun,Singh,Male,Head Constable,General Duty,PS001,+91-8481367606,arjun.singh@ksp.gov.in,2012-03-11
+OFF005,KSP45382,Ajay,Nair,Male,Police Constable,General Duty,PS001,+91-7687203229,ajay.nair@ksp.gov.in,2020-03-26
+OFF006,KSP28726,Sneha,Rao,Female,Inspector,Cyber Crime,PS002,+91-8175745391,sneha.rao@ksp.gov.in,2007-05-31
+OFF007,KSP99192,Vijay,Joshi,Male,Sub Inspector,Women Protection,PS002,+91-9535425961,vijay.joshi@ksp.gov.in,2011-03-01
+OFF008,KSP30730,Rahul,Reddy,Male,Assistant Sub Inspector,General Duty,PS002,+91-9077975168,rahul.reddy@ksp.gov.in,2008-09-07
+OFF009,KSP31174,Vijay,Mishra,Male,Head Constable,General Duty,PS002,+91-6541398225,vijay.mishra@ksp.gov.in,2019-05-31
+OFF010,KSP26483,Sunita,Prasad,Female,Police Constable,General Duty,PS002,+91-7691569976,sunita.prasad@ksp.gov.in,2020-12-20
+OFF011,KSP69177,Preeti,Yadav,Female,Inspector,Cyber Crime,PS003,+91-6200550700,preeti.yadav@ksp.gov.in,2014-01-26
+OFF012,KSP38080,Rohan,Jadav,Male,Sub Inspector,Cyber Crime,PS003,+91-7785244063,rohan.jadav@ksp.gov.in,2012-11-17
+OFF013,KSP54473,Amit,Nair,Male,Assistant Sub Inspector,General Duty,PS003,+91-6214422948,amit.nair@ksp.gov.in,2009-05-26
+OFF014,KSP22224,Harish,Sharma,Male,Head Constable,General Duty,PS003,+91-7142403927,harish.sharma@ksp.gov.in,2013-02-18
+OFF015,KSP30289,Sharda,Jadav,Female,Police Constable,General Duty,PS003,+91-7295570558,sharda.jadav@ksp.gov.in,2023-06-13
+OFF016,KSP87992,Sanjay,Gupta,Male,Inspector,Women Protection,PS004,+91-6621825645,sanjay.gupta@ksp.gov.in,2006-02-05
+OFF017,KSP44814,Sunil,Patel,Male,Sub Inspector,Traffic Control,PS004,+91-9164990650,sunil.patel@ksp.gov.in,2011-03-28
+OFF018,KSP19016,Pooja,Mishra,Female,Assistant Sub Inspector,General Duty,PS004,+91-7318769608,pooja.mishra@ksp.gov.in,2012-08-09
+OFF019,KSP25129,Vijay,Das,Male,Head Constable,General Duty,PS004,+91-6712236852,vijay.das@ksp.gov.in,2020-05-26
+OFF020,KSP10464,Kiran,Verma,Female,Police Constable,General Duty,PS004,+91-8762754008,kiran.verma@ksp.gov.in,2022-10-06
+OFF021,KSP82420,Anil,Chawla,Male,Inspector,General Crime,PS005,+91-7403990366,anil.chawla@ksp.gov.in,2008-10-02
+OFF022,KSP33206,Arjun,Joshi,Male,Sub Inspector,Cyber Crime,PS005,+91-9073988827,arjun.joshi@ksp.gov.in,2017-12-30
+OFF023,KSP70332,Anjali,Mehta,Female,Assistant Sub Inspector,General Duty,PS005,+91-8372013892,anjali.mehta@ksp.gov.in,2008-12-23
+OFF024,KSP44237,Aaradhya,Singh,Female,Head Constable,General Duty,PS005,+91-7590537491,aaradhya.singh@ksp.gov.in,2017-03-05
+OFF025,KSP78146,Manoj,Sharma,Male,Police Constable,General Duty,PS005,+91-7306338733,manoj.sharma@ksp.gov.in,2019-01-27
+OFF026,KSP26683,Kavita,Prasad,Female,Inspector,Traffic Control,PS006,+91-7496963502,kavita.prasad@ksp.gov.in,2007-09-23
+OFF027,KSP67954,Preeti,Rao,Female,Sub Inspector,Women Protection,PS006,+91-7579762660,preeti.rao@ksp.gov.in,2015-08-04
+OFF028,KSP13201,Vikram,Kumar,Male,Assistant Sub Inspector,General Duty,PS006,+91-6248046164,vikram.kumar@ksp.gov.in,2014-04-30
+OFF029,KSP38683,Suresh,Reddy,Male,Head Constable,General Duty,PS006,+91-7864591145,suresh.reddy@ksp.gov.in,2011-09-14
+OFF030,KSP76162,Preeti,Gill,Female,Police Constable,General Duty,PS006,+91-9858742267,preeti.gill@ksp.gov.in,2017-08-27
+OFF031,KSP20155,Rohan,Rao,Male,Inspector,General Crime,PS007,+91-8238013124,rohan.rao@ksp.gov.in,2008-10-11
+OFF032,KSP65069,Priya,Mehta,Female,Sub Inspector,Traffic Control,PS007,+91-9956873037,priya.mehta@ksp.gov.in,2012-10-12
+OFF033,KSP45774,Ramesh,Patel,Male,Assistant Sub Inspector,General Duty,PS007,+91-9436778995,ramesh.patel@ksp.gov.in,2010-09-15
+OFF034,KSP27786,Rajesh,Reddy,Male,Head Constable,General Duty,PS007,+91-9123438294,rajesh.reddy@ksp.gov.in,2018-11-15
+OFF035,KSP55870,Harish,Verma,Male,Police Constable,General Duty,PS007,+91-7676791011,harish.verma@ksp.gov.in,2023-09-27
+OFF036,KSP58351,Ajay,Das,Male,Inspector,Homicide,PS008,+91-7697713595,ajay.das@ksp.gov.in,2007-12-25
+OFF037,KSP23356,Vinay,Patel,Male,Sub Inspector,General Crime,PS008,+91-8861973435,vinay.patel@ksp.gov.in,2014-07-08
+OFF038,KSP57472,Anita,Reddy,Female,Assistant Sub Inspector,General Duty,PS008,+91-9747928544,anita.reddy@ksp.gov.in,2008-02-29
+OFF039,KSP46559,Anjali,Gupta,Female,Head Constable,General Duty,PS008,+91-9246308127,anjali.gupta@ksp.gov.in,2015-02-21
+OFF040,KSP77715,Sharda,Sharma,Female,Police Constable,General Duty,PS008,+91-7074766470,sharda.sharma@ksp.gov.in,2021-12-17
+OFF041,KSP58368,Rahul,Chawla,Male,Inspector,Traffic Control,PS009,+91-9539534327,rahul.chawla@ksp.gov.in,2009-05-15
+OFF042,KSP73464,Vikram,Mehta,Male,Sub Inspector,Women Protection,PS009,+91-8795211210,vikram.mehta@ksp.gov.in,2011-05-12
+OFF043,KSP48290,Amit,Prasad,Male,Assistant Sub Inspector,General Duty,PS009,+91-7671024392,amit.prasad@ksp.gov.in,2010-05-18
+OFF044,KSP19710,Deepak,Jadav,Male,Head Constable,General Duty,PS009,+91-6189025456,deepak.jadav@ksp.gov.in,2012-01-02
+OFF045,KSP87139,Preeti,Choudhury,Female,Police Constable,General Duty,PS009,+91-9366792261,preeti.choudhury@ksp.gov.in,2022-10-03
+OFF046,KSP63545,Sanjay,Sharma,Male,Inspector,Homicide,PS010,+91-9640228022,sanjay.sharma@ksp.gov.in,2003-09-19
+OFF047,KSP39466,Anita,Prasad,Female,Sub Inspector,General Crime,PS010,+91-7980137521,anita.prasad@ksp.gov.in,2014-07-21
+OFF048,KSP74722,Renu,Prasad,Female,Assistant Sub Inspector,General Duty,PS010,+91-9004320985,renu.prasad@ksp.gov.in,2016-08-03
+OFF049,KSP32962,Babita,Verma,Female,Head Constable,General Duty,PS010,+91-9542948944,babita.verma@ksp.gov.in,2014-08-05
+OFF050,KSP63955,Sanjay,Banerjee,Male,Police Constable,General Duty,PS010,+91-9298543394,sanjay.banerjee@ksp.gov.in,2024-08-09
+OFF051,KSP34586,Jyoti,Verma,Female,Inspector,Traffic Control,PS011,+91-8644021284,jyoti.verma@ksp.gov.in,2013-08-26
+OFF052,KSP82199,Sanjay,Choudhury,Male,Sub Inspector,Women Protection,PS011,+91-6509941847,sanjay.choudhury@ksp.gov.in,2010-07-19
+OFF053,KSP41946,Swati,Jadav,Female,Assistant Sub Inspector,General Duty,PS011,+91-9539588274,swati.jadav@ksp.gov.in,2009-03-01
+OFF054,KSP86931,Rahul,Choudhury,Male,Head Constable,General Duty,PS011,+91-9844373989,rahul.choudhury@ksp.gov.in,2016-09-24
+OFF055,KSP15720,Anjali,Reddy,Female,Police Constable,General Duty,PS011,+91-8778368940,anjali.reddy@ksp.gov.in,2020-05-22
+OFF056,KSP69890,Anita,Yadav,Female,Inspector,Traffic Control,PS012,+91-6746149366,anita.yadav@ksp.gov.in,2008-08-04
+OFF057,KSP80912,Meena,Jadav,Female,Sub Inspector,Homicide,PS012,+91-6626220977,meena.jadav@ksp.gov.in,2017-11-28
+OFF058,KSP52516,Aaradhya,Verma,Female,Assistant Sub Inspector,General Duty,PS012,+91-6231557108,aaradhya.verma@ksp.gov.in,2007-08-01
+OFF059,KSP28758,Ramesh,Chawla,Male,Head Constable,General Duty,PS012,+91-7422089614,ramesh.chawla@ksp.gov.in,2014-09-17
+OFF060,KSP69878,Jyoti,Das,Female,Police Constable,General Duty,PS012,+91-8134255929,jyoti.das@ksp.gov.in,2019-02-23
+OFF061,KSP89482,Vinay,Verma,Male,Inspector,Homicide,PS013,+91-9897282127,vinay.verma@ksp.gov.in,2003-08-03
+OFF062,KSP67779,Amit,Choudhury,Male,Sub Inspector,Women Protection,PS013,+91-6570271159,amit.choudhury@ksp.gov.in,2010-11-01
+OFF063,KSP48684,Rohan,Jadav,Male,Assistant Sub Inspector,General Duty,PS013,+91-8840726638,rohan.jadav1@ksp.gov.in,2009-01-09
+OFF064,KSP44663,Deepak,Sharma,Male,Head Constable,General Duty,PS013,+91-6466589120,deepak.sharma@ksp.gov.in,2012-01-29
+OFF065,KSP49608,Rajesh,Rao,Male,Police Constable,General Duty,PS013,+91-9100912533,rajesh.rao@ksp.gov.in,2018-09-16
+OFF066,KSP74139,Manoj,Singh,Male,Inspector,Cyber Crime,PS014,+91-9926242393,manoj.singh@ksp.gov.in,2004-01-15
+OFF067,KSP26011,Kiran,Mehta,Female,Sub Inspector,Traffic Control,PS014,+91-9026903972,kiran.mehta@ksp.gov.in,2011-03-31
+OFF068,KSP29340,Arjun,Banerjee,Male,Assistant Sub Inspector,General Duty,PS014,+91-6299571813,arjun.banerjee@ksp.gov.in,2013-09-16
+OFF069,KSP44782,Aaradhya,Joshi,Female,Head Constable,General Duty,PS014,+91-6141043542,aaradhya.joshi@ksp.gov.in,2019-08-10
+OFF070,KSP17972,Preeti,Sharma,Female,Police Constable,General Duty,PS014,+91-9841748311,preeti.sharma@ksp.gov.in,2019-12-30
+OFF071,KSP89354,Preeti,Yadav,Female,Inspector,General Crime,PS015,+91-9078677242,preeti.yadav1@ksp.gov.in,2008-11-25
+OFF072,KSP65936,Anita,Banerjee,Female,Sub Inspector,Cyber Crime,PS015,+91-8631908007,anita.banerjee@ksp.gov.in,2016-10-02
+OFF073,KSP56346,Anita,Reddy,Female,Assistant Sub Inspector,General Duty,PS015,+91-9879635262,anita.reddy1@ksp.gov.in,2016-01-16
+OFF074,KSP85248,Anita,Das,Female,Head Constable,General Duty,PS015,+91-7889866098,anita.das@ksp.gov.in,2016-06-29
+OFF075,KSP54541,Rohan,Choudhury,Male,Police Constable,General Duty,PS015,+91-8085416072,rohan.choudhury@ksp.gov.in,2018-11-23
+OFF076,KSP50846,Neha,Mishra,Female,Inspector,General Crime,PS016,+91-8750016626,neha.mishra@ksp.gov.in,2006-09-09
+OFF077,KSP77154,Kiran,Mehta,Female,Sub Inspector,Homicide,PS016,+91-6316553290,kiran.mehta1@ksp.gov.in,2016-02-10
+OFF078,KSP53007,Rohan,Choudhury,Male,Assistant Sub Inspector,General Duty,PS016,+91-6071375880,rohan.choudhury1@ksp.gov.in,2016-12-02
+OFF079,KSP51033,Ajay,Gupta,Male,Head Constable,General Duty,PS016,+91-9574103868,ajay.gupta@ksp.gov.in,2015-05-30
+OFF080,KSP67104,Anita,Patel,Female,Police Constable,General Duty,PS016,+91-9533331515,anita.patel@ksp.gov.in,2020-01-15
+OFF081,KSP29194,Arjun,Singh,Male,Inspector,Traffic Control,PS017,+91-8167617477,arjun.singh1@ksp.gov.in,2006-08-02
+OFF082,KSP67640,Meena,Kumar,Female,Sub Inspector,Cyber Crime,PS017,+91-6467530403,meena.kumar@ksp.gov.in,2015-06-05
+OFF083,KSP82655,Preeti,Chawla,Female,Assistant Sub Inspector,General Duty,PS017,+91-6486341018,preeti.chawla@ksp.gov.in,2011-07-15
+OFF084,KSP15130,Karan,Joshi,Male,Head Constable,General Duty,PS017,+91-7795639376,karan.joshi@ksp.gov.in,2019-08-24
+OFF085,KSP22387,Sunita,Banerjee,Female,Police Constable,General Duty,PS017,+91-9276983513,sunita.banerjee@ksp.gov.in,2019-05-08
+OFF086,KSP59372,Rahul,Prasad,Male,Inspector,Homicide,PS018,+91-8868765643,rahul.prasad@ksp.gov.in,2009-02-07
+OFF087,KSP35166,Sunil,Jadav,Male,Sub Inspector,General Crime,PS018,+91-7912755756,sunil.jadav@ksp.gov.in,2016-09-11
+OFF088,KSP91885,Sanjay,Joshi,Male,Assistant Sub Inspector,General Duty,PS018,+91-7703796772,sanjay.joshi@ksp.gov.in,2014-02-06
+OFF089,KSP98907,Deepa,Mishra,Female,Head Constable,General Duty,PS018,+91-9423598812,deepa.mishra@ksp.gov.in,2013-01-05
+OFF090,KSP47363,Karan,Singh,Male,Police Constable,General Duty,PS018,+91-6729149243,karan.singh@ksp.gov.in,2024-12-11
+OFF091,KSP59015,Deepak,Yadav,Male,Inspector,Homicide,PS019,+91-7302307310,deepak.yadav@ksp.gov.in,2006-07-25
+OFF092,KSP10688,Preeti,Gill,Female,Sub Inspector,Traffic Control,PS019,+91-6021964721,preeti.gill1@ksp.gov.in,2015-12-12
+OFF093,KSP75513,Sunita,Singh,Female,Assistant Sub Inspector,General Duty,PS019,+91-6657203516,sunita.singh@ksp.gov.in,2009-01-12
+OFF094,KSP76496,Karan,Prasad,Male,Head Constable,General Duty,PS019,+91-6346920737,karan.prasad@ksp.gov.in,2018-09-19
+OFF095,KSP56176,Pooja,Verma,Female,Police Constable,General Duty,PS019,+91-8817466807,pooja.verma@ksp.gov.in,2018-06-25
+OFF096,KSP36144,Deepa,Verma,Female,Inspector,Women Protection,PS020,+91-6333840628,deepa.verma@ksp.gov.in,2013-08-13
+OFF097,KSP67272,Anita,Mishra,Female,Sub Inspector,General Crime,PS020,+91-9783944958,anita.mishra@ksp.gov.in,2013-06-04
+OFF098,KSP52101,Harish,Choudhury,Male,Assistant Sub Inspector,General Duty,PS020,+91-6063646308,harish.choudhury@ksp.gov.in,2011-09-04
+OFF099,KSP19835,Kiran,Verma,Female,Head Constable,General Duty,PS020,+91-9386916700,kiran.verma1@ksp.gov.in,2015-01-10
+OFF100,KSP89310,Babita,Verma,Female,Police Constable,General Duty,PS020,+91-7693755362,babita.verma1@ksp.gov.in,2024-06-28
+OFF101,KSP60723,Ramesh,Yadav,Male,Inspector,General Crime,PS021,+91-6224929418,ramesh.yadav@ksp.gov.in,2007-04-19
+OFF102,KSP18511,Sunil,Mishra,Male,Sub Inspector,General Crime,PS021,+91-8887967512,sunil.mishra@ksp.gov.in,2017-03-14
+OFF103,KSP85009,Anil,Prasad,Male,Assistant Sub Inspector,General Duty,PS021,+91-8491803744,anil.prasad@ksp.gov.in,2010-09-24
+OFF104,KSP94192,Vijay,Banerjee,Male,Head Constable,General Duty,PS021,+91-6463876194,vijay.banerjee@ksp.gov.in,2020-05-10
+OFF105,KSP31229,Rahul,Joshi,Male,Police Constable,General Duty,PS021,+91-8929520192,rahul.joshi@ksp.gov.in,2020-09-01
+OFF106,KSP87569,Karan,Joshi,Male,Inspector,Homicide,PS022,+91-7169390809,karan.joshi1@ksp.gov.in,2005-03-03
+OFF107,KSP75278,Geeta,Sharma,Female,Sub Inspector,Women Protection,PS022,+91-8632844614,geeta.sharma@ksp.gov.in,2012-04-01
+OFF108,KSP55268,Sunil,Banerjee,Male,Assistant Sub Inspector,General Duty,PS022,+91-9135342202,sunil.banerjee@ksp.gov.in,2010-09-03
+OFF109,KSP52917,Anjali,Joshi,Female,Head Constable,General Duty,PS022,+91-8119484034,anjali.joshi@ksp.gov.in,2017-03-25
+OFF110,KSP46877,Priya,Verma,Female,Police Constable,General Duty,PS022,+91-9586201123,priya.verma@ksp.gov.in,2019-01-07
+OFF111,KSP84747,Deepak,Verma,Male,Inspector,Women Protection,PS023,+91-7323458661,deepak.verma@ksp.gov.in,2012-12-25
+OFF112,KSP28909,Sharda,Mishra,Female,Sub Inspector,Traffic Control,PS023,+91-7640078518,sharda.mishra@ksp.gov.in,2017-01-27
+OFF113,KSP90805,Neha,Nair,Female,Assistant Sub Inspector,General Duty,PS023,+91-8555454031,neha.nair@ksp.gov.in,2010-09-20
+OFF114,KSP72205,Aaradhya,Gill,Female,Head Constable,General Duty,PS023,+91-8977575166,aaradhya.gill@ksp.gov.in,2014-04-30
+OFF115,KSP24404,Amit,Chawla,Male,Police Constable,General Duty,PS023,+91-7031647987,amit.chawla@ksp.gov.in,2024-07-15
+OFF116,KSP83516,Karan,Mehta,Male,Inspector,Women Protection,PS024,+91-8943945568,karan.mehta@ksp.gov.in,2003-08-22
+OFF117,KSP46569,Deepa,Patel,Female,Sub Inspector,Cyber Crime,PS024,+91-8292227339,deepa.patel@ksp.gov.in,2015-02-17
+OFF118,KSP29198,Sneha,Mishra,Female,Assistant Sub Inspector,General Duty,PS024,+91-8090967282,sneha.mishra@ksp.gov.in,2008-07-24
+OFF119,KSP90698,Pooja,Singh,Female,Head Constable,General Duty,PS024,+91-7265604717,pooja.singh@ksp.gov.in,2019-10-05
+OFF120,KSP72580,Manoj,Jadav,Male,Police Constable,General Duty,PS024,+91-7722076278,manoj.jadav@ksp.gov.in,2025-04-13
+OFF121,KSP62034,Neha,Verma,Female,Inspector,Traffic Control,PS025,+91-9178202693,neha.verma@ksp.gov.in,2006-08-22
+OFF122,KSP71344,Pooja,Yadav,Female,Sub Inspector,Traffic Control,PS025,+91-8111421775,pooja.yadav@ksp.gov.in,2016-04-15
+OFF123,KSP52982,Jyoti,Yadav,Female,Assistant Sub Inspector,General Duty,PS025,+91-6409490342,jyoti.yadav@ksp.gov.in,2012-02-11
+OFF124,KSP40972,Rohan,Mishra,Male,Head Constable,General Duty,PS025,+91-6641698766,rohan.mishra@ksp.gov.in,2016-01-07
+OFF125,KSP72676,Arjun,Kumar,Male,Police Constable,General Duty,PS025,+91-7493797887,arjun.kumar@ksp.gov.in,2023-10-16
+OFF126,KSP20237,Renu,Mishra,Female,Inspector,Cyber Crime,PS026,+91-6055513512,renu.mishra@ksp.gov.in,2004-11-08
+OFF127,KSP27294,Priya,Rao,Female,Sub Inspector,Women Protection,PS026,+91-9404873875,priya.rao1@ksp.gov.in,2018-12-09
+OFF128,KSP19046,Harish,Verma,Male,Assistant Sub Inspector,General Duty,PS026,+91-9047796493,harish.verma1@ksp.gov.in,2011-01-04
+OFF129,KSP95660,Harish,Kumar,Male,Head Constable,General Duty,PS026,+91-8193198794,harish.kumar@ksp.gov.in,2011-12-10
+OFF130,KSP70375,Anjali,Patel,Female,Police Constable,General Duty,PS026,+91-8118706698,anjali.patel@ksp.gov.in,2022-03-29
+OFF131,KSP14400,Suresh,Gill,Male,Inspector,Homicide,PS027,+91-9570742280,suresh.gill@ksp.gov.in,2006-02-18
+OFF132,KSP98150,Babita,Gill,Female,Sub Inspector,General Crime,PS027,+91-8289542557,babita.gill@ksp.gov.in,2016-08-27
+OFF133,KSP94320,Priya,Mishra,Female,Assistant Sub Inspector,General Duty,PS027,+91-9734137483,priya.mishra@ksp.gov.in,2014-11-19
+OFF134,KSP64592,Harish,Reddy,Male,Head Constable,General Duty,PS027,+91-7323043580,harish.reddy@ksp.gov.in,2013-08-04
+OFF135,KSP87015,Rajesh,Mehta,Male,Police Constable,General Duty,PS027,+91-7483909919,rajesh.mehta@ksp.gov.in,2018-03-11
+OFF136,KSP82362,Deepak,Patel,Male,Inspector,Homicide,PS028,+91-8735325409,deepak.patel@ksp.gov.in,2007-02-03
+OFF137,KSP15992,Meena,Reddy,Female,Sub Inspector,Traffic Control,PS028,+91-7705572125,meena.reddy@ksp.gov.in,2015-11-01
+OFF138,KSP94108,Kiran,Jadav,Female,Assistant Sub Inspector,General Duty,PS028,+91-9473151899,kiran.jadav@ksp.gov.in,2009-06-28
+OFF139,KSP64053,Amit,Sharma,Male,Head Constable,General Duty,PS028,+91-7827053666,amit.sharma@ksp.gov.in,2012-08-11
+OFF140,KSP79758,Aaradhya,Sharma,Female,Police Constable,General Duty,PS028,+91-9052908689,aaradhya.sharma@ksp.gov.in,2024-05-23
+OFF141,KSP91235,Arjun,Mehta,Male,Inspector,Cyber Crime,PS029,+91-8823345926,arjun.mehta@ksp.gov.in,2012-08-14
+OFF142,KSP59436,Deepak,Nair,Male,Sub Inspector,Homicide,PS029,+91-9001447580,deepak.nair@ksp.gov.in,2011-06-24
+OFF143,KSP45532,Vinay,Jadav,Male,Assistant Sub Inspector,General Duty,PS029,+91-6962561802,vinay.jadav@ksp.gov.in,2014-07-15
+OFF144,KSP31292,Sunita,Choudhury,Female,Head Constable,General Duty,PS029,+91-7586537760,sunita.choudhury@ksp.gov.in,2015-06-17
+OFF145,KSP19963,Manoj,Patel,Male,Police Constable,General Duty,PS029,+91-8665936742,manoj.patel@ksp.gov.in,2018-12-04
+OFF146,KSP21232,Vinay,Nair,Male,Inspector,General Crime,PS030,+91-8770176731,vinay.nair@ksp.gov.in,2014-02-07
+OFF147,KSP27367,Kiran,Singh,Female,Sub Inspector,Women Protection,PS030,+91-6145403053,kiran.singh@ksp.gov.in,2013-07-08
+OFF148,KSP83339,Sneha,Gupta,Female,Assistant Sub Inspector,General Duty,PS030,+91-7513134044,sneha.gupta@ksp.gov.in,2010-06-06
+OFF149,KSP91924,Kiran,Patel,Female,Head Constable,General Duty,PS030,+91-9511393683,kiran.patel@ksp.gov.in,2014-12-06
+OFF150,KSP89064,Rahul,Banerjee,Male,Police Constable,General Duty,PS030,+91-7413376973,rahul.banerjee@ksp.gov.in,2020-12-23
+OFF151,KSP36188,Anita,Chawla,Female,Inspector,General Crime,PS031,+91-7659474268,anita.chawla@ksp.gov.in,2007-08-06
+OFF152,KSP43119,Rahul,Patel,Male,Sub Inspector,Women Protection,PS031,+91-7770944596,rahul.patel@ksp.gov.in,2011-06-27
+OFF153,KSP96193,Suresh,Patel,Male,Assistant Sub Inspector,General Duty,PS031,+91-8165669371,suresh.patel@ksp.gov.in,2016-03-03
+OFF154,KSP83137,Karan,Yadav,Male,Head Constable,General Duty,PS031,+91-7437553014,karan.yadav@ksp.gov.in,2019-05-15
+OFF155,KSP54966,Anil,Choudhury,Male,Police Constable,General Duty,PS031,+91-9753074007,anil.choudhury@ksp.gov.in,2025-01-17
+OFF156,KSP77632,Sanjay,Patel,Male,Inspector,General Crime,PS032,+91-7534476163,sanjay.patel@ksp.gov.in,2005-04-06
+OFF157,KSP38153,Sneha,Sharma,Female,Sub Inspector,Women Protection,PS032,+91-7277575311,sneha.sharma@ksp.gov.in,2011-10-18
+OFF158,KSP86939,Geeta,Nair,Female,Assistant Sub Inspector,General Duty,PS032,+91-6386872601,geeta.nair@ksp.gov.in,2016-03-13
+OFF159,KSP58929,Anita,Joshi,Female,Head Constable,General Duty,PS032,+91-7541316669,anita.joshi@ksp.gov.in,2012-04-20
+OFF160,KSP34523,Kavita,Kumar,Female,Police Constable,General Duty,PS032,+91-8868941356,kavita.kumar@ksp.gov.in,2018-07-28
+OFF161,KSP74054,Jyoti,Rao,Female,Inspector,Traffic Control,PS033,+91-7007225147,jyoti.rao@ksp.gov.in,2006-10-08
+OFF162,KSP45112,Vinay,Singh,Male,Sub Inspector,Women Protection,PS033,+91-8577424762,vinay.singh@ksp.gov.in,2018-11-25
+OFF163,KSP25386,Sunita,Rao,Female,Assistant Sub Inspector,General Duty,PS033,+91-7276864678,sunita.rao@ksp.gov.in,2016-09-25
+OFF164,KSP88231,Sharda,Das,Female,Head Constable,General Duty,PS033,+91-7372289609,sharda.das@ksp.gov.in,2014-06-14
+OFF165,KSP42725,Pooja,Kumar,Female,Police Constable,General Duty,PS033,+91-7787645244,pooja.kumar@ksp.gov.in,2023-12-18
+OFF166,KSP73968,Ritu,Rao,Female,Inspector,General Crime,PS034,+91-8588096687,ritu.rao@ksp.gov.in,2008-03-26
+OFF167,KSP52318,Ramesh,Das,Male,Sub Inspector,Cyber Crime,PS034,+91-8355436007,ramesh.das@ksp.gov.in,2012-07-06
+OFF168,KSP10088,Ajay,Rao,Male,Assistant Sub Inspector,General Duty,PS034,+91-9261619262,ajay.rao@ksp.gov.in,2011-08-09
+OFF169,KSP91999,Amit,Nair,Male,Head Constable,General Duty,PS034,+91-8774002055,amit.nair1@ksp.gov.in,2013-07-10
+OFF170,KSP65353,Sunil,Singh,Male,Police Constable,General Duty,PS034,+91-7420813238,sunil.singh@ksp.gov.in,2022-08-18
+OFF171,KSP83831,Rajesh,Yadav,Male,Inspector,Cyber Crime,PS035,+91-6613279642,rajesh.yadav@ksp.gov.in,2013-05-04
+OFF172,KSP51222,Ritu,Reddy,Female,Sub Inspector,Traffic Control,PS035,+91-7262672908,ritu.reddy@ksp.gov.in,2015-03-31
+OFF173,KSP94694,Deepak,Choudhury,Male,Assistant Sub Inspector,General Duty,PS035,+91-6772326080,deepak.choudhury@ksp.gov.in,2012-02-03
+OFF174,KSP65163,Deepak,Chawla,Male,Head Constable,General Duty,PS035,+91-8514905029,deepak.chawla@ksp.gov.in,2013-10-28
+OFF175,KSP65518,Renu,Reddy,Female,Police Constable,General Duty,PS035,+91-9056235285,renu.reddy@ksp.gov.in,2018-09-16
+OFF176,KSP41278,Rahul,Reddy,Male,Inspector,Cyber Crime,PS036,+91-6291606610,rahul.reddy1@ksp.gov.in,2011-07-21
+OFF177,KSP78551,Ramesh,Mishra,Male,Sub Inspector,Traffic Control,PS036,+91-8117287082,ramesh.mishra@ksp.gov.in,2018-03-01
+OFF178,KSP76949,Ramesh,Rao,Male,Assistant Sub Inspector,General Duty,PS036,+91-8081178617,ramesh.rao@ksp.gov.in,2017-06-21
+OFF179,KSP71835,Arjun,Verma,Male,Head Constable,General Duty,PS036,+91-8319859743,arjun.verma@ksp.gov.in,2014-02-01
+OFF180,KSP58864,Sunita,Chawla,Female,Police Constable,General Duty,PS036,+91-6591899042,sunita.chawla@ksp.gov.in,2021-01-26
+OFF181,KSP11044,Harish,Rao,Male,Inspector,Homicide,PS037,+91-8253645471,harish.rao@ksp.gov.in,2006-03-13
+OFF182,KSP40539,Manoj,Sharma,Male,Sub Inspector,General Crime,PS037,+91-8660373732,manoj.sharma1@ksp.gov.in,2015-12-12
+OFF183,KSP22193,Vijay,Das,Male,Assistant Sub Inspector,General Duty,PS037,+91-6985739001,vijay.das1@ksp.gov.in,2011-06-07
+OFF184,KSP41034,Manoj,Kumar,Male,Head Constable,General Duty,PS037,+91-8238773202,manoj.kumar@ksp.gov.in,2019-04-25
+OFF185,KSP71086,Sanjay,Rao,Male,Police Constable,General Duty,PS037,+91-8459232116,sanjay.rao@ksp.gov.in,2025-03-23
+OFF186,KSP42534,Pooja,Gupta,Female,Inspector,Cyber Crime,PS038,+91-8302819855,pooja.gupta@ksp.gov.in,2012-11-20
+OFF187,KSP18083,Suresh,Sharma,Male,Sub Inspector,General Crime,PS038,+91-7183665280,suresh.sharma@ksp.gov.in,2018-04-03
+OFF188,KSP26059,Rajesh,Banerjee,Male,Assistant Sub Inspector,General Duty,PS038,+91-6909474343,rajesh.banerjee@ksp.gov.in,2015-02-24
+OFF189,KSP14541,Preeti,Kumar,Female,Head Constable,General Duty,PS038,+91-7648403467,preeti.kumar@ksp.gov.in,2016-08-25
+OFF190,KSP72873,Deepak,Mishra,Male,Police Constable,General Duty,PS038,+91-9353205082,deepak.mishra@ksp.gov.in,2017-10-15
+OFF191,KSP30922,Babita,Patel,Female,Inspector,Homicide,PS039,+91-6225777959,babita.patel@ksp.gov.in,2008-01-16
+OFF192,KSP51681,Arjun,Chawla,Male,Sub Inspector,Women Protection,PS039,+91-8907955198,arjun.chawla@ksp.gov.in,2011-10-11
+OFF193,KSP21830,Ramesh,Verma,Male,Assistant Sub Inspector,General Duty,PS039,+91-6225092179,ramesh.verma@ksp.gov.in,2012-06-14
+OFF194,KSP28566,Vijay,Chawla,Male,Head Constable,General Duty,PS039,+91-6889393131,vijay.chawla@ksp.gov.in,2017-12-02
+OFF195,KSP83659,Meena,Joshi,Female,Police Constable,General Duty,PS039,+91-8251361799,meena.joshi@ksp.gov.in,2018-09-26
+OFF196,KSP51709,Sanjay,Gill,Male,Inspector,Women Protection,PS040,+91-7614303369,sanjay.gill@ksp.gov.in,2003-08-24
+OFF197,KSP37483,Aaradhya,Das,Female,Sub Inspector,Traffic Control,PS040,+91-7637704414,aaradhya.das@ksp.gov.in,2013-01-16
+OFF198,KSP85766,Anita,Jadav,Female,Assistant Sub Inspector,General Duty,PS040,+91-7108239013,anita.jadav@ksp.gov.in,2015-10-07
+OFF199,KSP90431,Sunil,Gill,Male,Head Constable,General Duty,PS040,+91-9746640394,sunil.gill@ksp.gov.in,2011-10-12
+OFF200,KSP41135,Kavita,Choudhury,Female,Police Constable,General Duty,PS040,+91-6058134266,kavita.choudhury@ksp.gov.in,2022-05-24
+OFF201,KSP93648,Vikram,Joshi,Male,Inspector,Women Protection,PS041,+91-8941748263,vikram.joshi@ksp.gov.in,2009-01-01
+OFF202,KSP44510,Ajay,Verma,Male,Sub Inspector,Cyber Crime,PS041,+91-9422076035,ajay.verma@ksp.gov.in,2015-10-04
+OFF203,KSP80190,Renu,Reddy,Female,Assistant Sub Inspector,General Duty,PS041,+91-9522380555,renu.reddy1@ksp.gov.in,2008-05-01
+OFF204,KSP31910,Ajay,Joshi,Male,Head Constable,General Duty,PS041,+91-7814949682,ajay.joshi@ksp.gov.in,2019-05-30
+OFF205,KSP82358,Sharda,Nair,Female,Police Constable,General Duty,PS041,+91-8859075711,sharda.nair@ksp.gov.in,2024-05-18
+OFF206,KSP55071,Rahul,Prasad,Male,Inspector,Homicide,PS042,+91-9265414664,rahul.prasad1@ksp.gov.in,2008-01-28
+OFF207,KSP58816,Ramesh,Das,Male,Sub Inspector,Women Protection,PS042,+91-6373886923,ramesh.das1@ksp.gov.in,2012-02-01
+OFF208,KSP34633,Geeta,Gupta,Female,Assistant Sub Inspector,General Duty,PS042,+91-9287788513,geeta.gupta@ksp.gov.in,2008-12-21
+OFF209,KSP13794,Karan,Chawla,Male,Head Constable,General Duty,PS042,+91-7188249728,karan.chawla@ksp.gov.in,2011-12-24
+OFF210,KSP58819,Aarav,Patel,Male,Police Constable,General Duty,PS042,+91-9518531876,aarav.patel@ksp.gov.in,2021-06-28
+OFF211,KSP85007,Priya,Joshi,Female,Inspector,Homicide,PS043,+91-7866240770,priya.joshi@ksp.gov.in,2011-08-18
+OFF212,KSP89736,Arjun,Das,Male,Sub Inspector,Cyber Crime,PS043,+91-8772884235,arjun.das@ksp.gov.in,2012-09-18
+OFF213,KSP83591,Karan,Mishra,Male,Assistant Sub Inspector,General Duty,PS043,+91-8210968278,karan.mishra@ksp.gov.in,2013-04-09
+OFF214,KSP17441,Karan,Patel,Male,Head Constable,General Duty,PS043,+91-9667692430,karan.patel@ksp.gov.in,2017-01-19
+OFF215,KSP98063,Harish,Jadav,Male,Police Constable,General Duty,PS043,+91-8588810128,harish.jadav@ksp.gov.in,2022-07-29
+OFF216,KSP56567,Sunita,Patel,Female,Inspector,Traffic Control,PS044,+91-7737322848,sunita.patel@ksp.gov.in,2004-09-22
+OFF217,KSP75598,Ramesh,Mehta,Male,Sub Inspector,Women Protection,PS044,+91-6832081245,ramesh.mehta@ksp.gov.in,2012-05-02
+OFF218,KSP53598,Rajesh,Jadav,Male,Assistant Sub Inspector,General Duty,PS044,+91-7304275177,rajesh.jadav@ksp.gov.in,2014-09-03
+OFF219,KSP66233,Jyoti,Nair,Female,Head Constable,General Duty,PS044,+91-9301303816,jyoti.nair@ksp.gov.in,2017-03-20
+OFF220,KSP23462,Kavita,Kumar,Female,Police Constable,General Duty,PS044,+91-9530094554,kavita.kumar1@ksp.gov.in,2023-01-18
+OFF221,KSP31611,Ritu,Mehta,Female,Inspector,Women Protection,PS045,+91-9029205177,ritu.mehta@ksp.gov.in,2007-08-23
+OFF222,KSP96765,Sandip,Verma,Male,Sub Inspector,General Crime,PS045,+91-6606435416,sandip.verma@ksp.gov.in,2019-02-09
+OFF223,KSP91631,Karan,Das,Male,Assistant Sub Inspector,General Duty,PS045,+91-7485627467,karan.das@ksp.gov.in,2009-04-03
+OFF224,KSP31020,Jyoti,Choudhury,Female,Head Constable,General Duty,PS045,+91-6596420015,jyoti.choudhury@ksp.gov.in,2013-04-29
+OFF225,KSP23276,Karan,Gupta,Male,Police Constable,General Duty,PS045,+91-8649208883,karan.gupta@ksp.gov.in,2019-12-07
+OFF226,KSP11267,Suresh,Verma,Male,Inspector,General Crime,PS046,+91-7613468081,suresh.verma@ksp.gov.in,2007-12-24
+OFF227,KSP65278,Sneha,Jadav,Female,Sub Inspector,General Crime,PS046,+91-7160914586,sneha.jadav@ksp.gov.in,2016-09-04
+OFF228,KSP99714,Geeta,Sharma,Female,Assistant Sub Inspector,General Duty,PS046,+91-7448406085,geeta.sharma1@ksp.gov.in,2007-09-30
+OFF229,KSP78564,Sunil,Yadav,Male,Head Constable,General Duty,PS046,+91-6474661886,sunil.yadav@ksp.gov.in,2019-08-18
+OFF230,KSP74990,Karan,Jadav,Male,Police Constable,General Duty,PS046,+91-7042902642,karan.jadav@ksp.gov.in,2017-11-28
+OFF231,KSP68598,Sunita,Jadav,Female,Inspector,Women Protection,PS047,+91-8146145006,sunita.jadav@ksp.gov.in,2004-08-24
+OFF232,KSP57624,Ajay,Banerjee,Male,Sub Inspector,Women Protection,PS047,+91-6883757340,ajay.banerjee@ksp.gov.in,2016-07-12
+OFF233,KSP78417,Kavita,Prasad,Female,Assistant Sub Inspector,General Duty,PS047,+91-8701177161,kavita.prasad1@ksp.gov.in,2011-03-27
+OFF234,KSP24125,Deepa,Banerjee,Female,Head Constable,General Duty,PS047,+91-9066184559,deepa.banerjee@ksp.gov.in,2019-10-15
+OFF235,KSP86692,Harish,Reddy,Male,Police Constable,General Duty,PS047,+91-9979618166,harish.reddy1@ksp.gov.in,2019-10-28
+OFF236,KSP42537,Jyoti,Gill,Female,Inspector,Traffic Control,PS048,+91-8332816858,jyoti.gill@ksp.gov.in,2006-02-06
+OFF237,KSP91810,Vikram,Mehta,Male,Sub Inspector,General Crime,PS048,+91-8691791567,vikram.mehta1@ksp.gov.in,2013-09-30
+OFF238,KSP65363,Sharda,Choudhury,Female,Assistant Sub Inspector,General Duty,PS048,+91-6501617122,sharda.choudhury@ksp.gov.in,2016-07-25
+OFF239,KSP14234,Deepa,Prasad,Female,Head Constable,General Duty,PS048,+91-8818787527,deepa.prasad@ksp.gov.in,2015-07-25
+OFF240,KSP64600,Deepak,Nair,Male,Police Constable,General Duty,PS048,+91-8907288426,deepak.nair1@ksp.gov.in,2019-09-15
+OFF241,KSP68827,Vikram,Choudhury,Male,Inspector,Women Protection,PS049,+91-7909710221,vikram.choudhury@ksp.gov.in,2010-07-13
+OFF242,KSP30146,Pooja,Verma,Female,Sub Inspector,Homicide,PS049,+91-8576837507,pooja.verma1@ksp.gov.in,2011-03-25
+OFF243,KSP64516,Karan,Joshi,Male,Assistant Sub Inspector,General Duty,PS049,+91-9022332759,karan.joshi2@ksp.gov.in,2017-05-16
+OFF244,KSP94182,Preeti,Patel,Female,Head Constable,General Duty,PS049,+91-7963993529,preeti.patel@ksp.gov.in,2014-10-24
+OFF245,KSP48854,Swati,Verma,Female,Police Constable,General Duty,PS049,+91-7300975626,swati.verma@ksp.gov.in,2021-07-27
+OFF246,KSP80484,Anita,Mehta,Female,Inspector,Traffic Control,PS050,+91-9697143007,anita.mehta@ksp.gov.in,2006-06-10
+OFF247,KSP60860,Rohan,Reddy,Male,Sub Inspector,Traffic Control,PS050,+91-9640656675,rohan.reddy@ksp.gov.in,2018-01-11
+OFF248,KSP89503,Rahul,Choudhury,Male,Assistant Sub Inspector,General Duty,PS050,+91-6293801277,rahul.choudhury1@ksp.gov.in,2009-02-14
+OFF249,KSP11461,Rahul,Mishra,Male,Head Constable,General Duty,PS050,+91-7105593793,rahul.mishra@ksp.gov.in,2013-08-18
+OFF250,KSP38939,Sanjay,Joshi,Male,Police Constable,General Duty,PS050,+91-8117889945,sanjay.joshi1@ksp.gov.in,2020-08-03

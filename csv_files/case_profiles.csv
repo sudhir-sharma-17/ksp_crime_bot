@@ -1,0 +1,301 @@
+case_id,crime_category,crime_subcategory,scenario,complexity,station_id,assigned_officer,priority,status,solved,expected_victims,expected_accused,expected_witnesses,expected_evidence,expected_timeline_events
+CASE001,Narcotics,Drug Possession,"During a patrol near Angol Galli, suspect was found in possession of contraband substances.",High,PS043,OFF211,High,Chargesheet Filed,Yes,1,2,5,5,6
+CASE002,Fraud,Financial Fraud,The victim was cheated of Rs. 349000 by promising high returns on investment.,Medium,PS042,OFF206,High,Under Investigation,No,1,1,2,3,7
+CASE003,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Electronic City Flyover Road causing damage and loss.,Medium,PS012,OFF056,High,Trial in Progress,Yes,1,1,2,3,11
+CASE004,Missing Person,Adult Missing,A child went missing from near ISKCON Temple Rajajinagar while playing outside.,Medium,PS019,OFF091,Critical,Evidence Collection,No,1,0,2,2,5
+CASE005,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Banaswadi Galli.,High,PS008,OFF036,Critical,Trial in Progress,Yes,3,3,2,2,5
+CASE006,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Hyundai i20 bearing registration number KA-34-NJ-4583 from Bendoorwell Main Road.,Medium,PS042,OFF207,Medium,Under Investigation,No,1,0,2,4,11
+CASE007,Missing Person,Child Missing,A child went missing from near Nexus Mall Koramangala while playing outside.,Medium,PS020,OFF097,Critical,Evidence Collection,No,1,0,1,1,6
+CASE008,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Mahindra Scorpio-N bearing registration number KA-14-ND-7233 was missing from near St. Mark's Cathedral.,Low,PS003,OFF011,Medium,Registered,No,1,1,1,4,11
+CASE009,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Nazarbad Bypass Road.,Low,PS035,OFF171,Medium,Trial in Progress,Yes,1,1,1,2,10
+CASE010,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Yamaha MT-15 bearing registration number KA-49-MN-8306 was missing from near Karanji Lake Mysuru.,Low,PS037,OFF181,Medium,Under Investigation,No,1,2,2,5,11
+CASE011,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS039,OFF191,High,Evidence Collection,No,1,1,1,3,7
+CASE012,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near New BEL Road Lane.,High,PS006,OFF026,Critical,Case Committed to Court,Yes,1,3,4,2,12
+CASE013,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 255000 in an online scam.,Medium,PS021,OFF102,Medium,Under Investigation,No,2,2,2,5,11
+CASE014,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS004,OFF016,High,Under Investigation,No,1,2,2,2,7
+CASE015,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Vidyaranyapura Double Road following a domestic dispute.,Medium,PS011,OFF052,High,Under Investigation,No,1,2,1,1,6
+CASE016,Fraud,Financial Fraud,The victim was cheated of Rs. 321000 by promising high returns on investment.,Medium,PS013,OFF061,High,Under Investigation,No,1,2,1,5,9
+CASE017,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Srinagar Cross Road following a domestic dispute.,High,PS005,OFF022,High,Under Investigation,No,1,2,4,3,8
+CASE018,Narcotics,Drug Possession,"During a patrol near Uttarahalli Club Road, suspect was found in possession of contraband substances.",Medium,PS013,OFF062,High,Convicted,Yes,3,3,2,2,6
+CASE019,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Volkswagen Virtus bearing registration number KA-05-RL-3117 from Vidyagiri 4th Station Road.,Medium,PS049,OFF242,Medium,Chargesheet Filed,Yes,1,1,2,2,10
+CASE020,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS007,OFF032,High,Trial in Progress,Yes,1,1,2,4,8
+CASE021,Cyber Crime,Phishing,Victim's social media account was hacked and misuse reported from Hebbal Kempapura Main Road.,Medium,PS029,OFF141,Medium,Chargesheet Filed,Yes,1,2,3,5,8
+CASE022,Missing Person,Child Missing,Complainant reported that their family member went missing from near Siddharoodha Math and remains untraceable.,High,PS046,OFF227,Critical,Chargesheet Filed,Yes,1,1,3,1,5
+CASE023,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 151000 in an online scam.,Medium,PS017,OFF082,Medium,Under Investigation,No,2,1,3,3,9
+CASE024,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Udyambag Main Road causing damage and loss.,Medium,PS044,OFF216,High,Case Committed to Court,Yes,1,1,2,3,8
+CASE025,Assault,Simple Assault,"A physical altercation broke out at Harlur Road 4th Ring Road between the accused and the victim, resulting in injuries to the victim.",High,PS016,OFF076,High,Under Investigation,No,2,1,2,4,7
+CASE026,Fraud,Financial Fraud,The victim was cheated of Rs. 414000 by promising high returns on investment.,High,PS024,OFF117,High,Under Investigation,No,1,1,2,5,7
+CASE027,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Domlur Station Road resulted in seizure of illegal drug packets.",Medium,PS018,OFF087,High,Under Investigation,No,1,2,4,4,9
+CASE028,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Mall of Mysore.,High,PS037,OFF181,High,Under Investigation,No,1,1,3,1,6
+CASE029,Theft,Residential Theft,An unknown person entered Mathikere Club Road and stole valuables valued at approximately Rs. 152000.,Low,PS008,OFF037,Medium,Chargesheet Filed,Yes,1,2,1,4,9
+CASE030,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Lalbagh Botanical Garden following a domestic dispute.,Medium,PS021,OFF101,High,Under Investigation,No,1,1,2,2,8
+CASE031,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Nehru Nagar Junction Road causing damage and loss.,Medium,PS044,OFF217,High,Registered,No,1,0,1,4,9
+CASE032,Burglary,House Breaking,"The lock of the house located at Kalasipalyam Main Road was broken, and valuables were stolen while the family was away.",Medium,PS016,OFF076,High,Trial in Progress,Yes,1,2,1,5,9
+CASE033,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Royal Enfield Bullet 350 bearing registration number KA-10-TC-9501 was missing from near Majestic Galli.,Medium,PS008,OFF037,Medium,Chargesheet Filed,Yes,1,1,2,4,6
+CASE034,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Tata Altroz bearing registration number KA-11-PA-3273 was missing from near Karanji Lake.,Low,PS005,OFF021,Medium,Under Investigation,No,1,0,1,4,6
+CASE035,Fraud,Financial Fraud,The victim was cheated of Rs. 205000 by promising high returns on investment.,Medium,PS031,OFF151,High,Under Investigation,No,2,1,2,2,10
+CASE036,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Gandhi Nagar Dharwad Bazaar Street.,Medium,PS049,OFF242,Critical,Under Investigation,No,2,1,4,5,5
+CASE037,Missing Person,Child Missing,Complainant reported that their family member went missing from near Singasandra 3th Station Road and remains untraceable.,High,PS015,OFF071,Critical,Under Investigation,No,1,0,3,2,8
+CASE038,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 316000 in an online scam.,Low,PS039,OFF192,Medium,Chargesheet Filed,Yes,1,2,2,5,10
+CASE039,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Nehru Nagar Junction Road.,Medium,PS043,OFF212,High,Under Investigation,No,1,1,3,3,10
+CASE040,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Kia Seltos bearing registration number KA-28-SA-3185 from ITPL Main Road.,Medium,PS021,OFF101,Medium,Case Committed to Court,Yes,1,2,3,5,9
+CASE041,Fraud,Financial Fraud,The victim was cheated of Rs. 172000 by promising high returns on investment.,Medium,PS040,OFF197,High,Case Committed to Court,Yes,1,1,1,4,8
+CASE042,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Kathriguppe Highway.,High,PS011,OFF052,Critical,Under Investigation,No,2,1,4,3,10
+CASE043,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Tata Harrier bearing registration number KA-38-PB-8327 from Kadugodi 3th Junction Road.,Medium,PS024,OFF117,Medium,Trial in Progress,Yes,1,1,2,5,7
+CASE044,Burglary,House Breaking,"The lock of the house located at BBMP Head Office Corporation Circle was broken, and valuables were stolen while the family was away.",High,PS017,OFF081,High,Evidence Collection,No,1,0,1,5,8
+CASE045,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Toyota Fortuner bearing registration number KA-11-NV-7511 from Harlur Road 4th Ring Road.,Medium,PS011,OFF051,Medium,Chargesheet Filed,Yes,1,1,1,2,7
+CASE046,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Mahindra Thar bearing registration number KA-06-NK-3351 from 100 Feet Road Koramangala.,Medium,PS018,OFF086,Medium,Evidence Collection,No,1,1,1,4,6
+CASE047,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Bhagya Nagar Ring Road resulted in seizure of illegal drug packets.",Medium,PS044,OFF217,High,Chargesheet Filed,Yes,3,1,2,4,5
+CASE048,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 274000 in an online scam.,Medium,PS023,OFF111,Medium,Evidence Collection,No,1,2,1,3,12
+CASE049,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Maruti Suzuki Ertiga bearing registration number KA-40-MR-2393 from St. Mark's Cathedral.,Medium,PS023,OFF112,Medium,Registered,No,1,1,1,3,6
+CASE050,Missing Person,Child Missing,A child went missing from near St. John's Medical College Hospital while playing outside.,Medium,PS019,OFF092,Critical,Chargesheet Filed,Yes,1,1,1,1,5
+CASE051,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Suzuki Access 125 bearing registration number KA-47-QR-8498 from Hebbal Mysuru Lane.,Medium,PS036,OFF177,Medium,Evidence Collection,No,1,2,2,5,9
+CASE052,Missing Person,Child Missing,Complainant reported that their family member went missing from near Benson Town Bazaar Street and remains untraceable.,High,PS023,OFF111,Critical,Under Investigation,No,1,0,3,1,4
+CASE053,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Maruti Suzuki WagonR bearing registration number KA-47-TE-4148 was missing from near Kammanahalli Main Road.,Low,PS009,OFF041,Medium,Under Investigation,No,1,0,1,4,11
+CASE054,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Kadirenahalli 2th Cross Road.,High,PS020,OFF096,Critical,Under Investigation,No,2,1,5,5,9
+CASE055,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS021,OFF102,High,Convicted,Yes,1,2,3,3,10
+CASE056,Burglary,House Breaking,Accused broke into the shop at 100 Feet Road Indiranagar late at night and stole cash and items.,Medium,PS016,OFF076,High,Under Investigation,No,1,0,1,3,11
+CASE057,Theft,Commercial Theft,An unknown person entered Bannimantap Bypass Road and stole valuables valued at approximately Rs. 279000.,Medium,PS033,OFF162,Medium,Evidence Collection,No,1,0,3,4,10
+CASE058,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 206000 in an online scam.,Medium,PS006,OFF026,Medium,Closed,Yes,2,2,2,3,8
+CASE059,Kidnapping,Kidnapping,"The child was reported missing from Kaikondrahalli Lane, later confirmed as a kidnapping call.",High,PS002,OFF006,Critical,Under Investigation,No,1,1,5,5,10
+CASE060,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Hanumanthnagar Junction Road causing damage and loss.,High,PS008,OFF037,High,Trial in Progress,Yes,1,1,3,2,6
+CASE061,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Shahapur Belagavi Galli.,Medium,PS043,OFF211,High,Chargesheet Filed,Yes,1,1,4,1,6
+CASE062,Murder,Homicide,The victim was fatally attacked at Kalasipalyam Main Road following a dispute.,Medium,PS001,OFF001,Critical,Evidence Collection,No,2,3,4,5,11
+CASE063,Missing Person,Child Missing,A child went missing from near Devaraja Mohalla Link Road while playing outside.,Medium,PS032,OFF156,Critical,Under Investigation,No,1,0,3,2,4
+CASE064,Missing Person,Child Missing,A child went missing from near Silk Board Main Road while playing outside.,High,PS024,OFF117,Critical,Acquitted,Yes,1,1,3,1,7
+CASE065,Public Disorder,Rioting,Altercation between groups near Kasavanahalli Cross Road disturbed public peace and order.,Medium,PS025,OFF121,Medium,Under Investigation,No,1,1,3,4,11
+CASE066,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Basavanagudi 4th Junction Road following a domestic dispute.,High,PS012,OFF057,High,Under Investigation,No,1,1,1,1,10
+CASE067,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 274000 in an online scam.,Medium,PS028,OFF137,Medium,Chargesheet Filed,Yes,2,1,1,5,8
+CASE068,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Sadashivanagar Temple Road.,Medium,PS023,OFF111,High,Under Investigation,No,1,2,1,2,7
+CASE069,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Garuda Mall Magrath Road.,Low,PS016,OFF077,Medium,Acquitted,Yes,1,2,1,5,12
+CASE070,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Chamundeshwari Temple Chamundi Hill causing damage and loss.,High,PS034,OFF166,High,Under Investigation,No,1,2,2,3,11
+CASE071,Murder,Homicide,The victim was fatally attacked at JP Nagar Mysuru Ring Road following a dispute.,High,PS032,OFF157,Critical,Trial in Progress,Yes,1,1,4,7,11
+CASE072,Murder,Homicide,The victim was fatally attacked at Jayanagar Metro Station following a dispute.,High,PS014,OFF066,Critical,Under Investigation,No,1,2,6,4,10
+CASE073,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Toyota Innova Crysta bearing registration number KA-43-MT-6486 from Sarjapur Road Cross Road.,Low,PS001,OFF001,Medium,Chargesheet Filed,Yes,1,1,3,3,10
+CASE074,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 205000 in an online scam.,Medium,PS030,OFF146,Medium,Evidence Collection,No,1,1,1,5,9
+CASE075,Narcotics,Drug Possession,"During a patrol near Outer Ring Road, suspect was found in possession of contraband substances.",High,PS022,OFF107,High,Acquitted,Yes,1,1,5,4,8
+CASE076,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS041,OFF202,High,Convicted,Yes,2,2,2,2,11
+CASE077,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 238000 in an online scam.,Low,PS022,OFF106,Medium,Under Investigation,No,2,2,1,4,11
+CASE078,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Bannimantap Bypass Road.,Medium,PS035,OFF172,Critical,Trial in Progress,Yes,3,1,4,2,9
+CASE079,Cyber Crime,Identity Theft,Victim's social media account was hacked and misuse reported from Vidyaranyapura Double Road.,Medium,PS030,OFF147,Medium,Trial in Progress,Yes,2,2,2,3,11
+CASE080,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Hyundai Venue bearing registration number KA-09-RK-5317 was missing from near Chickpet 4th Bazaar Street.,Medium,PS009,OFF041,Medium,Under Investigation,No,1,1,3,4,9
+CASE081,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Banaswadi Bypass Road causing damage and loss.,Medium,PS027,OFF132,High,Case Committed to Court,Yes,1,1,3,2,11
+CASE082,Fraud,Financial Fraud,The victim was cheated of Rs. 293000 by promising high returns on investment.,High,PS039,OFF192,High,Convicted,Yes,1,2,1,2,11
+CASE083,Public Disorder,Rioting,A crowd assembled unlawfully near Museum Road and engaged in stone pelting and rioting.,Low,PS006,OFF026,Medium,Evidence Collection,No,3,3,5,2,12
+CASE084,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Vidyapeetha Circle Link Road.,Low,PS001,OFF001,Medium,Case Committed to Court,Yes,2,2,2,5,8
+CASE085,Murder,Homicide,The victim was fatally attacked at Bellandur Main Road following a dispute.,High,PS011,OFF052,Critical,Under Investigation,No,2,1,6,4,14
+CASE086,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Hero HF Deluxe bearing registration number KA-21-PN-8382 from Yeshwanthpur Ring Road.,Low,PS023,OFF112,Medium,Under Investigation,No,1,1,3,2,10
+CASE087,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Peenya Temple Road.,Medium,PS018,OFF086,Critical,Under Investigation,No,1,1,3,5,11
+CASE088,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Domlur Station Road.,Medium,PS021,OFF101,Critical,Case Committed to Court,Yes,2,2,2,4,12
+CASE089,Missing Person,Adult Missing,Complainant reported that their family member went missing from near Electronic City Flyover Road and remains untraceable.,High,PS003,OFF011,Critical,Under Investigation,No,1,0,2,1,6
+CASE090,Assault,Grievous Assault,"An argument escalated near Sarjapur Road Cross Road, leading the accused to physically attack the complainant.",Medium,PS019,OFF091,High,Under Investigation,No,3,2,5,5,6
+CASE091,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Hebbal Flyover Road.,Medium,PS010,OFF046,Critical,Under Investigation,No,1,1,2,2,8
+CASE092,Burglary,House Breaking,Accused broke into the shop at Mangaluru Junction Railway Station late at night and stole cash and items.,High,PS039,OFF192,High,Chargesheet Filed,Yes,1,1,3,3,7
+CASE093,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Hebbal Mysuru Lane causing damage and loss.,Medium,PS036,OFF177,High,Case Committed to Court,Yes,1,1,1,3,8
+CASE094,Murder,Homicide,The victim was fatally attacked at Mangaluru Central Railway Station following a dispute.,Medium,PS042,OFF206,Critical,Registered,No,1,3,4,7,11
+CASE095,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Tata Tiago bearing registration number KA-31-MM-6061 was missing from near Nehru Nagar Junction Road.,Low,PS045,OFF221,Medium,Chargesheet Filed,Yes,1,1,1,3,6
+CASE096,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Hebbal Mysuru Lane.,Medium,PS031,OFF152,High,Chargesheet Filed,Yes,1,1,1,1,5
+CASE097,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from GRS Fantasy Park.,Low,PS034,OFF167,Medium,Under Investigation,No,1,2,2,5,11
+CASE098,Kidnapping,Kidnapping,"The child was reported missing from JP Nagar 7th Phase Link Road, later confirmed as a kidnapping call.",High,PS008,OFF036,Critical,Under Investigation,No,2,2,5,5,9
+CASE099,Murder,Homicide,"A body was found near Gandhi Bazaar 5th Station Road with visible injury marks, suggesting homicide.",High,PS007,OFF031,Critical,Acquitted,Yes,2,3,4,6,11
+CASE100,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Tata Nexon bearing registration number KA-21-SP-8804 was missing from near Bendoorwell Main Road.,Low,PS042,OFF206,Medium,Case Committed to Court,Yes,1,1,1,4,9
+CASE101,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS019,OFF091,High,Acquitted,Yes,1,1,1,3,9
+CASE102,Missing Person,Child Missing,A child went missing from near 1 MG-Lido Mall while playing outside.,High,PS021,OFF102,Critical,Chargesheet Filed,Yes,1,1,2,2,5
+CASE103,Theft,Residential Theft,Complainant reported that their valuables was stolen from Bengaluru Cantonment Railway Station while it was unattended.,Medium,PS014,OFF067,Medium,Under Investigation,No,1,0,2,4,11
+CASE104,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Devaraja Mohalla Link Road causing damage and loss.,Medium,PS034,OFF166,High,Convicted,Yes,1,1,2,2,9
+CASE105,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 97000 in an online scam.,Low,PS043,OFF212,Medium,Chargesheet Filed,Yes,1,1,3,4,12
+CASE106,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Hebbal Mysuru Lane causing damage and loss.,Medium,PS031,OFF151,High,Under Investigation,No,1,1,1,3,11
+CASE107,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Thanisandra Bazaar Street.,Low,PS009,OFF042,Medium,Trial in Progress,Yes,2,2,2,4,9
+CASE108,Burglary,House Breaking,"The lock of the house located at Mysore Junction Railway Station was broken, and valuables were stolen while the family was away.",High,PS035,OFF171,High,Evidence Collection,No,1,0,1,3,10
+CASE109,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS028,OFF137,High,Under Investigation,No,1,2,3,5,12
+CASE110,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 281000 in an online scam.,Medium,PS006,OFF027,Medium,Trial in Progress,Yes,2,2,2,3,9
+CASE111,Fraud,Financial Fraud,The victim was cheated of Rs. 283000 by promising high returns on investment.,High,PS025,OFF121,High,Under Investigation,No,2,2,2,3,10
+CASE112,Public Disorder,Rioting,Altercation between groups near Bengaluru Cantonment Railway Station disturbed public peace and order.,Low,PS005,OFF021,Medium,Chargesheet Filed,Yes,1,3,2,3,8
+CASE113,Missing Person,Child Missing,Complainant reported that their family member went missing from near JP Nagar 8th Phase Cross Road and remains untraceable.,Medium,PS020,OFF097,Critical,Under Investigation,No,1,0,3,1,4
+CASE114,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Rashtreeya Vidyalaya Road following a domestic dispute.,Medium,PS007,OFF031,High,Acquitted,Yes,1,1,3,2,7
+CASE115,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 463000 in an online scam.,Medium,PS005,OFF022,Medium,Under Investigation,No,1,1,3,4,11
+CASE116,Missing Person,Child Missing,Complainant reported that their family member went missing from near 100 Feet Road Koramangala and remains untraceable.,Medium,PS006,OFF027,Critical,Under Investigation,No,1,0,3,1,4
+CASE117,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS017,OFF082,High,Evidence Collection,No,2,2,2,5,8
+CASE118,Public Disorder,Rioting,A crowd assembled unlawfully near Dasarahalli Temple Road and engaged in stone pelting and rioting.,Low,PS005,OFF021,Medium,Under Investigation,No,3,2,2,5,6
+CASE119,Burglary,House Breaking,Accused broke into the shop at A J Hospital and Research Centre late at night and stole cash and items.,Medium,PS042,OFF206,High,Closed,Yes,1,0,2,5,9
+CASE120,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 135000 in an online scam.,Medium,PS017,OFF082,Medium,Chargesheet Filed,Yes,2,2,2,2,8
+CASE121,Domestic Violence,Physical Abuse,The victim reported that they were physically assaulted by their spouse at Wilson Garden Bazaar Street following a domestic dispute.,Medium,PS019,OFF091,High,Registered,No,1,2,2,1,8
+CASE122,Burglary,House Breaking,"The lock of the house located at Vijayanagar Cross Road was broken, and valuables were stolen while the family was away.",High,PS036,OFF177,High,Case Committed to Court,Yes,1,2,3,3,11
+CASE123,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Kalasipalyam Main Road.,Low,PS018,OFF087,Medium,Under Investigation,No,1,2,2,5,8
+CASE124,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Nazarbad Bypass Road causing damage and loss.,High,PS036,OFF176,High,Under Investigation,No,1,1,3,2,7
+CASE125,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Hero Splendor Plus bearing registration number KA-54-NU-1766 from Hennur Gardens 5th Link Road.,Medium,PS002,OFF007,Medium,Case Committed to Court,Yes,1,1,1,4,11
+CASE126,Assault,Grievous Assault,"A physical altercation broke out at Shahapur Belagavi Galli between the accused and the victim, resulting in injuries to the victim.",High,PS043,OFF212,High,Under Investigation,No,1,3,2,5,9
+CASE127,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Ganganagar Station Road.,Medium,PS017,OFF081,Critical,Registered,No,3,2,4,5,9
+CASE128,Missing Person,Child Missing,A child went missing from near Srinagar Cross Road while playing outside.,High,PS022,OFF106,Critical,Convicted,Yes,1,1,2,1,5
+CASE129,Narcotics,Drug Possession,"During a patrol near Bangalore University Jnana Bharathi, suspect was found in possession of contraband substances.",Medium,PS025,OFF122,High,Evidence Collection,No,1,2,3,3,10
+CASE130,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Bajaj Platina 100 bearing registration number KA-02-NN-6383 from Mysore Palace.,Medium,PS035,OFF172,Medium,Under Investigation,No,1,2,2,4,10
+CASE131,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Vidyapeetha Circle Link Road causing damage and loss.,High,PS014,OFF066,High,Case Committed to Court,Yes,1,1,1,4,7
+CASE132,Assault,Grievous Assault,"A physical altercation broke out at Infant Jesus Church Viveknagar between the accused and the victim, resulting in injuries to the victim.",High,PS025,OFF121,High,Under Investigation,No,2,1,5,2,10
+CASE133,Burglary,House Breaking,"The lock of the house located at Khadi Bhandar Hudson Circle was broken, and valuables were stolen while the family was away.",High,PS012,OFF056,High,Case Committed to Court,Yes,1,1,2,4,8
+CASE134,Fraud,Financial Fraud,The victim was cheated of Rs. 218000 by promising high returns on investment.,High,PS013,OFF062,High,Evidence Collection,No,2,2,2,4,11
+CASE135,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Hyundai Venue bearing registration number KA-14-QT-2582 was missing from near Varthur 2th Double Road.,Low,PS029,OFF141,Medium,Evidence Collection,No,1,0,2,2,11
+CASE136,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 471000 in an online scam.,Low,PS032,OFF157,Medium,Case Committed to Court,Yes,2,2,1,5,11
+CASE137,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Honda City bearing registration number KA-17-RL-8203 was missing from near Lulu Global Mall Rajajinagar.,Medium,PS025,OFF121,Medium,Evidence Collection,No,1,0,1,5,8
+CASE138,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS045,OFF221,High,Chargesheet Filed,Yes,1,2,1,4,7
+CASE139,Missing Person,Child Missing,A child went missing from near Kapileshwar Temple while playing outside.,High,PS044,OFF217,Critical,Under Investigation,No,1,0,3,2,6
+CASE140,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Vijayanagar Cross Road resulted in seizure of illegal drug packets.",Medium,PS032,OFF156,High,Under Investigation,No,2,1,2,2,9
+CASE141,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Royal Enfield Bullet 350 bearing registration number KA-50-MQ-8967 from Richards Town Galli.,Medium,PS029,OFF141,Medium,Evidence Collection,No,1,1,1,4,11
+CASE142,Burglary,House Breaking,Accused broke into the shop at Kodigehalli Galli late at night and stole cash and items.,Medium,PS010,OFF047,High,Trial in Progress,Yes,1,1,1,5,11
+CASE143,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Renault Triber bearing registration number KA-45-SZ-4987 from Mathikere Club Road.,Medium,PS027,OFF132,Medium,Trial in Progress,Yes,1,1,3,4,7
+CASE144,Missing Person,Adult Missing,Complainant reported that their family member went missing from near Chikkalasandra Bypass Road and remains untraceable.,High,PS023,OFF112,Critical,Registered,No,1,0,3,1,7
+CASE145,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Yamaha MT-15 bearing registration number KA-08-ND-7701 was missing from near Kengeri Traffic Transit Management Centre.,Medium,PS015,OFF071,Medium,Case Committed to Court,Yes,1,2,2,3,9
+CASE146,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from KR Puram Bypass Road.,Medium,PS029,OFF141,Medium,Registered,No,2,1,3,5,8
+CASE147,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Renault Triber bearing registration number KA-11-TQ-1567 from Kamal Basti ISKCON Temple.,Medium,PS045,OFF222,Medium,Under Investigation,No,1,0,2,3,10
+CASE148,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Thanisandra Bazaar Street resulted in seizure of illegal drug packets.",High,PS021,OFF102,High,Under Investigation,No,2,3,3,2,8
+CASE149,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Kadri Highway.,High,PS040,OFF196,Critical,Trial in Progress,Yes,1,2,2,5,8
+CASE150,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Tata Tiago bearing registration number KA-19-SA-6313 from Museum Road.,Low,PS009,OFF041,Medium,Under Investigation,No,1,0,3,5,10
+CASE151,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Hyundai Creta bearing registration number KA-01-PT-2110 from Commercial Street Bazaar Street.,Low,PS015,OFF071,Medium,Convicted,Yes,1,2,1,3,6
+CASE152,Missing Person,Adult Missing,A child went missing from near Langford Town Bazaar Street while playing outside.,High,PS025,OFF122,Critical,Under Investigation,No,1,0,1,1,7
+CASE153,Murder,Homicide,The victim was fatally attacked at Dharwad Railway Station following a dispute.,High,PS048,OFF236,Critical,Trial in Progress,Yes,2,2,3,5,11
+CASE154,Missing Person,Child Missing,A child went missing from near Belagavi Railway Station while playing outside.,Medium,PS044,OFF217,Critical,Registered,No,1,0,3,1,6
+CASE155,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Maruti Suzuki Ertiga bearing registration number KA-34-PU-6481 was missing from near Cox Town Junction Road.,Low,PS005,OFF022,Medium,Case Committed to Court,Yes,1,1,2,3,8
+CASE156,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Horamavu Agara Main Road resulted in seizure of illegal drug packets.",Medium,PS022,OFF106,High,Convicted,Yes,2,1,5,4,11
+CASE157,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Museum Road.,High,PS021,OFF102,Critical,Trial in Progress,Yes,2,1,2,2,6
+CASE158,Public Disorder,Rioting,Altercation between groups near Karanji Lake Mysuru disturbed public peace and order.,Medium,PS034,OFF166,Medium,Under Investigation,No,2,3,2,3,11
+CASE159,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Tata Nexon bearing registration number KA-42-RB-9953 was missing from near Vidyaranyapuram Mysuru Galli.,Medium,PS032,OFF156,Medium,Registered,No,1,1,2,2,8
+CASE160,Murder,Homicide,The victim was fatally attacked at Chamundipuram Highway following a dispute.,High,PS036,OFF177,Critical,Case Committed to Court,Yes,1,3,4,4,11
+CASE161,Assault,Simple Assault,"A physical altercation broke out at Mathikere Club Road between the accused and the victim, resulting in injuries to the victim.",Medium,PS007,OFF031,High,Trial in Progress,Yes,2,2,5,5,9
+CASE162,Fraud,Financial Fraud,The victim was cheated of Rs. 419000 by promising high returns on investment.,High,PS033,OFF161,High,Chargesheet Filed,Yes,2,2,3,2,8
+CASE163,Kidnapping,Kidnapping,"The child was reported missing from Arekere Link Road, later confirmed as a kidnapping call.",High,PS001,OFF001,Critical,Convicted,Yes,2,2,2,5,11
+CASE164,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Chamundipuram Highway.,Medium,PS032,OFF156,Critical,Trial in Progress,Yes,3,3,5,4,6
+CASE165,Theft,Commercial Theft,An unknown person entered St. John's Medical College Hospital and stole valuables valued at approximately Rs. 459000.,Low,PS018,OFF087,Medium,Case Committed to Court,Yes,1,1,1,5,7
+CASE166,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Gokul Road Bus Stand Hubli.,High,PS047,OFF232,Critical,Case Committed to Court,Yes,2,2,4,4,11
+CASE167,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 23000 in an online scam.,Low,PS033,OFF161,Medium,Under Investigation,No,2,1,3,5,11
+CASE168,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS037,OFF181,High,Under Investigation,No,2,1,2,5,12
+CASE169,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked TVS Ntorq 125 bearing registration number KA-17-MT-4372 from Bowring and Lady Curzon Hospital.,Medium,PS009,OFF041,Medium,Convicted,Yes,1,2,3,2,7
+CASE170,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 156000 in an online scam.,Medium,PS033,OFF162,Medium,Trial in Progress,Yes,1,1,3,5,12
+CASE171,Assault,Grievous Assault,"A physical altercation broke out at Kodigehalli Galli between the accused and the victim, resulting in injuries to the victim.",High,PS018,OFF087,High,Chargesheet Filed,Yes,3,1,2,3,7
+CASE172,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Saraswatpur Dharwad 1th Lane.,High,PS048,OFF237,Critical,Convicted,Yes,2,2,5,3,5
+CASE173,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Mahindra Thar bearing registration number KA-30-TT-3841 from MG Road Metro Station.,Low,PS006,OFF026,Medium,Case Committed to Court,Yes,1,2,2,5,10
+CASE174,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Kasturba Medical College Hospital Mangaluru causing damage and loss.,Medium,PS042,OFF207,High,Under Investigation,No,1,1,2,5,9
+CASE175,Kidnapping,Kidnapping,"The child was reported missing from Tumkur Railway Station, later confirmed as a kidnapping call.",High,PS050,OFF247,Critical,Under Investigation,No,1,2,4,5,5
+CASE176,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS046,OFF226,High,Under Investigation,No,1,2,2,4,12
+CASE177,Burglary,House Breaking,"The lock of the house located at Kathriguppe Highway was broken, and valuables were stolen while the family was away.",High,PS024,OFF117,High,Under Investigation,No,1,0,1,4,8
+CASE178,Burglary,House Breaking,Accused broke into the shop at Harlur Road 4th Ring Road late at night and stole cash and items.,High,PS006,OFF027,High,Evidence Collection,No,1,0,3,5,7
+CASE179,Missing Person,Child Missing,A child went missing from near Saraswatpur Dharwad Cross Road while playing outside.,Medium,PS048,OFF237,Critical,Chargesheet Filed,Yes,1,1,1,1,8
+CASE180,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS048,OFF237,High,Chargesheet Filed,Yes,1,2,3,3,11
+CASE181,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Kia Seltos bearing registration number KA-51-NA-1720 was missing from near CV Raman Nagar Club Road.,Low,PS023,OFF112,Medium,Registered,No,1,0,1,4,7
+CASE182,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Hindwadi Lane causing damage and loss.,High,PS043,OFF211,High,Under Investigation,No,1,0,3,5,9
+CASE183,Missing Person,Adult Missing,A child went missing from near Kadri Highway while playing outside.,Medium,PS041,OFF202,Critical,Chargesheet Filed,Yes,1,1,2,2,8
+CASE184,Missing Person,Child Missing,Complainant reported that their family member went missing from near Benson Town Bazaar Street and remains untraceable.,Medium,PS028,OFF137,Critical,Evidence Collection,No,1,0,3,2,5
+CASE185,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS005,OFF022,High,Under Investigation,No,2,2,2,5,8
+CASE186,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 345000 in an online scam.,Low,PS047,OFF232,Medium,Registered,No,2,1,2,2,10
+CASE187,Cyber Crime,Phishing,Victim's social media account was hacked and misuse reported from Uttarahalli Club Road.,Medium,PS005,OFF022,Medium,Under Investigation,No,2,2,3,4,10
+CASE188,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 261000 in an online scam.,Low,PS048,OFF236,Medium,Case Committed to Court,Yes,1,1,1,4,8
+CASE189,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Gokulam Galli.,Medium,PS037,OFF181,Critical,Evidence Collection,No,3,1,2,5,7
+CASE190,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Tata Tiago bearing registration number KA-25-MJ-4352 was missing from near A J Hospital and Research Centre.,Medium,PS042,OFF207,Medium,Chargesheet Filed,Yes,1,1,1,5,7
+CASE191,Theft,Commercial Theft,The victim noticed that their parked valuables was missing from near Banaswadi Bypass Road.,Medium,PS022,OFF106,Medium,Under Investigation,No,1,2,1,2,6
+CASE192,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Ashok Leyland Dost bearing registration number KA-04-QS-8574 was missing from near Lingarajapuram Station Road.,Low,PS013,OFF061,Medium,Trial in Progress,Yes,1,1,1,3,11
+CASE193,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Tata Punch bearing registration number KA-41-NV-6192 was missing from near Saptapur Main Road.,Medium,PS049,OFF241,Medium,Evidence Collection,No,1,2,3,2,8
+CASE194,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked TVS Apache RTR 160 bearing registration number KA-39-ML-5791 from Hennur Gardens Lane.,Low,PS020,OFF096,Medium,Acquitted,Yes,1,2,1,2,11
+CASE195,Theft,Residential Theft,The victim noticed that their parked valuables was missing from near Nazarbad Bypass Road.,Medium,PS037,OFF182,Medium,Evidence Collection,No,1,1,1,3,9
+CASE196,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Maruti Suzuki Ertiga bearing registration number KA-12-SW-7134 was missing from near Cox Town Junction Road.,Medium,PS005,OFF021,Medium,Case Committed to Court,Yes,1,1,2,5,11
+CASE197,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Bannerghatta Road Highway.,High,PS022,OFF106,Critical,Chargesheet Filed,Yes,2,1,2,3,7
+CASE198,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Mahindra Scorpio-N bearing registration number KA-47-NM-7716 from Tannirbhavi Beach.,Medium,PS039,OFF191,Medium,Convicted,Yes,1,2,3,4,11
+CASE199,Assault,Grievous Assault,The victim was assaulted by Aaradhya Verma near Mathikere Club Road over a personal dispute.,Medium,PS018,OFF087,High,Under Investigation,No,1,1,4,2,5
+CASE200,Cyber Crime,Identity Theft,Victim's social media account was hacked and misuse reported from Gokulam 2th Temple Road.,Low,PS031,OFF152,Medium,Under Investigation,No,2,2,3,5,9
+CASE201,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS032,OFF157,High,Case Committed to Court,Yes,2,2,2,3,8
+CASE202,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Karanji Lake.,Low,PS020,OFF097,Medium,Under Investigation,No,2,1,3,2,11
+CASE203,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Majestic Metro Station resulted in seizure of illegal drug packets.",Medium,PS023,OFF112,High,Under Investigation,No,1,1,4,2,10
+CASE204,Public Disorder,Rioting,Altercation between groups near Ganganagar Station Road disturbed public peace and order.,Medium,PS017,OFF082,Medium,Under Investigation,No,1,2,4,5,12
+CASE205,Theft,Residential Theft,The victim noticed that their parked valuables was missing from near Kammanahalli Main Road.,Medium,PS027,OFF132,Medium,Evidence Collection,No,1,1,2,5,8
+CASE206,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Tata 407 bearing registration number KA-24-QD-5009 from Surathkal Cross Road.,Medium,PS040,OFF197,Medium,Convicted,Yes,1,1,3,5,6
+CASE207,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Skoda Slavia bearing registration number KA-16-QW-3585 from Kudlu Gate 3th Lane.,Low,PS016,OFF077,Medium,Under Investigation,No,1,1,3,5,9
+CASE208,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Tavarekere Main Road causing damage and loss.,Medium,PS025,OFF121,High,Under Investigation,No,1,1,3,2,11
+CASE209,Assault,Simple Assault,The victim was assaulted by Sunita Singh near Baiyappanahalli Metro Station over a personal dispute.,High,PS004,OFF017,High,Under Investigation,No,2,3,2,3,9
+CASE210,Fraud,Financial Fraud,The victim was cheated of Rs. 131000 by promising high returns on investment.,Medium,PS012,OFF057,High,Case Committed to Court,Yes,2,2,1,3,9
+CASE211,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Gokul Road 5th Station Road.,Low,PS046,OFF226,Medium,Chargesheet Filed,Yes,1,2,3,5,12
+CASE212,Assault,Grievous Assault,The victim was assaulted by Deepak Rao near A J Hospital and Research Centre over a personal dispute.,High,PS041,OFF202,High,Evidence Collection,No,3,3,3,5,11
+CASE213,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 409000 in an online scam.,Low,PS002,OFF006,Medium,Chargesheet Filed,Yes,2,2,2,2,10
+CASE214,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Ullal Link Road causing damage and loss.,Medium,PS039,OFF191,High,Chargesheet Filed,Yes,1,1,2,4,7
+CASE215,Missing Person,Child Missing,A child went missing from near Saraswathipuram 3th Highway while playing outside.,Medium,PS034,OFF166,Critical,Chargesheet Filed,Yes,1,1,2,2,4
+CASE216,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Vidyaranyapura Double Road causing damage and loss.,High,PS030,OFF146,High,Chargesheet Filed,Yes,1,1,1,5,8
+CASE217,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Bajaj RE bearing registration number KA-34-NV-7077 from Dharwad Railway Station.,Medium,PS049,OFF241,Medium,Chargesheet Filed,Yes,1,1,2,2,7
+CASE218,Vehicle Theft,Two Wheeler Theft,The victim noticed that their parked Ather 450X bearing registration number KA-36-NT-8371 was missing from near JP Nagar 8th Phase 1th Double Road.,Low,PS027,OFF131,Medium,Case Committed to Court,Yes,1,1,2,4,7
+CASE219,Assault,Grievous Assault,The victim was assaulted by Renu Joshi near Mysore Zoo (Chamarajendra Zoological Gardens) over a personal dispute.,Medium,PS037,OFF182,High,Evidence Collection,No,1,2,3,2,10
+CASE220,Narcotics,Drug Possession,"During a patrol near Mathikere Club Road, suspect was found in possession of contraband substances.",Medium,PS003,OFF011,High,Evidence Collection,No,2,2,5,2,11
+CASE221,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 6000 in an online scam.,Medium,PS031,OFF152,Medium,Convicted,Yes,2,2,3,3,9
+CASE222,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS019,OFF091,High,Under Investigation,No,2,2,3,4,9
+CASE223,Burglary,House Breaking,"The lock of the house located at Mangaluru Central Railway Station was broken, and valuables were stolen while the family was away.",Medium,PS041,OFF201,High,Under Investigation,No,1,2,3,4,10
+CASE224,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Yeshwanthpur Ring Road.,Medium,PS008,OFF036,Medium,Convicted,Yes,1,1,3,4,7
+CASE225,Murder,Homicide,The victim was fatally attacked at Kathriguppe Highway following a dispute.,Medium,PS029,OFF142,Critical,Under Investigation,No,2,1,6,4,15
+CASE226,Assault,Grievous Assault,"An argument escalated near JP Nagar 8th Phase 1th Double Road, leading the accused to physically attack the complainant.",Medium,PS020,OFF097,High,Trial in Progress,Yes,1,3,5,3,8
+CASE227,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at RT Nagar Main Road.,Medium,PS019,OFF091,High,Evidence Collection,No,1,1,2,2,5
+CASE228,Cyber Crime,Phishing,Victim's social media account was hacked and misuse reported from Hampankatta Highway.,Low,PS042,OFF207,Medium,Under Investigation,No,1,1,2,5,10
+CASE229,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 229000 in an online scam.,Low,PS011,OFF052,Medium,Chargesheet Filed,Yes,2,1,1,5,7
+CASE230,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Mathikere Club Road.,Medium,PS026,OFF127,High,Evidence Collection,No,1,2,1,1,8
+CASE231,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Bangalore Palace.,High,PS021,OFF101,Critical,Under Investigation,No,1,1,5,5,12
+CASE232,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS012,OFF057,High,Chargesheet Filed,Yes,2,1,2,3,12
+CASE233,Fraud,Financial Fraud,The victim was cheated of Rs. 93000 by promising high returns on investment.,High,PS006,OFF027,High,Convicted,Yes,1,2,2,5,7
+CASE234,Public Disorder,Rioting,Altercation between groups near Mysuru Road Satellite Bus Station disturbed public peace and order.,Medium,PS022,OFF106,Medium,Chargesheet Filed,Yes,3,3,3,5,9
+CASE235,Assault,Grievous Assault,"A physical altercation broke out at National Law School of India University between the accused and the victim, resulting in injuries to the victim.",High,PS017,OFF081,High,Case Committed to Court,Yes,1,1,3,3,12
+CASE236,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Ullal Link Road resulted in seizure of illegal drug packets.",High,PS039,OFF191,High,Under Investigation,No,3,1,4,5,9
+CASE237,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Hero HF Deluxe bearing registration number KA-23-PN-2414 from Freedom Park Gandhinagar.,Low,PS001,OFF001,Medium,Under Investigation,No,1,2,3,3,6
+CASE238,Cyber Crime,UPI Fraud,Complainant received phishing messages and lost Rs. 72000 in an online scam.,Medium,PS035,OFF171,Medium,Case Committed to Court,Yes,2,2,1,4,10
+CASE239,Fraud,Financial Fraud,The victim was cheated of Rs. 82000 by promising high returns on investment.,High,PS033,OFF161,High,Under Investigation,No,2,1,3,3,12
+CASE240,Public Disorder,Rioting,A crowd assembled unlawfully near Hebbal Mysuru Lane and engaged in stone pelting and rioting.,Low,PS032,OFF156,Medium,Trial in Progress,Yes,1,2,5,5,12
+CASE241,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Maruti Suzuki Brezza bearing registration number KA-30-TK-3474 from Kumaraswamy Layout Station Road.,Medium,PS028,OFF137,Medium,Under Investigation,No,1,1,1,3,9
+CASE242,Burglary,House Breaking,Accused broke into the shop at Subramanyapura Bypass Road late at night and stole cash and items.,Medium,PS023,OFF112,High,Trial in Progress,Yes,1,1,1,5,11
+CASE243,Public Disorder,Rioting,A crowd assembled unlawfully near Chikkalasandra Bypass Road and engaged in stone pelting and rioting.,Low,PS029,OFF141,Medium,Trial in Progress,Yes,2,2,2,4,8
+CASE244,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Hero Splendor Plus bearing registration number KA-26-PT-1185 was missing from near Nexus Shantiniketan Mall.,Low,PS003,OFF011,Medium,Evidence Collection,No,1,0,1,3,10
+CASE245,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,High,PS013,OFF062,High,Evidence Collection,No,2,1,2,2,7
+CASE246,Cyber Crime,Identity Theft,Complainant received phishing messages and lost Rs. 153000 in an online scam.,Medium,PS025,OFF122,Medium,Registered,No,1,2,3,3,8
+CASE247,Fraud,Financial Fraud,The victim was cheated of Rs. 462000 by promising high returns on investment.,High,PS032,OFF157,High,Convicted,Yes,1,1,2,2,10
+CASE248,Theft,Residential Theft,An unknown person entered Rashtreeya Vidyalaya Road and stole valuables valued at approximately Rs. 460000.,Medium,PS005,OFF021,Medium,Trial in Progress,Yes,1,1,2,3,11
+CASE249,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Gottigere 5th Galli.,Medium,PS003,OFF012,Critical,Acquitted,Yes,1,2,2,5,7
+CASE250,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Hero HF Deluxe bearing registration number KA-18-TG-1293 from Kempegowda International Airport.,Low,PS019,OFF092,Medium,Chargesheet Filed,Yes,1,1,1,2,8
+CASE251,Public Disorder,Rioting,Altercation between groups near Victoria Hospital disturbed public peace and order.,Medium,PS012,OFF056,Medium,Trial in Progress,Yes,2,3,3,2,8
+CASE252,Fraud,Financial Fraud,The victim was cheated of Rs. 299000 by promising high returns on investment.,High,PS030,OFF147,High,Chargesheet Filed,Yes,1,2,2,2,7
+CASE253,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Lalbagh Mangaluru 4th Cross Road.,High,PS038,OFF187,Critical,Under Investigation,No,2,2,2,2,12
+CASE254,Cyber Crime,Identity Theft,Victim's social media account was hacked and misuse reported from Saraswathipuram 3th Highway.,Medium,PS037,OFF181,Medium,Acquitted,Yes,2,1,2,4,11
+CASE255,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from JP Nagar Mysuru Ring Road.,Low,PS035,OFF171,Medium,Under Investigation,No,1,1,3,2,8
+CASE256,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Bajaj Platina 100 bearing registration number KA-38-QJ-1301 from Derebail Bazaar Street.,Low,PS038,OFF186,Medium,Under Investigation,No,1,2,1,2,10
+CASE257,Kidnapping,Kidnapping,"The child was reported missing from Manyata Tech Park, later confirmed as a kidnapping call.",Medium,PS014,OFF067,Critical,Under Investigation,No,2,3,4,3,11
+CASE258,Assault,Grievous Assault,"An argument escalated near Varthur Temple Road, leading the accused to physically attack the complainant.",Medium,PS015,OFF071,High,Registered,No,2,1,5,2,9
+CASE259,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Global Village Tech Park.,Medium,PS030,OFF147,High,Registered,No,1,2,4,2,6
+CASE260,Public Disorder,Rioting,A crowd assembled unlawfully near Neelasandra 3th Ring Road and engaged in stone pelting and rioting.,Low,PS011,OFF052,Medium,Under Investigation,No,2,1,3,2,7
+CASE261,Murder,Homicide,The victim was fatally attacked at Vidyaranyapuram Mysuru 4th Station Road following a dispute.,Medium,PS034,OFF166,Critical,Under Investigation,No,1,1,5,7,13
+CASE262,Cyber Crime,Phishing,Victim's social media account was hacked and misuse reported from Banashankari 2th Church Road.,Low,PS019,OFF091,Medium,Under Investigation,No,2,2,3,4,8
+CASE263,Fraud,Financial Fraud,The victim was cheated of Rs. 59000 by promising high returns on investment.,High,PS008,OFF036,High,Trial in Progress,Yes,1,1,1,4,8
+CASE264,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS008,OFF037,High,Evidence Collection,No,2,2,1,2,12
+CASE265,Assault,Grievous Assault,The victim was assaulted by Suresh Prasad near JP Nagar 7th Phase Link Road over a personal dispute.,Medium,PS026,OFF127,High,Under Investigation,No,1,1,2,5,11
+CASE266,Murder,Homicide,"A body was found near Hosur Road with visible injury marks, suggesting homicide.",Medium,PS030,OFF146,Critical,Evidence Collection,No,1,3,3,7,11
+CASE267,Missing Person,Adult Missing,A child went missing from near ISKCON Temple Rajajinagar while playing outside.,Medium,PS016,OFF076,Critical,Chargesheet Filed,Yes,1,1,3,2,6
+CASE268,Fraud,Financial Fraud,The victim was cheated of Rs. 148000 by promising high returns on investment.,Medium,PS050,OFF246,High,Under Investigation,No,1,2,3,2,7
+CASE269,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Honda CB Shine bearing registration number KA-54-MW-7970 was missing from near K R Hospital Mysuru.,Medium,PS031,OFF152,Medium,Under Investigation,No,1,0,1,5,10
+CASE270,Kidnapping,Kidnapping,The victim was abducted by unidentified persons in a vehicle from Narayana Health City Bommasandra.,High,PS026,OFF127,Critical,Under Investigation,No,1,1,5,4,11
+CASE271,Missing Person,Child Missing,A child went missing from near Orion Mall Malleshwaram while playing outside.,High,PS021,OFF102,Critical,Chargesheet Filed,Yes,1,1,2,1,4
+CASE272,Cyber Crime,Identity Theft,Victim's social media account was hacked and misuse reported from Ganganagar Station Road.,Low,PS014,OFF066,Medium,Convicted,Yes,1,2,3,5,11
+CASE273,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Kalasipalyam Main Road.,Medium,PS029,OFF142,Critical,Chargesheet Filed,Yes,2,3,4,4,12
+CASE274,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 393000 in an online scam.,Medium,PS032,OFF156,Medium,Registered,No,2,2,1,4,8
+CASE275,Public Disorder,Rioting,A crowd assembled unlawfully near Bhagya Nagar Ring Road and engaged in stone pelting and rioting.,Low,PS043,OFF212,Medium,Evidence Collection,No,3,2,5,4,5
+CASE276,Narcotics,Drug Possession,"Based on a tip-off, raid conducted at Gottigere Cross Road resulted in seizure of illegal drug packets.",Medium,PS011,OFF052,High,Evidence Collection,No,3,2,5,3,11
+CASE277,Sexual Offence,Sexual Assault,An unknown person assaulted the victim at a secluded spot near Vijayanagar Cross Road.,Medium,PS033,OFF161,Critical,Chargesheet Filed,Yes,2,1,5,3,12
+CASE278,Murder,Homicide,"A body was found near Hebbal Mysuru Lane with visible injury marks, suggesting homicide.",Medium,PS033,OFF161,Critical,Evidence Collection,No,2,3,4,5,11
+CASE279,Missing Person,Adult Missing,Complainant reported that their family member went missing from near Banashankari Junction Road and remains untraceable.,Medium,PS016,OFF076,Critical,Evidence Collection,No,1,0,2,2,4
+CASE280,Assault,Grievous Assault,"A physical altercation broke out at Vikasa Soudha between the accused and the victim, resulting in injuries to the victim.",High,PS012,OFF056,High,Chargesheet Filed,Yes,2,1,3,3,10
+CASE281,Theft,Commercial Theft,The victim noticed that their parked valuables was missing from near Chamrajpet Cross Road.,Low,PS015,OFF071,Medium,Registered,No,1,1,1,2,9
+CASE282,Kidnapping,Kidnapping,"The child was reported missing from Mysore Suburban Bus Stand, later confirmed as a kidnapping call.",High,PS031,OFF152,Critical,Closed,Yes,1,3,4,3,5
+CASE283,Theft,Commercial Theft,The victim noticed that their parked valuables was missing from near Gandhi Bazaar 5th Station Road.,Low,PS023,OFF111,Medium,Evidence Collection,No,1,1,2,3,7
+CASE284,Domestic Violence,Physical Abuse,Complainant reported constant harassment and physical abuse at Mantri Square Mall.,Medium,PS028,OFF136,High,Under Investigation,No,1,1,1,1,5
+CASE285,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 147000 in an online scam.,Medium,PS022,OFF106,Medium,Chargesheet Filed,Yes,1,1,1,3,12
+CASE286,Fraud,Financial Fraud,The victim was cheated of Rs. 169000 by promising high returns on investment.,High,PS012,OFF056,High,Under Investigation,No,2,1,3,2,8
+CASE287,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Horamavu Agara 2th Galli causing damage and loss.,Medium,PS001,OFF002,High,Convicted,Yes,1,1,2,3,7
+CASE288,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Maruti Suzuki Dzire bearing registration number KA-05-QT-5941 was missing from near Kadri Highway.,Low,PS042,OFF206,Medium,Evidence Collection,No,1,1,2,4,11
+CASE289,Robbery,Armed Robbery,An incident of Armed Robbery occurred near Saptapur Main Road causing damage and loss.,High,PS048,OFF237,High,Under Investigation,No,1,1,2,4,8
+CASE290,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Honda Activa 6G bearing registration number KA-33-RE-4349 from Harlur Road 4th Ring Road.,Medium,PS029,OFF141,Medium,Chargesheet Filed,Yes,1,1,3,2,10
+CASE291,Vehicle Theft,Two Wheeler Theft,An unknown person stole the complainant's parked Tata 407 bearing registration number KA-38-RF-6580 from Camp Belagavi Church Road.,Medium,PS043,OFF211,Medium,Chargesheet Filed,Yes,1,1,2,2,8
+CASE292,Vehicle Theft,Four Wheeler Theft,The victim noticed that their parked Bajaj Platina 100 bearing registration number KA-27-SR-1997 was missing from near SIT Extension Church Road.,Medium,PS050,OFF246,Medium,Under Investigation,No,1,1,1,2,10
+CASE293,Sexual Offence,Sexual Assault,Victim complained of sexual harassment and assault by the accused near Deshpande Nagar Station Road.,Medium,PS046,OFF227,Critical,Chargesheet Filed,Yes,1,2,2,3,12
+CASE294,Narcotics,Drug Possession,"During a patrol near Kadri Manjunath Temple, suspect was found in possession of contraband substances.",Medium,PS040,OFF196,High,Trial in Progress,Yes,1,2,4,3,5
+CASE295,Kidnapping,Kidnapping,"The child was reported missing from Bannerghatta Biological Park, later confirmed as a kidnapping call.",High,PS010,OFF046,Critical,Convicted,Yes,1,1,4,4,5
+CASE296,Cyber Crime,Phishing,Complainant received phishing messages and lost Rs. 486000 in an online scam.,Medium,PS022,OFF106,Medium,Chargesheet Filed,Yes,1,1,1,5,8
+CASE297,Fraud,Financial Fraud,Accused impersonated a bank official to fraudulently transfer money from the victim's account.,Medium,PS040,OFF196,High,Chargesheet Filed,Yes,2,2,2,4,10
+CASE298,Vehicle Theft,Four Wheeler Theft,An unknown person stole the complainant's parked Maruti Suzuki Swift bearing registration number KA-41-PC-7060 from Gokul Road Bus Stand Hubli.,Medium,PS046,OFF227,Medium,Evidence Collection,No,1,1,1,3,6
+CASE299,Cyber Crime,UPI Fraud,Victim's social media account was hacked and misuse reported from Hubli Junction Railway Station (Shree Siddharoodha Swamiji).,Low,PS047,OFF231,Medium,Under Investigation,No,1,2,3,2,10
+CASE300,Burglary,House Breaking,Accused broke into the shop at Hulimavu Highway late at night and stole cash and items.,Medium,PS002,OFF007,High,Acquitted,Yes,1,1,1,4,6

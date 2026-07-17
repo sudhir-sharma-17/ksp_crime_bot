@@ -1,0 +1,251 @@
+vehicle_id,vehicle_registration_number,manufacturer,model,vehicle_type,color,owner_person_id,owner_type,linked_case_id,linked_fir_id,status,remarks
+VHE001,KA52PL8032,KTM,Duke 200,Hatchback,White,VICT219,Victim,CASE271,FIR271,Seized,Vehicle reported in case CASE271.
+VHE002,KA24RG2630,Tata,407,Hatchback,White,COMP099,Complainant,CASE178,FIR178,Seized,Vehicle reported in case CASE178.
+VHE003,KA33SR3215,Tata,Tiago,Hatchback,White,COMP243,Complainant,CASE180,FIR180,Stolen,Vehicle reported in case CASE180.
+VHE004,KA54NR2162,Tata,Punch,Hatchback,White,VICT157,Victim,CASE095,FIR095,Stolen,Vehicle reported in case CASE095.
+VHE005,KA48MF4855,Mahindra,Thar,Hatchback,White,VICT084,Victim,CASE265,FIR265,Stolen,Vehicle reported in case CASE265.
+VHE006,KA32NP7785,Bajaj,RE,Hatchback,White,VICT292,Victim,CASE253,FIR253,Stolen,Vehicle reported in case CASE253.
+VHE007,KA25SV6126,Maruti Suzuki,Brezza,Hatchback,White,COMP060,Complainant,CASE289,FIR289,Active,Vehicle reported in case CASE289.
+VHE008,KA43SJ4614,Bajaj,RE,Hatchback,White,COMP177,Complainant,CASE212,FIR212,Recovered,Vehicle reported in case CASE212.
+VHE009,KA13RL1436,TVS,Apache RTR 160,Hatchback,White,COMP062,Complainant,CASE261,FIR261,Active,Vehicle reported in case CASE261.
+VHE010,KA01SB1067,Suzuki,Access 125,Hatchback,White,COMP092,Complainant,CASE066,FIR066,Stolen,Vehicle reported in case CASE066.
+VHE011,KA23NE3733,Suzuki,Access 125,Hatchback,White,COMP295,Complainant,CASE184,FIR184,Active,Vehicle reported in case CASE184.
+VHE012,KA50MS9656,TVS,Jupiter,Hatchback,White,VICT197,Victim,CASE037,FIR037,Active,Vehicle reported in case CASE037.
+VHE013,KA08TA2509,Maruti Suzuki,Swift,Hatchback,White,COMP135,Complainant,CASE239,FIR239,Seized,Vehicle reported in case CASE239.
+VHE014,KA37RZ2632,Tata,Ace,Hatchback,White,VICT099,Victim,CASE291,FIR291,Stolen,Vehicle reported in case CASE291.
+VHE015,KA51QP6311,Ola,S1 Pro,Hatchback,White,VICT264,Victim,CASE272,FIR272,Seized,Vehicle reported in case CASE272.
+VHE016,KA30SP1634,TVS,Apache RTR 160,Hatchback,White,COMP063,Complainant,CASE218,FIR218,Stolen,Vehicle reported in case CASE218.
+VHE017,KA16TM1871,Honda,CB Shine,Hatchback,White,VICT175,Victim,CASE008,FIR008,Active,Vehicle reported in case CASE008.
+VHE018,KA53NE8586,Ashok Leyland,Dost,Hatchback,White,COMP179,Complainant,CASE080,FIR080,Seized,Vehicle reported in case CASE080.
+VHE019,KA06SP5213,Tata,Ace,Hatchback,White,VICT221,Victim,CASE154,FIR154,Active,Vehicle reported in case CASE154.
+VHE020,KA35QN8648,Hyundai,Grand i10 Nios,Hatchback,White,VICT211,Victim,CASE062,FIR062,Seized,Vehicle reported in case CASE062.
+VHE021,KA11SS5997,Honda,Activa 6G,Hatchback,White,COMP007,Complainant,CASE057,FIR057,Recovered,Vehicle reported in case CASE057.
+VHE022,KA49QJ4135,Maruti Suzuki,Dzire,Hatchback,White,VICT251,Victim,CASE050,FIR050,Stolen,Vehicle reported in case CASE050.
+VHE023,KA49QH9317,Tata,407,Hatchback,White,COMP093,Complainant,CASE076,FIR076,Seized,Vehicle reported in case CASE076.
+VHE024,KA55SX9883,Maruti Suzuki,Ertiga,Hatchback,White,COMP247,Complainant,CASE219,FIR219,Recovered,Vehicle reported in case CASE219.
+VHE025,KA42SE4425,Renault,Triber,Hatchback,White,VICT169,Victim,CASE023,FIR023,Stolen,Vehicle reported in case CASE023.
+VHE026,KA22PD8712,Volkswagen,Virtus,Hatchback,White,VICT237,Victim,CASE276,FIR276,Active,Vehicle reported in case CASE276.
+VHE027,KA53QC1693,Maruti Suzuki,Ertiga,Hatchback,White,COMP019,Complainant,CASE010,FIR010,Seized,Vehicle reported in case CASE010.
+VHE028,KA39MD9678,Tata,Tiago,Hatchback,White,VICT256,Victim,CASE123,FIR123,Recovered,Vehicle reported in case CASE123.
+VHE029,KA41NK9326,Hyundai,Venue,Hatchback,White,COMP147,Complainant,CASE029,FIR029,Recovered,Vehicle reported in case CASE029.
+VHE030,KA26RW7371,KTM,Duke 200,Hatchback,White,VICT359,Victim,CASE178,FIR178,Seized,Vehicle reported in case CASE178.
+VHE031,KA44RB1309,Hyundai,Creta,Hatchback,White,VICT256,Victim,CASE174,FIR174,Active,Vehicle reported in case CASE174.
+VHE032,KA22MY4473,Bajaj,Pulsar 150,Hatchback,White,COMP283,Complainant,CASE070,FIR070,Recovered,Vehicle reported in case CASE070.
+VHE033,KA32MX9806,Yamaha,R15,Hatchback,White,VICT199,Victim,CASE275,FIR275,Seized,Vehicle reported in case CASE275.
+VHE034,KA02MX4244,Mahindra,XUV700,Hatchback,White,COMP126,Complainant,CASE260,FIR260,Seized,Vehicle reported in case CASE260.
+VHE035,KA46SK2788,Mahindra,Thar,Hatchback,White,COMP116,Complainant,CASE083,FIR083,Active,Vehicle reported in case CASE083.
+VHE036,KA48PL8431,Suzuki,Access 125,Hatchback,White,VICT230,Victim,CASE128,FIR128,Recovered,Vehicle reported in case CASE128.
+VHE037,KA54TR1622,Ather,450X,Hatchback,White,VICT186,Victim,CASE099,FIR099,Active,Vehicle reported in case CASE099.
+VHE038,KA03PK8969,TVS,Ntorq 125,Hatchback,White,VICT296,Victim,CASE120,FIR120,Stolen,Vehicle reported in case CASE120.
+VHE039,KA41MT3552,Tata,Tiago,Hatchback,White,VICT240,Victim,CASE161,FIR161,Active,Vehicle reported in case CASE161.
+VHE040,KA55TZ1004,Hyundai,Verna,Hatchback,White,COMP154,Complainant,CASE060,FIR060,Active,Vehicle reported in case CASE060.
+VHE041,KA40TN1175,Toyota,Fortuner,Hatchback,White,VICT207,Victim,CASE052,FIR052,Stolen,Vehicle reported in case CASE052.
+VHE042,KA53ST4061,Mahindra,Thar,Hatchback,White,COMP045,Complainant,CASE009,FIR009,Active,Vehicle reported in case CASE009.
+VHE043,KA21RP5984,KTM,Duke 200,Hatchback,White,COMP012,Complainant,CASE300,FIR300,Active,Vehicle reported in case CASE300.
+VHE044,KA21NG7183,Hero,HF Deluxe,Hatchback,White,VICT297,Victim,CASE069,FIR069,Active,Vehicle reported in case CASE069.
+VHE045,KA38MS7623,Bajaj,Pulsar 150,Hatchback,White,VICT164,Victim,CASE203,FIR203,Active,Vehicle reported in case CASE203.
+VHE046,KA14PL5503,Tata,407,Hatchback,White,VICT144,Victim,CASE087,FIR087,Recovered,Vehicle reported in case CASE087.
+VHE047,KA02QU3509,Hyundai,i20,Hatchback,White,VICT271,Victim,CASE124,FIR124,Stolen,Vehicle reported in case CASE124.
+VHE048,KA01NM9760,Ola,S1 Pro,Hatchback,White,VICT189,Victim,CASE208,FIR208,Recovered,Vehicle reported in case CASE208.
+VHE049,KA17SK2587,Renault,Triber,Hatchback,White,COMP260,Complainant,CASE266,FIR266,Seized,Vehicle reported in case CASE266.
+VHE050,KA54NK9951,Royal Enfield,Bullet 350,Hatchback,White,COMP226,Complainant,CASE084,FIR084,Active,Vehicle reported in case CASE084.
+VHE051,KA55TQ9291,Ashok Leyland,Dost,Hatchback,White,VICT025,Victim,CASE255,FIR255,Recovered,Vehicle reported in case CASE255.
+VHE052,KA09RC2457,Tata,Tiago,Hatchback,White,VICT045,Victim,CASE252,FIR252,Active,Vehicle reported in case CASE252.
+VHE053,KA43MD1110,KTM,Duke 200,Hatchback,White,COMP090,Complainant,CASE028,FIR028,Active,Vehicle reported in case CASE028.
+VHE054,KA15QC9160,Maruti Suzuki,Baleno,Hatchback,White,VICT134,Victim,CASE055,FIR055,Active,Vehicle reported in case CASE055.
+VHE055,KA41RC9224,Yamaha,R15,Hatchback,White,COMP010,Complainant,CASE032,FIR032,Stolen,Vehicle reported in case CASE032.
+VHE056,KA49MC4730,Royal Enfield,Bullet 350,Hatchback,White,COMP061,Complainant,CASE142,FIR142,Stolen,Vehicle reported in case CASE142.
+VHE057,KA17MC2534,Renault,Triber,Hatchback,White,COMP293,Complainant,CASE083,FIR083,Stolen,Vehicle reported in case CASE083.
+VHE058,KA23SW2278,Maruti Suzuki,Brezza,Hatchback,White,VICT252,Victim,CASE076,FIR076,Seized,Vehicle reported in case CASE076.
+VHE059,KA19NW8344,Kia,Carens,Hatchback,White,VICT166,Victim,CASE194,FIR194,Stolen,Vehicle reported in case CASE194.
+VHE060,KA34SZ6083,Hyundai,Verna,Hatchback,White,COMP192,Complainant,CASE280,FIR280,Recovered,Vehicle reported in case CASE280.
+VHE061,KA14QL8260,Maruti Suzuki,Baleno,Hatchback,White,COMP054,Complainant,CASE150,FIR150,Active,Vehicle reported in case CASE150.
+VHE062,KA48SD4033,Maruti Suzuki,Ertiga,Hatchback,White,COMP262,Complainant,CASE115,FIR115,Recovered,Vehicle reported in case CASE115.
+VHE063,KA34NZ7158,Tata,Altroz,Hatchback,White,COMP291,Complainant,CASE241,FIR241,Active,Vehicle reported in case CASE241.
+VHE064,KA35ME7176,Hyundai,Grand i10 Nios,Hatchback,White,COMP198,Complainant,CASE294,FIR294,Recovered,Vehicle reported in case CASE294.
+VHE065,KA47SQ8422,Toyota,Innova Crysta,Hatchback,White,VICT357,Victim,CASE193,FIR193,Seized,Vehicle reported in case CASE193.
+VHE066,KA30TK9831,Renault,Triber,Hatchback,White,VICT306,Victim,CASE231,FIR231,Active,Vehicle reported in case CASE231.
+VHE067,KA43PV8601,Volkswagen,Virtus,Hatchback,White,VICT110,Victim,CASE260,FIR260,Stolen,Vehicle reported in case CASE260.
+VHE068,KA03QL1556,Renault,Triber,Hatchback,White,VICT269,Victim,CASE069,FIR069,Recovered,Vehicle reported in case CASE069.
+VHE069,KA42SH8781,Royal Enfield,Bullet 350,Hatchback,White,COMP290,Complainant,CASE123,FIR123,Seized,Vehicle reported in case CASE123.
+VHE070,KA30TK2529,Hyundai,Venue,Hatchback,White,COMP223,Complainant,CASE256,FIR256,Active,Vehicle reported in case CASE256.
+VHE071,KA53PQ1855,Maruti Suzuki,Dzire,Hatchback,White,VICT134,Victim,CASE207,FIR207,Stolen,Vehicle reported in case CASE207.
+VHE072,KA48SM3546,TVS,Ntorq 125,Hatchback,White,COMP070,Complainant,CASE035,FIR035,Recovered,Vehicle reported in case CASE035.
+VHE073,KA14MW6443,Hyundai,Creta,Hatchback,White,VICT349,Victim,CASE287,FIR287,Recovered,Vehicle reported in case CASE287.
+VHE074,KA52SS9606,Honda,Activa 6G,Hatchback,White,COMP178,Complainant,CASE171,FIR171,Active,Vehicle reported in case CASE171.
+VHE075,KA26RG1903,Hyundai,Creta,Hatchback,White,COMP256,Complainant,CASE017,FIR017,Active,Vehicle reported in case CASE017.
+VHE076,KA39SU2121,Maruti Suzuki,Ertiga,Hatchback,White,COMP214,Complainant,CASE066,FIR066,Recovered,Vehicle reported in case CASE066.
+VHE077,KA44SW2361,Tata,Altroz,Hatchback,White,VICT116,Victim,CASE157,FIR157,Seized,Vehicle reported in case CASE157.
+VHE078,KA40MU9061,Maruti Suzuki,Baleno,Hatchback,White,VICT002,Victim,CASE280,FIR280,Seized,Vehicle reported in case CASE280.
+VHE079,KA35SN8995,Bajaj,Pulsar 150,Hatchback,White,VICT082,Victim,CASE151,FIR151,Seized,Vehicle reported in case CASE151.
+VHE080,KA54RN4925,Royal Enfield,Himalayan,Hatchback,White,VICT192,Victim,CASE025,FIR025,Seized,Vehicle reported in case CASE025.
+VHE081,KA07QE7419,Honda,Amaze,Hatchback,White,VICT006,Victim,CASE259,FIR259,Active,Vehicle reported in case CASE259.
+VHE082,KA11RX9068,Ola,S1 Pro,Hatchback,White,COMP074,Complainant,CASE052,FIR052,Seized,Vehicle reported in case CASE052.
+VHE083,KA55QP8353,Ola,S1 Pro,Hatchback,White,COMP262,Complainant,CASE239,FIR239,Stolen,Vehicle reported in case CASE239.
+VHE084,KA30MA5387,Ashok Leyland,Dost,Hatchback,White,COMP024,Complainant,CASE244,FIR244,Stolen,Vehicle reported in case CASE244.
+VHE085,KA34TV1366,Honda,CB Shine,Hatchback,White,COMP125,Complainant,CASE054,FIR054,Active,Vehicle reported in case CASE054.
+VHE086,KA03PB4126,Maruti Suzuki,Baleno,Hatchback,White,COMP047,Complainant,CASE243,FIR243,Recovered,Vehicle reported in case CASE243.
+VHE087,KA19MR5206,TVS,Ntorq 125,Hatchback,White,VICT177,Victim,CASE187,FIR187,Seized,Vehicle reported in case CASE187.
+VHE088,KA21MF5052,Bajaj,Platina 100,Hatchback,White,VICT301,Victim,CASE039,FIR039,Active,Vehicle reported in case CASE039.
+VHE089,KA51TK2427,Tata,Altroz,Hatchback,White,VICT208,Victim,CASE100,FIR100,Stolen,Vehicle reported in case CASE100.
+VHE090,KA45NN4273,KTM,Duke 200,Hatchback,White,VICT367,Victim,CASE158,FIR158,Active,Vehicle reported in case CASE158.
+VHE091,KA22MB8314,Maruti Suzuki,Swift,Hatchback,White,COMP167,Complainant,CASE092,FIR092,Seized,Vehicle reported in case CASE092.
+VHE092,KA55SA2053,Kia,Seltos,Hatchback,White,VICT188,Victim,CASE119,FIR119,Active,Vehicle reported in case CASE119.
+VHE093,KA17QA7436,Tata,Harrier,Hatchback,White,VICT321,Victim,CASE246,FIR246,Active,Vehicle reported in case CASE246.
+VHE094,KA33SD4407,Royal Enfield,Himalayan,Hatchback,White,VICT176,Victim,CASE077,FIR077,Seized,Vehicle reported in case CASE077.
+VHE095,KA55PT8097,Yamaha,R15,Hatchback,White,COMP162,Complainant,CASE111,FIR111,Seized,Vehicle reported in case CASE111.
+VHE096,KA02RA5349,Hero,HF Deluxe,Hatchback,White,COMP267,Complainant,CASE142,FIR142,Stolen,Vehicle reported in case CASE142.
+VHE097,KA25NV3513,Tata,Punch,Hatchback,White,VICT327,Victim,CASE207,FIR207,Seized,Vehicle reported in case CASE207.
+VHE098,KA07TG3372,Honda,Amaze,Hatchback,White,COMP018,Complainant,CASE154,FIR154,Stolen,Vehicle reported in case CASE154.
+VHE099,KA12QJ4858,Tata,Nexon,Hatchback,White,VICT365,Victim,CASE014,FIR014,Stolen,Vehicle reported in case CASE014.
+VHE100,KA37TF1281,Maruti Suzuki,WagonR,Hatchback,White,COMP197,Complainant,CASE109,FIR109,Recovered,Vehicle reported in case CASE109.
+VHE101,KA37SZ3480,Hyundai,Venue,Hatchback,White,VICT066,Victim,CASE163,FIR163,Recovered,Vehicle reported in case CASE163.
+VHE102,KA09TT8020,Maruti Suzuki,WagonR,Hatchback,White,COMP057,Complainant,CASE087,FIR087,Seized,Vehicle reported in case CASE087.
+VHE103,KA37SD3293,Hyundai,Creta,Hatchback,White,COMP002,Complainant,CASE014,FIR014,Active,Vehicle reported in case CASE014.
+VHE104,KA12TH9716,Bajaj,Pulsar 150,Hatchback,White,COMP088,Complainant,CASE138,FIR138,Seized,Vehicle reported in case CASE138.
+VHE105,KA08QR2462,Volkswagen,Virtus,Hatchback,White,VICT063,Victim,CASE294,FIR294,Active,Vehicle reported in case CASE294.
+VHE106,KA01QV2398,Hero,Splendor Plus,Hatchback,White,COMP077,Complainant,CASE122,FIR122,Recovered,Vehicle reported in case CASE122.
+VHE107,KA46PU3013,Royal Enfield,Bullet 350,Hatchback,White,COMP186,Complainant,CASE106,FIR106,Stolen,Vehicle reported in case CASE106.
+VHE108,KA24NM8074,Yamaha,MT-15,Hatchback,White,VICT369,Victim,CASE071,FIR071,Seized,Vehicle reported in case CASE071.
+VHE109,KA23SW1360,Tata,Ace,Hatchback,White,COMP295,Complainant,CASE130,FIR130,Stolen,Vehicle reported in case CASE130.
+VHE110,KA18TQ9133,TVS,Ntorq 125,Hatchback,White,VICT282,Victim,CASE085,FIR085,Recovered,Vehicle reported in case CASE085.
+VHE111,KA05RW3106,Maruti Suzuki,Swift,Hatchback,White,VICT281,Victim,CASE083,FIR083,Stolen,Vehicle reported in case CASE083.
+VHE112,KA26NN3132,Tata,Punch,Hatchback,White,COMP109,Complainant,CASE268,FIR268,Active,Vehicle reported in case CASE268.
+VHE113,KA55SK8195,KTM,Duke 200,Hatchback,White,COMP112,Complainant,CASE072,FIR072,Recovered,Vehicle reported in case CASE072.
+VHE114,KA17NP4276,Maruti Suzuki,Dzire,Hatchback,White,COMP202,Complainant,CASE263,FIR263,Stolen,Vehicle reported in case CASE263.
+VHE115,KA11PJ2704,Maruti Suzuki,Swift,Hatchback,White,COMP267,Complainant,CASE249,FIR249,Seized,Vehicle reported in case CASE249.
+VHE116,KA31PV1121,Yamaha,R15,Hatchback,White,VICT145,Victim,CASE047,FIR047,Active,Vehicle reported in case CASE047.
+VHE117,KA28PG5474,Yamaha,R15,Hatchback,White,COMP177,Complainant,CASE235,FIR235,Seized,Vehicle reported in case CASE235.
+VHE118,KA43SB7335,Maruti Suzuki,Ertiga,Hatchback,White,COMP180,Complainant,CASE112,FIR112,Recovered,Vehicle reported in case CASE112.
+VHE119,KA38NW3100,Yamaha,R15,Hatchback,White,VICT340,Victim,CASE276,FIR276,Recovered,Vehicle reported in case CASE276.
+VHE120,KA18SM2944,Kia,Seltos,Hatchback,White,VICT164,Victim,CASE003,FIR003,Active,Vehicle reported in case CASE003.
+VHE121,KA31PJ9095,Royal Enfield,Classic 350,Hatchback,White,COMP165,Complainant,CASE231,FIR231,Stolen,Vehicle reported in case CASE231.
+VHE122,KA28QF6673,Ashok Leyland,Dost,Hatchback,White,COMP054,Complainant,CASE220,FIR220,Recovered,Vehicle reported in case CASE220.
+VHE123,KA12MK4197,Hyundai,Venue,Hatchback,White,VICT228,Victim,CASE064,FIR064,Seized,Vehicle reported in case CASE064.
+VHE124,KA40TK9977,Skoda,Slavia,Hatchback,White,VICT266,Victim,CASE129,FIR129,Recovered,Vehicle reported in case CASE129.
+VHE125,KA28MM3816,Tata,Nexon,Hatchback,White,COMP003,Complainant,CASE166,FIR166,Active,Vehicle reported in case CASE166.
+VHE126,KA36NZ1841,Mahindra,Thar,Hatchback,White,COMP261,Complainant,CASE090,FIR090,Stolen,Vehicle reported in case CASE090.
+VHE127,KA47QW9228,Honda,Activa 6G,Hatchback,White,COMP088,Complainant,CASE019,FIR019,Recovered,Vehicle reported in case CASE019.
+VHE128,KA23NW2884,Honda,Activa 6G,Hatchback,White,VICT074,Victim,CASE101,FIR101,Seized,Vehicle reported in case CASE101.
+VHE129,KA44PR2343,Bajaj,Platina 100,Hatchback,White,COMP251,Complainant,CASE298,FIR298,Recovered,Vehicle reported in case CASE298.
+VHE130,KA38TU1184,Yamaha,MT-15,Hatchback,White,COMP012,Complainant,CASE008,FIR008,Recovered,Vehicle reported in case CASE008.
+VHE131,KA11QV3231,Maruti Suzuki,WagonR,Hatchback,White,VICT293,Victim,CASE293,FIR293,Recovered,Vehicle reported in case CASE293.
+VHE132,KA22TV5106,Bajaj,Platina 100,Hatchback,White,VICT018,Victim,CASE119,FIR119,Recovered,Vehicle reported in case CASE119.
+VHE133,KA54NK1805,Mahindra,Thar,Hatchback,White,VICT243,Victim,CASE017,FIR017,Stolen,Vehicle reported in case CASE017.
+VHE134,KA15QT2705,Volkswagen,Virtus,Hatchback,White,VICT026,Victim,CASE195,FIR195,Seized,Vehicle reported in case CASE195.
+VHE135,KA10PN1221,Hyundai,Creta,Hatchback,White,VICT295,Victim,CASE083,FIR083,Stolen,Vehicle reported in case CASE083.
+VHE136,KA35PD6867,TVS,Ntorq 125,Hatchback,White,COMP072,Complainant,CASE262,FIR262,Active,Vehicle reported in case CASE262.
+VHE137,KA25MA8482,Maruti Suzuki,Ertiga,Hatchback,White,VICT057,Victim,CASE053,FIR053,Active,Vehicle reported in case CASE053.
+VHE138,KA08PU2023,Royal Enfield,Bullet 350,Hatchback,White,VICT257,Victim,CASE251,FIR251,Recovered,Vehicle reported in case CASE251.
+VHE139,KA31NY6634,Toyota,Fortuner,Hatchback,White,COMP055,Complainant,CASE075,FIR075,Seized,Vehicle reported in case CASE075.
+VHE140,KA39RP9292,Yamaha,R15,Hatchback,White,COMP138,Complainant,CASE118,FIR118,Recovered,Vehicle reported in case CASE118.
+VHE141,KA37SY8234,Mahindra,Scorpio-N,Hatchback,White,VICT322,Victim,CASE252,FIR252,Stolen,Vehicle reported in case CASE252.
+VHE142,KA22PX4016,Tata,407,Hatchback,White,VICT345,Victim,CASE166,FIR166,Active,Vehicle reported in case CASE166.
+VHE143,KA06TU5948,Maruti Suzuki,Dzire,Hatchback,White,VICT027,Victim,CASE023,FIR023,Active,Vehicle reported in case CASE023.
+VHE144,KA06RC1771,KTM,Duke 200,Hatchback,White,COMP113,Complainant,CASE206,FIR206,Recovered,Vehicle reported in case CASE206.
+VHE145,KA23RE2874,Mahindra,XUV700,Hatchback,White,COMP104,Complainant,CASE137,FIR137,Stolen,Vehicle reported in case CASE137.
+VHE146,KA22TW2419,Maruti Suzuki,WagonR,Hatchback,White,VICT216,Victim,CASE127,FIR127,Stolen,Vehicle reported in case CASE127.
+VHE147,KA43SJ4624,Mahindra,Scorpio-N,Hatchback,White,COMP193,Complainant,CASE057,FIR057,Stolen,Vehicle reported in case CASE057.
+VHE148,KA22PE2898,Bajaj,Pulsar 150,Hatchback,White,VICT314,Victim,CASE132,FIR132,Stolen,Vehicle reported in case CASE132.
+VHE149,KA40NZ7330,Maruti Suzuki,Alto K10,Hatchback,White,VICT061,Victim,CASE244,FIR244,Recovered,Vehicle reported in case CASE244.
+VHE150,KA15QW7389,Hyundai,Verna,Hatchback,White,COMP143,Complainant,CASE115,FIR115,Stolen,Vehicle reported in case CASE115.
+VHE151,KA14TQ5323,TVS,Jupiter,Hatchback,White,COMP048,Complainant,CASE291,FIR291,Stolen,Vehicle reported in case CASE291.
+VHE152,KA08TD1078,Honda,City,Hatchback,White,COMP093,Complainant,CASE141,FIR141,Seized,Vehicle reported in case CASE141.
+VHE153,KA16NN6690,Tata,Ace,Hatchback,White,VICT042,Victim,CASE264,FIR264,Stolen,Vehicle reported in case CASE264.
+VHE154,KA42RR9201,Tata,Harrier,Hatchback,White,VICT167,Victim,CASE034,FIR034,Active,Vehicle reported in case CASE034.
+VHE155,KA39MM5669,Royal Enfield,Bullet 350,Hatchback,White,COMP110,Complainant,CASE139,FIR139,Seized,Vehicle reported in case CASE139.
+VHE156,KA39SJ9746,Tata,Punch,Hatchback,White,COMP146,Complainant,CASE140,FIR140,Stolen,Vehicle reported in case CASE140.
+VHE157,KA34MV2138,Suzuki,Access 125,Hatchback,White,VICT301,Victim,CASE167,FIR167,Active,Vehicle reported in case CASE167.
+VHE158,KA40RC9778,Maruti Suzuki,Ertiga,Hatchback,White,COMP098,Complainant,CASE044,FIR044,Active,Vehicle reported in case CASE044.
+VHE159,KA31RF7379,Tata,407,Hatchback,White,VICT009,Victim,CASE122,FIR122,Stolen,Vehicle reported in case CASE122.
+VHE160,KA29PA6517,Kia,Seltos,Hatchback,White,COMP221,Complainant,CASE143,FIR143,Stolen,Vehicle reported in case CASE143.
+VHE161,KA34MB7152,Maruti Suzuki,Dzire,Hatchback,White,COMP295,Complainant,CASE054,FIR054,Active,Vehicle reported in case CASE054.
+VHE162,KA40QM2604,TVS,Jupiter,Hatchback,White,VICT310,Victim,CASE084,FIR084,Stolen,Vehicle reported in case CASE084.
+VHE163,KA35QL4524,Renault,Triber,Hatchback,White,VICT297,Victim,CASE140,FIR140,Seized,Vehicle reported in case CASE140.
+VHE164,KA45PY9732,Hero,HF Deluxe,Hatchback,White,COMP044,Complainant,CASE269,FIR269,Seized,Vehicle reported in case CASE269.
+VHE165,KA54SP7311,Renault,Triber,Hatchback,White,VICT132,Victim,CASE290,FIR290,Recovered,Vehicle reported in case CASE290.
+VHE166,KA17QS2736,Ashok Leyland,Dost,Hatchback,White,VICT265,Victim,CASE281,FIR281,Stolen,Vehicle reported in case CASE281.
+VHE167,KA01QW7158,Kia,Carens,Hatchback,White,COMP091,Complainant,CASE031,FIR031,Stolen,Vehicle reported in case CASE031.
+VHE168,KA39QB4570,TVS,Jupiter,Hatchback,White,COMP238,Complainant,CASE217,FIR217,Recovered,Vehicle reported in case CASE217.
+VHE169,KA16SF6358,Hyundai,i20,Hatchback,White,COMP044,Complainant,CASE060,FIR060,Recovered,Vehicle reported in case CASE060.
+VHE170,KA48QQ7858,Hero,Splendor Plus,Hatchback,White,COMP280,Complainant,CASE016,FIR016,Active,Vehicle reported in case CASE016.
+VHE171,KA33TJ6096,Royal Enfield,Classic 350,Hatchback,White,VICT240,Victim,CASE223,FIR223,Stolen,Vehicle reported in case CASE223.
+VHE172,KA04PX3276,Tata,407,Hatchback,White,VICT211,Victim,CASE162,FIR162,Active,Vehicle reported in case CASE162.
+VHE173,KA06NL5204,Maruti Suzuki,Baleno,Hatchback,White,VICT280,Victim,CASE155,FIR155,Active,Vehicle reported in case CASE155.
+VHE174,KA37SM2437,Tata,Punch,Hatchback,White,COMP131,Complainant,CASE294,FIR294,Stolen,Vehicle reported in case CASE294.
+VHE175,KA55MX5335,TVS,Jupiter,Hatchback,White,COMP172,Complainant,CASE156,FIR156,Seized,Vehicle reported in case CASE156.
+VHE176,KA20TU7926,Yamaha,MT-15,Hatchback,White,VICT075,Victim,CASE057,FIR057,Active,Vehicle reported in case CASE057.
+VHE177,KA23NT8483,Tata,Ace,Hatchback,White,COMP299,Complainant,CASE025,FIR025,Active,Vehicle reported in case CASE025.
+VHE178,KA26QZ7591,Volkswagen,Virtus,Hatchback,White,COMP132,Complainant,CASE153,FIR153,Recovered,Vehicle reported in case CASE153.
+VHE179,KA01TH2700,Tata,Ace,Hatchback,White,VICT302,Victim,CASE253,FIR253,Stolen,Vehicle reported in case CASE253.
+VHE180,KA26PT2076,Hero,Splendor Plus,Hatchback,White,VICT189,Victim,CASE030,FIR030,Active,Vehicle reported in case CASE030.
+VHE181,KA29RH8136,KTM,Duke 200,Hatchback,White,COMP216,Complainant,CASE262,FIR262,Stolen,Vehicle reported in case CASE262.
+VHE182,KA07RE3396,Honda,Amaze,Hatchback,White,VICT213,Victim,CASE088,FIR088,Recovered,Vehicle reported in case CASE088.
+VHE183,KA55RW4750,Tata,Altroz,Hatchback,White,VICT001,Victim,CASE044,FIR044,Active,Vehicle reported in case CASE044.
+VHE184,KA41QF7826,Hyundai,i20,Hatchback,White,COMP105,Complainant,CASE066,FIR066,Active,Vehicle reported in case CASE066.
+VHE185,KA07NL5259,Royal Enfield,Classic 350,Hatchback,White,VICT003,Victim,CASE043,FIR043,Recovered,Vehicle reported in case CASE043.
+VHE186,KA14NW3172,Tata,Harrier,Hatchback,White,COMP027,Complainant,CASE086,FIR086,Seized,Vehicle reported in case CASE086.
+VHE187,KA44NB5512,Renault,Triber,Hatchback,White,VICT376,Victim,CASE159,FIR159,Stolen,Vehicle reported in case CASE159.
+VHE188,KA50QD9921,Tata,Ace,Hatchback,White,VICT113,Victim,CASE120,FIR120,Stolen,Vehicle reported in case CASE120.
+VHE189,KA49ML7612,Maruti Suzuki,Swift,Hatchback,White,COMP166,Complainant,CASE213,FIR213,Recovered,Vehicle reported in case CASE213.
+VHE190,KA54ST8548,Hyundai,i20,Hatchback,White,COMP261,Complainant,CASE133,FIR133,Recovered,Vehicle reported in case CASE133.
+VHE191,KA16QK3468,Bajaj,Pulsar 150,Hatchback,White,COMP213,Complainant,CASE130,FIR130,Seized,Vehicle reported in case CASE130.
+VHE192,KA34QC7196,Tata,Tiago,Hatchback,White,COMP025,Complainant,CASE107,FIR107,Recovered,Vehicle reported in case CASE107.
+VHE193,KA11MP9413,Suzuki,Access 125,Hatchback,White,COMP049,Complainant,CASE263,FIR263,Recovered,Vehicle reported in case CASE263.
+VHE194,KA06TY6478,Hyundai,i20,Hatchback,White,VICT345,Victim,CASE045,FIR045,Recovered,Vehicle reported in case CASE045.
+VHE195,KA52TM2645,TVS,Apache RTR 160,Hatchback,White,COMP100,Complainant,CASE149,FIR149,Stolen,Vehicle reported in case CASE149.
+VHE196,KA55SC8686,Kia,Seltos,Hatchback,White,COMP156,Complainant,CASE137,FIR137,Seized,Vehicle reported in case CASE137.
+VHE197,KA41PR8159,Bajaj,RE,Hatchback,White,VICT078,Victim,CASE177,FIR177,Recovered,Vehicle reported in case CASE177.
+VHE198,KA27QD2678,Volkswagen,Virtus,Hatchback,White,COMP023,Complainant,CASE117,FIR117,Seized,Vehicle reported in case CASE117.
+VHE199,KA24SR5397,Bajaj,Pulsar 150,Hatchback,White,VICT175,Victim,CASE195,FIR195,Seized,Vehicle reported in case CASE195.
+VHE200,KA52RZ3829,Bajaj,Platina 100,Hatchback,White,COMP067,Complainant,CASE095,FIR095,Seized,Vehicle reported in case CASE095.
+VHE201,KA12NH8374,TVS,Ntorq 125,Hatchback,White,VICT160,Victim,CASE117,FIR117,Recovered,Vehicle reported in case CASE117.
+VHE202,KA43SG6826,TVS,Ntorq 125,Hatchback,White,VICT321,Victim,CASE082,FIR082,Stolen,Vehicle reported in case CASE082.
+VHE203,KA05ML3187,Toyota,Fortuner,Hatchback,White,VICT005,Victim,CASE297,FIR297,Recovered,Vehicle reported in case CASE297.
+VHE204,KA47MP8719,Hyundai,Verna,Hatchback,White,VICT065,Victim,CASE025,FIR025,Stolen,Vehicle reported in case CASE025.
+VHE205,KA47TC9170,Piaggio,Ape,Hatchback,White,COMP039,Complainant,CASE021,FIR021,Stolen,Vehicle reported in case CASE021.
+VHE206,KA03RD1505,Toyota,Innova Crysta,Hatchback,White,VICT201,Victim,CASE019,FIR019,Stolen,Vehicle reported in case CASE019.
+VHE207,KA53PF1767,Maruti Suzuki,Baleno,Hatchback,White,VICT199,Victim,CASE214,FIR214,Active,Vehicle reported in case CASE214.
+VHE208,KA46PC1341,Hero,HF Deluxe,Hatchback,White,VICT108,Victim,CASE242,FIR242,Recovered,Vehicle reported in case CASE242.
+VHE209,KA09QY9672,KTM,Duke 200,Hatchback,White,COMP005,Complainant,CASE086,FIR086,Seized,Vehicle reported in case CASE086.
+VHE210,KA51NF6038,Yamaha,R15,Hatchback,White,COMP252,Complainant,CASE210,FIR210,Active,Vehicle reported in case CASE210.
+VHE211,KA23QR7535,Maruti Suzuki,Alto K10,Hatchback,White,COMP293,Complainant,CASE181,FIR181,Recovered,Vehicle reported in case CASE181.
+VHE212,KA36RD5199,Hyundai,Verna,Hatchback,White,COMP086,Complainant,CASE152,FIR152,Seized,Vehicle reported in case CASE152.
+VHE213,KA44NJ8431,Royal Enfield,Himalayan,Hatchback,White,COMP040,Complainant,CASE208,FIR208,Stolen,Vehicle reported in case CASE208.
+VHE214,KA47RJ8626,Mahindra,Scorpio-N,Hatchback,White,COMP286,Complainant,CASE081,FIR081,Recovered,Vehicle reported in case CASE081.
+VHE215,KA11NW5367,Toyota,Innova Crysta,Hatchback,White,VICT143,Victim,CASE233,FIR233,Seized,Vehicle reported in case CASE233.
+VHE216,KA35PS6817,Ashok Leyland,Dost,Hatchback,White,VICT318,Victim,CASE159,FIR159,Seized,Vehicle reported in case CASE159.
+VHE217,KA22MY5300,TVS,Apache RTR 160,Hatchback,White,VICT238,Victim,CASE072,FIR072,Stolen,Vehicle reported in case CASE072.
+VHE218,KA17NN1908,Skoda,Slavia,Hatchback,White,COMP104,Complainant,CASE297,FIR297,Stolen,Vehicle reported in case CASE297.
+VHE219,KA18NT3124,Maruti Suzuki,Dzire,Hatchback,White,VICT340,Victim,CASE204,FIR204,Stolen,Vehicle reported in case CASE204.
+VHE220,KA50NG6760,Maruti Suzuki,Alto K10,Hatchback,White,VICT379,Victim,CASE076,FIR076,Seized,Vehicle reported in case CASE076.
+VHE221,KA47RD4407,Maruti Suzuki,Dzire,Hatchback,White,COMP212,Complainant,CASE240,FIR240,Active,Vehicle reported in case CASE240.
+VHE222,KA41TX4567,Ola,S1 Pro,Hatchback,White,VICT288,Victim,CASE014,FIR014,Recovered,Vehicle reported in case CASE014.
+VHE223,KA55RV4503,Royal Enfield,Himalayan,Hatchback,White,VICT083,Victim,CASE027,FIR027,Active,Vehicle reported in case CASE027.
+VHE224,KA22NU2896,Tata,Punch,Hatchback,White,COMP282,Complainant,CASE081,FIR081,Stolen,Vehicle reported in case CASE081.
+VHE225,KA33TZ4453,Renault,Triber,Hatchback,White,COMP227,Complainant,CASE121,FIR121,Seized,Vehicle reported in case CASE121.
+VHE226,KA35SL6566,Honda,Activa 6G,Hatchback,White,COMP201,Complainant,CASE261,FIR261,Stolen,Vehicle reported in case CASE261.
+VHE227,KA23MX2419,Royal Enfield,Himalayan,Hatchback,White,COMP236,Complainant,CASE258,FIR258,Seized,Vehicle reported in case CASE258.
+VHE228,KA26TW7667,Yamaha,MT-15,Hatchback,White,VICT362,Victim,CASE202,FIR202,Recovered,Vehicle reported in case CASE202.
+VHE229,KA44QY3902,Maruti Suzuki,Baleno,Hatchback,White,COMP157,Complainant,CASE138,FIR138,Seized,Vehicle reported in case CASE138.
+VHE230,KA27TM2364,Kia,Carens,Hatchback,White,VICT304,Victim,CASE232,FIR232,Seized,Vehicle reported in case CASE232.
+VHE231,KA14SB2141,Maruti Suzuki,Swift,Hatchback,White,VICT109,Victim,CASE125,FIR125,Seized,Vehicle reported in case CASE125.
+VHE232,KA21PK6466,Tata,407,Hatchback,White,COMP065,Complainant,CASE073,FIR073,Recovered,Vehicle reported in case CASE073.
+VHE233,KA05RX9539,Tata,Harrier,Hatchback,White,VICT287,Victim,CASE052,FIR052,Recovered,Vehicle reported in case CASE052.
+VHE234,KA06NB6863,Tata,Punch,Hatchback,White,COMP284,Complainant,CASE294,FIR294,Recovered,Vehicle reported in case CASE294.
+VHE235,KA02RY3490,Tata,Harrier,Hatchback,White,COMP021,Complainant,CASE085,FIR085,Seized,Vehicle reported in case CASE085.
+VHE236,KA05TR7991,Honda,City,Hatchback,White,VICT024,Victim,CASE207,FIR207,Recovered,Vehicle reported in case CASE207.
+VHE237,KA45RF3697,Tata,Tiago,Hatchback,White,VICT230,Victim,CASE149,FIR149,Stolen,Vehicle reported in case CASE149.
+VHE238,KA44MX1117,Tata,Punch,Hatchback,White,VICT250,Victim,CASE114,FIR114,Seized,Vehicle reported in case CASE114.
+VHE239,KA45TK7709,TVS,Apache RTR 160,Hatchback,White,VICT303,Victim,CASE010,FIR010,Stolen,Vehicle reported in case CASE010.
+VHE240,KA10MG6967,Hyundai,i20,Hatchback,White,COMP061,Complainant,CASE083,FIR083,Seized,Vehicle reported in case CASE083.
+VHE241,KA15PX4252,Hyundai,Verna,Hatchback,White,VICT200,Victim,CASE220,FIR220,Recovered,Vehicle reported in case CASE220.
+VHE242,KA30MP8791,Mahindra,XUV700,Hatchback,White,VICT153,Victim,CASE149,FIR149,Stolen,Vehicle reported in case CASE149.
+VHE243,KA14SC5388,Hyundai,Creta,Hatchback,White,COMP062,Complainant,CASE038,FIR038,Seized,Vehicle reported in case CASE038.
+VHE244,KA52PY9090,TVS,Apache RTR 160,Hatchback,White,VICT192,Victim,CASE164,FIR164,Recovered,Vehicle reported in case CASE164.
+VHE245,KA11MN6314,Tata,Altroz,Hatchback,White,COMP079,Complainant,CASE199,FIR199,Seized,Vehicle reported in case CASE199.
+VHE246,KA52PA6777,Tata,Nexon,Hatchback,White,COMP201,Complainant,CASE028,FIR028,Active,Vehicle reported in case CASE028.
+VHE247,KA11NT9239,Maruti Suzuki,Swift,Hatchback,White,COMP297,Complainant,CASE077,FIR077,Active,Vehicle reported in case CASE077.
+VHE248,KA25RU9657,Honda,Activa 6G,Hatchback,White,COMP205,Complainant,CASE175,FIR175,Recovered,Vehicle reported in case CASE175.
+VHE249,KA34PK6105,Renault,Triber,Hatchback,White,COMP161,Complainant,CASE090,FIR090,Recovered,Vehicle reported in case CASE090.
+VHE250,KA48QD5171,Piaggio,Ape,Hatchback,White,VICT120,Victim,CASE228,FIR228,Stolen,Vehicle reported in case CASE228.

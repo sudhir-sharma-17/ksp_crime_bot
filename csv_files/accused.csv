@@ -1,0 +1,451 @@
+accu_id,first_name,last_name,gender,age,occupation,phone,email,address,previous_criminal_history
+ACCU001,Vinay,Kumar,Male,66,Auto Driver,+91-7179650434,vinay.kumar@gmail.com,"No. 19, Chikkalasandra 2th Ring Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU002,Pooja,Yadav,Female,52,Auto Driver,+91-6867343470,pooja.yadav@gmail.com,"No. 383, Hoodi 4th Temple Road, Hoodi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU003,Manoj,Sharma,Male,78,Driver,+91-7808336873,manoj.sharma@hotmail.com,"No. 165, Residency Road, MG Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU004,Suresh,Joshi,Male,67,Mason,+91-8838515484,suresh.joshi@yahoo.com,"No. 269, Hennur Gardens 5th Link Road, Hennur Gardens, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU005,Kavita,Verma,Female,25,Journalist,+91-8805412465,kavita.verma@yahoo.com,"No. 24, Hindwadi Lane, Hindwadi, Belagavi, Belagavi, Karnataka",None
+ACCU006,Arjun,Mishra,Male,57,Carpenter,+91-6136085950,arjun.mishra@outlook.com,"No. 294, Kalasipalyam Main Road, Kalasipalyam, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU007,Aarav,Rao,Male,34,Broker,+91-7455946886,aarav.rao@hotmail.com,"No. 268, KR Puram Bypass Road, KR Puram, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU008,Pooja,Prasad,Female,68,Sweeper,+91-9651527857,pooja.prasad99@gmail.com,"No. 98, Jalahalli Lane, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU009,Sanjay,Patel,Male,36,Homemaker,+91-9459469431,sanjay.patel@hotmail.com,"No. 329, 14th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU010,Neha,Mehta,Female,37,Manager,+91-7526632918,neha.mehta@gmail.com,"No. 424, Srirampura Club Road, Srirampura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU011,Anil,Reddy,Male,74,Gym Trainer,+91-6995408747,anil.reddy@yahoo.com,"No. 339, Vidyagiri Main Road, Vidyagiri, Dharwad, Dharwad, Karnataka",None
+ACCU012,Sunita,Prasad,Female,42,Contractor,+91-9369258088,sunita.prasad@yahoo.com,"No. 161, KR Puram Hassan Club Road, KR Puram Hassan, Hassan, Hassan, Karnataka",None
+ACCU013,Anita,Das,Female,71,Painter,+91-8315782888,anita.das@yahoo.com,"No. 386, Savalanga Road 2th Junction Road, Savalanga Road, Shivamogga, Shivamogga, Karnataka",None
+ACCU014,Aarav,Sharma,Male,60,Insurance Agent,+91-9693919320,aarav.sharma@yahoo.com,"No. 422, Saraswathipuram 3th Highway, Saraswathipuram, Mysuru, Mysuru, Karnataka",None
+ACCU015,Amit,Gupta,Male,42,Call Center Executive,+91-6622683478,amit.gupta@yahoo.com,"No. 227, Subhash Nagar Nelamangala Church Road, Subhash Nagar Nelamangala, Nelamangala, Bengaluru Rural, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU016,Pooja,Verma,Female,64,Gardener,+91-7628453098,pooja.verma23@gmail.com,"No. 344, Keshwapur Highway, Keshwapur, Hubballi, Dharwad, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU017,Sandip,Kumar,Male,40,Teacher,+91-6746430166,sandip.kumar@outlook.com,"No. 204, Velankani Drive, Electronic City, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU018,Sunita,Mehta,Female,30,Tailor,+91-9299371391,sunita.mehta@gmail.com,"No. 6, Nittuvalli Galli, Nittuvalli, Davanagere, Davanagere, Karnataka",None
+ACCU019,Sanjay,Singh,Male,23,Weaver,+91-7017256145,sanjay.singh@outlook.com,"No. 63, Lalbagh Mangaluru 4th Cross Road, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU020,Vikram,Rao,Male,22,Yoga Instructor,+91-8357150820,vikram.rao@gmail.com,"No. 142, Saraswatpur Dharwad 1th Lane, Saraswatpur Dharwad, Dharwad, Dharwad, Karnataka",None
+ACCU021,Priya,Patel,Female,46,Barber,+91-8835997459,priya.patel@gmail.com,"No. 427, Deverabeesanahalli Flyover Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU022,Rajesh,Jadav,Male,75,Goldsmith,+91-7115915747,rajesh.jadav@hotmail.com,"No. 389, Hulimavu Highway, Hulimavu, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU023,Anjali,Prasad,Female,33,Nurse,+91-7594354747,anjali.prasad@hotmail.com,"No. 349, Angol Galli, Angol, Belagavi, Belagavi, Karnataka",None
+ACCU024,Ajay,Jadav,Male,62,Mechanic,+91-9849588073,ajay.jadav@yahoo.com,"No. 338, Banashankari 2th Church Road, Banashankari, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU025,Sanjay,Patel,Male,58,Postman,+91-8603837541,sanjay.patel@outlook.com,"No. 292, Udyambag Main Road, Udyambag, Belagavi, Belagavi, Karnataka",None
+ACCU026,Rajesh,Yadav,Male,59,Waiter,+91-6915979556,rajesh.yadav@yahoo.com,"No. 320, Saraswatpur Dharwad 1th Lane, Saraswatpur Dharwad, Dharwad, Dharwad, Karnataka",None
+ACCU027,Sharda,Sharma,Female,78,Delivery Partner,+91-7803067659,sharda.sharma@outlook.com,"No. 150, Cantonment Ballari Link Road, Cantonment Ballari, Ballari, Ballari, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU028,Rahul,Gill,Male,39,Potter,+91-6624548964,rahul.gill58@gmail.com,"No. 121, Peenya Temple Road, Peenya, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU029,Preeti,Nair,Female,48,Tailor,+91-7062790694,preeti.nair@hotmail.com,"No. 278, Urwa 3th Highway, Urwa, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU030,Sandip,Chawla,Male,76,Bus Conductor,+91-9718354775,sandip.chawla@gmail.com,"No. 330, Camp Belagavi Church Road, Camp Belagavi, Belagavi, Belagavi, Karnataka",None
+ACCU031,Arjun,Mishra,Male,21,Cyber Cafe Owner,+91-8868737340,arjun.mishra@gmail.com,"No. 144, Lingarajapuram 3th Club Road, Lingarajapuram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU032,Sunil,Mishra,Male,35,Graphic Designer,+91-7935138266,sunil.mishra14@gmail.com,"No. 379, Ravindra Nagar 3th Galli, Ravindra Nagar, Hassan, Hassan, Karnataka",None
+ACCU033,Sneha,Patel,Female,73,Painter,+91-6310635394,sneha.patel@outlook.com,"No. 86, Derebail Bazaar Street, Derebail, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU034,Deepak,Chawla,Male,32,Veterinary Doctor,+91-7366189173,deepak.chawla@gmail.com,"No. 266, Batawadi Highway, Batawadi, Tumakuru, Tumakuru, Karnataka",None
+ACCU035,Sneha,Prasad,Female,38,Teacher,+91-8772203688,sneha.prasad@gmail.com,"No. 247, Mahadevapura Church Road, Mahadevapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU036,Neha,Verma,Female,30,Travel Agent,+91-8520823343,neha.verma70@gmail.com,"No. 55, Ganga Nagar 3th Galli, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU037,Sanjay,Mishra,Male,57,Mason,+91-9485248092,sanjay.mishra@yahoo.com,"No. 146, Horamavu Ring Road, Horamavu, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU038,Amit,Mishra,Male,29,Singer,+91-9691540714,amit.mishra@outlook.com,"No. 67, Vidyaranyapuram Mysuru Galli, Vidyaranyapuram Mysuru, Mysuru, Mysuru, Karnataka",None
+ACCU039,Karan,Yadav,Male,53,Postman,+91-9113884037,karan.yadav@hotmail.com,"No. 276, Super Market Bazaar Street, Super Market, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU040,Kiran,Choudhury,Female,73,Chef,+91-7433765359,kiran.choudhury38@gmail.com,"No. 92, Wilson Garden Bazaar Street, Wilson Garden, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU041,Rahul,Gill,Male,76,Carpenter,+91-6843188083,rahul.gill@yahoo.com,"No. 38, Gottigere 5th Galli, Gottigere, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU042,Vijay,Singh,Male,69,Railway Conductor,+91-8003026511,vijay.singh@outlook.com,"No. 436, Srirampura Club Road, Srirampura, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU043,Sneha,Chawla,Female,57,Priest,+91-7489246496,sneha.chawla35@gmail.com,"No. 67, Outer Ring Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU044,Renu,Joshi,Female,76,Gardener,+91-8295815871,renu.joshi@gmail.com,"No. 103, Sarjapur Road Cross Road, Sarjapur Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU045,Aarav,Choudhury,Male,57,Shopkeeper,+91-6300221740,aarav.choudhury@yahoo.com,"No. 207, Gandhi Nagar Shivamogga Station Road, Gandhi Nagar Shivamogga, Shivamogga, Shivamogga, Karnataka",None
+ACCU046,Ajay,Joshi,Male,68,Plumber,+91-8437364389,ajay.joshi68@gmail.com,"No. 317, Kaggadasapura Ring Road, Kaggadasapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU047,Karan,Rao,Male,42,Gym Trainer,+91-7735141406,karan.rao@yahoo.com,"No. 404, Narayanpur Dharwad 4th Church Road, Narayanpur Dharwad, Dharwad, Dharwad, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU048,Vinay,Chawla,Male,79,Plumber,+91-6315567897,vinay.chawla@outlook.com,"No. 39, Sadashiva Nagar Nelamangala Galli, Sadashiva Nagar Nelamangala, Nelamangala, Bengaluru Rural, Karnataka",None
+ACCU049,Anjali,Prasad,Female,53,Homemaker,+91-7833978539,anjali.prasad@outlook.com,"No. 63, Gokul Road Galli, Gokul Road, Hubballi, Dharwad, Karnataka",None
+ACCU050,Preeti,Jadav,Female,32,Delivery Partner,+91-9295228767,preeti.jadav@yahoo.com,"No. 310, NGO Colony Church Road, NGO Colony, Kalaburagi, Kalaburagi, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU051,Aaradhya,Joshi,Female,54,Waiter,+91-9002945414,aaradhya.joshi@outlook.com,"No. 297, Jeevanbheemanagar Club Road, Jeevanbheemanagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU052,Vijay,Kumar,Male,19,Dietician,+91-6137701007,vijay.kumar@hotmail.com,"No. 266, Vidyanagar Davanagere Junction Road, Vidyanagar Davanagere, Davanagere, Davanagere, Karnataka",None
+ACCU053,Ritu,Mehta,Female,62,Gardener,+91-8163087972,ritu.mehta@outlook.com,"No. 121, Ejipura Galli, Ejipura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU054,Sunita,Chawla,Female,72,Contractor,+91-8108127880,sunita.chawla@yahoo.com,"No. 86, Keerthi Nagar 4th Church Road, Keerthi Nagar, Vijayapura, Vijayapura, Karnataka",None
+ACCU055,Aaradhya,Gupta,Female,37,Tailor,+91-9285089590,aaradhya.gupta@hotmail.com,"No. 312, Basavanagudi Galli, Basavanagudi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU056,Vijay,Nair,Male,21,Washerman,+91-7711899471,vijay.nair54@gmail.com,"No. 60, KR Puram Bypass Road, KR Puram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU057,Deepak,Nair,Male,24,Civil Engineer,+91-7060137542,deepak.nair@yahoo.com,"No. 151, 100 Feet Road Indiranagar, Indiranagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU058,Manoj,Nair,Male,39,Barber,+91-6648871721,manoj.nair@outlook.com,"No. 405, Velankani Drive, Electronic City, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU059,Renu,Kumar,Female,77,Clerk,+91-6531530818,renu.kumar@outlook.com,"No. 430, Kulshekar 3th Bypass Road, Kulshekar, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU060,Aarav,Mehta,Male,63,Yoga Instructor,+91-8164009124,aarav.mehta@outlook.com,"No. 168, Vinayaka Nagar Ramanagara 5th Club Road, Vinayaka Nagar Ramanagara, Ramanagara, Ramanagara, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU061,Sneha,Choudhury,Female,66,Civil Engineer,+91-7820711401,sneha.choudhury49@gmail.com,"No. 119, Ashok Nagar Tumkur Bypass Road, Ashok Nagar Tumkur, Tumakuru, Tumakuru, Karnataka",None
+ACCU062,Kiran,Verma,Female,28,Blacksmith,+91-6470454185,kiran.verma@gmail.com,"No. 164, Gokulam 2th Temple Road, Gokulam, Mysuru, Mysuru, Karnataka",None
+ACCU063,Neha,Sharma,Female,32,Cyber Cafe Owner,+91-8000399574,neha.sharma@hotmail.com,"No. 319, Neelasandra 3th Ring Road, Neelasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU064,Anil,Rao,Male,55,Dietician,+91-8341241824,anil.rao39@gmail.com,"No. 285, 3rd Block East Road Jayanagar, Jayanagar, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU065,Suresh,Yadav,Male,25,Farmer,+91-7097513701,suresh.yadav@gmail.com,"No. 7, Ijoor Lane, Ijoor, Ramanagara, Ramanagara, Karnataka",None
+ACCU066,Anil,Rao,Male,24,Homemaker,+91-6813005410,anil.rao@yahoo.com,"No. 41, Saraswathipuram Ring Road, Saraswathipuram, Mysuru, Mysuru, Karnataka",None
+ACCU067,Rahul,Mishra,Male,80,Call Center Executive,+91-8414110438,rahul.mishra@outlook.com,"No. 219, NGO Colony Church Road, NGO Colony, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU068,Geeta,Das,Female,49,Student,+91-7101682489,geeta.das@hotmail.com,"No. 430, Chikkalasandra 2th Ring Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU069,Sneha,Reddy,Female,70,Government Servant,+91-6302180024,sneha.reddy@gmail.com,"No. 170, Tavarekere Main Road, Tavarekere, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU070,Rajesh,Singh,Male,21,Musician,+91-9612065590,rajesh.singh@outlook.com,"No. 2, Shivaji Nagar Vijayapura Junction Road, Shivaji Nagar Vijayapura, Vijayapura, Vijayapura, Karnataka",None
+ACCU071,Anjali,Gupta,Female,38,Waiter,+91-6260565497,anjali.gupta@hotmail.com,"No. 332, Jigani Main Road, Jigani, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU072,Vikram,Rao,Male,55,Actor,+91-6835243022,vikram.rao1@gmail.com,"No. 246, SIT Extension 1th Lane, SIT Extension, Tumakuru, Tumakuru, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU073,Anjali,Patel,Female,71,Waiter,+91-8426552516,anjali.patel@gmail.com,"No. 365, Outer Ring Road Hebbal, Hebbal, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU074,Neha,Reddy,Female,72,Gym Trainer,+91-7045851001,neha.reddy38@gmail.com,"No. 49, Kadirenahalli 2th Cross Road, Kadirenahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU075,Arjun,Mishra,Male,61,Cyber Cafe Owner,+91-9980408552,arjun.mishra1@gmail.com,"No. 280, MG Road, MG Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU076,Kiran,Choudhury,Female,52,Business Owner,+91-7748359545,kiran.choudhury@hotmail.com,"No. 277, Marathahalli Bridge Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU077,Amit,Sharma,Male,34,Receptionist,+91-6436811524,amit.sharma@gmail.com,"No. 262, Cox Town Junction Road, Cox Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU078,Babita,Das,Female,68,Chef,+91-9554759946,babita.das@outlook.com,"No. 302, 3rd Block East Road Jayanagar, Jayanagar, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU079,Anjali,Singh,Female,34,Shopkeeper,+91-9144524685,anjali.singh@yahoo.com,"No. 371, Saraswathipuram Ring Road, Saraswathipuram, Mysuru, Mysuru, Karnataka",None
+ACCU080,Ritu,Singh,Female,67,Singer,+91-9168972632,ritu.singh@outlook.com,"No. 14, Saraswatpur Dharwad Cross Road, Saraswatpur Dharwad, Dharwad, Dharwad, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU081,Preeti,Yadav,Female,37,Government Servant,+91-6413319526,preeti.yadav13@gmail.com,"No. 280, Galipur Galli, Galipur, Kolar, Kolar, Karnataka",None
+ACCU082,Aarav,Yadav,Male,79,Contractor,+91-7246204931,aarav.yadav@hotmail.com,"No. 35, Keerthi Nagar Double Road, Keerthi Nagar, Vijayapura, Vijayapura, Karnataka",None
+ACCU083,Aaradhya,Gill,Female,71,Shopkeeper,+91-8091892696,aaradhya.gill@yahoo.com,"No. 366, Hebbal Kempapura Main Road, Hebbal Kempapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU084,Anita,Patel,Female,31,Artist,+91-9839025038,anita.patel94@gmail.com,"No. 185, Lingarajapuram Station Road, Lingarajapuram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU085,Kavita,Jadav,Female,27,Content Writer,+91-6646862748,kavita.jadav34@gmail.com,"No. 383, SIT Extension Church Road, SIT Extension, Tumakuru, Tumakuru, Karnataka",None
+ACCU086,Karan,Kumar,Male,62,Content Writer,+91-6597845002,karan.kumar@gmail.com,"No. 430, Jigani 3th Main Road, Jigani, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU087,Geeta,Joshi,Female,76,Vegetable Vendor,+91-9956582936,geeta.joshi@hotmail.com,"No. 260, Tavarekere Main Road, Tavarekere, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU088,Babita,Choudhury,Female,62,Shopkeeper,+91-8323616760,babita.choudhury@hotmail.com,"No. 127, Vidyaranyapuram Mysuru Galli, Vidyaranyapuram Mysuru, Mysuru, Mysuru, Karnataka",None
+ACCU089,Priya,Mishra,Female,25,Advocate,+91-9060857823,priya.mishra@hotmail.com,"No. 52, Sarjapur Road Cross Road, Sarjapur Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU090,Meena,Mishra,Female,56,Mechanic,+91-9405631551,meena.mishra@outlook.com,"No. 193, Lalbagh Mangaluru 4th Cross Road, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU091,Sharda,Gill,Female,45,Bus Conductor,+91-9434189384,sharda.gill@hotmail.com,"No. 276, Gokulam Galli, Gokulam, Mysuru, Mysuru, Karnataka",None
+ACCU092,Vinay,Rao,Male,68,Pilot,+91-8915642724,vinay.rao@hotmail.com,"No. 438, Kaikondrahalli Lane, Kaikondrahalli, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU093,Manoj,Banerjee,Male,62,Professor,+91-6166390948,manoj.banerjee@gmail.com,"No. 78, Jalahalli Lane, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU094,Neha,Rao,Female,45,Sculptor,+91-9313000290,neha.rao61@gmail.com,"No. 409, Vidya Nagar Hassan Bazaar Street, Vidya Nagar Hassan, Hassan, Hassan, Karnataka",None
+ACCU095,Priya,Sharma,Female,66,Data Entry Operator,+91-6159445105,priya.sharma@outlook.com,"No. 403, Brahmpur Main Road, Brahmpur, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU096,Rohan,Rao,Male,26,Auto Driver,+91-8864111227,rohan.rao@hotmail.com,"No. 117, Gokulam 2th Temple Road, Gokulam, Mysuru, Mysuru, Karnataka",None
+ACCU097,Ritu,Chawla,Female,64,Milkman,+91-6438199116,ritu.chawla52@gmail.com,"No. 167, Gandhinagar Ballari Bypass Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka",None
+ACCU098,Ritu,Das,Female,21,Farmer,+91-9262478801,ritu.das@yahoo.com,"No. 366, Benson Town Bazaar Street, Benson Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU099,Kavita,Prasad,Female,57,Priest,+91-6493266611,kavita.prasad45@gmail.com,"No. 276, College Road Hosapete 2th Lane, College Road Hosapete, Hosapete, Vijayanagara, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU100,Neha,Gupta,Female,75,Artist,+91-8760863203,neha.gupta@yahoo.com,"No. 198, 27th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU101,Sunil,Prasad,Male,50,Homemaker,+91-8628808877,sunil.prasad@gmail.com,"No. 226, Tilakwadi 1th Church Road, Tilakwadi, Belagavi, Belagavi, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU102,Renu,Choudhury,Female,50,Truck Driver,+91-8922632058,renu.choudhury@outlook.com,"No. 244, Hebbal Flyover Road, Hebbal, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU103,Ajay,Prasad,Male,24,Doctor,+91-8251456878,ajay.prasad@hotmail.com,"No. 264, KR Puram Hassan Club Road, KR Puram Hassan, Hassan, Hassan, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU104,Sandip,Verma,Male,37,Cabin Crew,+91-9514241300,sandip.verma@hotmail.com,"No. 90, Chikkalasandra Bypass Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU105,Pooja,Mehta,Female,71,Manager,+91-7512519964,pooja.mehta@hotmail.com,"No. 291, Cox Town Junction Road, Cox Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU106,Sanjay,Yadav,Male,73,Insurance Agent,+91-6752101110,sanjay.yadav@gmail.com,"No. 198, Ganesh Nagar Bidar 4th Galli, Ganesh Nagar Bidar, Bidar, Bidar, Karnataka",None
+ACCU107,Jyoti,Nair,Female,25,Driver,+91-6566584300,jyoti.nair@outlook.com,"No. 191, Sanjaynagar Double Road, Sanjaynagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU108,Sunita,Choudhury,Female,21,Journalist,+91-8966050447,sunita.choudhury@yahoo.com,"No. 162, New BEL Road Lane, New BEL Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU109,Jyoti,Chawla,Female,38,Dietician,+91-6017084138,jyoti.chawla@outlook.com,"No. 225, Kulshekar 3th Bypass Road, Kulshekar, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU110,Sunil,Sharma,Male,75,Veterinary Doctor,+91-6496400692,sunil.sharma@gmail.com,"No. 361, Malleshwaram Highway, Malleshwaram, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU111,Rahul,Sharma,Male,69,Musician,+91-8169574507,rahul.sharma@yahoo.com,"No. 215, Saraswatpur Dharwad 1th Lane, Saraswatpur Dharwad, Dharwad, Dharwad, Karnataka",None
+ACCU112,Rahul,Prasad,Male,27,Watchman,+91-9167555561,rahul.prasad@hotmail.com,"No. 187, Residency Road, MG Road, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU113,Anil,Chawla,Male,45,Plumber,+91-8404362004,anil.chawla18@gmail.com,"No. 435, Jewargi Road Main Road, Jewargi Road, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU114,Deepak,Sharma,Male,37,Chartered Accountant,+91-6795997359,deepak.sharma45@gmail.com,"No. 250, MCC B Block Church Road, MCC B Block, Davanagere, Davanagere, Karnataka",None
+ACCU115,Kavita,Gupta,Female,60,Business Owner,+91-9267068526,kavita.gupta@hotmail.com,"No. 224, Jeevanbheemanagar Club Road, Jeevanbheemanagar, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU116,Neha,Joshi,Female,27,Weaver,+91-9354889272,neha.joshi@yahoo.com,"No. 422, Banaswadi Galli, Banaswadi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU117,Kavita,Mishra,Female,49,Driver,+91-8450518405,kavita.mishra@gmail.com,"No. 324, Bagalur Main Road, Yelahanka, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU118,Anjali,Banerjee,Female,44,Pharmacist,+91-6421841153,anjali.banerjee@outlook.com,"No. 30, Channasandra Main Road, Whitefield, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU119,Ramesh,Yadav,Male,59,Travel Agent,+91-7124090959,ramesh.yadav@outlook.com,"No. 247, Outer Ring Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU120,Amit,Mishra,Male,78,Manager,+91-6059688180,amit.mishra@yahoo.com,"No. 42, Navanagar Church Road, Navanagar, Hubballi, Dharwad, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU121,Anil,Patel,Male,78,Actor,+91-6810485604,anil.patel@gmail.com,"No. 294, Gandhinagar Ballari 5th Link Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU122,Sharda,Banerjee,Female,62,Professor,+91-7815455841,sharda.banerjee@outlook.com,"No. 242, Cottonpet Double Road, Cottonpet, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU123,Manoj,Gupta,Male,79,Fisherman,+91-7923527703,manoj.gupta@yahoo.com,"No. 397, Bannimantap Bypass Road, Bannimantap, Mysuru, Mysuru, Karnataka",None
+ACCU124,Anjali,Joshi,Female,22,Dancer,+91-8287327839,anjali.joshi@hotmail.com,"No. 31, Ravindra Nagar Highway, Ravindra Nagar, Hassan, Hassan, Karnataka",None
+ACCU125,Kiran,Prasad,Female,45,Farmer,+91-9452722513,kiran.prasad@yahoo.com,"No. 410, Singasandra Station Road, Singasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU126,Deepak,Choudhury,Male,43,Business Owner,+91-6308973430,deepak.choudhury@hotmail.com,"No. 106, Richards Town Galli, Richards Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU127,Aarav,Gill,Male,20,Receptionist,+91-8930630912,aarav.gill@gmail.com,"No. 237, RT Nagar Bazaar Street, RT Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU128,Anita,Gill,Female,61,Teacher,+91-7329607107,anita.gill@outlook.com,"No. 162, Hulimavu Highway, Hulimavu, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU129,Sunita,Joshi,Female,18,Chartered Accountant,+91-7197939087,sunita.joshi54@gmail.com,"No. 164, Church Street, Brigade Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU130,Sunil,Mehta,Male,73,Plumber,+91-8966266029,sunil.mehta@hotmail.com,"No. 392, RT Nagar Bazaar Street, RT Nagar, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU131,Deepa,Kumar,Female,47,Blacksmith,+91-6975302700,deepa.kumar@hotmail.com,"No. 347, Wilson Garden Bazaar Street, Wilson Garden, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU132,Rahul,Sharma,Male,31,Veterinary Doctor,+91-6039845670,rahul.sharma@outlook.com,"No. 114, Basavanagudi 4th Junction Road, Basavanagudi, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU133,Geeta,Gill,Female,75,Waiter,+91-8379630304,geeta.gill@hotmail.com,"No. 296, Ambedkar Nagar Yadgir Station Road, Ambedkar Nagar Yadgir, Yadgir, Yadgir, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU134,Aarav,Nair,Male,54,Truck Driver,+91-6034278956,aarav.nair@yahoo.com,"No. 340, Kammasandra 4th Link Road, Kammasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU135,Vinay,Choudhury,Male,37,Broker,+91-8803478301,vinay.choudhury92@gmail.com,"No. 38, Marathahalli Bridge Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU136,Deepa,Nair,Female,38,Graphic Designer,+91-7811510197,deepa.nair@yahoo.com,"No. 405, Bommasandra Main Road, Bommasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU137,Rahul,Banerjee,Male,72,Security Guard,+91-6075688026,rahul.banerjee75@gmail.com,"No. 130, Cowl Bazar Cross Road, Cowl Bazar, Ballari, Ballari, Karnataka",None
+ACCU138,Aarav,Kumar,Male,74,Nurse,+91-6347608399,aarav.kumar@outlook.com,"No. 285, Subhash Ward Junction Road, Subhash Ward, Yadgir, Yadgir, Karnataka",None
+ACCU139,Meena,Chawla,Female,73,Plumber,+91-6177332848,meena.chawla@yahoo.com,"No. 356, Karthik Nagar Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU140,Ajay,Mishra,Male,40,Travel Agent,+91-7044050403,ajay.mishra@yahoo.com,"No. 366, Jigani 3th Main Road, Jigani, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU141,Sanjay,Mehta,Male,45,Cyber Cafe Owner,+91-7077139759,sanjay.mehta@gmail.com,"No. 290, Siddhartha Layout Lane, Siddhartha Layout, Mysuru, Mysuru, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU142,Manoj,Singh,Male,67,Nurse,+91-9235053764,manoj.singh@gmail.com,"No. 285, Urwa Temple Road, Urwa, Mangaluru, Dakshina Kannada, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU143,Amit,Banerjee,Male,76,Journalist,+91-9586253955,amit.banerjee@yahoo.com,"No. 142, Cantonment Ballari 2th Lane, Cantonment Ballari, Ballari, Ballari, Karnataka",None
+ACCU144,Kavita,Verma,Female,60,Security Guard,+91-7171056568,kavita.verma1@yahoo.com,"No. 340, HAL Bypass Road, HAL, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU145,Amit,Das,Male,23,Pharmacist,+91-8422175149,amit.das@outlook.com,"No. 309, Keerthi Nagar 4th Church Road, Keerthi Nagar, Vijayapura, Vijayapura, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU146,Aarav,Kumar,Male,65,Cobbler,+91-6169271814,aarav.kumar1@outlook.com,"No. 357, Kasavanahalli Cross Road, Kasavanahalli, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU147,Arjun,Mishra,Male,63,Painter,+91-6875484309,arjun.mishra2@gmail.com,"No. 367, Jayalakshmipuram Main Road, Jayalakshmipuram, Mysuru, Mysuru, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU148,Ajay,Rao,Male,47,Peon,+91-9905100154,ajay.rao@gmail.com,"No. 153, Gopalagowda Extension Galli, Gopalagowda Extension, Shivamogga, Shivamogga, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU149,Geeta,Verma,Female,73,Delivery Partner,+91-7172878031,geeta.verma@gmail.com,"No. 61, Ganga Nagar 3th Galli, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU150,Swati,Sharma,Female,50,Mechanic,+91-8489493980,swati.sharma@yahoo.com,"No. 79, Tilakwadi Bypass Road, Tilakwadi, Belagavi, Belagavi, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU151,Vinay,Yadav,Male,69,Vegetable Vendor,+91-8332726449,vinay.yadav@outlook.com,"No. 368, Sanjaynagar Double Road, Sanjaynagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU152,Vinay,Reddy,Male,40,Doctor,+91-8634111812,vinay.reddy61@gmail.com,"No. 111, Chikkalasandra 2th Ring Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU153,Pooja,Banerjee,Female,78,Security Supervisor,+91-8216869549,pooja.banerjee@gmail.com,"No. 76, Hindwadi Lane, Hindwadi, Belagavi, Belagavi, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU154,Rahul,Gupta,Male,60,Blacksmith,+91-9223219999,rahul.gupta@yahoo.com,"No. 342, Siddhartha Layout Lane, Siddhartha Layout, Mysuru, Mysuru, Karnataka",None
+ACCU155,Anil,Prasad,Male,33,Laborer,+91-7228820885,anil.prasad@hotmail.com,"No. 192, Koramangala Valley Road, Koramangala, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU156,Ritu,Rao,Female,67,Milkman,+91-8474779799,ritu.rao@outlook.com,"No. 185, Ganga Nagar Station Road, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU157,Manoj,Mishra,Male,54,Artist,+91-8395590220,manoj.mishra@outlook.com,"No. 190, Kalasipalyam Main Road, Kalasipalyam, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU158,Harish,Sharma,Male,54,Station Master,+91-8581317333,harish.sharma@hotmail.com,"No. 58, Vidyaranyapura Double Road, Vidyaranyapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU159,Aarav,Rao,Male,73,Pharmacist,+91-7275111806,aarav.rao@outlook.com,"No. 299, Ijoor Lane, Ijoor, Ramanagara, Ramanagara, Karnataka",None
+ACCU160,Arjun,Joshi,Male,78,Taxi Driver,+91-6333705272,arjun.joshi@gmail.com,"No. 274, 14th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU161,Ramesh,Yadav,Male,70,Peon,+91-7113509213,ramesh.yadav1@outlook.com,"No. 222, Jalahalli 3th Double Road, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU162,Kiran,Das,Female,72,Physiotherapist,+91-9046168057,kiran.das@yahoo.com,"No. 228, Bommasandra 1th Junction Road, Bommasandra, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU163,Preeti,Kumar,Female,54,Bus Conductor,+91-9641020896,preeti.kumar96@gmail.com,"No. 417, Benson Town Bazaar Street, Benson Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU164,Sharda,Gupta,Female,19,Gardener,+91-8660018113,sharda.gupta@outlook.com,"No. 340, Nittuvalli Galli, Nittuvalli, Davanagere, Davanagere, Karnataka",None
+ACCU165,Suresh,Reddy,Male,19,Weaver,+91-8257723864,suresh.reddy@yahoo.com,"No. 102, HSR Layout Sector 1 Road, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU166,Vikram,Nair,Male,57,Postman,+91-8753906564,vikram.nair@yahoo.com,"No. 66, Jayalakshmipuram Main Road, Jayalakshmipuram, Mysuru, Mysuru, Karnataka",None
+ACCU167,Geeta,Mishra,Female,70,Gym Trainer,+91-7911682686,geeta.mishra@yahoo.com,"No. 148, Whitefield Main Road, Whitefield, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU168,Swati,Patel,Female,68,Peon,+91-7140303954,swati.patel78@gmail.com,"No. 311, Derebail Bazaar Street, Derebail, Mangaluru, Dakshina Kannada, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU169,Anita,Yadav,Female,69,Delivery Partner,+91-7304106992,anita.yadav@yahoo.com,"No. 440, KR Puram Bypass Road, KR Puram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU170,Jyoti,Das,Female,52,Content Writer,+91-9437129261,jyoti.das@yahoo.com,"No. 9, Cantonment Ballari 2th Lane, Cantonment Ballari, Ballari, Ballari, Karnataka",None
+ACCU171,Sandip,Choudhury,Male,34,Government Servant,+91-8567189617,sandip.choudhury@outlook.com,"No. 30, Udyambag Main Road, Udyambag, Belagavi, Belagavi, Karnataka",None
+ACCU172,Neha,Gill,Female,39,Mason,+91-8692874706,neha.gill52@gmail.com,"No. 204, Chamrajpet Cross Road, Chamrajpet, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU173,Kiran,Singh,Female,70,Journalist,+91-6438976306,kiran.singh@yahoo.com,"No. 90, Ullal Link Road, Ullal, Mangaluru, Dakshina Kannada, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU174,Priya,Yadav,Female,68,Dentist,+91-9284307703,priya.yadav13@gmail.com,"No. 321, Jalahalli Lane, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU175,Anil,Gupta,Male,45,Architect,+91-6076325653,anil.gupta@yahoo.com,"No. 231, Kudlu Gate Club Road, Kudlu Gate, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU176,Ritu,Joshi,Female,21,Sculptor,+91-6801960841,ritu.joshi@gmail.com,"No. 158, Commercial Street Bazaar Street, Commercial Street, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU177,Vikram,Chawla,Male,33,Bus Conductor,+91-9454094048,vikram.chawla@yahoo.com,"No. 409, Church Street, Brigade Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU178,Vijay,Rao,Male,59,Milkman,+91-6435566426,vijay.rao@yahoo.com,"No. 358, Banjara Nagar Link Road, Banjara Nagar, Vijayapura, Vijayapura, Karnataka",None
+ACCU179,Deepa,Singh,Female,56,Shopkeeper,+91-9319676110,deepa.singh@gmail.com,"No. 181, Bellary Road, Hebbal, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU180,Anil,Jadav,Male,69,Watchman,+91-8954947045,anil.jadav@hotmail.com,"No. 159, Neelasandra Main Road, Neelasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU181,Swati,Nair,Female,37,Contractor,+91-9598083360,swati.nair@outlook.com,"No. 12, 27th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU182,Anjali,Mishra,Female,38,Cyber Cafe Owner,+91-7407956941,anjali.mishra24@gmail.com,"No. 292, Jeevanbheemanagar Club Road, Jeevanbheemanagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU183,Anjali,Banerjee,Female,31,Electrician,+91-8571311422,anjali.banerjee43@gmail.com,"No. 315, Madiwala Lane, Madiwala, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU184,Renu,Gill,Female,72,Manager,+91-8632629789,renu.gill@outlook.com,"No. 158, Bommasandra 1th Junction Road, Bommasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU185,Sunita,Choudhury,Female,57,Carpenter,+91-9562689252,sunita.choudhury@outlook.com,"No. 136, Bhagya Nagar Ring Road, Bhagya Nagar, Belagavi, Belagavi, Karnataka",None
+ACCU186,Karan,Prasad,Male,28,Homemaker,+91-7034649965,karan.prasad@outlook.com,"No. 128, RT Nagar Bazaar Street, RT Nagar, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU187,Suresh,Sharma,Male,75,Contractor,+91-9161403851,suresh.sharma@hotmail.com,"No. 173, Bejai Cross Road, Bejai, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU188,Babita,Kumar,Female,72,Civil Engineer,+91-6202439165,babita.kumar@gmail.com,"No. 378, Kaggadasapura Ring Road, Kaggadasapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU189,Anita,Kumar,Female,67,Nurse,+91-7748855156,anita.kumar@hotmail.com,"No. 285, ITPL Main Road, Whitefield, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU190,Sunita,Chawla,Female,57,Mason,+91-6232233025,sunita.chawla32@gmail.com,"No. 105, JP Nagar 24th Main Road, JP Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU191,Neha,Mehta,Female,71,Auto Driver,+91-7970232221,neha.mehta@outlook.com,"No. 340, Gottigere 5th Galli, Gottigere, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU192,Babita,Reddy,Female,50,Veterinary Doctor,+91-9750599371,babita.reddy@outlook.com,"No. 386, Urwa Temple Road, Urwa, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU193,Vijay,Gupta,Male,59,Gym Trainer,+91-9424102315,vijay.gupta@outlook.com,"No. 84, JP Nagar 24th Main Road, JP Nagar, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU194,Harish,Gill,Male,78,Pharmacist,+91-9317777119,harish.gill@yahoo.com,"No. 70, Karthik Nagar Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU195,Vijay,Banerjee,Male,43,Contractor,+91-6282224066,vijay.banerjee@hotmail.com,"No. 187, PJ Extension Lane, PJ Extension, Davanagere, Davanagere, Karnataka",None
+ACCU196,Ajay,Reddy,Male,27,Sculptor,+91-8738023091,ajay.reddy@yahoo.com,"No. 285, Gachinakatti Colony 2th Ring Road, Gachinakatti Colony, Vijayapura, Vijayapura, Karnataka",None
+ACCU197,Swati,Joshi,Female,33,Student,+91-7297054978,swati.joshi@gmail.com,"No. 233, Malleshwaram Highway, Malleshwaram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU198,Sanjay,Kumar,Male,36,Electrician,+91-8087928471,sanjay.kumar@hotmail.com,"No. 165, Ambalpady Galli, Ambalpady, Udupi, Udupi, Karnataka",None
+ACCU199,Jyoti,Singh,Female,57,Blacksmith,+91-7903559166,jyoti.singh84@gmail.com,"No. 447, Gandhinagar Ballari 5th Link Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU200,Sanjay,Kumar,Male,38,Blacksmith,+91-6856372257,sanjay.kumar@yahoo.com,"No. 128, SIT Extension 1th Lane, SIT Extension, Tumakuru, Tumakuru, Karnataka",None
+ACCU201,Ajay,Chawla,Male,67,Advocate,+91-7009145236,ajay.chawla@hotmail.com,"No. 343, Sarakki Lake Road, JP Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU202,Ajay,Verma,Male,73,Priest,+91-8679535623,ajay.verma@outlook.com,"No. 253, Ramamurthy Nagar Lane, Ramamurthy Nagar, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU203,Sanjay,Joshi,Male,27,Astrologer,+91-9725108111,sanjay.joshi@outlook.com,"No. 303, Kathriguppe Highway, Kathriguppe, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU204,Deepa,Mehta,Female,65,Software Engineer,+91-7223883845,deepa.mehta43@gmail.com,"No. 139, Bellandur Main Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU205,Aaradhya,Joshi,Female,18,Gardener,+91-9760737427,aaradhya.joshi@yahoo.com,"No. 219, Shahapur Belagavi Galli, Shahapur Belagavi, Belagavi, Belagavi, Karnataka",None
+ACCU206,Sanjay,Gill,Male,65,Cabin Crew,+91-9219471314,sanjay.gill14@gmail.com,"No. 278, JP Nagar Mysuru Ring Road, JP Nagar Mysuru, Mysuru, Mysuru, Karnataka",None
+ACCU207,Vijay,Gill,Male,26,Student,+91-8591209972,vijay.gill@yahoo.com,"No. 162, Singasandra Station Road, Singasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU208,Anjali,Reddy,Female,33,Dancer,+91-7616271406,anjali.reddy@gmail.com,"No. 174, Dam Road Bazaar Street, Dam Road, Hosapete, Vijayanagara, Karnataka",None
+ACCU209,Vikram,Mehta,Male,64,Sales Executive,+91-7670258718,vikram.mehta23@gmail.com,"No. 436, Jalahalli 3th Double Road, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU210,Suresh,Joshi,Male,68,Advocate,+91-8759131444,suresh.joshi@hotmail.com,"No. 5, Austin Town Main Road, Austin Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU211,Vinay,Singh,Male,51,Railway Conductor,+91-8503318071,vinay.singh@hotmail.com,"No. 327, Narayanpur Dharwad 4th Church Road, Narayanpur Dharwad, Dharwad, Dharwad, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU212,Anjali,Banerjee,Female,51,Railway Conductor,+91-9628771412,anjali.banerjee@yahoo.com,"No. 313, Mahadevapura Church Road, Mahadevapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU213,Manoj,Kumar,Male,29,Advocate,+91-7130265717,manoj.kumar@gmail.com,"No. 242, Malleshwaram Highway, Malleshwaram, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU214,Pooja,Reddy,Female,55,Potter,+91-8556517024,pooja.reddy@hotmail.com,"No. 378, Hosur Road, Electronic City, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU215,Aarav,Verma,Male,18,Postman,+91-7751380631,aarav.verma@yahoo.com,"No. 121, Ravindra Nagar Highway, Ravindra Nagar, Hassan, Hassan, Karnataka",None
+ACCU216,Anil,Prasad,Male,62,Delivery Partner,+91-9866560361,anil.prasad1@hotmail.com,"No. 125, Vidyagiri 4th Station Road, Vidyagiri, Dharwad, Dharwad, Karnataka",None
+ACCU217,Sanjay,Prasad,Male,74,Barber,+91-9682847568,sanjay.prasad@hotmail.com,"No. 204, Jalahalli 3th Double Road, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU218,Anita,Patel,Female,45,Secretary,+91-8919167226,anita.patel1@gmail.com,"No. 435, Karanjikatte Lane, Karanjikatte, Kolar, Kolar, Karnataka",None
+ACCU219,Anil,Joshi,Male,47,Blacksmith,+91-6539774840,anil.joshi@gmail.com,"No. 387, Amaragol Main Road, Amaragol, Hubballi, Dharwad, Karnataka",None
+ACCU220,Babita,Joshi,Female,18,Washerman,+91-6882016919,babita.joshi@gmail.com,"No. 304, Bannimantap Bypass Road, Bannimantap, Mysuru, Mysuru, Karnataka",None
+ACCU221,Babita,Prasad,Female,59,Photographer,+91-8347077736,babita.prasad@hotmail.com,"No. 197, Vidya Nagar Hassan Bazaar Street, Vidya Nagar Hassan, Hassan, Hassan, Karnataka",None
+ACCU222,Sandip,Mishra,Male,54,Security Guard,+91-7326581366,sandip.mishra@gmail.com,"No. 378, Brahmpur Main Road, Brahmpur, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU223,Pooja,Chawla,Female,73,Weaver,+91-6461649375,pooja.chawla@hotmail.com,"No. 12, SIT Extension 1th Lane, SIT Extension, Tumakuru, Tumakuru, Karnataka",None
+ACCU224,Harish,Gill,Male,47,Pilot,+91-9236540588,harish.gill@outlook.com,"No. 211, Mahadevapura Church Road, Mahadevapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU225,Anjali,Choudhury,Female,71,Singer,+91-8275592502,anjali.choudhury@gmail.com,"No. 340, Lingarajapuram 3th Club Road, Lingarajapuram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU226,Aaradhya,Banerjee,Female,79,Chef,+91-6891143260,aaradhya.banerjee86@gmail.com,"No. 274, Gandhi Bazaar 5th Station Road, Gandhi Bazaar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU227,Ritu,Yadav,Female,24,Laborer,+91-6555883385,ritu.yadav@hotmail.com,"No. 427, Vidyapeetha Circle Link Road, Vidyapeetha Circle, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU228,Harish,Mishra,Male,44,Journalist,+91-6197902677,harish.mishra@hotmail.com,"No. 304, Kalyan Nagar Double Road, Kalyan Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU229,Deepa,Sharma,Female,76,Peon,+91-9257145894,deepa.sharma@gmail.com,"No. 390, Gandhinagar Ballari Bypass Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka",None
+ACCU230,Aaradhya,Singh,Female,51,Artist,+91-7460174812,aaradhya.singh@outlook.com,"No. 130, Ejipura 2th Highway, Ejipura, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU231,Sandip,Gill,Male,78,Driver,+91-9469598330,sandip.gill65@gmail.com,"No. 60, Sarjapur Road Cross Road, Sarjapur Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU232,Ritu,Gill,Female,56,Bus Conductor,+91-9197181029,ritu.gill@outlook.com,"No. 407, Narayanpur Dharwad Galli, Narayanpur Dharwad, Dharwad, Dharwad, Karnataka",None
+ACCU233,Rohan,Jadav,Male,37,Sculptor,+91-9327324188,rohan.jadav@yahoo.com,"No. 4, Madiwala Lane, Madiwala, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU234,Sunita,Kumar,Female,36,Station Master,+91-8218807369,sunita.kumar@gmail.com,"No. 122, Gandhi Nagar Shivamogga Station Road, Gandhi Nagar Shivamogga, Shivamogga, Shivamogga, Karnataka",None
+ACCU235,Ajay,Jadav,Male,28,Truck Driver,+91-8552336515,ajay.jadav@outlook.com,"No. 349, Yeshwanthpur Ring Road, Yeshwanthpur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU236,Pooja,Banerjee,Female,24,Newspaper Vendor,+91-6933003080,pooja.banerjee@outlook.com,"No. 133, Basavanagudi Galli, Basavanagudi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU237,Preeti,Choudhury,Female,35,Artist,+91-7763145771,preeti.choudhury54@gmail.com,"No. 183, Varthur Temple Road, Varthur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU238,Babita,Rao,Female,30,Content Writer,+91-8860250154,babita.rao@gmail.com,"No. 123, Ganga Nagar Station Road, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU239,Manoj,Verma,Male,50,Artist,+91-7853151251,manoj.verma@gmail.com,"No. 93, Madiwala Lane, Madiwala, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU240,Ajay,Choudhury,Male,44,Railway Conductor,+91-7974851514,ajay.choudhury@hotmail.com,"No. 150, Sanjaynagar Double Road, Sanjaynagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU241,Sneha,Jadav,Female,23,Sculptor,+91-9795399281,sneha.jadav@outlook.com,"No. 323, Lalbagh Mangaluru 4th Cross Road, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU242,Kiran,Banerjee,Female,21,Potter,+91-6615545529,kiran.banerjee@outlook.com,"No. 49, Kammanahalli 3th Station Road, Kammanahalli, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU243,Harish,Gill,Male,44,Gym Trainer,+91-8912297279,harish.gill50@gmail.com,"No. 190, Subhash Nagar Nelamangala Church Road, Subhash Nagar Nelamangala, Nelamangala, Bengaluru Rural, Karnataka",None
+ACCU244,Neha,Prasad,Female,76,Gardener,+91-9373597801,neha.prasad@hotmail.com,"No. 237, Subhash Nagar Nelamangala Church Road, Subhash Nagar Nelamangala, Nelamangala, Bengaluru Rural, Karnataka",None
+ACCU245,Vijay,Choudhury,Male,51,Receptionist,+91-7694003529,vijay.choudhury@outlook.com,"No. 405, Sadashivanagar Temple Road, Sadashivanagar, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU246,Deepa,Reddy,Female,49,Delivery Partner,+91-9911205345,deepa.reddy@gmail.com,"No. 126, Keerthi Nagar 4th Church Road, Keerthi Nagar, Vijayapura, Vijayapura, Karnataka",None
+ACCU247,Sharda,Gupta,Female,35,Clerk,+91-6807688588,sharda.gupta65@gmail.com,"No. 296, Vinoba Nagar Club Road, Vinoba Nagar, Shivamogga, Shivamogga, Karnataka",None
+ACCU248,Anil,Banerjee,Male,27,Manager,+91-9952708357,anil.banerjee@hotmail.com,"No. 394, Bellandur Main Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU249,Deepa,Kumar,Female,61,Vegetable Vendor,+91-6715702815,deepa.kumar1@hotmail.com,"No. 69, Neelasandra 3th Ring Road, Neelasandra, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU250,Ritu,Singh,Female,33,Truck Driver,+91-6563515120,ritu.singh@yahoo.com,"No. 109, Austin Town 5th Temple Road, Austin Town, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU251,Deepa,Nair,Female,22,Clerk,+91-9271423742,deepa.nair@outlook.com,"No. 409, JP Nagar 8th Phase Cross Road, JP Nagar 8th Phase, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU252,Aarav,Banerjee,Male,52,Railway Conductor,+91-9062603335,aarav.banerjee87@gmail.com,"No. 178, Devaraja Mohalla Link Road, Devaraja Mohalla, Mysuru, Mysuru, Karnataka",None
+ACCU253,Suresh,Nair,Male,36,Photographer,+91-9966894101,suresh.nair@hotmail.com,"No. 210, Kulshekar Main Road, Kulshekar, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU254,Sunil,Patel,Male,36,Waiter,+91-6320740194,sunil.patel@outlook.com,"No. 172, Hebbal Kempapura Main Road, Hebbal Kempapura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU255,Jyoti,Das,Female,20,Gardener,+91-6065190144,jyoti.das75@gmail.com,"No. 325, Vidyapeetha Circle Link Road, Vidyapeetha Circle, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU256,Kiran,Rao,Female,25,Call Center Executive,+91-7579550427,kiran.rao@gmail.com,"No. 89, Ambedkar Nagar Yadgir Station Road, Ambedkar Nagar Yadgir, Yadgir, Yadgir, Karnataka",None
+ACCU257,Karan,Prasad,Male,66,Pharmacist,+91-9787382837,karan.prasad@hotmail.com,"No. 434, HAL Bypass Road, HAL, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU258,Anita,Rao,Female,35,Tailor,+91-6645511382,anita.rao@gmail.com,"No. 157, Ganga Nagar 3th Galli, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU259,Vinay,Yadav,Male,66,Travel Agent,+91-6524635722,vinay.yadav@hotmail.com,"No. 8, Super Market Bazaar Street, Super Market, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU260,Anita,Patel,Female,63,Doctor,+91-6619188911,anita.patel24@gmail.com,"No. 136, JP Nagar Mysuru Ring Road, JP Nagar Mysuru, Mysuru, Mysuru, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU261,Amit,Das,Male,22,Security Supervisor,+91-7820064122,amit.das@gmail.com,"No. 363, Tavarekere Main Road, BTM Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU262,Babita,Das,Female,24,Supervisor,+91-7137860460,babita.das@yahoo.com,"No. 385, Murugeshpalya Temple Road, Murugeshpalya, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU263,Sharda,Rao,Female,19,Goldsmith,+91-9132941398,sharda.rao59@gmail.com,"No. 149, Sahakara Nagar Bazaar Street, Sahakara Nagar, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU264,Rohan,Mehta,Male,29,Taxi Driver,+91-6180134624,rohan.mehta@yahoo.com,"No. 205, Kempegowdanagar Ramanagara Highway, Kempegowdanagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU265,Neha,Verma,Female,77,Government Servant,+91-6037387034,neha.verma83@gmail.com,"No. 174, Marathahalli Bridge Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU266,Swati,Gill,Female,38,Student,+91-6023790460,swati.gill34@gmail.com,"No. 88, Super Market 3th Highway, Super Market, Kalaburagi, Kalaburagi, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU267,Rajesh,Singh,Male,31,Receptionist,+91-9574031182,rajesh.singh1@outlook.com,"No. 406, Hindwadi Lane, Hindwadi, Belagavi, Belagavi, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU268,Ramesh,Singh,Male,54,Chef,+91-6402209872,ramesh.singh@yahoo.com,"No. 185, Sahakara Nagar Bazaar Street, Sahakara Nagar, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU269,Rajesh,Nair,Male,18,Homemaker,+91-8192099602,rajesh.nair@hotmail.com,"No. 93, Jayanagar Shivamogga Bypass Road, Jayanagar Shivamogga, Shivamogga, Shivamogga, Karnataka",None
+ACCU270,Geeta,Sharma,Female,31,Dietician,+91-7463214663,geeta.sharma42@gmail.com,"No. 139, Domlur Station Road, Domlur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU271,Ritu,Chawla,Female,52,Postman,+91-6311639581,ritu.chawla@hotmail.com,"No. 208, Karanjikatte Lane, Karanjikatte, Kolar, Kolar, Karnataka",None
+ACCU272,Geeta,Prasad,Female,74,Auto Driver,+91-8448961499,geeta.prasad@outlook.com,"No. 234, Tavarekere Main Road, Tavarekere, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU273,Aaradhya,Yadav,Female,65,Banker,+91-9850554650,aaradhya.yadav@outlook.com,"No. 26, 3rd Block East Road Jayanagar, Jayanagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU274,Babita,Yadav,Female,77,Tailor,+91-9671132552,babita.yadav@gmail.com,"No. 81, Gandhinagar Ballari 5th Link Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka",None
+ACCU275,Arjun,Chawla,Male,79,Call Center Executive,+91-9341819176,arjun.chawla@yahoo.com,"No. 184, Deverabeesanahalli Flyover Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU276,Aaradhya,Mehta,Female,66,Mason,+91-6005227421,aaradhya.mehta@gmail.com,"No. 265, ITPL Main Road, Whitefield, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU277,Suresh,Das,Male,25,Newspaper Vendor,+91-6098376814,suresh.das@hotmail.com,"No. 345, Gachinakatti Colony 2th Ring Road, Gachinakatti Colony, Vijayapura, Vijayapura, Karnataka",None
+ACCU278,Geeta,Verma,Female,42,Doctor,+91-8399985422,geeta.verma1@gmail.com,"No. 306, Velankani Drive, Electronic City, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU279,Anjali,Patel,Female,45,Carpenter,+91-6724950066,anjali.patel@outlook.com,"No. 257, Vijayanagar Cross Road, Vijayanagar, Mysuru, Mysuru, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU280,Vinay,Choudhury,Male,27,Teacher,+91-7686027244,vinay.choudhury@hotmail.com,"No. 311, Keerthi Nagar Double Road, Keerthi Nagar, Vijayapura, Vijayapura, Karnataka",None
+ACCU281,Kavita,Chawla,Female,74,Architect,+91-9410018787,kavita.chawla@gmail.com,"No. 78, Cantonment Ballari Link Road, Cantonment Ballari, Ballari, Ballari, Karnataka",None
+ACCU282,Arjun,Yadav,Male,46,Blacksmith,+91-8918155023,arjun.yadav@yahoo.com,"No. 117, Vinoba Nagar Club Road, Vinoba Nagar, Shivamogga, Shivamogga, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU283,Deepa,Reddy,Female,37,Delivery Partner,+91-7340069517,deepa.reddy1@gmail.com,"No. 60, Vinayaka Nagar Ramanagara 5th Club Road, Vinayaka Nagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU284,Sunita,Joshi,Female,68,Cobbler,+91-8306810410,sunita.joshi@hotmail.com,"No. 13, Bhagya Nagar Ring Road, Bhagya Nagar, Belagavi, Belagavi, Karnataka",None
+ACCU285,Rajesh,Kumar,Male,53,Photographer,+91-7407719179,rajesh.kumar15@gmail.com,"No. 180, Bellary Road, Hebbal, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU286,Vijay,Sharma,Male,59,Content Writer,+91-8074397792,vijay.sharma65@gmail.com,"No. 449, Rashtreeya Vidyalaya Road, Jayanagar, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU287,Neha,Kumar,Female,80,Actor,+91-9982806304,neha.kumar@yahoo.com,"No. 252, Adugodi Bypass Road, Adugodi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU288,Rohan,Patel,Male,40,Manager,+91-9095131686,rohan.patel10@gmail.com,"No. 232, Tilakwadi Bypass Road, Tilakwadi, Belagavi, Belagavi, Karnataka",None
+ACCU289,Karan,Nair,Male,72,Taxi Driver,+91-9997982098,karan.nair76@gmail.com,"No. 227, Kempegowdanagar Ramanagara Highway, Kempegowdanagar Ramanagara, Ramanagara, Ramanagara, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU290,Geeta,Choudhury,Female,48,Dancer,+91-6656309155,geeta.choudhury@hotmail.com,"No. 75, Ejipura Galli, Ejipura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU291,Arjun,Banerjee,Male,73,Architect,+91-7334731107,arjun.banerjee@hotmail.com,"No. 310, Chikkalasandra Bypass Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU292,Neha,Mishra,Female,34,Contractor,+91-7036860166,neha.mishra@yahoo.com,"No. 282, Kempegowdanagar Ramanagara Highway, Kempegowdanagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU293,Karan,Kumar,Male,47,Photographer,+91-6843352851,karan.kumar1@gmail.com,"No. 265, KR Puram Hassan Club Road, KR Puram Hassan, Hassan, Hassan, Karnataka",None
+ACCU294,Babita,Reddy,Female,52,Teacher,+91-9480889118,babita.reddy1@outlook.com,"No. 337, RT Nagar Main Road, RT Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU295,Sunita,Joshi,Female,33,Student,+91-6706948217,sunita.joshi1@hotmail.com,"No. 30, BTM Layout 80 Feet Road, BTM Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU296,Sanjay,Verma,Male,62,Tailor,+91-6555690800,sanjay.verma@outlook.com,"No. 417, Savalanga Road Church Road, Savalanga Road, Shivamogga, Shivamogga, Karnataka",None
+ACCU297,Arjun,Singh,Male,66,Veterinary Doctor,+91-9754647163,arjun.singh@yahoo.com,"No. 351, Bannimantap 2th Ring Road, Bannimantap, Mysuru, Mysuru, Karnataka",None
+ACCU298,Karan,Das,Male,24,Broker,+91-8868330124,karan.das@yahoo.com,"No. 272, Nazarbad Bypass Road, Nazarbad, Mysuru, Mysuru, Karnataka",None
+ACCU299,Suresh,Sharma,Male,48,Chef,+91-9501477491,suresh.sharma@gmail.com,"No. 354, Dam Road Bazaar Street, Dam Road, Hosapete, Vijayanagara, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU300,Sandip,Jadav,Male,80,Government Servant,+91-7868592411,sandip.jadav@outlook.com,"No. 21, Bannerghatta Road Highway, Bannerghatta Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU301,Jyoti,Prasad,Female,73,Sales Executive,+91-6120757490,jyoti.prasad@yahoo.com,"No. 343, Kadirenahalli Ring Road, Kadirenahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU302,Deepa,Kumar,Female,31,Vegetable Vendor,+91-7183096758,deepa.kumar@outlook.com,"No. 342, Shahapur Belagavi Galli, Shahapur Belagavi, Belagavi, Belagavi, Karnataka",None
+ACCU303,Aaradhya,Nair,Female,69,Actor,+91-8061599699,aaradhya.nair@gmail.com,"No. 29, Kudlu Gate Club Road, Kudlu Gate, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU304,Manoj,Choudhury,Male,70,Homemaker,+91-9040109852,manoj.choudhury78@gmail.com,"No. 435, Okalipuram Ring Road, Okalipuram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU305,Suresh,Gill,Male,52,Laborer,+91-7285209768,suresh.gill97@gmail.com,"No. 440, Silk Board Main Road, Silk Board, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU306,Amit,Kumar,Male,24,Gardener,+91-6377796472,amit.kumar@outlook.com,"No. 159, Hulimavu Highway, Hulimavu, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU307,Rajesh,Sharma,Male,38,Teacher,+91-6824294854,rajesh.sharma@gmail.com,"No. 242, Singasandra 3th Station Road, Singasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU308,Harish,Banerjee,Male,38,Nurse,+91-7504481574,harish.banerjee95@gmail.com,"No. 186, Gokulam Galli, Gokulam, Mysuru, Mysuru, Karnataka",None
+ACCU309,Pooja,Nair,Female,72,Washerman,+91-6784231747,pooja.nair@outlook.com,"No. 217, Majestic Galli, Majestic, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU310,Preeti,Kumar,Female,20,Peon,+91-6402843874,preeti.kumar@yahoo.com,"No. 341, Siddaganga Extension Junction Road, Siddaganga Extension, Tumakuru, Tumakuru, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU311,Vikram,Singh,Male,49,Cabin Crew,+91-8957820387,vikram.singh35@gmail.com,"No. 26, Urwa 3th Highway, Urwa, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU312,Vinay,Joshi,Male,39,Content Writer,+91-9641458944,vinay.joshi@yahoo.com,"No. 229, Marathahalli Bridge Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU313,Deepa,Kumar,Female,48,Barber,+91-8259463184,deepa.kumar2@hotmail.com,"No. 209, JP Nagar Outer Ring Road, JP Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU314,Rohan,Yadav,Male,76,Travel Agent,+91-9520332076,rohan.yadav@yahoo.com,"No. 103, Jayanagar Shivamogga Bypass Road, Jayanagar Shivamogga, Shivamogga, Shivamogga, Karnataka",None
+ACCU315,Sunita,Banerjee,Female,56,Musician,+91-9973674045,sunita.banerjee@hotmail.com,"No. 364, Indrali Double Road, Indrali, Udupi, Udupi, Karnataka",None
+ACCU316,Ritu,Das,Female,28,Bus Conductor,+91-6582728487,ritu.das1@yahoo.com,"No. 374, PJ Extension Lane, PJ Extension, Davanagere, Davanagere, Karnataka",None
+ACCU317,Sanjay,Verma,Male,63,Waiter,+91-7911788646,sanjay.verma@hotmail.com,"No. 217, Hennur Ring Road, Hennur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU318,Amit,Choudhury,Male,28,Potter,+91-8125523989,amit.choudhury@gmail.com,"No. 300, Hennur Gardens Lane, Hennur Gardens, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU319,Sanjay,Sharma,Male,75,Plumber,+91-9997098134,sanjay.sharma@gmail.com,"No. 217, Doddaballapur Road Yelahanka, Yelahanka, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU320,Rajesh,Rao,Male,47,Teacher,+91-7809478692,rajesh.rao@yahoo.com,"No. 95, Hennur Gardens Lane, Hennur Gardens, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU321,Preeti,Joshi,Female,34,Pharmacist,+91-9588457425,preeti.joshi@yahoo.com,"No. 17, Subhash Ward Junction Road, Subhash Ward, Yadgir, Yadgir, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU322,Meena,Das,Female,21,Delivery Partner,+91-8669362617,meena.das@hotmail.com,"No. 277, Dasarahalli Temple Road, Dasarahalli, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU323,Sanjay,Chawla,Male,25,Milkman,+91-7309541443,sanjay.chawla56@gmail.com,"No. 233, Yeshwanthpur Ring Road, Yeshwanthpur, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU324,Harish,Choudhury,Male,40,Barber,+91-9275075530,harish.choudhury@hotmail.com,"No. 386, Chamundipuram Highway, Chamundipuram, Mysuru, Mysuru, Karnataka",None
+ACCU325,Aaradhya,Joshi,Female,20,Receptionist,+91-6695810103,aaradhya.joshi1@outlook.com,"No. 318, Bilekahalli Highway, Bilekahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU326,Rohan,Das,Male,52,Contractor,+91-6511921920,rohan.das@yahoo.com,"No. 334, Lalbagh Mangaluru Galli, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU327,Ritu,Verma,Female,25,Fisherman,+91-7927608588,ritu.verma@outlook.com,"No. 320, Hennur Gardens Lane, Hennur Gardens, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU328,Arjun,Mehta,Male,74,Delivery Partner,+91-8831405375,arjun.mehta65@gmail.com,"No. 65, Kadugodi Junction Road, Kadugodi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU329,Kiran,Gupta,Female,28,Broker,+91-6435386101,kiran.gupta@hotmail.com,"No. 102, Nehru Nagar Junction Road, Nehru Nagar, Belagavi, Belagavi, Karnataka",None
+ACCU330,Ramesh,Rao,Male,37,Goldsmith,+91-8200172024,ramesh.rao18@gmail.com,"No. 93, Kaikondrahalli 5th Ring Road, Kaikondrahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU331,Preeti,Gupta,Female,62,Banker,+91-6424982365,preeti.gupta95@gmail.com,"No. 197, Subramanyapura Bypass Road, Subramanyapura, Bengaluru, Bengaluru Urban, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU332,Vijay,Sharma,Male,74,Fisherman,+91-9182056893,vijay.sharma@yahoo.com,"No. 32, Gandhi Bazaar 5th Station Road, Gandhi Bazaar, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU333,Sanjay,Singh,Male,22,Peon,+91-7833271512,sanjay.singh@gmail.com,"No. 436, Mailoor Lane, Mailoor, Bidar, Bidar, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU334,Swati,Chawla,Female,47,Washerman,+91-7261621952,swati.chawla@outlook.com,"No. 359, Kudlu Gate Club Road, Kudlu Gate, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU335,Vinay,Joshi,Male,65,Software Engineer,+91-8740435987,vinay.joshi@hotmail.com,"No. 49, Bannimantap 2th Ring Road, Bannimantap, Mysuru, Mysuru, Karnataka",None
+ACCU336,Geeta,Verma,Female,28,Clerk,+91-9769283577,geeta.verma@yahoo.com,"No. 88, Galipur Galli, Galipur, Kolar, Kolar, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU337,Jyoti,Jadav,Female,26,Newspaper Vendor,+91-7053151327,jyoti.jadav@outlook.com,"No. 42, Lalbagh Mangaluru Galli, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU338,Neha,Prasad,Female,28,Waiter,+91-7801176618,neha.prasad52@gmail.com,"No. 89, NGO Colony Church Road, NGO Colony, Kalaburagi, Kalaburagi, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU339,Deepa,Chawla,Female,66,Graphic Designer,+91-7609722255,deepa.chawla@gmail.com,"No. 202, Gokul Road Galli, Gokul Road, Hubballi, Dharwad, Karnataka",None
+ACCU340,Ajay,Verma,Male,26,Auto Driver,+91-9098805414,ajay.verma1@outlook.com,"No. 10, Chinmaya Mission Hospital Road, Indiranagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU341,Sandip,Gupta,Male,21,Chartered Accountant,+91-7275118092,sandip.gupta@gmail.com,"No. 215, Rashtreeya Vidyalaya Road, Jayanagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU342,Karan,Kumar,Male,47,Priest,+91-6321648441,karan.kumar89@gmail.com,"No. 363, Kammasandra 4th Link Road, Kammasandra, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU343,Aaradhya,Sharma,Female,54,Railway Conductor,+91-7414441219,aaradhya.sharma@yahoo.com,"No. 59, Keshwapur Highway, Keshwapur, Hubballi, Dharwad, Karnataka",None
+ACCU344,Sandip,Das,Male,36,Shopkeeper,+91-9297328174,sandip.das@hotmail.com,"No. 338, Gopalagowda Extension Galli, Gopalagowda Extension, Shivamogga, Shivamogga, Karnataka",None
+ACCU345,Renu,Mishra,Female,48,Taxi Driver,+91-6467619888,renu.mishra@hotmail.com,"No. 440, Harlur Road 4th Ring Road, Harlur Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU346,Anita,Yadav,Female,53,Actor,+91-6984612182,anita.yadav1@yahoo.com,"No. 158, Brahmpur Main Road, Brahmpur, Kalaburagi, Kalaburagi, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU347,Kiran,Gupta,Female,67,Astrologer,+91-7237753259,kiran.gupta@yahoo.com,"No. 448, Mandi Mohalla Main Road, Mandi Mohalla, Mysuru, Mysuru, Karnataka",None
+ACCU348,Sharda,Mishra,Female,65,Laborer,+91-9815061572,sharda.mishra@gmail.com,"No. 305, ITPL Main Road, Whitefield, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU349,Anjali,Yadav,Female,73,Clerk,+91-8491323507,anjali.yadav50@gmail.com,"No. 274, Savalanga Road 2th Junction Road, Savalanga Road, Shivamogga, Shivamogga, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU350,Rohan,Reddy,Male,21,Pilot,+91-9867249524,rohan.reddy@hotmail.com,"No. 43, Lalbagh Mangaluru 4th Cross Road, Lalbagh Mangaluru, Mangaluru, Dakshina Kannada, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU351,Ritu,Reddy,Female,34,Taxi Driver,+91-9187499732,ritu.reddy@gmail.com,"No. 191, Haroorgeri Main Road, Haroorgeri, Bidar, Bidar, Karnataka",None
+ACCU352,Amit,Kumar,Male,46,Artist,+91-7517304850,amit.kumar@yahoo.com,"No. 211, Chamundipuram Highway, Chamundipuram, Mysuru, Mysuru, Karnataka",None
+ACCU353,Priya,Banerjee,Female,75,Farmer,+91-7749520442,priya.banerjee@hotmail.com,"No. 359, Gandhi Nagar Shivamogga Station Road, Gandhi Nagar Shivamogga, Shivamogga, Shivamogga, Karnataka",None
+ACCU354,Harish,Kumar,Male,29,Plumber,+91-9489676746,harish.kumar@hotmail.com,"No. 112, Vijayanagar Cross Road, Vijayanagar, Mysuru, Mysuru, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU355,Geeta,Verma,Female,42,Artist,+91-7526156879,geeta.verma2@gmail.com,"No. 409, Silk Board Main Road, Silk Board, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU356,Aaradhya,Choudhury,Female,54,Business Owner,+91-7860657754,aaradhya.choudhury@hotmail.com,"No. 209, 14th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU357,Deepa,Joshi,Female,71,Mechanic,+91-6419684951,deepa.joshi@gmail.com,"No. 418, Shastri Ward 1th Highway, Shastri Ward, Yadgir, Yadgir, Karnataka",None
+ACCU358,Ramesh,Singh,Male,53,Government Servant,+91-9797720795,ramesh.singh@outlook.com,"No. 88, Vidyapeetha Circle Link Road, Vidyapeetha Circle, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU359,Babita,Choudhury,Female,28,Student,+91-7756690793,babita.choudhury94@gmail.com,"No. 145, Mahadevapura Church Road, Mahadevapura, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU360,Babita,Gill,Female,80,Taxi Driver,+91-9031684026,babita.gill25@gmail.com,"No. 119, Chamrajpet Cross Road, Chamrajpet, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU361,Anjali,Verma,Female,62,Homemaker,+91-6454593366,anjali.verma@gmail.com,"No. 331, Gokulam 2th Temple Road, Gokulam, Mysuru, Mysuru, Karnataka",None
+ACCU362,Suresh,Nair,Male,59,Graphic Designer,+91-7960097105,suresh.nair@yahoo.com,"No. 323, Vidyanagar Hubli Cross Road, Vidyanagar Hubli, Hubballi, Dharwad, Karnataka",None
+ACCU363,Priya,Rao,Female,74,Electrician,+91-7060688445,priya.rao@hotmail.com,"No. 90, Vinayaka Nagar Ramanagara 5th Club Road, Vinayaka Nagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU364,Kavita,Yadav,Female,38,Student,+91-6456991660,kavita.yadav@hotmail.com,"No. 2, Karanjikatte Lane, Karanjikatte, Kolar, Kolar, Karnataka",None
+ACCU365,Babita,Singh,Female,64,Blacksmith,+91-9814300106,babita.singh@hotmail.com,"No. 326, BTM 2nd Stage 16th Main, BTM Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU366,Manoj,Mehta,Male,61,Content Writer,+91-8235612968,manoj.mehta@gmail.com,"No. 92, Museum Road, Brigade Road, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU367,Rahul,Kumar,Male,37,Delivery Partner,+91-8255912305,rahul.kumar@outlook.com,"No. 232, Ambedkar Nagar Yadgir Station Road, Ambedkar Nagar Yadgir, Yadgir, Yadgir, Karnataka",None
+ACCU368,Priya,Patel,Female,57,Watchman,+91-9092317603,priya.patel@hotmail.com,"No. 257, Chikkalasandra 2th Ring Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU369,Harish,Rao,Male,68,Gardener,+91-8698828513,harish.rao@hotmail.com,"No. 128, Indrali Double Road, Indrali, Udupi, Udupi, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU370,Kiran,Nair,Female,44,Government Servant,+91-7920447945,kiran.nair@yahoo.com,"No. 298, Hampankatta Highway, Hampankatta, Mangaluru, Dakshina Kannada, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU371,Babita,Jadav,Female,79,Yoga Instructor,+91-7102631460,babita.jadav48@gmail.com,"No. 38, Shahapur Belagavi Galli, Shahapur Belagavi, Belagavi, Belagavi, Karnataka",None
+ACCU372,Babita,Chawla,Female,44,Waiter,+91-7839996196,babita.chawla74@gmail.com,"No. 165, Kammasandra Temple Road, Kammasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU373,Sneha,Prasad,Female,50,Dancer,+91-9419432509,sneha.prasad@outlook.com,"No. 49, Padmanabhanagar Bazaar Street, Padmanabhanagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU374,Deepa,Gill,Female,51,Painter,+91-6110002664,deepa.gill@hotmail.com,"No. 431, Shivajinagar Station Road, Shivajinagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU375,Rahul,Patel,Male,72,Farmer,+91-8752128416,rahul.patel49@gmail.com,"No. 17, Kaikondrahalli 5th Ring Road, Kaikondrahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU376,Meena,Nair,Female,37,Delivery Partner,+91-7206715280,meena.nair@hotmail.com,"No. 220, Navanagar Church Road, Navanagar, Hubballi, Dharwad, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU377,Sandip,Das,Male,53,Fisherman,+91-9199859868,sandip.das1@hotmail.com,"No. 68, Vidya Nagar Hassan Bazaar Street, Vidya Nagar Hassan, Hassan, Hassan, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU378,Rajesh,Jadav,Male,60,Sweeper,+91-7606494347,rajesh.jadav@outlook.com,"No. 159, Outer Ring Road, Marathahalli, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU379,Rahul,Jadav,Male,34,Carpenter,+91-7396468004,rahul.jadav@yahoo.com,"No. 38, Banaswadi Bypass Road, Banaswadi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU380,Ritu,Verma,Female,32,Taxi Driver,+91-6771068757,ritu.verma95@gmail.com,"No. 248, Mailoor Lane, Mailoor, Bidar, Bidar, Karnataka",None
+ACCU381,Vikram,Rao,Male,20,Painter,+91-8788382674,vikram.rao2@gmail.com,"No. 384, Brahmpur Main Road, Brahmpur, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU382,Pooja,Patel,Female,38,Software Engineer,+91-9407040957,pooja.patel62@gmail.com,"No. 248, KR Puram Bypass Road, KR Puram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU383,Sanjay,Prasad,Male,55,Postman,+91-6239085303,sanjay.prasad51@gmail.com,"No. 165, Basavanagudi 4th Junction Road, Basavanagudi, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU384,Kiran,Das,Female,63,Fisherman,+91-9626904400,kiran.das1@yahoo.com,"No. 368, Bellandur Main Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU385,Meena,Choudhury,Female,25,Receptionist,+91-8992971056,meena.choudhury61@gmail.com,"No. 394, Tilakwadi Bypass Road, Tilakwadi, Belagavi, Belagavi, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU386,Amit,Patel,Male,50,Gardener,+91-9629765031,amit.patel99@gmail.com,"No. 196, Malleshwaram Highway, Malleshwaram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU387,Jyoti,Gill,Female,31,Barber,+91-7342964209,jyoti.gill@gmail.com,"No. 250, Saptapur Main Road, Saptapur, Dharwad, Dharwad, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU388,Karan,Gill,Male,53,Sculptor,+91-6506160886,karan.gill@outlook.com,"No. 41, Bommasandra 1th Junction Road, Bommasandra, Bengaluru, Bengaluru Urban, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU389,Vikram,Kumar,Male,69,Milkman,+91-9132301311,vikram.kumar@hotmail.com,"No. 152, 27th Main Road HSR, HSR Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU390,Neha,Kumar,Female,19,Cabin Crew,+91-7640427279,neha.kumar@gmail.com,"No. 348, Ravindra Nagar 3th Galli, Ravindra Nagar, Hassan, Hassan, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU391,Vikram,Gupta,Male,46,Professor,+91-9785754789,vikram.gupta@yahoo.com,"No. 93, Hindwadi Lane, Hindwadi, Belagavi, Belagavi, Karnataka",None
+ACCU392,Sunil,Chawla,Male,42,Software Engineer,+91-8207050389,sunil.chawla@gmail.com,"No. 199, Kammasandra Temple Road, Kammasandra, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU393,Priya,Banerjee,Female,77,Electrician,+91-9232831566,priya.banerjee1@hotmail.com,"No. 429, Hanumanthnagar Junction Road, Hanumanthnagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU394,Sandip,Prasad,Male,55,Carpenter,+91-6855907611,sandip.prasad@outlook.com,"No. 81, Lakshmipuram Station Road, Lakshmipuram, Mysuru, Mysuru, Karnataka",None
+ACCU395,Ajay,Mishra,Male,54,Dancer,+91-8216130741,ajay.mishra47@gmail.com,"No. 418, JP Nagar Mysuru Ring Road, JP Nagar Mysuru, Mysuru, Mysuru, Karnataka",None
+ACCU396,Kavita,Banerjee,Female,34,Architect,+91-7025669205,kavita.banerjee@gmail.com,"No. 305, Vinayaka Nagar Ramanagara Main Road, Vinayaka Nagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU397,Ritu,Mishra,Female,51,Mason,+91-8887348561,ritu.mishra@hotmail.com,"No. 27, Ambalpady Galli, Ambalpady, Udupi, Udupi, Karnataka",None
+ACCU398,Jyoti,Nair,Female,18,Journalist,+91-9141500467,jyoti.nair80@gmail.com,"No. 68, Green Glen Layout Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU399,Anil,Gupta,Male,41,Real Estate Agent,+91-8031046604,anil.gupta@gmail.com,"No. 217, Silk Board Main Road, Silk Board, Bengaluru, Bengaluru Urban, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU400,Anil,Yadav,Male,46,Contractor,+91-6313253503,anil.yadav26@gmail.com,"No. 110, Siddhartha Layout Lane, Siddhartha Layout, Mysuru, Mysuru, Karnataka",None
+ACCU401,Sunil,Rao,Male,55,Electrician,+91-8719065539,sunil.rao34@gmail.com,"No. 298, Udyambag Main Road, Udyambag, Belagavi, Belagavi, Karnataka",None
+ACCU402,Manoj,Banerjee,Male,42,Carpenter,+91-7136264506,manoj.banerjee1@gmail.com,"No. 125, Kodigehalli Galli, Kodigehalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU403,Swati,Gupta,Female,52,Content Writer,+91-7881103428,swati.gupta@yahoo.com,"No. 109, Ashok Nagar Tumkur Bypass Road, Ashok Nagar Tumkur, Tumakuru, Tumakuru, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU404,Vikram,Chawla,Male,73,Newspaper Vendor,+91-8215121389,vikram.chawla63@gmail.com,"No. 133, Kodigehalli Galli, Kodigehalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU405,Ajay,Jadav,Male,76,Journalist,+91-7253116006,ajay.jadav@gmail.com,"No. 217, Hebbal Flyover Road, Hebbal, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU406,Arjun,Joshi,Male,51,Pharmacist,+91-8194051674,arjun.joshi95@gmail.com,"No. 169, Banashankari 2th Church Road, Banashankari, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU407,Meena,Kumar,Female,75,Milkman,+91-6944662910,meena.kumar@hotmail.com,"No. 126, Srirampura Club Road, Srirampura, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU408,Vijay,Joshi,Male,67,Bus Conductor,+91-7944294760,vijay.joshi@hotmail.com,"No. 153, Nehru Nagar Junction Road, Nehru Nagar, Belagavi, Belagavi, Karnataka",None
+ACCU409,Aaradhya,Rao,Female,18,Barber,+91-8030615360,aaradhya.rao@gmail.com,"No. 406, Jayanagar Shivamogga Bypass Road, Jayanagar Shivamogga, Shivamogga, Shivamogga, Karnataka",Cheating (Sec 318 BNS) in 2021 - Settled out of court.
+ACCU410,Priya,Kumar,Female,75,Astrologer,+91-8064731415,priya.kumar58@gmail.com,"No. 426, Saraswatpur Dharwad 1th Lane, Saraswatpur Dharwad, Dharwad, Dharwad, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU411,Aarav,Verma,Male,33,Newspaper Vendor,+91-7863884924,aarav.verma96@gmail.com,"No. 294, Okalipuram Ring Road, Okalipuram, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU412,Kiran,Banerjee,Female,56,Priest,+91-7199654552,kiran.banerjee@gmail.com,"No. 307, Kadirenahalli Ring Road, Kadirenahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU413,Priya,Chawla,Female,65,Fisherman,+91-8802761482,priya.chawla32@gmail.com,"No. 382, Kaikondrahalli 5th Ring Road, Kaikondrahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU414,Vinay,Das,Male,75,Watchman,+91-6115788081,vinay.das@outlook.com,"No. 174, Ncb Colony 4th Station Road, Ncb Colony, Hosapete, Vijayanagara, Karnataka",None
+ACCU415,Rohan,Sharma,Male,18,Cyber Cafe Owner,+91-6147981155,rohan.sharma@outlook.com,"No. 154, Malpe Club Road, Malpe, Udupi, Udupi, Karnataka",None
+ACCU416,Sanjay,Banerjee,Male,43,Dancer,+91-9055192554,sanjay.banerjee88@gmail.com,"No. 435, Kempegowdanagar Ramanagara Highway, Kempegowdanagar Ramanagara, Ramanagara, Ramanagara, Karnataka",None
+ACCU417,Sunita,Nair,Female,51,Electrician,+91-9691753375,sunita.nair@outlook.com,"No. 13, Bendoorwell Main Road, Bendoorwell, Mangaluru, Dakshina Kannada, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU418,Renu,Reddy,Female,61,Actor,+91-8571620691,renu.reddy@hotmail.com,"No. 26, Varthur 2th Double Road, Varthur, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU419,Vinay,Kumar,Male,44,Chartered Accountant,+91-9404334593,vinay.kumar@hotmail.com,"No. 168, Kudlu Gate 3th Lane, Kudlu Gate, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU420,Swati,Mishra,Female,24,Waiter,+91-8420345888,swati.mishra@outlook.com,"No. 183, BTM 2nd Stage 16th Main, BTM Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU421,Manoj,Nair,Male,40,Graphic Designer,+91-8112305690,manoj.nair@yahoo.com,"No. 271, Ganga Nagar 3th Galli, Ganga Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU422,Sharda,Reddy,Female,19,Insurance Agent,+91-7888749406,sharda.reddy@outlook.com,"No. 109, Benson Town Bazaar Street, Benson Town, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU423,Priya,Joshi,Female,20,Veterinary Doctor,+91-8757297202,priya.joshi@gmail.com,"No. 395, Subhash Nagar Nelamangala Church Road, Subhash Nagar Nelamangala, Nelamangala, Bengaluru Rural, Karnataka",None
+ACCU424,Sunita,Gill,Female,48,Blacksmith,+91-9898812951,sunita.gill@outlook.com,"No. 313, Derebail Bazaar Street, Derebail, Mangaluru, Dakshina Kannada, Karnataka",None
+ACCU425,Renu,Sharma,Female,37,Cabin Crew,+91-6437749903,renu.sharma@yahoo.com,"No. 129, Shivaji Nagar Vijayapura Junction Road, Shivaji Nagar Vijayapura, Vijayapura, Vijayapura, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU426,Sunil,Chawla,Male,71,Cobbler,+91-6190721888,sunil.chawla1@gmail.com,"No. 272, Bannimantap 2th Ring Road, Bannimantap, Mysuru, Mysuru, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU427,Sunil,Yadav,Male,35,Potter,+91-6481254424,sunil.yadav@outlook.com,"No. 59, Siddhartha Layout Lane, Siddhartha Layout, Mysuru, Mysuru, Karnataka",None
+ACCU428,Sunita,Yadav,Female,75,Truck Driver,+91-8967257167,sunita.yadav@hotmail.com,"No. 413, Infactor Colony Junction Road, Infactor Colony, Ballari, Ballari, Karnataka",Voluntarily causing hurt (Sec 115 BNS) in 2023 - Acquitted.
+ACCU429,Anita,Chawla,Female,44,Delivery Partner,+91-7629473577,anita.chawla@yahoo.com,"No. 216, MCC B Block Church Road, MCC B Block, Davanagere, Davanagere, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU430,Kavita,Yadav,Female,31,Security Guard,+91-9104829900,kavita.yadav@gmail.com,"No. 277, Vinoba Nagar Club Road, Vinoba Nagar, Shivamogga, Shivamogga, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU431,Rahul,Kumar,Male,74,Watchman,+91-8854589924,rahul.kumar@yahoo.com,"No. 335, Bommasandra Main Road, Bommasandra, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU432,Anita,Rao,Female,57,Real Estate Agent,+91-6982650874,anita.rao82@gmail.com,"No. 322, Galipur Galli, Galipur, Kolar, Kolar, Karnataka",None
+ACCU433,Priya,Prasad,Female,35,Dancer,+91-9570743259,priya.prasad@gmail.com,"No. 384, Super Market 3th Highway, Super Market, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU434,Ajay,Yadav,Male,22,Peon,+91-6365356734,ajay.yadav@yahoo.com,"No. 135, Gandhinagar Ballari 5th Link Road, Gandhinagar Ballari, Ballari, Ballari, Karnataka","Theft (Sec 303 BNS) in 2024 - Convicted, 6 months sentence."
+ACCU435,Jyoti,Mehta,Female,51,Teacher,+91-7963156197,jyoti.mehta48@gmail.com,"No. 378, Saraswathipuram Ring Road, Saraswathipuram, Mysuru, Mysuru, Karnataka",None
+ACCU436,Harish,Prasad,Male,24,Government Servant,+91-9870780804,harish.prasad@gmail.com,"No. 25, Varthur Temple Road, Varthur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU437,Babita,Kumar,Female,32,Sculptor,+91-7515829594,babita.kumar61@gmail.com,"No. 24, Jewargi Road Main Road, Jewargi Road, Kalaburagi, Kalaburagi, Karnataka",None
+ACCU438,Sunil,Verma,Male,44,Priest,+91-8468789134,sunil.verma@hotmail.com,"No. 121, Narayanpur Dharwad 4th Church Road, Narayanpur Dharwad, Dharwad, Dharwad, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU439,Sanjay,Mehta,Male,24,Railway Conductor,+91-8308360104,sanjay.mehta@yahoo.com,"No. 141, Mailoor Lane, Mailoor, Bidar, Bidar, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU440,Kiran,Verma,Female,37,Gardener,+91-7100896779,kiran.verma@outlook.com,"No. 102, Sarakki Lake Road, JP Nagar, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU441,Sharda,Rao,Female,25,Railway Conductor,+91-9876754865,sharda.rao1@yahoo.com,"No. 328, Gottigere 5th Galli, Gottigere, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU442,Kiran,Mishra,Female,45,Insurance Agent,+91-8295299848,kiran.mishra@outlook.com,"No. 34, Velankani Drive, Electronic City, Bengaluru, Bengaluru Urban, Karnataka",Robbery (Sec 310 BNS) in 2025 - Trial pending.
+ACCU443,Deepa,Kumar,Female,57,Cabin Crew,+91-9246839371,deepa.kumar@yahoo.com,"No. 120, Gandhi Nagar Dharwad Bazaar Street, Gandhi Nagar Dharwad, Dharwad, Dharwad, Karnataka",None
+ACCU444,Karan,Nair,Male,79,Manager,+91-7718337318,karan.nair@yahoo.com,"No. 154, Jalahalli Lane, Jalahalli, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU445,Deepak,Mishra,Male,22,Secretary,+91-8622439927,deepak.mishra@hotmail.com,"No. 200, Chikkalasandra 2th Ring Road, Chikkalasandra, Bengaluru, Bengaluru Urban, Karnataka",Gambling under Public Disorder in 2022 - Fined.
+ACCU446,Suresh,Mishra,Male,65,Cobbler,+91-8569479644,suresh.mishra@outlook.com,"No. 83, Bellandur Main Road, Bellandur, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU447,Rajesh,Yadav,Male,60,Security Guard,+91-9508292786,rajesh.yadav@hotmail.com,"No. 362, BTM 2nd Stage 16th Main, BTM Layout, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU448,Sharda,Mehta,Female,62,Priest,+91-9271885262,sharda.mehta@yahoo.com,"No. 416, Koramangala Valley Road, Koramangala, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU449,Manoj,Mishra,Male,80,Student,+91-9715134534,manoj.mishra@hotmail.com,"No. 1, Brigade Road, Brigade Road, Bengaluru, Bengaluru Urban, Karnataka",None
+ACCU450,Sunil,Nair,Male,76,Journalist,+91-8190781626,sunil.nair80@gmail.com,"No. 107, Residency Road, MG Road, Bengaluru, Bengaluru Urban, Karnataka",None

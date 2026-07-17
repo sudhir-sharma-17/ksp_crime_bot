@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@variant dark (.dark &);
+
+@theme {
+  --color-sky-500: #0ea5e9;
+  --color-emerald-500: #10b981;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased overflow-hidden;
+  }
+}
+
+

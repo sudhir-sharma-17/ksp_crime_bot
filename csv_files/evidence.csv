@@ -1,0 +1,1018 @@
+evidence_id,case_id,evidence_type,description,seizure_date
+EVID0001,CASE001,Wallet,Wallet recovered from the crime scene near Nehru Nagar Junction Road containing identity cards.,2025-01-29 22:21:30
+EVID0002,CASE001,Broken Glass,Broken glass shards collected for forensic examination.,2025-01-27 23:50:41
+EVID0003,CASE001,Hard Disk,Hard drive containing files and data log information.,2025-02-04 20:32:29
+EVID0004,CASE001,SIM Card,SIM card recovered from the suspect's possession's device.,2025-01-29 14:13:04
+EVID0005,CASE001,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-01-30 21:37:33
+EVID0006,CASE002,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-04-23 17:22:40
+EVID0007,CASE002,Email Records,Phishing or fraudulent email communications retrieved.,2026-04-23 17:24:20
+EVID0008,CASE002,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-04-22 13:17:17
+EVID0009,CASE003,SIM Card,SIM card recovered from the suspect's possession's device.,2025-12-31 16:13:59
+EVID0010,CASE003,Mobile Phone,Seized phone containing suspicious communications.,2025-12-31 08:40:56
+EVID0011,CASE003,Hard Disk,Hard drive containing files and data log information.,2025-12-28 04:54:24
+EVID0012,CASE004,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Horamavu Agara Main Road.,2025-06-06 14:34:19
+EVID0013,CASE004,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-06-02 12:33:13
+EVID0014,CASE005,Laptop,Personal laptop containing document files related to the case.,2025-04-04 08:56:06
+EVID0015,CASE005,Hard Disk,Hard drive containing files and data log information.,2025-04-04 21:31:48
+EVID0016,CASE006,Fingerprints,Latent fingerprints lifted from the crime scene near Bejai Cross Road environment.,2025-04-02 02:35:30
+EVID0017,CASE006,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-03-27 03:17:04
+EVID0018,CASE006,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-01 14:38:41
+EVID0019,CASE006,CCTV Footage,CCTV footage recorded at the crime scene near Bejai Cross Road location showing the suspect's possession.,2025-04-01 14:57:59
+EVID0020,CASE007,Mobile Phone,Seized phone containing suspicious communications.,2026-01-02 20:21:26
+EVID0021,CASE008,Fingerprints,Latent fingerprints lifted from the crime scene near Marathahalli Bridge Road environment.,2025-12-09 10:49:34
+EVID0022,CASE008,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-12-08 13:06:28
+EVID0023,CASE008,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-12-09 11:36:44
+EVID0024,CASE008,CCTV Footage,CCTV footage recorded at the crime scene near Marathahalli Bridge Road location showing the suspect's possession.,2025-12-07 04:12:37
+EVID0025,CASE009,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-03-19 15:39:32
+EVID0026,CASE009,IP Address Log,IP address access log associated with the fraud transaction.,2025-03-26 23:08:28
+EVID0027,CASE010,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-18 21:39:35
+EVID0028,CASE010,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-15 08:10:16
+EVID0029,CASE010,Fingerprints,Latent fingerprints lifted from the crime scene near Saraswathipuram 3th Highway environment.,2026-05-20 14:29:02
+EVID0030,CASE010,CCTV Footage,CCTV footage recorded at the crime scene near Saraswathipuram 3th Highway location showing the suspect's possession.,2026-05-16 04:21:21
+EVID0031,CASE010,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-22 23:30:05
+EVID0032,CASE011,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-02-15 21:16:18
+EVID0033,CASE011,IP Address Log,Access logs showing logins to the target banking portal.,2025-02-15 20:18:39
+EVID0034,CASE011,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-02-18 17:17:06
+EVID0035,CASE012,Wallet,Wallet recovered from the crime scene near Sanjaynagar Double Road containing identity cards.,2026-04-17 19:03:11
+EVID0036,CASE012,Mobile Phone,Seized phone containing suspicious communications.,2026-04-20 07:16:45
+EVID0037,CASE013,Email Records,Email threads between the complainant and the fraudulent sender.,2026-03-11 07:48:38
+EVID0038,CASE013,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-03-09 07:48:03
+EVID0039,CASE013,IP Address Log,IP address access log associated with the fraud transaction.,2026-03-11 06:41:18
+EVID0040,CASE013,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-03-08 14:17:00
+EVID0041,CASE013,Wallet,Wallet recovered from the crime scene near Langford Town Bazaar Street containing identity cards.,2026-03-07 22:32:57
+EVID0042,CASE014,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-10-20 20:07:47
+EVID0043,CASE014,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-10-29 10:32:55
+EVID0044,CASE015,Mobile Phone,Seized phone containing suspicious communications.,2025-11-13 23:23:44
+EVID0045,CASE016,Email Records,Phishing or fraudulent email communications retrieved.,2025-09-12 02:33:42
+EVID0046,CASE016,IP Address Log,Access logs showing logins to the target banking portal.,2025-09-09 03:06:58
+EVID0047,CASE016,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-09-15 05:38:23
+EVID0048,CASE016,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-09-11 20:18:24
+EVID0049,CASE016,Broken Glass,Broken glass shards collected for forensic examination.,2025-09-16 08:58:08
+EVID0050,CASE017,Laptop,Personal laptop containing document files related to the case.,2026-06-01 13:15:03
+EVID0051,CASE017,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Wilson Garden 5th Bypass Road.,2026-05-31 21:46:12
+EVID0052,CASE017,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-05-25 21:42:44
+EVID0053,CASE018,Threat Letter,Threat letter written by the accused received by the victim.,2025-12-05 19:53:20
+EVID0054,CASE018,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Commercial Street Bazaar Street.,2025-12-07 03:25:21
+EVID0055,CASE019,CCTV Footage,CCTV footage recorded at the crime scene near Narayanpur Dharwad Galli location showing the suspect's possession.,2025-11-18 02:31:16
+EVID0056,CASE019,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-11-18 11:04:51
+EVID0057,CASE020,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-09-28 22:11:37
+EVID0058,CASE020,IP Address Log,Access logs showing logins to the target banking portal.,2025-09-22 05:47:21
+EVID0059,CASE020,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-09-30 05:34:26
+EVID0060,CASE020,Email Records,Phishing or fraudulent email communications retrieved.,2025-09-25 15:19:46
+EVID0061,CASE021,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-06-08 05:47:32
+EVID0062,CASE021,Email Records,Email threads between the complainant and the fraudulent sender.,2026-06-08 01:48:51
+EVID0063,CASE021,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-06-03 15:04:11
+EVID0064,CASE021,IP Address Log,IP address access log associated with the fraud transaction.,2026-06-05 04:49:51
+EVID0065,CASE021,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-06-10 14:25:33
+EVID0066,CASE022,Laptop,Personal laptop containing document files related to the case.,2026-02-16 14:42:04
+EVID0067,CASE023,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-05-04 17:45:51
+EVID0068,CASE023,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-05-06 16:10:16
+EVID0069,CASE023,Email Records,Email threads between the complainant and the fraudulent sender.,2026-05-01 07:23:26
+EVID0070,CASE024,Wallet,Wallet recovered from the crime scene near Udyambag Main Road containing identity cards.,2025-12-31 23:46:42
+EVID0071,CASE024,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-01-02 11:54:56
+EVID0072,CASE024,SIM Card,SIM card recovered from the suspect's possession's device.,2025-12-30 07:06:05
+EVID0073,CASE025,Hard Disk,Hard drive containing files and data log information.,2026-04-11 10:26:50
+EVID0074,CASE025,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Ganga Nagar Station Road.,2026-04-11 06:11:07
+EVID0075,CASE025,Threat Letter,Threat letter written by the accused received by the victim.,2026-04-12 09:45:35
+EVID0076,CASE025,Laptop,Personal laptop containing document files related to the case.,2026-04-08 08:50:24
+EVID0077,CASE026,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-03-09 12:09:05
+EVID0078,CASE026,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-03-05 23:19:09
+EVID0079,CASE026,IP Address Log,Access logs showing logins to the target banking portal.,2025-03-11 23:11:39
+EVID0080,CASE026,Email Records,Phishing or fraudulent email communications retrieved.,2025-03-11 23:48:29
+EVID0081,CASE026,Wallet,Wallet recovered from the crime scene near Basavanagudi 4th Junction Road containing identity cards.,2025-03-09 21:19:13
+EVID0082,CASE027,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Harlur Road Lane.,2025-06-18 23:18:03
+EVID0083,CASE027,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-06-24 09:31:17
+EVID0084,CASE027,Hard Disk,Hard drive containing files and data log information.,2025-06-23 09:09:07
+EVID0085,CASE027,Wallet,Wallet recovered from the crime scene near Harlur Road Lane containing identity cards.,2025-06-22 07:43:31
+EVID0086,CASE028,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Vijayanagar Cross Road.,2025-08-07 03:52:28
+EVID0087,CASE029,Laptop,Personal laptop containing document files related to the case.,2026-01-02 08:48:28
+EVID0088,CASE029,Mobile Phone,Seized phone containing suspicious communications.,2026-01-07 15:16:24
+EVID0089,CASE029,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-01-03 11:16:07
+EVID0090,CASE029,Wallet,Wallet recovered from the crime scene near BTM 2nd Stage 16th Main containing identity cards.,2026-01-08 15:16:42
+EVID0091,CASE030,Laptop,Personal laptop containing document files related to the case.,2026-01-23 16:55:16
+EVID0092,CASE030,Wallet,Wallet recovered from the crime scene near Langford Town Bazaar Street containing identity cards.,2026-01-23 08:30:58
+EVID0093,CASE031,Hard Disk,Hard drive containing files and data log information.,2026-03-06 03:57:54
+EVID0094,CASE031,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Hindwadi Lane.,2026-03-06 10:41:23
+EVID0095,CASE031,Wallet,Wallet recovered from the crime scene near Hindwadi Lane containing identity cards.,2026-03-12 10:47:28
+EVID0096,CASE031,Broken Glass,Broken glass shards collected for forensic examination.,2026-03-08 18:21:02
+EVID0097,CASE032,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Hulimavu Highway.,2026-05-17 06:24:44
+EVID0098,CASE032,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-16 21:57:47
+EVID0099,CASE032,Broken Glass,Broken glass shards collected for forensic examination.,2026-05-17 11:46:43
+EVID0100,CASE032,Wallet,Wallet recovered from the crime scene near Hulimavu Highway containing identity cards.,2026-05-14 18:33:14
+EVID0101,CASE032,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-18 20:45:43
+EVID0102,CASE033,Fingerprints,Latent fingerprints lifted from the crime scene near Sahakara Nagar Bazaar Street environment.,2025-05-24 07:51:57
+EVID0103,CASE033,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-05-29 23:16:43
+EVID0104,CASE033,CCTV Footage,CCTV footage recorded at the crime scene near Sahakara Nagar Bazaar Street location showing the suspect's possession.,2025-05-28 01:35:27
+EVID0105,CASE033,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-05-30 18:04:29
+EVID0106,CASE034,Fingerprints,Latent fingerprints lifted from the crime scene near Adugodi Bypass Road environment.,2025-09-26 12:16:49
+EVID0107,CASE034,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-10-01 07:58:54
+EVID0108,CASE034,CCTV Footage,CCTV footage recorded at the crime scene near Adugodi Bypass Road location showing the suspect's possession.,2025-09-23 23:24:34
+EVID0109,CASE034,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-09-24 17:37:53
+EVID0110,CASE035,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-12-01 01:23:42
+EVID0111,CASE035,Email Records,Phishing or fraudulent email communications retrieved.,2025-12-05 10:14:05
+EVID0112,CASE036,Threat Letter,Threat letter written by the accused received by the victim.,2025-09-27 10:50:14
+EVID0113,CASE036,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Gandhi Nagar Dharwad Bazaar Street.,2025-09-27 22:48:42
+EVID0114,CASE036,Laptop,Personal laptop containing document files related to the case.,2025-09-28 12:12:22
+EVID0115,CASE036,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-09-26 14:01:53
+EVID0116,CASE036,Broken Glass,Broken glass shards collected for forensic examination.,2025-09-28 08:55:07
+EVID0117,CASE037,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-12-17 11:58:57
+EVID0118,CASE037,Threat Letter,Threat letter written by the accused received by the victim.,2025-12-22 07:54:45
+EVID0119,CASE038,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-09-14 01:43:08
+EVID0120,CASE038,IP Address Log,IP address access log associated with the fraud transaction.,2025-09-13 04:36:46
+EVID0121,CASE038,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-09-14 07:34:15
+EVID0122,CASE038,Email Records,Email threads between the complainant and the fraudulent sender.,2025-09-12 02:43:52
+EVID0123,CASE038,Wallet,Wallet recovered from the crime scene near Kulshekar Main Road containing identity cards.,2025-09-16 03:17:54
+EVID0124,CASE039,SIM Card,SIM card recovered from the suspect's possession's device.,2025-12-26 11:58:07
+EVID0125,CASE039,Mobile Phone,Seized phone containing suspicious communications.,2025-12-19 07:50:57
+EVID0126,CASE039,Wallet,Wallet recovered from the crime scene near Hindwadi Lane containing identity cards.,2025-12-20 04:41:10
+EVID0127,CASE040,CCTV Footage,CCTV footage recorded at the crime scene near MG Road location showing the suspect's possession.,2026-05-04 11:31:42
+EVID0128,CASE040,Fingerprints,Latent fingerprints lifted from the crime scene near MG Road environment.,2026-05-05 00:44:29
+EVID0129,CASE040,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-03 00:15:16
+EVID0130,CASE040,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-06 09:34:15
+EVID0131,CASE040,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near MG Road.,2026-05-06 11:23:14
+EVID0132,CASE041,Email Records,Phishing or fraudulent email communications retrieved.,2026-02-15 21:59:49
+EVID0133,CASE041,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-02-06 09:38:27
+EVID0134,CASE041,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-02-07 16:04:04
+EVID0135,CASE041,IP Address Log,Access logs showing logins to the target banking portal.,2026-02-07 13:00:58
+EVID0136,CASE042,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-10-16 16:38:50
+EVID0137,CASE042,Laptop,Personal laptop containing document files related to the case.,2025-10-15 00:03:38
+EVID0138,CASE042,Wallet,Wallet recovered from the crime scene near Ganga Nagar 3th Galli containing identity cards.,2025-10-14 17:38:58
+EVID0139,CASE043,Fingerprints,Latent fingerprints lifted from the crime scene near Singasandra Station Road environment.,2025-09-04 16:52:09
+EVID0140,CASE043,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-09-08 11:29:38
+EVID0141,CASE043,CCTV Footage,CCTV footage recorded at the crime scene near Singasandra Station Road location showing the suspect's possession.,2025-09-05 08:30:48
+EVID0142,CASE043,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-09-06 13:36:16
+EVID0143,CASE043,Threat Letter,Threat letter written by the accused received by the victim.,2025-09-02 09:48:07
+EVID0144,CASE044,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Rajajinagar Temple Road.,2026-04-25 16:17:33
+EVID0145,CASE044,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-02 01:03:18
+EVID0146,CASE044,Mobile Phone,Seized phone containing suspicious communications.,2026-04-28 23:36:20
+EVID0147,CASE044,Laptop,Personal laptop containing document files related to the case.,2026-04-26 17:21:53
+EVID0148,CASE044,Hard Disk,Hard drive containing files and data log information.,2026-04-28 22:16:02
+EVID0149,CASE045,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-10-29 14:23:09
+EVID0150,CASE045,Fingerprints,Latent fingerprints lifted from the crime scene near Ejipura Galli environment.,2025-10-25 05:24:42
+EVID0151,CASE046,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-04-28 13:56:11
+EVID0152,CASE046,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-24 19:17:40
+EVID0153,CASE046,Fingerprints,Latent fingerprints lifted from the crime scene near Hulimavu Highway environment.,2025-04-22 03:52:42
+EVID0154,CASE046,CCTV Footage,CCTV footage recorded at the crime scene near Hulimavu Highway location showing the suspect's possession.,2025-04-19 11:33:56
+EVID0155,CASE047,Broken Glass,Broken glass shards collected for forensic examination.,2025-09-26 02:40:47
+EVID0156,CASE047,SIM Card,SIM card recovered from the suspect's possession's device.,2025-09-26 11:50:18
+EVID0157,CASE047,Hard Disk,Hard drive containing files and data log information.,2025-09-26 12:05:15
+EVID0158,CASE047,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-09-27 23:34:09
+EVID0159,CASE048,Email Records,Email threads between the complainant and the fraudulent sender.,2025-05-03 10:49:29
+EVID0160,CASE048,IP Address Log,IP address access log associated with the fraud transaction.,2025-05-07 08:45:54
+EVID0161,CASE048,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-04-29 22:02:14
+EVID0162,CASE049,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-04 00:44:43
+EVID0163,CASE049,CCTV Footage,CCTV footage recorded at the crime scene near Sarakki Lake Road location showing the suspect's possession.,2026-05-06 01:27:44
+EVID0164,CASE049,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-08 21:38:42
+EVID0165,CASE050,Hard Disk,Hard drive containing files and data log information.,2025-03-28 21:49:24
+EVID0166,CASE051,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-06-08 16:30:30
+EVID0167,CASE051,Fingerprints,Latent fingerprints lifted from the crime scene near Vijayanagar Cross Road environment.,2026-06-09 16:47:14
+EVID0168,CASE051,CCTV Footage,CCTV footage recorded at the crime scene near Vijayanagar Cross Road location showing the suspect's possession.,2026-06-11 17:30:31
+EVID0169,CASE051,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-06-09 19:55:50
+EVID0170,CASE051,Laptop,Personal laptop containing document files related to the case.,2026-06-12 22:14:13
+EVID0171,CASE052,Threat Letter,Threat letter written by the accused received by the victim.,2025-03-09 10:48:24
+EVID0172,CASE053,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-05-27 03:09:53
+EVID0173,CASE053,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-05-29 17:37:19
+EVID0174,CASE053,CCTV Footage,CCTV footage recorded at the crime scene near Kammasandra Temple Road location showing the suspect's possession.,2025-05-29 20:46:24
+EVID0175,CASE053,Fingerprints,Latent fingerprints lifted from the crime scene near Kammasandra Temple Road environment.,2025-05-29 11:45:56
+EVID0176,CASE054,Hard Disk,Hard drive containing files and data log information.,2025-07-06 00:02:28
+EVID0177,CASE054,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-10 02:38:25
+EVID0178,CASE054,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-08 05:25:55
+EVID0179,CASE054,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-05 15:58:51
+EVID0180,CASE054,Mobile Phone,Seized phone containing suspicious communications.,2025-07-05 06:01:49
+EVID0181,CASE055,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-02-04 17:30:48
+EVID0182,CASE055,Email Records,Phishing or fraudulent email communications retrieved.,2026-02-03 16:34:42
+EVID0183,CASE055,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-01-30 09:40:16
+EVID0184,CASE056,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Hennur Gardens 5th Link Road.,2025-05-10 18:36:29
+EVID0185,CASE056,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-05-07 22:41:38
+EVID0186,CASE056,Laptop,Personal laptop containing document files related to the case.,2025-05-11 17:36:37
+EVID0187,CASE057,Laptop,Personal laptop containing document files related to the case.,2025-02-16 07:25:18
+EVID0188,CASE057,Threat Letter,Threat letter written by the accused received by the victim.,2025-02-15 03:34:32
+EVID0189,CASE057,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Devaraja Mohalla Link Road.,2025-02-22 15:48:17
+EVID0190,CASE057,Hard Disk,Hard drive containing files and data log information.,2025-02-20 16:42:36
+EVID0191,CASE058,IP Address Log,IP address access log associated with the fraud transaction.,2025-04-13 14:37:29
+EVID0192,CASE058,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-04-10 16:32:30
+EVID0193,CASE058,Email Records,Email threads between the complainant and the fraudulent sender.,2025-04-18 13:15:31
+EVID0194,CASE059,Mobile Phone,Seized phone containing suspicious communications.,2025-06-02 15:38:17
+EVID0195,CASE059,Wallet,Wallet recovered from the crime scene near 14th Main Road HSR containing identity cards.,2025-06-05 11:29:28
+EVID0196,CASE059,Broken Glass,Broken glass shards collected for forensic examination.,2025-06-02 08:11:05
+EVID0197,CASE059,SIM Card,SIM card recovered from the suspect's possession's device.,2025-06-09 14:47:02
+EVID0198,CASE059,Laptop,Personal laptop containing document files related to the case.,2025-05-31 16:11:10
+EVID0199,CASE060,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-02-11 12:37:34
+EVID0200,CASE060,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-07 20:49:26
+EVID0201,CASE061,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Angol Galli.,2025-11-02 03:06:52
+EVID0202,CASE062,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-10-27 05:20:46
+EVID0203,CASE062,Clothing,Stained clothing of the victim containing forensic trace material.,2025-10-26 12:33:39
+EVID0204,CASE062,DNA Sample,Biological DNA samples extracted from the crime scene near Bilekahalli Highway.,2025-10-26 08:43:20
+EVID0205,CASE062,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-10-30 18:39:24
+EVID0206,CASE062,Wallet,Wallet recovered from the crime scene near Bilekahalli Highway containing identity cards.,2025-11-01 04:44:44
+EVID0207,CASE063,Hard Disk,Hard drive containing files and data log information.,2026-05-14 14:22:32
+EVID0208,CASE063,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-17 18:11:51
+EVID0209,CASE064,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Bilekahalli Highway.,2025-09-09 07:15:09
+EVID0210,CASE065,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Peenya Temple Road.,2025-03-29 10:48:03
+EVID0211,CASE065,Hard Disk,Hard drive containing files and data log information.,2025-03-30 01:49:02
+EVID0212,CASE065,Wallet,Wallet recovered from the crime scene near Peenya Temple Road containing identity cards.,2025-03-26 04:36:38
+EVID0213,CASE065,Mobile Phone,Seized phone containing suspicious communications.,2025-03-30 16:26:18
+EVID0214,CASE066,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-12-14 12:41:36
+EVID0215,CASE067,Email Records,Email threads between the complainant and the fraudulent sender.,2025-10-21 14:12:48
+EVID0216,CASE067,IP Address Log,IP address access log associated with the fraud transaction.,2025-10-20 13:36:53
+EVID0217,CASE067,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-10-17 17:12:06
+EVID0218,CASE067,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-10-21 05:17:29
+EVID0219,CASE067,Wallet,Wallet recovered from the crime scene near Chikkalasandra 2th Ring Road containing identity cards.,2025-10-19 19:39:30
+EVID0220,CASE068,Laptop,Personal laptop containing document files related to the case.,2026-04-27 02:15:59
+EVID0221,CASE068,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-02 12:25:25
+EVID0222,CASE069,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-09-12 00:59:50
+EVID0223,CASE069,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-09-13 01:51:41
+EVID0224,CASE069,Email Records,Email threads between the complainant and the fraudulent sender.,2025-09-08 08:26:49
+EVID0225,CASE069,IP Address Log,IP address access log associated with the fraud transaction.,2025-09-10 23:33:12
+EVID0226,CASE069,Threat Letter,Threat letter written by the accused received by the victim.,2025-09-12 02:26:27
+EVID0227,CASE070,SIM Card,SIM card recovered from the suspect's possession's device.,2025-03-28 13:25:21
+EVID0228,CASE070,Hard Disk,Hard drive containing files and data log information.,2025-03-26 21:06:36
+EVID0229,CASE070,Mobile Phone,Seized phone containing suspicious communications.,2025-04-01 03:38:24
+EVID0230,CASE071,Blood Sample,Blood spatter samples collected from the scene of the incident.,2026-05-13 19:01:35
+EVID0231,CASE071,Clothing,Stained clothing of the victim containing forensic trace material.,2026-05-12 01:19:58
+EVID0232,CASE071,DNA Sample,Biological DNA samples extracted from the crime scene near Siddhartha Layout Lane.,2026-05-16 04:34:16
+EVID0233,CASE071,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2026-05-14 10:32:17
+EVID0234,CASE071,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-16 10:38:28
+EVID0235,CASE071,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Siddhartha Layout Lane.,2026-05-14 05:07:20
+EVID0236,CASE071,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Siddhartha Layout Lane.,2026-05-12 21:26:30
+EVID0237,CASE072,DNA Sample,Biological DNA samples extracted from the crime scene near Banashankari Junction Road.,2025-02-26 09:52:09
+EVID0238,CASE072,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-02-25 13:55:41
+EVID0239,CASE072,Clothing,Stained clothing of the victim containing forensic trace material.,2025-03-02 03:36:23
+EVID0240,CASE072,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-03-02 23:26:03
+EVID0241,CASE073,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-01-26 16:34:47
+EVID0242,CASE073,Fingerprints,Latent fingerprints lifted from the crime scene near Kaggadasapura Ring Road environment.,2026-01-29 15:39:58
+EVID0243,CASE073,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-01-24 17:19:33
+EVID0244,CASE074,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-12-01 16:30:19
+EVID0245,CASE074,Email Records,Email threads between the complainant and the fraudulent sender.,2025-11-26 10:39:58
+EVID0246,CASE074,IP Address Log,IP address access log associated with the fraud transaction.,2025-11-29 04:57:08
+EVID0247,CASE074,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-11-29 05:24:20
+EVID0248,CASE074,SIM Card,SIM card recovered from the suspect's possession's device.,2025-11-30 19:50:03
+EVID0249,CASE075,Mobile Phone,Seized phone containing suspicious communications.,2025-10-26 01:14:55
+EVID0250,CASE075,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Gottigere Cross Road.,2025-10-28 11:03:04
+EVID0251,CASE075,Laptop,Personal laptop containing document files related to the case.,2025-10-26 01:36:50
+EVID0252,CASE075,Threat Letter,Threat letter written by the accused received by the victim.,2025-10-31 15:42:39
+EVID0253,CASE076,IP Address Log,Access logs showing logins to the target banking portal.,2025-03-19 23:44:06
+EVID0254,CASE076,Email Records,Phishing or fraudulent email communications retrieved.,2025-03-21 10:35:46
+EVID0255,CASE077,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-04-23 13:45:38
+EVID0256,CASE077,Email Records,Email threads between the complainant and the fraudulent sender.,2026-04-16 16:47:40
+EVID0257,CASE077,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-04-24 17:29:56
+EVID0258,CASE077,IP Address Log,IP address access log associated with the fraud transaction.,2026-04-17 20:52:42
+EVID0259,CASE078,SIM Card,SIM card recovered from the suspect's possession's device.,2025-11-02 21:52:20
+EVID0260,CASE078,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-11-04 00:41:01
+EVID0261,CASE079,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-08-08 04:35:14
+EVID0262,CASE079,Email Records,Email threads between the complainant and the fraudulent sender.,2025-08-08 19:58:27
+EVID0263,CASE079,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-08-06 13:50:28
+EVID0264,CASE080,CCTV Footage,CCTV footage recorded at the crime scene near Mahadevapura Church Road location showing the suspect's possession.,2025-12-08 00:08:38
+EVID0265,CASE080,Fingerprints,Latent fingerprints lifted from the crime scene near Mahadevapura Church Road environment.,2025-12-03 22:43:00
+EVID0266,CASE080,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-12-01 10:00:47
+EVID0267,CASE080,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-12-01 23:57:16
+EVID0268,CASE081,Threat Letter,Threat letter written by the accused received by the victim.,2025-08-18 19:26:01
+EVID0269,CASE081,Broken Glass,Broken glass shards collected for forensic examination.,2025-08-21 18:40:30
+EVID0270,CASE082,Email Records,Phishing or fraudulent email communications retrieved.,2026-04-24 23:25:55
+EVID0271,CASE082,IP Address Log,Access logs showing logins to the target banking portal.,2026-04-25 16:40:23
+EVID0272,CASE083,Mobile Phone,Seized phone containing suspicious communications.,2025-01-31 04:12:23
+EVID0273,CASE083,Broken Glass,Broken glass shards collected for forensic examination.,2025-02-10 00:52:52
+EVID0274,CASE084,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-04-14 15:55:26
+EVID0275,CASE084,IP Address Log,IP address access log associated with the fraud transaction.,2026-04-15 14:20:12
+EVID0276,CASE084,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-04-17 20:51:05
+EVID0277,CASE084,Email Records,Email threads between the complainant and the fraudulent sender.,2026-04-22 06:25:53
+EVID0278,CASE084,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Singasandra Station Road.,2026-04-17 17:59:03
+EVID0279,CASE085,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-02-22 17:17:19
+EVID0280,CASE085,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-02-18 19:16:12
+EVID0281,CASE085,DNA Sample,Biological DNA samples extracted from the crime scene near Ulsoor Highway.,2025-02-23 00:39:32
+EVID0282,CASE085,Clothing,Stained clothing of the victim containing forensic trace material.,2025-02-22 17:57:55
+EVID0283,CASE086,Fingerprints,Latent fingerprints lifted from the crime scene near Church Street environment.,2025-07-03 04:39:08
+EVID0284,CASE086,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-07-07 22:36:06
+EVID0285,CASE087,Hard Disk,Hard drive containing files and data log information.,2025-10-03 20:45:38
+EVID0286,CASE087,SIM Card,SIM card recovered from the suspect's possession's device.,2025-10-04 12:56:23
+EVID0287,CASE087,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Sanjaynagar 4th Ring Road.,2025-10-03 19:46:03
+EVID0288,CASE087,Mobile Phone,Seized phone containing suspicious communications.,2025-09-26 20:14:31
+EVID0289,CASE087,Broken Glass,Broken glass shards collected for forensic examination.,2025-09-28 13:17:31
+EVID0290,CASE088,Wallet,Wallet recovered from the crime scene near Harlur Road Lane containing identity cards.,2025-10-12 15:16:48
+EVID0291,CASE088,Laptop,Personal laptop containing document files related to the case.,2025-10-07 17:52:19
+EVID0292,CASE088,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Harlur Road Lane.,2025-10-10 14:04:42
+EVID0293,CASE088,Broken Glass,Broken glass shards collected for forensic examination.,2025-10-13 20:50:38
+EVID0294,CASE089,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-04-03 08:43:16
+EVID0295,CASE090,Wallet,Wallet recovered from the crime scene near Green Glen Layout Road containing identity cards.,2025-03-30 19:04:36
+EVID0296,CASE090,Broken Glass,Broken glass shards collected for forensic examination.,2025-04-02 20:49:23
+EVID0297,CASE090,Threat Letter,Threat letter written by the accused received by the victim.,2025-04-08 07:30:17
+EVID0298,CASE090,Laptop,Personal laptop containing document files related to the case.,2025-04-06 14:45:06
+EVID0299,CASE090,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Green Glen Layout Road.,2025-04-02 14:49:25
+EVID0300,CASE091,Laptop,Personal laptop containing document files related to the case.,2025-12-22 21:18:53
+EVID0301,CASE091,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near HSR Layout Sector 1 Road.,2025-12-23 11:54:02
+EVID0302,CASE092,Wallet,Wallet recovered from the crime scene near Hampankatta Highway containing identity cards.,2025-05-08 13:21:55
+EVID0303,CASE092,Threat Letter,Threat letter written by the accused received by the victim.,2025-04-30 01:27:21
+EVID0304,CASE092,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Hampankatta Highway.,2025-05-01 22:50:26
+EVID0305,CASE093,Broken Glass,Broken glass shards collected for forensic examination.,2026-03-05 12:31:47
+EVID0306,CASE093,Hard Disk,Hard drive containing files and data log information.,2026-02-24 22:00:42
+EVID0307,CASE093,Threat Letter,Threat letter written by the accused received by the victim.,2026-03-01 20:09:32
+EVID0308,CASE094,Blood Sample,Blood spatter samples collected from the scene of the incident.,2026-04-05 07:09:29
+EVID0309,CASE094,Clothing,Stained clothing of the victim containing forensic trace material.,2026-04-04 11:49:17
+EVID0310,CASE094,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2026-03-28 04:28:40
+EVID0311,CASE094,DNA Sample,Biological DNA samples extracted from the crime scene near Urwa 3th Highway.,2026-04-03 14:08:49
+EVID0312,CASE094,Mobile Phone,Seized phone containing suspicious communications.,2026-04-05 03:34:18
+EVID0313,CASE094,Wallet,Wallet recovered from the crime scene near Urwa 3th Highway containing identity cards.,2026-04-03 18:59:52
+EVID0314,CASE094,SIM Card,SIM card recovered from the suspect's possession's device.,2026-03-28 12:49:20
+EVID0315,CASE095,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-01-24 18:48:51
+EVID0316,CASE095,Fingerprints,Latent fingerprints lifted from the crime scene near Nehru Nagar Junction Road environment.,2026-01-28 14:23:07
+EVID0317,CASE095,CCTV Footage,CCTV footage recorded at the crime scene near Nehru Nagar Junction Road location showing the suspect's possession.,2026-01-23 11:34:15
+EVID0318,CASE096,Mobile Phone,Seized phone containing suspicious communications.,2025-07-07 08:53:18
+EVID0319,CASE097,IP Address Log,IP address access log associated with the fraud transaction.,2025-10-08 19:17:30
+EVID0320,CASE097,Email Records,Email threads between the complainant and the fraudulent sender.,2025-10-04 01:17:45
+EVID0321,CASE097,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-10-06 22:33:07
+EVID0322,CASE097,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-10-06 22:08:55
+EVID0323,CASE097,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-10-07 19:08:45
+EVID0324,CASE098,Broken Glass,Broken glass shards collected for forensic examination.,2026-05-29 23:12:49
+EVID0325,CASE098,Mobile Phone,Seized phone containing suspicious communications.,2026-05-28 21:51:52
+EVID0326,CASE098,Wallet,Wallet recovered from the crime scene near Church Street containing identity cards.,2026-05-28 11:44:37
+EVID0327,CASE098,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-21 01:13:23
+EVID0328,CASE098,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-05-21 18:48:49
+EVID0329,CASE099,DNA Sample,Biological DNA samples extracted from the crime scene near JP Nagar 24th Main Road.,2026-05-28 16:35:36
+EVID0330,CASE099,Blood Sample,Blood spatter samples collected from the scene of the incident.,2026-05-31 09:23:48
+EVID0331,CASE099,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2026-06-03 01:04:25
+EVID0332,CASE099,Clothing,Stained clothing of the victim containing forensic trace material.,2026-06-06 01:02:11
+EVID0333,CASE099,Laptop,Personal laptop containing document files related to the case.,2026-06-04 22:59:16
+EVID0334,CASE099,Laptop,Personal laptop containing document files related to the case.,2026-05-29 12:50:47
+EVID0335,CASE100,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-03-04 02:29:29
+EVID0336,CASE100,CCTV Footage,CCTV footage recorded at the crime scene near Surathkal Cross Road location showing the suspect's possession.,2025-03-08 18:28:46
+EVID0337,CASE100,Fingerprints,Latent fingerprints lifted from the crime scene near Surathkal Cross Road environment.,2025-03-09 02:59:14
+EVID0338,CASE100,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-03-06 15:15:59
+EVID0339,CASE101,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-01-08 01:22:02
+EVID0340,CASE101,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-01-07 06:55:12
+EVID0341,CASE101,Email Records,Phishing or fraudulent email communications retrieved.,2025-12-31 12:45:55
+EVID0342,CASE102,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-12-09 12:20:43
+EVID0343,CASE102,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Commercial Street Bazaar Street.,2025-12-12 05:31:27
+EVID0344,CASE103,SIM Card,SIM card recovered from the suspect's possession's device.,2025-05-27 04:24:09
+EVID0345,CASE103,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-05-27 17:59:37
+EVID0346,CASE103,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Padmanabhanagar Bazaar Street.,2025-06-01 09:20:43
+EVID0347,CASE103,Laptop,Personal laptop containing document files related to the case.,2025-05-25 14:20:59
+EVID0348,CASE104,Mobile Phone,Seized phone containing suspicious communications.,2025-01-27 11:40:46
+EVID0349,CASE104,Hard Disk,Hard drive containing files and data log information.,2025-01-30 21:21:46
+EVID0350,CASE105,Email Records,Email threads between the complainant and the fraudulent sender.,2025-12-14 09:15:31
+EVID0351,CASE105,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-12-09 22:16:48
+EVID0352,CASE105,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-12-10 13:12:58
+EVID0353,CASE105,IP Address Log,IP address access log associated with the fraud transaction.,2025-12-09 02:20:55
+EVID0354,CASE106,Laptop,Personal laptop containing document files related to the case.,2025-07-09 00:10:59
+EVID0355,CASE106,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-12 00:00:08
+EVID0356,CASE106,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-09 11:54:30
+EVID0357,CASE107,IP Address Log,IP address access log associated with the fraud transaction.,2025-09-25 19:00:15
+EVID0358,CASE107,Email Records,Email threads between the complainant and the fraudulent sender.,2025-09-22 19:58:10
+EVID0359,CASE107,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-09-27 07:35:05
+EVID0360,CASE107,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-09-21 09:08:56
+EVID0361,CASE108,SIM Card,SIM card recovered from the suspect's possession's device.,2025-06-14 17:13:14
+EVID0362,CASE108,Broken Glass,Broken glass shards collected for forensic examination.,2025-06-10 00:49:52
+EVID0363,CASE108,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-06-12 07:37:37
+EVID0364,CASE109,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-01-17 06:05:48
+EVID0365,CASE109,IP Address Log,Access logs showing logins to the target banking portal.,2025-01-13 04:07:09
+EVID0366,CASE109,Email Records,Phishing or fraudulent email communications retrieved.,2025-01-17 03:45:51
+EVID0367,CASE109,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-01-16 02:00:15
+EVID0368,CASE109,Threat Letter,Threat letter written by the accused received by the victim.,2025-01-20 14:12:06
+EVID0369,CASE110,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-01-15 17:45:41
+EVID0370,CASE110,IP Address Log,IP address access log associated with the fraud transaction.,2026-01-17 06:54:25
+EVID0371,CASE110,Email Records,Email threads between the complainant and the fraudulent sender.,2026-01-10 10:14:48
+EVID0372,CASE111,IP Address Log,Access logs showing logins to the target banking portal.,2026-05-04 19:07:04
+EVID0373,CASE111,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-04-27 07:52:49
+EVID0374,CASE111,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-04-28 20:39:51
+EVID0375,CASE112,Wallet,Wallet recovered from the crime scene near Padmanabhanagar Bazaar Street containing identity cards.,2025-05-07 14:14:09
+EVID0376,CASE112,Hard Disk,Hard drive containing files and data log information.,2025-05-16 10:40:46
+EVID0377,CASE112,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Padmanabhanagar Bazaar Street.,2025-05-10 19:51:23
+EVID0378,CASE113,Wallet,Wallet recovered from the crime scene near Tavarekere Main Road containing identity cards.,2025-01-22 17:55:46
+EVID0379,CASE114,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-01-13 13:29:06
+EVID0380,CASE114,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near KR Puram Bypass Road.,2025-01-09 23:24:42
+EVID0381,CASE115,IP Address Log,IP address access log associated with the fraud transaction.,2025-10-20 22:08:24
+EVID0382,CASE115,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-10-21 12:15:53
+EVID0383,CASE115,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-10-21 06:02:29
+EVID0384,CASE115,Email Records,Email threads between the complainant and the fraudulent sender.,2025-10-28 06:25:23
+EVID0385,CASE116,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-13 16:32:58
+EVID0386,CASE117,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-04-13 10:39:09
+EVID0387,CASE117,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-04-11 23:39:03
+EVID0388,CASE117,IP Address Log,Access logs showing logins to the target banking portal.,2025-04-12 11:15:25
+EVID0389,CASE117,Email Records,Phishing or fraudulent email communications retrieved.,2025-04-10 13:01:18
+EVID0390,CASE117,Mobile Phone,Seized phone containing suspicious communications.,2025-04-14 06:26:39
+EVID0391,CASE118,Threat Letter,Threat letter written by the accused received by the victim.,2025-05-05 16:24:00
+EVID0392,CASE118,Mobile Phone,Seized phone containing suspicious communications.,2025-05-11 23:14:37
+EVID0393,CASE118,Hard Disk,Hard drive containing files and data log information.,2025-05-11 17:02:53
+EVID0394,CASE118,SIM Card,SIM card recovered from the suspect's possession's device.,2025-05-10 04:07:45
+EVID0395,CASE118,Wallet,Wallet recovered from the crime scene near St Mark's Road containing identity cards.,2025-05-10 01:56:21
+EVID0396,CASE119,Laptop,Personal laptop containing document files related to the case.,2026-01-11 05:28:59
+EVID0397,CASE119,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-01-15 19:35:22
+EVID0398,CASE119,Broken Glass,Broken glass shards collected for forensic examination.,2026-01-14 03:13:49
+EVID0399,CASE119,Threat Letter,Threat letter written by the accused received by the victim.,2026-01-20 02:50:17
+EVID0400,CASE119,Hard Disk,Hard drive containing files and data log information.,2026-01-12 20:25:05
+EVID0401,CASE120,IP Address Log,IP address access log associated with the fraud transaction.,2025-08-24 23:42:10
+EVID0402,CASE120,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-08-20 20:45:40
+EVID0403,CASE121,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Shanti Nagar Highway.,2025-04-19 02:48:16
+EVID0404,CASE122,SIM Card,SIM card recovered from the suspect's possession's device.,2025-10-30 16:30:51
+EVID0405,CASE122,Wallet,Wallet recovered from the crime scene near Vidyaranyapuram Mysuru 4th Station Road containing identity cards.,2025-10-26 15:31:15
+EVID0406,CASE122,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Vidyaranyapuram Mysuru 4th Station Road.,2025-10-28 11:51:19
+EVID0407,CASE123,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-02-05 08:14:02
+EVID0408,CASE123,Email Records,Email threads between the complainant and the fraudulent sender.,2025-02-09 21:11:58
+EVID0409,CASE123,IP Address Log,IP address access log associated with the fraud transaction.,2025-02-06 08:55:51
+EVID0410,CASE123,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-02-04 02:15:49
+EVID0411,CASE123,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Ganga Nagar 3th Galli.,2025-02-03 10:37:24
+EVID0412,CASE124,Hard Disk,Hard drive containing files and data log information.,2025-03-11 17:57:11
+EVID0413,CASE124,Laptop,Personal laptop containing document files related to the case.,2025-03-09 20:43:15
+EVID0414,CASE125,Fingerprints,Latent fingerprints lifted from the crime scene near HSR Layout Sector 1 Road environment.,2025-02-18 22:20:59
+EVID0415,CASE125,CCTV Footage,CCTV footage recorded at the crime scene near HSR Layout Sector 1 Road location showing the suspect's possession.,2025-02-14 13:28:38
+EVID0416,CASE125,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-02-15 15:59:42
+EVID0417,CASE125,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-02-14 15:53:25
+EVID0418,CASE126,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-05 12:14:14
+EVID0419,CASE126,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-03 14:45:07
+EVID0420,CASE126,Hard Disk,Hard drive containing files and data log information.,2025-07-01 01:47:27
+EVID0421,CASE126,Laptop,Personal laptop containing document files related to the case.,2025-06-28 00:32:41
+EVID0422,CASE126,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-05 01:22:28
+EVID0423,CASE127,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-03-16 05:05:10
+EVID0424,CASE127,Mobile Phone,Seized phone containing suspicious communications.,2025-03-10 15:18:56
+EVID0425,CASE127,Wallet,Wallet recovered from the crime scene near Tavarekere Main Road containing identity cards.,2025-03-14 11:56:13
+EVID0426,CASE127,SIM Card,SIM card recovered from the suspect's possession's device.,2025-03-14 09:44:07
+EVID0427,CASE127,Laptop,Personal laptop containing document files related to the case.,2025-03-15 00:05:57
+EVID0428,CASE128,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Kammasandra 4th Link Road.,2025-12-01 11:38:31
+EVID0429,CASE129,Wallet,Wallet recovered from the crime scene near RT Nagar 4th Junction Road containing identity cards.,2026-03-06 04:56:00
+EVID0430,CASE129,Laptop,Personal laptop containing document files related to the case.,2026-03-05 06:48:04
+EVID0431,CASE129,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near RT Nagar 4th Junction Road.,2026-03-03 16:38:46
+EVID0432,CASE130,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-07-23 22:27:08
+EVID0433,CASE130,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-07-25 18:30:00
+EVID0434,CASE130,CCTV Footage,CCTV footage recorded at the crime scene near Gokulam 2th Temple Road location showing the suspect's possession.,2025-07-27 22:20:07
+EVID0435,CASE130,Fingerprints,Latent fingerprints lifted from the crime scene near Gokulam 2th Temple Road environment.,2025-07-25 14:40:25
+EVID0436,CASE131,Hard Disk,Hard drive containing files and data log information.,2026-06-19 20:44:42
+EVID0437,CASE131,Threat Letter,Threat letter written by the accused received by the victim.,2026-06-14 06:20:33
+EVID0438,CASE131,Mobile Phone,Seized phone containing suspicious communications.,2026-06-18 23:01:01
+EVID0439,CASE131,Laptop,Personal laptop containing document files related to the case.,2026-06-20 15:32:04
+EVID0440,CASE132,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-12 06:07:29
+EVID0441,CASE132,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-12 04:21:52
+EVID0442,CASE133,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-08 14:00:25
+EVID0443,CASE133,Laptop,Personal laptop containing document files related to the case.,2026-02-11 19:01:57
+EVID0444,CASE133,Threat Letter,Threat letter written by the accused received by the victim.,2026-02-08 16:04:06
+EVID0445,CASE133,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-02-05 14:08:32
+EVID0446,CASE134,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-05-29 18:26:12
+EVID0447,CASE134,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-06-06 01:56:33
+EVID0448,CASE134,Email Records,Phishing or fraudulent email communications retrieved.,2026-05-29 10:51:33
+EVID0449,CASE134,IP Address Log,Access logs showing logins to the target banking portal.,2026-05-28 05:20:35
+EVID0450,CASE135,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-05-03 08:37:54
+EVID0451,CASE135,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-05-08 11:51:19
+EVID0452,CASE136,IP Address Log,IP address access log associated with the fraud transaction.,2025-11-03 20:29:26
+EVID0453,CASE136,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-10-30 22:30:21
+EVID0454,CASE136,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-11-03 14:05:53
+EVID0455,CASE136,Email Records,Email threads between the complainant and the fraudulent sender.,2025-11-02 14:12:08
+EVID0456,CASE136,Laptop,Personal laptop containing document files related to the case.,2025-11-02 01:26:50
+EVID0457,CASE137,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-02-07 06:50:48
+EVID0458,CASE137,CCTV Footage,CCTV footage recorded at the crime scene near Cox Town Junction Road location showing the suspect's possession.,2025-02-08 02:10:33
+EVID0459,CASE137,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-02-07 19:02:13
+EVID0460,CASE137,Fingerprints,Latent fingerprints lifted from the crime scene near Cox Town Junction Road environment.,2025-02-01 08:17:02
+EVID0461,CASE137,Mobile Phone,Seized phone containing suspicious communications.,2025-01-29 15:59:45
+EVID0462,CASE138,Email Records,Phishing or fraudulent email communications retrieved.,2026-03-05 17:35:25
+EVID0463,CASE138,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-03-07 22:51:47
+EVID0464,CASE138,IP Address Log,Access logs showing logins to the target banking portal.,2026-03-09 05:22:26
+EVID0465,CASE138,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-03-07 05:25:58
+EVID0466,CASE139,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-06 04:12:22
+EVID0467,CASE139,Threat Letter,Threat letter written by the accused received by the victim.,2026-02-10 21:48:32
+EVID0468,CASE140,Hard Disk,Hard drive containing files and data log information.,2025-01-09 14:14:54
+EVID0469,CASE140,Broken Glass,Broken glass shards collected for forensic examination.,2025-01-09 09:31:04
+EVID0470,CASE141,CCTV Footage,CCTV footage recorded at the crime scene near Harlur Road 4th Ring Road location showing the suspect's possession.,2025-09-08 05:04:54
+EVID0471,CASE141,Fingerprints,Latent fingerprints lifted from the crime scene near Harlur Road 4th Ring Road environment.,2025-09-09 10:53:17
+EVID0472,CASE141,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-09-10 23:13:51
+EVID0473,CASE141,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-09-12 03:52:39
+EVID0474,CASE142,Threat Letter,Threat letter written by the accused received by the victim.,2025-01-29 13:17:00
+EVID0475,CASE142,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near BTM 2nd Stage 16th Main.,2025-01-27 16:43:01
+EVID0476,CASE142,SIM Card,SIM card recovered from the suspect's possession's device.,2025-02-06 05:43:04
+EVID0477,CASE142,Broken Glass,Broken glass shards collected for forensic examination.,2025-02-06 06:07:45
+EVID0478,CASE142,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-01-27 13:34:48
+EVID0479,CASE143,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-01-17 07:07:14
+EVID0480,CASE143,Fingerprints,Latent fingerprints lifted from the crime scene near 80 Feet Road Koramangala environment.,2025-01-13 22:15:18
+EVID0481,CASE143,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-01-08 19:28:07
+EVID0482,CASE143,CCTV Footage,CCTV footage recorded at the crime scene near 80 Feet Road Koramangala location showing the suspect's possession.,2025-01-15 21:02:45
+EVID0483,CASE144,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Gandhi Bazaar 5th Station Road.,2025-12-06 21:24:28
+EVID0484,CASE145,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-01-07 14:38:10
+EVID0485,CASE145,CCTV Footage,CCTV footage recorded at the crime scene near Sanjaynagar 4th Ring Road location showing the suspect's possession.,2025-01-09 16:53:24
+EVID0486,CASE145,Fingerprints,Latent fingerprints lifted from the crime scene near Sanjaynagar 4th Ring Road environment.,2025-01-06 05:25:08
+EVID0487,CASE146,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-06-13 01:22:09
+EVID0488,CASE146,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-06-17 11:36:35
+EVID0489,CASE146,Email Records,Email threads between the complainant and the fraudulent sender.,2026-06-16 02:47:36
+EVID0490,CASE146,IP Address Log,IP address access log associated with the fraud transaction.,2026-06-17 19:54:26
+EVID0491,CASE146,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Mathikere Club Road.,2026-06-17 09:15:54
+EVID0492,CASE147,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-08-27 12:53:33
+EVID0493,CASE147,CCTV Footage,CCTV footage recorded at the crime scene near Angol Galli location showing the suspect's possession.,2025-08-23 03:07:50
+EVID0494,CASE147,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-08-26 20:28:31
+EVID0495,CASE148,Mobile Phone,Seized phone containing suspicious communications.,2025-11-26 22:31:21
+EVID0496,CASE148,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-11-29 19:35:25
+EVID0497,CASE149,Broken Glass,Broken glass shards collected for forensic examination.,2026-05-02 03:12:36
+EVID0498,CASE149,Mobile Phone,Seized phone containing suspicious communications.,2026-04-29 08:42:17
+EVID0499,CASE149,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-06 20:43:30
+EVID0500,CASE149,Laptop,Personal laptop containing document files related to the case.,2026-05-02 14:02:35
+EVID0501,CASE149,Hard Disk,Hard drive containing files and data log information.,2026-04-27 18:55:34
+EVID0502,CASE150,Fingerprints,Latent fingerprints lifted from the crime scene near Tavarekere Main Road environment.,2025-12-26 06:35:52
+EVID0503,CASE150,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-12-30 05:45:10
+EVID0504,CASE150,CCTV Footage,CCTV footage recorded at the crime scene near Tavarekere Main Road location showing the suspect's possession.,2025-12-29 09:56:09
+EVID0505,CASE150,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-12-26 04:31:20
+EVID0506,CASE150,Hard Disk,Hard drive containing files and data log information.,2025-12-27 17:36:14
+EVID0507,CASE151,Fingerprints,Latent fingerprints lifted from the crime scene near Peenya Temple Road environment.,2025-05-07 20:37:54
+EVID0508,CASE151,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-05-09 04:57:36
+EVID0509,CASE151,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-05-06 10:10:06
+EVID0510,CASE152,SIM Card,SIM card recovered from the suspect's possession's device.,2025-04-15 15:32:07
+EVID0511,CASE153,Clothing,Stained clothing of the victim containing forensic trace material.,2025-10-01 04:17:53
+EVID0512,CASE153,DNA Sample,Biological DNA samples extracted from the crime scene near Saraswatpur Dharwad 1th Lane.,2025-09-25 11:42:08
+EVID0513,CASE153,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-09-29 19:50:57
+EVID0514,CASE153,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-09-30 13:19:19
+EVID0515,CASE153,Broken Glass,Broken glass shards collected for forensic examination.,2025-10-03 13:48:41
+EVID0516,CASE154,Broken Glass,Broken glass shards collected for forensic examination.,2026-03-23 02:46:29
+EVID0517,CASE155,CCTV Footage,CCTV footage recorded at the crime scene near Shanti Nagar Highway location showing the suspect's possession.,2026-03-05 23:07:19
+EVID0518,CASE155,Fingerprints,Latent fingerprints lifted from the crime scene near Shanti Nagar Highway environment.,2026-02-24 06:44:46
+EVID0519,CASE155,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-02-27 14:44:58
+EVID0520,CASE156,Wallet,Wallet recovered from the crime scene near Srirampura Club Road containing identity cards.,2026-04-15 10:58:15
+EVID0521,CASE156,Mobile Phone,Seized phone containing suspicious communications.,2026-04-07 14:01:04
+EVID0522,CASE156,Hard Disk,Hard drive containing files and data log information.,2026-04-14 16:49:22
+EVID0523,CASE156,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-10 07:46:17
+EVID0524,CASE157,Laptop,Personal laptop containing document files related to the case.,2026-01-25 00:13:22
+EVID0525,CASE157,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-01-22 23:29:33
+EVID0526,CASE158,Threat Letter,Threat letter written by the accused received by the victim.,2026-03-03 07:07:38
+EVID0527,CASE158,Hard Disk,Hard drive containing files and data log information.,2026-03-05 02:54:02
+EVID0528,CASE158,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-03-01 09:32:14
+EVID0529,CASE159,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-05-15 07:09:08
+EVID0530,CASE159,Fingerprints,Latent fingerprints lifted from the crime scene near Siddhartha Layout Lane environment.,2025-05-16 03:45:25
+EVID0531,CASE160,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-05-27 10:03:47
+EVID0532,CASE160,Clothing,Stained clothing of the victim containing forensic trace material.,2025-05-25 23:42:36
+EVID0533,CASE160,DNA Sample,Biological DNA samples extracted from the crime scene near Bannimantap 2th Ring Road.,2025-06-01 19:24:51
+EVID0534,CASE160,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-05-24 03:36:00
+EVID0535,CASE161,Wallet,Wallet recovered from the crime scene near Vijayanagar Bypass Road containing identity cards.,2025-10-30 00:01:47
+EVID0536,CASE161,SIM Card,SIM card recovered from the suspect's possession's device.,2025-10-28 13:08:51
+EVID0537,CASE161,Threat Letter,Threat letter written by the accused received by the victim.,2025-10-28 18:57:19
+EVID0538,CASE161,Mobile Phone,Seized phone containing suspicious communications.,2025-10-30 20:16:40
+EVID0539,CASE161,Broken Glass,Broken glass shards collected for forensic examination.,2025-10-26 18:21:33
+EVID0540,CASE162,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-11-20 04:56:37
+EVID0541,CASE162,IP Address Log,Access logs showing logins to the target banking portal.,2025-11-18 07:16:59
+EVID0542,CASE163,Mobile Phone,Seized phone containing suspicious communications.,2025-05-05 12:09:45
+EVID0543,CASE163,Threat Letter,Threat letter written by the accused received by the victim.,2025-05-10 09:03:48
+EVID0544,CASE163,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near BTM Layout 80 Feet Road.,2025-05-10 19:10:05
+EVID0545,CASE163,Broken Glass,Broken glass shards collected for forensic examination.,2025-05-07 03:54:43
+EVID0546,CASE163,SIM Card,SIM card recovered from the suspect's possession's device.,2025-05-07 11:12:27
+EVID0547,CASE164,Hard Disk,Hard drive containing files and data log information.,2026-02-06 18:01:27
+EVID0548,CASE164,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-02-03 14:52:37
+EVID0549,CASE164,Mobile Phone,Seized phone containing suspicious communications.,2026-01-30 03:26:28
+EVID0550,CASE164,Broken Glass,Broken glass shards collected for forensic examination.,2026-02-08 13:14:17
+EVID0551,CASE165,Broken Glass,Broken glass shards collected for forensic examination.,2026-05-14 23:47:27
+EVID0552,CASE165,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-10 17:01:33
+EVID0553,CASE165,Wallet,Wallet recovered from the crime scene near Velankani Drive containing identity cards.,2026-05-10 08:34:46
+EVID0554,CASE165,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-05-16 21:44:31
+EVID0555,CASE165,Mobile Phone,Seized phone containing suspicious communications.,2026-05-12 09:36:55
+EVID0556,CASE166,Mobile Phone,Seized phone containing suspicious communications.,2025-07-29 17:08:20
+EVID0557,CASE166,Laptop,Personal laptop containing document files related to the case.,2025-08-03 02:18:51
+EVID0558,CASE166,Hard Disk,Hard drive containing files and data log information.,2025-07-29 20:12:28
+EVID0559,CASE166,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-28 22:13:21
+EVID0560,CASE167,IP Address Log,IP address access log associated with the fraud transaction.,2026-06-24 14:56:05
+EVID0561,CASE167,Email Records,Email threads between the complainant and the fraudulent sender.,2026-06-21 13:04:19
+EVID0562,CASE167,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-06-26 00:47:11
+EVID0563,CASE167,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-06-20 03:21:33
+EVID0564,CASE167,Hard Disk,Hard drive containing files and data log information.,2026-06-17 13:26:34
+EVID0565,CASE168,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-01-13 00:48:27
+EVID0566,CASE168,IP Address Log,Access logs showing logins to the target banking portal.,2025-01-11 20:22:55
+EVID0567,CASE168,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-01-08 06:47:07
+EVID0568,CASE168,Email Records,Phishing or fraudulent email communications retrieved.,2025-01-15 13:54:53
+EVID0569,CASE168,Broken Glass,Broken glass shards collected for forensic examination.,2025-01-09 06:30:34
+EVID0570,CASE169,CCTV Footage,CCTV footage recorded at the crime scene near Chamrajpet Cross Road location showing the suspect's possession.,2025-01-22 05:28:53
+EVID0571,CASE169,Fingerprints,Latent fingerprints lifted from the crime scene near Chamrajpet Cross Road environment.,2025-01-21 13:09:54
+EVID0572,CASE170,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-01-27 22:48:14
+EVID0573,CASE170,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-01-31 08:55:03
+EVID0574,CASE170,IP Address Log,IP address access log associated with the fraud transaction.,2026-01-31 00:40:28
+EVID0575,CASE170,Email Records,Email threads between the complainant and the fraudulent sender.,2026-01-30 10:16:40
+EVID0576,CASE170,Threat Letter,Threat letter written by the accused received by the victim.,2026-01-27 06:56:52
+EVID0577,CASE171,SIM Card,SIM card recovered from the suspect's possession's device.,2025-06-12 18:01:32
+EVID0578,CASE171,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-06-17 20:02:46
+EVID0579,CASE171,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near JP Nagar 7th Phase Link Road.,2025-06-17 23:06:06
+EVID0580,CASE172,SIM Card,SIM card recovered from the suspect's possession's device.,2026-06-06 11:06:21
+EVID0581,CASE172,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-06-05 23:37:26
+EVID0582,CASE172,Broken Glass,Broken glass shards collected for forensic examination.,2026-06-10 04:32:23
+EVID0583,CASE173,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-08-07 02:19:44
+EVID0584,CASE173,Fingerprints,Latent fingerprints lifted from the crime scene near Vidyapeetha Circle Link Road environment.,2025-08-07 12:07:10
+EVID0585,CASE173,CCTV Footage,CCTV footage recorded at the crime scene near Vidyapeetha Circle Link Road location showing the suspect's possession.,2025-08-08 00:04:14
+EVID0586,CASE173,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-08-10 05:37:28
+EVID0587,CASE173,SIM Card,SIM card recovered from the suspect's possession's device.,2025-08-06 16:17:16
+EVID0588,CASE174,Mobile Phone,Seized phone containing suspicious communications.,2025-07-29 15:17:46
+EVID0589,CASE174,Laptop,Personal laptop containing document files related to the case.,2025-08-06 09:47:38
+EVID0590,CASE174,Broken Glass,Broken glass shards collected for forensic examination.,2025-07-29 17:21:58
+EVID0591,CASE174,Hard Disk,Hard drive containing files and data log information.,2025-07-28 19:47:36
+EVID0592,CASE174,Wallet,Wallet recovered from the crime scene near Kadri Highway containing identity cards.,2025-07-29 00:30:27
+EVID0593,CASE175,Mobile Phone,Seized phone containing suspicious communications.,2025-07-01 08:41:16
+EVID0594,CASE175,Laptop,Personal laptop containing document files related to the case.,2025-07-01 17:17:52
+EVID0595,CASE175,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-03 12:47:35
+EVID0596,CASE175,Broken Glass,Broken glass shards collected for forensic examination.,2025-06-25 17:17:37
+EVID0597,CASE175,Hard Disk,Hard drive containing files and data log information.,2025-07-02 08:07:43
+EVID0598,CASE176,Email Records,Phishing or fraudulent email communications retrieved.,2025-04-18 10:00:25
+EVID0599,CASE176,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-04-20 11:18:05
+EVID0600,CASE176,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-04-17 07:12:13
+EVID0601,CASE176,IP Address Log,Access logs showing logins to the target banking portal.,2025-04-18 07:48:16
+EVID0602,CASE177,Mobile Phone,Seized phone containing suspicious communications.,2026-06-16 23:02:57
+EVID0603,CASE177,Laptop,Personal laptop containing document files related to the case.,2026-06-12 07:16:28
+EVID0604,CASE177,Broken Glass,Broken glass shards collected for forensic examination.,2026-06-15 04:29:54
+EVID0605,CASE177,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-06-16 13:36:15
+EVID0606,CASE178,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Harlur Road Lane.,2026-02-25 11:48:40
+EVID0607,CASE178,Hard Disk,Hard drive containing files and data log information.,2026-02-28 19:35:03
+EVID0608,CASE178,Threat Letter,Threat letter written by the accused received by the victim.,2026-03-02 18:55:48
+EVID0609,CASE178,Broken Glass,Broken glass shards collected for forensic examination.,2026-02-25 18:14:09
+EVID0610,CASE178,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-24 23:09:58
+EVID0611,CASE179,Hard Disk,Hard drive containing files and data log information.,2025-03-22 06:39:02
+EVID0612,CASE180,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-02-24 01:17:35
+EVID0613,CASE180,IP Address Log,Access logs showing logins to the target banking portal.,2026-02-19 12:41:22
+EVID0614,CASE180,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-02-23 12:26:20
+EVID0615,CASE181,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-02-25 19:18:34
+EVID0616,CASE181,Fingerprints,Latent fingerprints lifted from the crime scene near Chamrajpet Cross Road environment.,2025-02-23 19:25:46
+EVID0617,CASE181,CCTV Footage,CCTV footage recorded at the crime scene near Chamrajpet Cross Road location showing the suspect's possession.,2025-02-21 17:43:58
+EVID0618,CASE181,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-02-28 00:30:31
+EVID0619,CASE182,Broken Glass,Broken glass shards collected for forensic examination.,2025-10-07 01:30:34
+EVID0620,CASE182,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Tilakwadi 1th Church Road.,2025-10-11 05:28:57
+EVID0621,CASE182,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-10-02 14:17:44
+EVID0622,CASE182,Mobile Phone,Seized phone containing suspicious communications.,2025-10-02 06:45:34
+EVID0623,CASE182,Hard Disk,Hard drive containing files and data log information.,2025-10-02 00:28:46
+EVID0624,CASE183,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-10 20:32:25
+EVID0625,CASE183,Mobile Phone,Seized phone containing suspicious communications.,2026-04-16 17:48:53
+EVID0626,CASE184,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-17 17:38:25
+EVID0627,CASE184,Hard Disk,Hard drive containing files and data log information.,2026-04-20 20:25:43
+EVID0628,CASE185,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-08-15 01:34:00
+EVID0629,CASE185,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-08-15 21:42:40
+EVID0630,CASE185,Email Records,Phishing or fraudulent email communications retrieved.,2025-08-10 06:40:39
+EVID0631,CASE185,IP Address Log,Access logs showing logins to the target banking portal.,2025-08-10 09:32:33
+EVID0632,CASE185,Mobile Phone,Seized phone containing suspicious communications.,2025-08-11 14:48:07
+EVID0633,CASE186,Email Records,Email threads between the complainant and the fraudulent sender.,2025-09-26 19:37:26
+EVID0634,CASE186,IP Address Log,IP address access log associated with the fraud transaction.,2025-09-25 16:00:27
+EVID0635,CASE187,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-09-14 16:12:00
+EVID0636,CASE187,IP Address Log,IP address access log associated with the fraud transaction.,2025-09-13 00:57:36
+EVID0637,CASE187,Email Records,Email threads between the complainant and the fraudulent sender.,2025-09-16 20:20:16
+EVID0638,CASE187,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-09-12 23:17:18
+EVID0639,CASE188,Email Records,Email threads between the complainant and the fraudulent sender.,2025-05-25 20:19:51
+EVID0640,CASE188,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-05-24 00:24:02
+EVID0641,CASE188,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-05-30 05:41:01
+EVID0642,CASE188,IP Address Log,IP address access log associated with the fraud transaction.,2025-05-30 02:06:26
+EVID0643,CASE189,Laptop,Personal laptop containing document files related to the case.,2026-03-21 08:48:26
+EVID0644,CASE189,Hard Disk,Hard drive containing files and data log information.,2026-03-13 17:36:35
+EVID0645,CASE189,Broken Glass,Broken glass shards collected for forensic examination.,2026-03-17 13:23:02
+EVID0646,CASE189,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Siddhartha Layout Lane.,2026-03-16 17:11:54
+EVID0647,CASE189,Wallet,Wallet recovered from the crime scene near Siddhartha Layout Lane containing identity cards.,2026-03-15 08:06:23
+EVID0648,CASE190,Fingerprints,Latent fingerprints lifted from the crime scene near Urwa 3th Highway environment.,2026-05-05 14:14:16
+EVID0649,CASE190,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-07 13:57:56
+EVID0650,CASE190,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-12 03:49:07
+EVID0651,CASE190,CCTV Footage,CCTV footage recorded at the crime scene near Urwa 3th Highway location showing the suspect's possession.,2026-05-05 21:27:10
+EVID0652,CASE190,Mobile Phone,Seized phone containing suspicious communications.,2026-05-07 19:34:26
+EVID0653,CASE191,Mobile Phone,Seized phone containing suspicious communications.,2025-01-20 03:15:38
+EVID0654,CASE191,SIM Card,SIM card recovered from the suspect's possession's device.,2025-01-21 21:26:48
+EVID0655,CASE192,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-12-13 00:11:49
+EVID0656,CASE192,Fingerprints,Latent fingerprints lifted from the crime scene near Bagalur Main Road environment.,2025-12-15 00:25:10
+EVID0657,CASE192,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-12-13 16:59:51
+EVID0658,CASE193,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-27 03:43:46
+EVID0659,CASE193,CCTV Footage,CCTV footage recorded at the crime scene near Gandhi Nagar Dharwad Bazaar Street location showing the suspect's possession.,2026-06-01 20:50:57
+EVID0660,CASE194,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-18 08:53:09
+EVID0661,CASE194,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-04-19 05:29:43
+EVID0662,CASE195,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Nazarbad Bypass Road.,2025-07-01 12:11:38
+EVID0663,CASE195,Threat Letter,Threat letter written by the accused received by the victim.,2025-07-01 21:10:27
+EVID0664,CASE195,Mobile Phone,Seized phone containing suspicious communications.,2025-07-01 06:12:26
+EVID0665,CASE196,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-13 00:57:13
+EVID0666,CASE196,Fingerprints,Latent fingerprints lifted from the crime scene near Sadashivanagar Temple Road environment.,2026-05-17 00:38:31
+EVID0667,CASE196,CCTV Footage,CCTV footage recorded at the crime scene near Sadashivanagar Temple Road location showing the suspect's possession.,2026-05-20 23:08:05
+EVID0668,CASE196,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-15 06:53:42
+EVID0669,CASE196,Mobile Phone,Seized phone containing suspicious communications.,2026-05-15 09:25:53
+EVID0670,CASE197,Threat Letter,Threat letter written by the accused received by the victim.,2026-05-28 17:14:54
+EVID0671,CASE197,SIM Card,SIM card recovered from the suspect's possession's device.,2026-06-04 21:32:35
+EVID0672,CASE197,Wallet,Wallet recovered from the crime scene near Electronic City Flyover Road containing identity cards.,2026-06-01 10:15:13
+EVID0673,CASE198,Fingerprints,Latent fingerprints lifted from the crime scene near Kadri Highway environment.,2026-05-12 20:26:13
+EVID0674,CASE198,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-12 03:40:46
+EVID0675,CASE198,CCTV Footage,CCTV footage recorded at the crime scene near Kadri Highway location showing the suspect's possession.,2026-05-09 07:37:42
+EVID0676,CASE198,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-10 14:38:03
+EVID0677,CASE199,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-10-20 16:43:27
+EVID0678,CASE199,Mobile Phone,Seized phone containing suspicious communications.,2025-10-15 08:37:49
+EVID0679,CASE200,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-04-10 05:09:21
+EVID0680,CASE200,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-04-05 23:44:38
+EVID0681,CASE200,IP Address Log,IP address access log associated with the fraud transaction.,2026-04-10 14:29:21
+EVID0682,CASE200,Email Records,Email threads between the complainant and the fraudulent sender.,2026-04-04 21:58:02
+EVID0683,CASE200,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-03 11:08:59
+EVID0684,CASE201,Email Records,Phishing or fraudulent email communications retrieved.,2026-05-16 03:24:26
+EVID0685,CASE201,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-05-18 04:32:52
+EVID0686,CASE201,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-05-18 05:29:42
+EVID0687,CASE202,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-12-20 17:45:28
+EVID0688,CASE202,Email Records,Email threads between the complainant and the fraudulent sender.,2025-12-25 10:16:17
+EVID0689,CASE203,Threat Letter,Threat letter written by the accused received by the victim.,2026-02-25 21:53:05
+EVID0690,CASE203,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Koramangala Valley Road.,2026-02-19 05:40:48
+EVID0691,CASE204,Hard Disk,Hard drive containing files and data log information.,2025-06-20 06:29:08
+EVID0692,CASE204,Wallet,Wallet recovered from the crime scene near Velankani Drive containing identity cards.,2025-06-26 21:33:31
+EVID0693,CASE204,Mobile Phone,Seized phone containing suspicious communications.,2025-06-19 17:21:37
+EVID0694,CASE204,SIM Card,SIM card recovered from the suspect's possession's device.,2025-06-26 17:24:05
+EVID0695,CASE204,Broken Glass,Broken glass shards collected for forensic examination.,2025-06-21 05:40:47
+EVID0696,CASE205,Broken Glass,Broken glass shards collected for forensic examination.,2025-02-01 17:58:13
+EVID0697,CASE205,Threat Letter,Threat letter written by the accused received by the victim.,2025-01-29 17:43:58
+EVID0698,CASE205,Wallet,Wallet recovered from the crime scene near Kadirenahalli 2th Cross Road containing identity cards.,2025-02-01 13:24:55
+EVID0699,CASE205,Hard Disk,Hard drive containing files and data log information.,2025-02-04 03:54:30
+EVID0700,CASE205,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Kadirenahalli 2th Cross Road.,2025-01-27 12:04:38
+EVID0701,CASE206,CCTV Footage,CCTV footage recorded at the crime scene near Surathkal Cross Road location showing the suspect's possession.,2026-03-28 06:48:11
+EVID0702,CASE206,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-03-31 06:07:38
+EVID0703,CASE206,Fingerprints,Latent fingerprints lifted from the crime scene near Surathkal Cross Road environment.,2026-04-03 10:42:47
+EVID0704,CASE206,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-04-05 20:29:49
+EVID0705,CASE206,Mobile Phone,Seized phone containing suspicious communications.,2026-04-05 03:00:06
+EVID0706,CASE207,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-08-21 15:56:08
+EVID0707,CASE207,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-08-19 04:35:43
+EVID0708,CASE207,Fingerprints,Latent fingerprints lifted from the crime scene near Ejipura 2th Highway environment.,2025-08-14 03:23:51
+EVID0709,CASE207,CCTV Footage,CCTV footage recorded at the crime scene near Ejipura 2th Highway location showing the suspect's possession.,2025-08-21 08:33:21
+EVID0710,CASE207,Hard Disk,Hard drive containing files and data log information.,2025-08-20 19:24:43
+EVID0711,CASE208,Hard Disk,Hard drive containing files and data log information.,2026-02-10 06:34:29
+EVID0712,CASE208,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-08 07:15:21
+EVID0713,CASE209,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-06-10 20:30:19
+EVID0714,CASE209,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Kammasandra Temple Road.,2026-06-04 10:19:54
+EVID0715,CASE209,Hard Disk,Hard drive containing files and data log information.,2026-06-10 08:11:03
+EVID0716,CASE210,IP Address Log,Access logs showing logins to the target banking portal.,2025-03-12 21:42:38
+EVID0717,CASE210,Email Records,Phishing or fraudulent email communications retrieved.,2025-03-08 03:10:28
+EVID0718,CASE210,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-03-08 20:41:18
+EVID0719,CASE211,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-02-26 05:00:11
+EVID0720,CASE211,IP Address Log,IP address access log associated with the fraud transaction.,2025-03-05 10:20:39
+EVID0721,CASE211,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-03-03 03:02:06
+EVID0722,CASE211,Email Records,Email threads between the complainant and the fraudulent sender.,2025-03-03 10:12:32
+EVID0723,CASE211,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-03-07 00:22:48
+EVID0724,CASE212,Mobile Phone,Seized phone containing suspicious communications.,2025-11-13 18:49:57
+EVID0725,CASE212,Broken Glass,Broken glass shards collected for forensic examination.,2025-11-15 15:33:48
+EVID0726,CASE212,Laptop,Personal laptop containing document files related to the case.,2025-11-13 20:04:18
+EVID0727,CASE212,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Surathkal Cross Road.,2025-11-15 09:05:11
+EVID0728,CASE212,Wallet,Wallet recovered from the crime scene near Surathkal Cross Road containing identity cards.,2025-11-14 09:25:25
+EVID0729,CASE213,IP Address Log,IP address access log associated with the fraud transaction.,2025-01-09 05:02:26
+EVID0730,CASE213,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-01-12 08:20:26
+EVID0731,CASE214,Laptop,Personal laptop containing document files related to the case.,2026-03-06 14:52:31
+EVID0732,CASE214,Hard Disk,Hard drive containing files and data log information.,2026-03-08 14:39:10
+EVID0733,CASE214,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-03-03 16:47:00
+EVID0734,CASE214,SIM Card,SIM card recovered from the suspect's possession's device.,2026-03-08 09:35:44
+EVID0735,CASE215,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-03-26 03:36:42
+EVID0736,CASE215,Laptop,Personal laptop containing document files related to the case.,2025-03-23 09:52:13
+EVID0737,CASE216,Laptop,Personal laptop containing document files related to the case.,2025-02-21 11:38:32
+EVID0738,CASE216,Mobile Phone,Seized phone containing suspicious communications.,2025-03-02 01:07:05
+EVID0739,CASE216,Wallet,Wallet recovered from the crime scene near Langford Town Bazaar Street containing identity cards.,2025-02-22 14:45:45
+EVID0740,CASE216,Hard Disk,Hard drive containing files and data log information.,2025-02-26 09:24:23
+EVID0741,CASE216,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Langford Town Bazaar Street.,2025-02-27 03:56:57
+EVID0742,CASE217,CCTV Footage,CCTV footage recorded at the crime scene near Saraswatpur Dharwad Cross Road location showing the suspect's possession.,2025-11-24 09:30:27
+EVID0743,CASE217,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-11-21 21:14:40
+EVID0744,CASE218,Fingerprints,Latent fingerprints lifted from the crime scene near Kumaraswamy Layout Station Road environment.,2026-05-10 13:32:23
+EVID0745,CASE218,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-04 18:15:06
+EVID0746,CASE218,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-05-07 07:21:17
+EVID0747,CASE218,CCTV Footage,CCTV footage recorded at the crime scene near Kumaraswamy Layout Station Road location showing the suspect's possession.,2026-05-13 17:40:48
+EVID0748,CASE219,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near JP Nagar Mysuru Ring Road.,2025-11-08 05:39:34
+EVID0749,CASE219,Laptop,Personal laptop containing document files related to the case.,2025-11-08 03:01:29
+EVID0750,CASE220,Wallet,Wallet recovered from the crime scene near Gottigere Cross Road containing identity cards.,2025-05-24 08:05:12
+EVID0751,CASE220,Broken Glass,Broken glass shards collected for forensic examination.,2025-05-21 03:30:24
+EVID0752,CASE221,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-07-26 10:48:46
+EVID0753,CASE221,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-08-02 05:54:27
+EVID0754,CASE221,Email Records,Email threads between the complainant and the fraudulent sender.,2025-07-25 12:28:50
+EVID0755,CASE222,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-01-27 01:46:12
+EVID0756,CASE222,Email Records,Phishing or fraudulent email communications retrieved.,2026-01-24 22:42:25
+EVID0757,CASE222,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-01-22 14:39:06
+EVID0758,CASE222,IP Address Log,Access logs showing logins to the target banking portal.,2026-01-28 03:26:18
+EVID0759,CASE223,Threat Letter,Threat letter written by the accused received by the victim.,2026-02-21 11:19:40
+EVID0760,CASE223,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Surathkal Cross Road.,2026-02-24 10:20:25
+EVID0761,CASE223,SIM Card,SIM card recovered from the suspect's possession's device.,2026-02-23 21:41:47
+EVID0762,CASE223,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-02-24 08:45:38
+EVID0763,CASE224,Email Records,Email threads between the complainant and the fraudulent sender.,2025-01-04 18:54:28
+EVID0764,CASE224,IP Address Log,IP address access log associated with the fraud transaction.,2025-01-04 11:25:47
+EVID0765,CASE224,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-01-06 10:27:16
+EVID0766,CASE224,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-01-04 21:33:43
+EVID0767,CASE225,Clothing,Stained clothing of the victim containing forensic trace material.,2025-06-11 13:02:36
+EVID0768,CASE225,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-06-04 23:33:43
+EVID0769,CASE225,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-06-12 01:52:01
+EVID0770,CASE225,DNA Sample,Biological DNA samples extracted from the crime scene near Wilson Garden Bazaar Street.,2025-06-05 09:08:16
+EVID0771,CASE226,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-11-15 00:24:07
+EVID0772,CASE226,Threat Letter,Threat letter written by the accused received by the victim.,2025-11-17 21:32:31
+EVID0773,CASE226,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Peenya Temple Road.,2025-11-20 21:01:31
+EVID0774,CASE227,Broken Glass,Broken glass shards collected for forensic examination.,2025-11-28 00:22:40
+EVID0775,CASE227,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-12-03 01:08:37
+EVID0776,CASE228,Email Records,Email threads between the complainant and the fraudulent sender.,2025-03-29 05:50:23
+EVID0777,CASE228,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-04-01 10:29:21
+EVID0778,CASE228,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-03-29 12:15:54
+EVID0779,CASE228,IP Address Log,IP address access log associated with the fraud transaction.,2025-04-02 06:39:08
+EVID0780,CASE228,Hard Disk,Hard drive containing files and data log information.,2025-03-28 14:12:36
+EVID0781,CASE229,Email Records,Email threads between the complainant and the fraudulent sender.,2025-07-20 16:00:27
+EVID0782,CASE229,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-07-24 02:29:09
+EVID0783,CASE229,IP Address Log,IP address access log associated with the fraud transaction.,2025-07-28 22:44:34
+EVID0784,CASE229,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-07-20 16:35:12
+EVID0785,CASE229,Threat Letter,Threat letter written by the accused received by the victim.,2025-07-28 21:22:43
+EVID0786,CASE230,Threat Letter,Threat letter written by the accused received by the victim.,2026-01-10 10:48:23
+EVID0787,CASE231,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-18 06:45:07
+EVID0788,CASE231,Wallet,Wallet recovered from the crime scene near Kammanahalli Main Road containing identity cards.,2025-07-20 19:44:24
+EVID0789,CASE231,Mobile Phone,Seized phone containing suspicious communications.,2025-07-19 15:01:04
+EVID0790,CASE231,Hard Disk,Hard drive containing files and data log information.,2025-07-14 02:52:17
+EVID0791,CASE231,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-17 18:16:04
+EVID0792,CASE232,IP Address Log,Access logs showing logins to the target banking portal.,2025-06-24 14:46:15
+EVID0793,CASE232,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-06-21 03:37:08
+EVID0794,CASE232,Email Records,Phishing or fraudulent email communications retrieved.,2025-06-23 08:24:36
+EVID0795,CASE233,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-09-05 07:47:44
+EVID0796,CASE233,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-09-02 09:00:08
+EVID0797,CASE233,IP Address Log,Access logs showing logins to the target banking portal.,2025-09-01 08:05:42
+EVID0798,CASE233,Email Records,Phishing or fraudulent email communications retrieved.,2025-09-05 13:42:27
+EVID0799,CASE233,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-08-28 01:47:12
+EVID0800,CASE234,Mobile Phone,Seized phone containing suspicious communications.,2026-04-22 22:39:24
+EVID0801,CASE234,Laptop,Personal laptop containing document files related to the case.,2026-04-25 22:18:43
+EVID0802,CASE234,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-20 21:46:15
+EVID0803,CASE234,Broken Glass,Broken glass shards collected for forensic examination.,2026-04-24 08:38:49
+EVID0804,CASE234,Threat Letter,Threat letter written by the accused received by the victim.,2026-04-22 00:05:58
+EVID0805,CASE235,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Vidyapeetha Circle Link Road.,2025-06-04 10:51:20
+EVID0806,CASE235,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-06-07 17:19:30
+EVID0807,CASE235,Laptop,Personal laptop containing document files related to the case.,2025-06-09 22:37:09
+EVID0808,CASE236,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Kadri Highway.,2026-05-31 11:09:37
+EVID0809,CASE236,Laptop,Personal laptop containing document files related to the case.,2026-05-30 09:29:38
+EVID0810,CASE236,SIM Card,SIM card recovered from the suspect's possession's device.,2026-06-04 06:33:44
+EVID0811,CASE236,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-06-03 14:26:52
+EVID0812,CASE236,Threat Letter,Threat letter written by the accused received by the victim.,2026-06-03 01:16:48
+EVID0813,CASE237,CCTV Footage,CCTV footage recorded at the crime scene near RT Nagar Main Road location showing the suspect's possession.,2026-05-12 00:28:25
+EVID0814,CASE237,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-05-11 04:57:42
+EVID0815,CASE237,Fingerprints,Latent fingerprints lifted from the crime scene near RT Nagar Main Road environment.,2026-05-07 01:15:19
+EVID0816,CASE238,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-10-14 12:43:01
+EVID0817,CASE238,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-10-15 23:50:18
+EVID0818,CASE238,IP Address Log,IP address access log associated with the fraud transaction.,2025-10-15 19:15:30
+EVID0819,CASE238,Email Records,Email threads between the complainant and the fraudulent sender.,2025-10-21 06:19:55
+EVID0820,CASE239,IP Address Log,Access logs showing logins to the target banking portal.,2025-11-04 11:01:22
+EVID0821,CASE239,Email Records,Phishing or fraudulent email communications retrieved.,2025-11-05 13:23:04
+EVID0822,CASE239,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-10-31 23:28:47
+EVID0823,CASE240,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Lakshmipuram Station Road.,2025-02-05 16:56:35
+EVID0824,CASE240,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-02-10 13:42:28
+EVID0825,CASE240,Hard Disk,Hard drive containing files and data log information.,2025-02-13 04:39:15
+EVID0826,CASE240,Mobile Phone,Seized phone containing suspicious communications.,2025-02-05 14:18:02
+EVID0827,CASE240,Threat Letter,Threat letter written by the accused received by the victim.,2025-02-12 21:19:45
+EVID0828,CASE241,Fingerprints,Latent fingerprints lifted from the crime scene near Singasandra Station Road environment.,2026-06-14 16:33:38
+EVID0829,CASE241,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-06-14 07:46:42
+EVID0830,CASE241,CCTV Footage,CCTV footage recorded at the crime scene near Singasandra Station Road location showing the suspect's possession.,2026-06-07 15:43:25
+EVID0831,CASE242,SIM Card,SIM card recovered from the suspect's possession's device.,2025-05-21 01:42:17
+EVID0832,CASE242,Wallet,Wallet recovered from the crime scene near Chikkalasandra Bypass Road containing identity cards.,2025-05-16 20:43:39
+EVID0833,CASE242,Broken Glass,Broken glass shards collected for forensic examination.,2025-05-18 03:39:26
+EVID0834,CASE242,Mobile Phone,Seized phone containing suspicious communications.,2025-05-19 06:45:02
+EVID0835,CASE242,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Chikkalasandra Bypass Road.,2025-05-17 06:45:46
+EVID0836,CASE243,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Langford Town Bazaar Street.,2026-05-08 12:39:30
+EVID0837,CASE243,Broken Glass,Broken glass shards collected for forensic examination.,2026-04-30 13:22:47
+EVID0838,CASE243,Mobile Phone,Seized phone containing suspicious communications.,2026-05-05 23:15:11
+EVID0839,CASE243,SIM Card,SIM card recovered from the suspect's possession's device.,2026-05-05 19:57:04
+EVID0840,CASE244,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-01-10 04:26:14
+EVID0841,CASE244,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-01-12 10:30:43
+EVID0842,CASE244,CCTV Footage,CCTV footage recorded at the crime scene near Srirampura Club Road location showing the suspect's possession.,2025-01-13 18:34:38
+EVID0843,CASE245,IP Address Log,Access logs showing logins to the target banking portal.,2026-01-12 18:28:58
+EVID0844,CASE245,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-01-16 17:22:07
+EVID0845,CASE246,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-12-30 02:49:19
+EVID0846,CASE246,IP Address Log,IP address access log associated with the fraud transaction.,2026-01-04 12:56:41
+EVID0847,CASE246,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-01-02 05:03:58
+EVID0848,CASE247,Email Records,Phishing or fraudulent email communications retrieved.,2025-03-11 02:47:04
+EVID0849,CASE247,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-03-11 00:15:06
+EVID0850,CASE248,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-08-17 11:10:06
+EVID0851,CASE248,Broken Glass,Broken glass shards collected for forensic examination.,2025-08-18 13:55:30
+EVID0852,CASE248,Mobile Phone,Seized phone containing suspicious communications.,2025-08-16 03:07:53
+EVID0853,CASE249,Mobile Phone,Seized phone containing suspicious communications.,2025-09-05 21:41:16
+EVID0854,CASE249,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-09-12 02:23:04
+EVID0855,CASE249,Wallet,Wallet recovered from the crime scene near Harlur Road 4th Ring Road containing identity cards.,2025-09-07 02:28:12
+EVID0856,CASE249,Threat Letter,Threat letter written by the accused received by the victim.,2025-09-13 03:53:09
+EVID0857,CASE249,SIM Card,SIM card recovered from the suspect's possession's device.,2025-09-11 19:49:14
+EVID0858,CASE250,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-12-12 07:29:35
+EVID0859,CASE250,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-12-11 14:45:11
+EVID0860,CASE251,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Benson Town Bazaar Street.,2025-06-27 01:07:27
+EVID0861,CASE251,Wallet,Wallet recovered from the crime scene near Benson Town Bazaar Street containing identity cards.,2025-06-25 02:35:01
+EVID0862,CASE252,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-06-12 00:41:44
+EVID0863,CASE252,IP Address Log,Access logs showing logins to the target banking portal.,2025-06-11 17:53:10
+EVID0864,CASE253,Wallet,Wallet recovered from the crime scene near Surathkal Cross Road containing identity cards.,2026-05-30 18:20:55
+EVID0865,CASE253,SIM Card,SIM card recovered from the suspect's possession's device.,2026-06-02 06:33:39
+EVID0866,CASE254,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-02-27 03:22:25
+EVID0867,CASE254,IP Address Log,IP address access log associated with the fraud transaction.,2025-02-27 01:04:08
+EVID0868,CASE254,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-03-01 12:40:27
+EVID0869,CASE254,Email Records,Email threads between the complainant and the fraudulent sender.,2025-02-27 20:02:04
+EVID0870,CASE255,IP Address Log,IP address access log associated with the fraud transaction.,2025-01-27 15:51:19
+EVID0871,CASE255,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-01-24 01:31:42
+EVID0872,CASE256,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-04-09 10:31:38
+EVID0873,CASE256,Fingerprints,Latent fingerprints lifted from the crime scene near Bendoorwell Main Road environment.,2026-04-09 01:13:20
+EVID0874,CASE257,Hard Disk,Hard drive containing files and data log information.,2025-05-19 06:36:15
+EVID0875,CASE257,Broken Glass,Broken glass shards collected for forensic examination.,2025-05-24 04:50:41
+EVID0876,CASE257,SIM Card,SIM card recovered from the suspect's possession's device.,2025-05-21 06:10:35
+EVID0877,CASE258,Wallet,Wallet recovered from the crime scene near Tavarekere Main Road containing identity cards.,2025-02-28 05:41:38
+EVID0878,CASE258,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-03-02 11:39:50
+EVID0879,CASE259,SIM Card,SIM card recovered from the suspect's possession's device.,2025-09-12 10:46:24
+EVID0880,CASE259,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-09-12 16:48:39
+EVID0881,CASE260,Mobile Phone,Seized phone containing suspicious communications.,2025-07-18 07:14:40
+EVID0882,CASE260,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-07-20 04:18:13
+EVID0883,CASE261,Clothing,Stained clothing of the victim containing forensic trace material.,2025-05-04 05:39:37
+EVID0884,CASE261,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-04-29 19:24:26
+EVID0885,CASE261,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-05-04 02:52:05
+EVID0886,CASE261,DNA Sample,Biological DNA samples extracted from the crime scene near Chamundipuram Highway.,2025-04-25 10:49:40
+EVID0887,CASE261,Mobile Phone,Seized phone containing suspicious communications.,2025-04-28 14:22:32
+EVID0888,CASE261,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Chamundipuram Highway.,2025-05-01 15:09:17
+EVID0889,CASE261,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-04-24 15:35:17
+EVID0890,CASE262,Email Records,Email threads between the complainant and the fraudulent sender.,2025-08-28 09:07:15
+EVID0891,CASE262,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-08-22 03:11:32
+EVID0892,CASE262,IP Address Log,IP address access log associated with the fraud transaction.,2025-08-28 00:25:22
+EVID0893,CASE262,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-08-28 18:12:08
+EVID0894,CASE263,Email Records,Phishing or fraudulent email communications retrieved.,2025-06-24 18:51:16
+EVID0895,CASE263,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2025-06-30 01:56:37
+EVID0896,CASE263,Transaction Receipt,Receipt showing transactions related to the fraud.,2025-07-01 09:08:21
+EVID0897,CASE263,IP Address Log,Access logs showing logins to the target banking portal.,2025-06-23 19:00:28
+EVID0898,CASE264,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-01-02 09:16:21
+EVID0899,CASE264,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-01-09 01:19:33
+EVID0900,CASE265,Hard Disk,Hard drive containing files and data log information.,2025-10-31 02:09:32
+EVID0901,CASE265,Wallet,Wallet recovered from the crime scene near Padmanabhanagar Bazaar Street containing identity cards.,2025-10-30 04:26:35
+EVID0902,CASE265,Mobile Phone,Seized phone containing suspicious communications.,2025-10-30 12:43:57
+EVID0903,CASE265,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-10-22 12:20:01
+EVID0904,CASE265,Threat Letter,Threat letter written by the accused received by the victim.,2025-10-24 17:16:32
+EVID0905,CASE266,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2026-01-13 01:33:18
+EVID0906,CASE266,Clothing,Stained clothing of the victim containing forensic trace material.,2026-01-15 23:08:27
+EVID0907,CASE266,DNA Sample,Biological DNA samples extracted from the crime scene near 100 Feet Road Indiranagar.,2026-01-12 03:01:26
+EVID0908,CASE266,Blood Sample,Blood spatter samples collected from the scene of the incident.,2026-01-16 23:31:42
+EVID0909,CASE266,SIM Card,SIM card recovered from the suspect's possession's device.,2026-01-15 03:20:00
+EVID0910,CASE266,SIM Card,SIM card recovered from the suspect's possession's device.,2026-01-09 05:00:55
+EVID0911,CASE266,SIM Card,SIM card recovered from the suspect's possession's device.,2026-01-08 00:03:38
+EVID0912,CASE267,SIM Card,SIM card recovered from the suspect's possession's device.,2026-04-09 19:48:51
+EVID0913,CASE267,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-04-09 14:12:25
+EVID0914,CASE268,Email Records,Phishing or fraudulent email communications retrieved.,2025-11-11 01:42:40
+EVID0915,CASE268,IP Address Log,Access logs showing logins to the target banking portal.,2025-11-12 12:40:03
+EVID0916,CASE269,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-17 08:12:12
+EVID0917,CASE269,CCTV Footage,CCTV footage recorded at the crime scene near Saraswathipuram 3th Highway location showing the suspect's possession.,2025-04-17 15:00:17
+EVID0918,CASE269,Fingerprints,Latent fingerprints lifted from the crime scene near Saraswathipuram 3th Highway environment.,2025-04-13 23:50:34
+EVID0919,CASE269,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-04-15 10:53:41
+EVID0920,CASE269,Threat Letter,Threat letter written by the accused received by the victim.,2025-04-16 08:22:23
+EVID0921,CASE270,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Neelasandra Main Road.,2025-01-24 17:27:39
+EVID0922,CASE270,Threat Letter,Threat letter written by the accused received by the victim.,2025-01-27 04:38:01
+EVID0923,CASE270,Laptop,Personal laptop containing document files related to the case.,2025-02-02 09:24:08
+EVID0924,CASE270,Broken Glass,Broken glass shards collected for forensic examination.,2025-01-28 10:30:14
+EVID0925,CASE271,Mobile Phone,Seized phone containing suspicious communications.,2026-01-08 17:41:17
+EVID0926,CASE272,IP Address Log,IP address access log associated with the fraud transaction.,2025-05-09 09:19:38
+EVID0927,CASE272,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-05-10 23:30:08
+EVID0928,CASE272,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-05-15 06:57:03
+EVID0929,CASE272,Email Records,Email threads between the complainant and the fraudulent sender.,2025-05-14 21:56:14
+EVID0930,CASE272,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Harlur Road Lane.,2025-05-12 04:36:59
+EVID0931,CASE273,Mobile Phone,Seized phone containing suspicious communications.,2026-03-13 07:42:45
+EVID0932,CASE273,Threat Letter,Threat letter written by the accused received by the victim.,2026-03-18 23:50:20
+EVID0933,CASE273,Broken Glass,Broken glass shards collected for forensic examination.,2026-03-12 07:07:36
+EVID0934,CASE273,SIM Card,SIM card recovered from the suspect's possession's device.,2026-03-11 05:42:05
+EVID0935,CASE274,IP Address Log,IP address access log associated with the fraud transaction.,2026-02-10 09:04:28
+EVID0936,CASE274,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2026-02-01 21:53:57
+EVID0937,CASE274,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-02-10 08:03:52
+EVID0938,CASE274,Email Records,Email threads between the complainant and the fraudulent sender.,2026-02-06 19:25:13
+EVID0939,CASE275,Hard Disk,Hard drive containing files and data log information.,2025-07-03 19:55:36
+EVID0940,CASE275,Wallet,Wallet recovered from the crime scene near Udyambag Main Road containing identity cards.,2025-06-26 02:56:10
+EVID0941,CASE275,SIM Card,SIM card recovered from the suspect's possession's device.,2025-06-28 08:16:36
+EVID0942,CASE275,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Udyambag Main Road.,2025-06-30 02:46:05
+EVID0943,CASE276,Hard Disk,Hard drive containing files and data log information.,2025-07-15 17:11:22
+EVID0944,CASE276,Wallet,Wallet recovered from the crime scene near Bilekahalli Highway containing identity cards.,2025-07-17 20:11:20
+EVID0945,CASE276,Mobile Phone,Seized phone containing suspicious communications.,2025-07-22 01:01:42
+EVID0946,CASE277,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-28 18:43:40
+EVID0947,CASE277,Hard Disk,Hard drive containing files and data log information.,2025-07-26 11:18:14
+EVID0948,CASE277,Wallet,Wallet recovered from the crime scene near Jayalakshmipuram Main Road containing identity cards.,2025-07-26 10:22:50
+EVID0949,CASE278,Clothing,Stained clothing of the victim containing forensic trace material.,2025-08-12 19:01:59
+EVID0950,CASE278,Blood Sample,Blood spatter samples collected from the scene of the incident.,2025-08-11 02:33:29
+EVID0951,CASE278,DNA Sample,Biological DNA samples extracted from the crime scene near JP Nagar Mysuru Ring Road.,2025-08-11 06:57:18
+EVID0952,CASE278,Weapon of Offence,"Weapon used in the crime (e.g. knife, rod) recovered near the scene.",2025-08-04 09:57:41
+EVID0953,CASE278,Broken Glass,Broken glass shards collected for forensic examination.,2025-08-12 20:39:49
+EVID0954,CASE279,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-26 12:18:58
+EVID0955,CASE279,Threat Letter,Threat letter written by the accused received by the victim.,2025-07-28 22:57:04
+EVID0956,CASE280,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near HAL Bypass Road.,2025-10-10 05:39:10
+EVID0957,CASE280,Laptop,Personal laptop containing document files related to the case.,2025-10-09 12:03:54
+EVID0958,CASE280,Broken Glass,Broken glass shards collected for forensic examination.,2025-10-05 09:43:38
+EVID0959,CASE281,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-02-06 03:34:59
+EVID0960,CASE281,Threat Letter,Threat letter written by the accused received by the victim.,2026-02-01 20:41:46
+EVID0961,CASE282,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Devaraja Mohalla Link Road.,2025-05-30 19:39:42
+EVID0962,CASE282,Broken Glass,Broken glass shards collected for forensic examination.,2025-05-31 03:58:26
+EVID0963,CASE282,Threat Letter,Threat letter written by the accused received by the victim.,2025-06-02 03:36:34
+EVID0964,CASE283,Mobile Phone,Seized phone containing suspicious communications.,2026-03-12 02:44:03
+EVID0965,CASE283,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-03-05 04:22:08
+EVID0966,CASE283,Threat Letter,Threat letter written by the accused received by the victim.,2026-03-04 14:35:17
+EVID0967,CASE284,Wallet,Wallet recovered from the crime scene near Yelahanka New Town Road containing identity cards.,2025-04-29 07:01:37
+EVID0968,CASE285,Email Records,Email threads between the complainant and the fraudulent sender.,2025-07-19 04:39:38
+EVID0969,CASE285,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-07-19 11:41:14
+EVID0970,CASE285,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-07-26 02:35:57
+EVID0971,CASE286,Email Records,Phishing or fraudulent email communications retrieved.,2026-01-11 09:02:57
+EVID0972,CASE286,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-01-10 12:04:16
+EVID0973,CASE287,SIM Card,SIM card recovered from the suspect's possession's device.,2026-03-22 14:59:13
+EVID0974,CASE287,Laptop,Personal laptop containing document files related to the case.,2026-03-21 15:33:33
+EVID0975,CASE287,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Sanjaynagar Double Road.,2026-03-25 22:15:51
+EVID0976,CASE288,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2025-04-18 09:08:25
+EVID0977,CASE288,Fingerprints,Latent fingerprints lifted from the crime scene near Lalbagh Mangaluru 4th Cross Road environment.,2025-04-09 06:48:00
+EVID0978,CASE288,CCTV Footage,CCTV footage recorded at the crime scene near Lalbagh Mangaluru 4th Cross Road location showing the suspect's possession.,2025-04-14 17:15:19
+EVID0979,CASE288,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-09 20:29:13
+EVID0980,CASE289,Broken Glass,Broken glass shards collected for forensic examination.,2025-03-29 12:26:35
+EVID0981,CASE289,Hard Disk,Hard drive containing files and data log information.,2025-03-31 15:24:52
+EVID0982,CASE289,Wallet,Wallet recovered from the crime scene near Narayanpur Dharwad 4th Church Road containing identity cards.,2025-03-31 10:06:29
+EVID0983,CASE289,SIM Card,SIM card recovered from the suspect's possession's device.,2025-04-01 00:50:48
+EVID0984,CASE290,CCTV Footage,CCTV footage recorded at the crime scene near RT Nagar 4th Junction Road location showing the suspect's possession.,2025-11-19 03:28:36
+EVID0985,CASE290,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-11-13 00:32:29
+EVID0986,CASE291,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-04-20 10:59:48
+EVID0987,CASE291,CCTV Footage,CCTV footage recorded at the crime scene near Hindwadi Lane location showing the suspect's possession.,2026-04-18 22:33:18
+EVID0988,CASE292,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2025-04-07 19:29:43
+EVID0989,CASE292,CCTV Footage,CCTV footage recorded at the crime scene near Kyathasandra Bazaar Street location showing the suspect's possession.,2025-04-02 18:05:25
+EVID0990,CASE293,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Amaragol Main Road.,2025-06-16 04:12:14
+EVID0991,CASE293,Wallet,Wallet recovered from the crime scene near Amaragol Main Road containing identity cards.,2025-06-10 08:05:51
+EVID0992,CASE293,Mobile Phone,Seized phone containing suspicious communications.,2025-06-14 13:24:08
+EVID0993,CASE294,SIM Card,SIM card recovered from the suspect's possession's device.,2025-07-17 13:40:39
+EVID0994,CASE294,Mobile Phone,Seized phone containing suspicious communications.,2025-07-13 15:15:02
+EVID0995,CASE294,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Kulshekar 3th Bypass Road.,2025-07-17 07:24:19
+EVID0996,CASE295,Hard Disk,Hard drive containing files and data log information.,2026-01-31 11:29:24
+EVID0997,CASE295,Broken Glass,Broken glass shards collected for forensic examination.,2026-01-27 03:47:29
+EVID0998,CASE295,Aadhaar Card,Aadhaar Card of the suspect's possession found at the crime scene near Outer Ring Road.,2026-02-01 01:17:25
+EVID0999,CASE295,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2026-01-29 20:52:05
+EVID1000,CASE296,Mobile Phone,Seized smartphone containing suspicious messaging application data.,2025-08-04 15:27:55
+EVID1001,CASE296,UPI Transaction Log,Official transaction statements from UPI bank records.,2025-08-04 04:54:11
+EVID1002,CASE296,Email Records,Email threads between the complainant and the fraudulent sender.,2025-08-07 11:37:19
+EVID1003,CASE296,IP Address Log,IP address access log associated with the fraud transaction.,2025-08-09 08:48:05
+EVID1004,CASE296,Laptop,Personal laptop containing document files related to the case.,2025-08-06 10:18:00
+EVID1005,CASE297,Email Records,Phishing or fraudulent email communications retrieved.,2026-03-09 23:21:39
+EVID1006,CASE297,IP Address Log,Access logs showing logins to the target banking portal.,2026-03-11 00:56:21
+EVID1007,CASE297,Bank Statement,Certified bank account statements detailing unauthorized transfers.,2026-03-06 19:24:08
+EVID1008,CASE297,Transaction Receipt,Receipt showing transactions related to the fraud.,2026-03-07 19:45:33
+EVID1009,CASE298,Toll Plaza Slip,Toll receipt indicating the movement of the stolen vehicle.,2026-01-28 08:49:37
+EVID1010,CASE298,Vehicle Key,Physical spare keys of the stolen vehicle recovered from the suspect's possession.,2026-02-01 15:50:03
+EVID1011,CASE298,CCTV Footage,CCTV footage recorded at the crime scene near Keshwapur Highway location showing the suspect's possession.,2026-01-27 14:58:32
+EVID1012,CASE299,UPI Transaction Log,Official transaction statements from UPI bank records.,2026-02-17 02:46:19
+EVID1013,CASE299,IP Address Log,IP address access log associated with the fraud transaction.,2026-02-20 06:18:44
+EVID1014,CASE300,Hard Disk,Hard drive containing files and data log information.,2025-12-15 06:58:35
+EVID1015,CASE300,Threat Letter,Threat letter written by the accused received by the victim.,2025-12-16 01:18:09
+EVID1016,CASE300,Spent Cartridge Case,Spent cartridge shell recovered from the location.,2025-12-12 06:21:02
+EVID1017,CASE300,Wallet,Wallet recovered from the crime scene near Kalasipalyam Main Road containing identity cards.,2025-12-09 07:31:34

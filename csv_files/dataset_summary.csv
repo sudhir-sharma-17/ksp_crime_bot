@@ -1,0 +1,23 @@
+table_name,row_count,primary_key,foreign_keys,description
+districts,31,district_id,None,Master list of districts in Karnataka
+cities,75,city_id,district_id,Master list of cities mapped to districts
+localities,218,locality_id,city_id,Master list of localities mapped to cities
+roads,300,road_id,locality_id,Master list of roads mapped to localities
+police_stations,50,station_id,"city_id, district_id",Master list of police stations
+officers,250,officer_id,station_id,Police officers database with specialization
+complainants,300,comp_id,None,Citizen complainants profile pool
+victims,380,vict_id,None,Citizen victims profile pool
+accused,450,accu_id,None,Citizen accused profile pool with history
+witnesses,650,witn_id,None,Citizen witnesses profile pool
+case_profiles,300,case_id,"station_id, assigned_officer",Case configurations and metadata
+fir,300,fir_id,"station_id, case_id, complainant_id, officer_id",First Information Reports with 8 narrative fields
+case_victims,407,"(case_id, victim_id)","case_id, victim_id",Junction table mapping victims to cases
+case_accused,412,"(case_id, accu_id)","case_id, accu_id",Junction table mapping accused to cases
+case_witnesses,734,"(case_id, witn_id)","case_id, witn_id",Junction table mapping witnesses to cases
+evidence,1017,evidence_id,case_id,Case evidence details seized at crime scene
+investigation_timeline,3145,timeline_id,case_id,Chronological log of investigation notes
+court_cases,300,court_case_id,fir_id,"Court verdicts, statuses, and sentencing logs"
+vehicles,250,vehicle_id,"owner_person_id, linked_case_id, linked_fir_id","Vehicles involved in crimes, registered or stolen"
+stolen_property,300,property_id,"fir_id, case_id",Stolen assets and their recovery statuses
+missing_persons,200,missing_person_id,"case_id, fir_id",Profiles of missing persons linked to cases
+emergency_calls,300,call_id,"station_id, assigned_officer, linked_case_id",Emergency PCR calls log

@@ -1,0 +1,301 @@
+call_id,caller_name,caller_phone,call_datetime,station_id,incident_type,location,priority,response_time_minutes,assigned_officer,linked_case_id
+EMG001,Arjun Singh,+91-6645168785,2026-06-06 04:50:03,PS036,Accident,Majestic Galli,Low,25,OFF177,CASE051
+EMG002,Rohan Patel,+91-7608677442,2026-05-10 16:27:02,PS006,Domestic Violence,Hanumanthnagar Junction Road,Low,42,OFF027,CASE116
+EMG003,Kiran Jadav,+91-6673537611,2025-09-20 20:09:02,PS005,Assault,Murugeshpalya Temple Road,High,7,OFF021,CASE034
+EMG004,Pooja Gupta,+91-8539277172,2026-04-28 05:40:38,PS023,Assault,Hebbal Mysuru Lane,High,33,OFF112,CASE049
+EMG005,Arjun Jadav,+91-6281219500,2026-05-06 14:14:14,PS018,Accident,Bendoorwell Main Road,Medium,23,OFF087,CASE165
+EMG006,Rohan Singh,+91-8597519871,2025-08-25 01:45:42,PS006,Theft,Patel Nagar Hosapete Galli,Low,33,OFF027,CASE233
+EMG007,Babita Kumar,+91-7906940564,2025-09-27 22:31:44,PS034,Suspicious Activity,Saraswatpur Dharwad Cross Road,Critical,28,OFF167,CASE097
+EMG008,Harish Mishra,+91-6785962247,2026-02-01 19:28:01,PS012,Disturbance,Whitefield Main Road,Medium,33,OFF056,CASE133
+EMG009,Meena Rao,+91-8500654501,2025-02-23 18:25:19,PS046,Suspicious Activity,Gachinakatti Colony 2th Ring Road,Medium,28,OFF226,CASE211
+EMG010,Ramesh Reddy,+91-7343652384,2025-01-02 11:39:23,PS003,Domestic Violence,Gottigere 5th Galli,Critical,23,OFF011,CASE244
+EMG011,Anil Patel,+91-9220520537,2026-02-20 20:00:12,PS036,Accident,Tilakwadi Bypass Road,Medium,8,OFF177,CASE093
+EMG012,Priya Verma,+91-8669563061,2025-07-01 14:28:16,PS031,Theft,Kadirenahalli Ring Road,Medium,39,OFF151,CASE106
+EMG013,Deepa Kumar,+91-7171124849,2025-02-28 22:55:05,PS024,Cyber Crime,Mandi Mohalla Main Road,High,36,OFF117,CASE026
+EMG014,Swati Das,+91-8747673256,2025-05-21 20:29:16,PS014,Cyber Crime,Manipal Main Road,Medium,25,OFF067,CASE103
+EMG015,Suresh Nair,+91-6658668845,2025-03-05 08:21:23,PS017,Theft,Lingarajapuram 3th Club Road,Critical,22,OFF081,CASE127
+EMG016,Sandip Mehta,+91-7386175755,2026-05-13 17:04:20,PS032,Cyber Crime,RT Nagar Main Road,High,19,OFF157,CASE201
+EMG017,Sneha Joshi,+91-6896574532,2026-06-15 17:03:48,PS033,Assault,Gokul Road Galli,Medium,31,OFF161,CASE167
+EMG018,Sunita Yadav,+91-7539696549,2026-01-06 16:55:16,PS013,Theft,Hennur Gardens Lane,Critical,9,OFF062,CASE245
+EMG019,Manoj Nair,+91-9334917263,2025-07-03 10:20:55,PS031,Assault,Varthur 2th Double Road,Critical,33,OFF152,CASE096
+EMG020,Babita Das,+91-6420484485,2025-10-27 16:54:15,PS032,Cyber Crime,Peenya Temple Road,Low,22,OFF157,CASE136
+EMG021,Anjali Patel,+91-9885280148,2025-10-08 23:40:25,PS018,Suspicious Activity,PJ Extension Lane,Low,32,OFF087,CASE199
+EMG022,Ajay Nair,+91-7950520803,2025-01-06 09:38:29,PS032,Disturbance,Bhagya Nagar Ring Road,Low,30,OFF156,CASE140
+EMG023,Amit Verma,+91-9732979039,2025-05-04 20:24:20,PS014,Assault,Kammasandra Temple Road,Low,35,OFF066,CASE272
+EMG024,Deepa Mishra,+91-9337298405,2026-01-21 04:29:30,PS045,Theft,Gandhinagar Ballari Bypass Road,Critical,40,OFF221,CASE095
+EMG025,Deepak Kumar,+91-9790104994,2025-07-10 03:57:44,PS040,Cyber Crime,Gandhi Nagar Dharwad Bazaar Street,Medium,26,OFF196,CASE294
+EMG026,Amit Mishra,+91-9327847729,2026-03-15 19:02:58,PS044,Suspicious Activity,Keshwapur Highway,High,5,OFF217,CASE154
+EMG027,Sandip Choudhury,+91-9762103660,2026-05-25 04:26:53,PS013,Suspicious Activity,Kammanahalli 3th Station Road,Medium,30,OFF062,CASE134
+EMG028,Deepak Reddy,+91-7884973195,2026-05-31 16:14:01,PS029,Cyber Crime,Shivaji Nagar Vijayapura Junction Road,Medium,41,OFF141,CASE021
+EMG029,Sharda Nair,+91-7795143149,2025-11-02 21:35:10,PS037,Domestic Violence,Batawadi Highway,Critical,32,OFF182,CASE219
+EMG030,Sandip Nair,+91-9347281847,2025-01-09 22:26:28,PS022,Cyber Crime,JP Nagar 7th Phase Link Road,Critical,5,OFF106,CASE191
+EMG031,Ajay Mishra,+91-8112001771,2025-07-02 11:00:17,PS025,Domestic Violence,Ncb Colony Highway,High,12,OFF121,CASE132
+EMG032,Karan Patel,+91-6204930771,2025-09-20 19:52:02,PS005,Accident,Commercial Street Bazaar Street,Medium,5,OFF021,CASE034
+EMG033,Geeta Sharma,+91-9619011849,2026-01-22 04:09:55,PS046,Disturbance,Keelu Kote Cross Road,Critical,12,OFF227,CASE298
+EMG034,Anil Reddy,+91-6544752667,2025-11-02 21:05:10,PS037,Theft,Yeshwanthpur Ring Road,Low,13,OFF182,CASE219
+EMG035,Vijay Joshi,+91-7829533587,2026-02-21 23:02:09,PS005,Suspicious Activity,Surathkal Cross Road,Critical,10,OFF022,CASE155
+EMG036,Meena Gupta,+91-9850456787,2025-08-06 09:15:46,PS005,Cyber Crime,Shahapur Belagavi Galli,Critical,16,OFF022,CASE185
+EMG037,Ritu Jadav,+91-6420734133,2025-05-05 15:29:05,PS005,Suspicious Activity,Ravindra Nagar Highway,Medium,17,OFF021,CASE112
+EMG038,Vikram Yadav,+91-8127157978,2025-07-28 10:00:34,PS022,Theft,Kodigehalli Galli,Critical,43,OFF106,CASE296
+EMG039,Ajay Nair,+91-8718485301,2025-12-30 18:34:17,PS012,Cyber Crime,Brahmpur Main Road,High,15,OFF056,CASE286
+EMG040,Deepa Banerjee,+91-8159358919,2026-04-14 22:23:18,PS022,Domestic Violence,Kudlu Gate Club Road,High,34,OFF106,CASE234
+EMG041,Amit Gill,+91-7565295903,2026-03-01 01:44:34,PS045,Suspicious Activity,Surathkal Cross Road,High,14,OFF221,CASE138
+EMG042,Preeti Gill,+91-8606082239,2025-02-10 07:41:06,PS033,Disturbance,Brigade Road,Critical,31,OFF162,CASE057
+EMG043,Ramesh Patel,+91-6879694694,2025-12-26 03:42:06,PS044,Theft,Khuba Plot Station Road,Critical,35,OFF216,CASE024
+EMG044,Sneha Verma,+91-6292108730,2026-04-18 08:41:12,PS039,Theft,Uttarahalli Club Road,Critical,24,OFF192,CASE082
+EMG045,Vikram Yadav,+91-7246560415,2025-11-22 03:51:28,PS022,Accident,Dasarahalli Temple Road,Medium,6,OFF106,CASE128
+EMG046,Anita Joshi,+91-8460977144,2026-03-25 23:15:59,PS040,Domestic Violence,Horamavu Ring Road,Medium,6,OFF197,CASE206
+EMG047,Anil Das,+91-6719573103,2025-07-17 13:05:03,PS035,Theft,Sanjaynagar Double Road,Critical,26,OFF172,CASE130
+EMG048,Ritu Joshi,+91-8845757299,2025-10-22 06:38:19,PS007,Cyber Crime,Derebail Bazaar Street,High,31,OFF031,CASE161
+EMG049,Manoj Choudhury,+91-8128043134,2025-12-14 01:36:57,PS010,Assault,Cowl Bazar Cross Road,Critical,28,OFF046,CASE091
+EMG050,Pooja Verma,+91-7864126624,2026-06-06 04:36:03,PS036,Domestic Violence,RT Nagar Main Road,Low,30,OFF177,CASE051
+EMG051,Rahul Patel,+91-7647822402,2025-05-14 13:49:28,PS014,Disturbance,Keerthi Nagar 4th Church Road,High,33,OFF067,CASE257
+EMG052,Sandip Chawla,+91-6545111009,2026-01-20 11:05:54,PS010,Domestic Violence,Vinayaka Nagar Ramanagara Main Road,Low,40,OFF046,CASE295
+EMG053,Arjun Jadav,+91-6164288770,2026-02-01 19:41:01,PS012,Disturbance,Yelahanka New Town Road,Critical,11,OFF056,CASE133
+EMG054,Arjun Reddy,+91-8555161232,2025-07-19 02:48:47,PS033,Theft,Ullal Link Road,Critical,37,OFF161,CASE277
+EMG055,Sharda Sharma,+91-7742950016,2025-03-06 06:27:48,PS023,Domestic Violence,MCC B Block Church Road,Critical,44,OFF111,CASE052
+EMG056,Sunil Mehta,+91-9457427615,2025-12-16 07:40:00,PS043,Domestic Violence,Cantonment Ballari Link Road,High,18,OFF212,CASE039
+EMG057,Neha Chawla,+91-9788684008,2025-08-04 03:47:27,PS037,Disturbance,MCC B Block 4th Church Road,Critical,17,OFF181,CASE028
+EMG058,Karan Sharma,+91-6371427752,2025-09-20 04:38:31,PS044,Domestic Violence,New BEL Road Lane,Medium,31,OFF217,CASE047
+EMG059,Kavita Singh,+91-6983097180,2025-10-27 17:12:15,PS032,Assault,Thanisandra Bazaar Street,Medium,5,OFF157,CASE136
+EMG060,Harish Nair,+91-8686685634,2026-05-24 00:34:57,PS049,Domestic Violence,Sanjaynagar 4th Ring Road,Medium,21,OFF241,CASE193
+EMG061,Renu Gupta,+91-7420370158,2025-06-25 13:20:04,PS023,Theft,Srirampura Club Road,Critical,23,OFF112,CASE086
+EMG062,Preeti Banerjee,+91-9335639868,2025-09-25 00:49:26,PS018,Accident,Banashankari 2th Church Road,High,11,OFF086,CASE087
+EMG063,Jyoti Gupta,+91-9303885803,2025-10-20 07:00:23,PS011,Accident,Jigani 3th Main Road,Medium,12,OFF051,CASE045
+EMG064,Babita Kumar,+91-8608633771,2025-01-25 03:32:49,PS027,Cyber Crime,Chickpet Cross Road,Low,19,OFF132,CASE205
+EMG065,Deepa Verma,+91-6925661791,2025-06-06 12:31:47,PS018,Disturbance,Gandhi Bazaar 5th Station Road,Low,33,OFF087,CASE171
+EMG066,Ramesh Mehta,+91-8159884690,2026-05-13 17:23:20,PS032,Suspicious Activity,Manipal Main Road,High,21,OFF157,CASE201
+EMG067,Arjun Joshi,+91-9308231457,2025-12-26 06:22:26,PS012,Suspicious Activity,Kalyan Nagar Double Road,High,8,OFF056,CASE003
+EMG068,Vijay Gill,+91-7148131405,2025-10-26 19:39:14,PS035,Theft,Jigani Main Road,Medium,34,OFF172,CASE078
+EMG069,Rohan Banerjee,+91-6332549351,2025-12-27 03:51:38,PS008,Theft,Malpe Club Road,Medium,44,OFF037,CASE264
+EMG070,Deepa Verma,+91-9249805968,2025-02-23 09:21:31,PS015,Assault,Chickpet Cross Road,High,12,OFF071,CASE258
+EMG071,Vinay Mishra,+91-6760122360,2025-11-24 07:06:31,PS019,Domestic Violence,Ulsoor Highway,High,26,OFF091,CASE227
+EMG072,Swati Gill,+91-7228273420,2025-06-21 04:53:30,PS037,Theft,Cooke Town Main Road,Critical,37,OFF182,CASE195
+EMG073,Deepa Choudhury,+91-9975292811,2025-03-19 10:32:50,PS034,Accident,Bendoorwell Main Road,Low,13,OFF166,CASE215
+EMG074,Manoj Gill,+91-8441393195,2025-08-13 15:15:44,PS027,Theft,100 Feet Road Indiranagar,High,18,OFF132,CASE081
+EMG075,Deepak Singh,+91-8510535728,2026-05-13 17:17:20,PS032,Domestic Violence,College Road Hosapete Main Road,High,44,OFF157,CASE201
+EMG076,Anita Mehta,+91-8178017794,2025-05-29 01:49:12,PS002,Assault,Shivajinagar Station Road,Low,5,OFF006,CASE059
+EMG077,Neha Mehta,+91-8772864833,2026-02-20 20:10:12,PS036,Cyber Crime,Camp Belagavi Church Road,High,27,OFF177,CASE093
+EMG078,Ritu Verma,+91-8446923973,2026-05-25 04:31:53,PS013,Disturbance,Saraswathipuram 3th Highway,Low,29,OFF062,CASE134
+EMG079,Rahul Patel,+91-9653022913,2026-01-01 17:21:58,PS021,Disturbance,Gachinakatti Colony Church Road,High,44,OFF102,CASE271
+EMG080,Kiran Sharma,+91-9141635295,2025-10-20 01:11:04,PS022,Cyber Crime,Gachinakatti Colony Church Road,Low,41,OFF107,CASE075
+EMG081,Geeta Choudhury,+91-6470844687,2026-04-23 04:36:35,PS023,Disturbance,Kuvempunagar Hassan Highway,Low,16,OFF111,CASE068
+EMG082,Ramesh Rao,+91-9308300313,2025-06-17 13:32:16,PS018,Disturbance,Malleshwaram Highway,High,19,OFF087,CASE027
+EMG083,Sanjay Chawla,+91-7322032702,2025-01-20 17:03:03,PS034,Suspicious Activity,Vidyanagar Davanagere Junction Road,Critical,8,OFF166,CASE104
+EMG084,Pooja Chawla,+91-9720913401,2025-03-23 06:21:33,PS034,Assault,Karanjikatte Lane,High,11,OFF166,CASE070
+EMG085,Ajay Chawla,+91-6945483591,2025-10-18 11:37:29,PS005,Accident,Bommasandra Main Road,Medium,13,OFF022,CASE115
+EMG086,Renu Prasad,+91-8927327546,2025-03-14 15:40:04,PS035,Suspicious Activity,Church Street,Critical,16,OFF171,CASE009
+EMG087,Kiran Joshi,+91-7204352559,2025-12-04 11:59:10,PS012,Suspicious Activity,Mahadevapura Church Road,Low,25,OFF057,CASE066
+EMG088,Kiran Choudhury,+91-8116515216,2025-10-20 01:04:04,PS022,Accident,Hindwadi Lane,Low,6,OFF107,CASE075
+EMG089,Deepak Prasad,+91-6103792673,2025-02-23 15:14:23,PS037,Assault,Siddaganga Extension Junction Road,Critical,42,OFF181,CASE254
+EMG090,Anjali Sharma,+91-8202364545,2026-04-04 08:17:29,PS022,Suspicious Activity,Tilakwadi Bypass Road,Low,33,OFF106,CASE156
+EMG091,Ramesh Joshi,+91-6430343263,2026-05-31 15:55:01,PS029,Domestic Violence,Peenya Temple Road,High,5,OFF141,CASE021
+EMG092,Kavita Sharma,+91-6269870574,2025-12-16 07:22:00,PS043,Disturbance,Gokulam 2th Temple Road,Critical,45,OFF212,CASE039
+EMG093,Rahul Mehta,+91-9174464962,2025-09-06 01:42:30,PS029,Accident,27th Main Road HSR,Low,15,OFF141,CASE141
+EMG094,Rohan Patel,+91-6271222786,2026-01-01 17:14:58,PS021,Disturbance,Unkal Bypass Road,Critical,34,OFF102,CASE271
+EMG095,Ritu Nair,+91-8528831966,2025-05-14 14:15:28,PS014,Domestic Violence,Ganga Nagar 3th Galli,Critical,20,OFF067,CASE257
+EMG096,Vijay Verma,+91-8661482445,2026-04-28 05:52:38,PS023,Disturbance,Bannimantap 2th Ring Road,Medium,10,OFF112,CASE049
+EMG097,Karan Jadav,+91-6172200229,2026-04-04 08:01:29,PS022,Theft,Infactor Colony Junction Road,Critical,8,OFF106,CASE156
+EMG098,Ramesh Patel,+91-7386192291,2026-03-29 14:52:26,PS031,Disturbance,Gottigere 5th Galli,Low,24,OFF152,CASE200
+EMG099,Kiran Joshi,+91-8928543048,2025-11-12 03:19:34,PS011,Suspicious Activity,Mailoor Lane,Medium,20,OFF052,CASE015
+EMG100,Rohan Mehta,+91-9995774671,2025-06-05 07:47:03,PS046,Suspicious Activity,Neelasandra Main Road,Critical,36,OFF227,CASE293
+EMG101,Vijay Patel,+91-9268557878,2026-06-10 16:12:59,PS014,Disturbance,Lingarajapuram Station Road,Medium,10,OFF066,CASE131
+EMG102,Arjun Kumar,+91-8105707996,2025-12-18 22:03:19,PS020,Disturbance,Angol Galli,High,30,OFF097,CASE202
+EMG103,Anil Nair,+91-7580825680,2025-07-17 13:22:03,PS035,Theft,Siddhartha Layout Lane,Critical,44,OFF172,CASE130
+EMG104,Renu Joshi,+91-9189621362,2025-05-14 11:34:43,PS003,Disturbance,Basavanagudi 4th Junction Road,Medium,22,OFF011,CASE220
+EMG105,Karan Gupta,+91-7921256727,2025-07-26 07:36:54,PS042,Theft,Sahakara Nagar Bazaar Street,High,30,OFF207,CASE174
+EMG106,Rajesh Gill,+91-9390084511,2025-01-02 11:13:23,PS003,Theft,Austin Town 5th Temple Road,High,8,OFF011,CASE244
+EMG107,Pooja Das,+91-6409905401,2025-10-20 01:05:04,PS022,Domestic Violence,Gokul Road Galli,High,29,OFF107,CASE075
+EMG108,Manoj Gupta,+91-9158845987,2025-07-02 11:25:17,PS025,Accident,Padmanabhanagar Bazaar Street,Low,6,OFF121,CASE132
+EMG109,Neha Choudhury,+91-9522411064,2025-10-08 23:47:25,PS018,Theft,Devaraja Mohalla Link Road,Medium,9,OFF087,CASE199
+EMG110,Sandip Jadav,+91-7596289612,2026-06-07 06:07:20,PS029,Cyber Crime,Kulshekar 3th Bypass Road,Medium,36,OFF141,CASE146
+EMG111,Swati Joshi,+91-8928768282,2025-12-14 01:26:57,PS010,Assault,SIT Extension Church Road,High,9,OFF046,CASE091
+EMG112,Harish Jadav,+91-9927192801,2026-01-24 21:49:40,PS021,Suspicious Activity,Gandhinagar Ballari 5th Link Road,Medium,32,OFF102,CASE055
+EMG113,Sanjay Das,+91-9581352351,2026-04-14 07:29:08,PS043,Suspicious Activity,Kalasipalyam Main Road,Low,42,OFF211,CASE291
+EMG114,Priya Reddy,+91-6290597834,2025-05-29 19:11:19,PS017,Cyber Crime,Malleshwaram Highway,Low,23,OFF081,CASE235
+EMG115,Harish Reddy,+91-9994703881,2025-09-27 22:01:44,PS034,Accident,Ganesh Nagar Bidar Link Road,Critical,37,OFF167,CASE097
+EMG116,Renu Gupta,+91-6506332996,2026-04-18 08:58:12,PS039,Cyber Crime,St Mark's Road,Critical,27,OFF192,CASE082
+EMG117,Geeta Mehta,+91-9440303484,2025-09-22 09:15:47,PS049,Theft,Nazarbad Bypass Road,High,12,OFF242,CASE036
+EMG118,Pooja Yadav,+91-6883021816,2025-08-10 03:23:15,PS005,Cyber Crime,Austin Town 5th Temple Road,Critical,35,OFF021,CASE248
+EMG119,Suresh Reddy,+91-9248722676,2025-03-14 16:08:04,PS035,Assault,JP Nagar 7th Phase Link Road,Medium,29,OFF171,CASE009
+EMG120,Ramesh Sharma,+91-9498545911,2025-02-09 05:10:31,PS002,Disturbance,MG Road,Medium,35,OFF007,CASE125
+EMG121,Sneha Kumar,+91-7451933396,2025-05-04 17:40:17,PS015,Assault,Siddhartha Layout Lane,Low,15,OFF071,CASE151
+EMG122,Rahul Mishra,+91-9335210591,2026-02-28 16:48:00,PS023,Suspicious Activity,Chamundipuram Highway,Medium,23,OFF111,CASE283
+EMG123,Sunil Verma,+91-6398021452,2025-11-11 00:15:44,PS033,Theft,Velankani Drive,Critical,29,OFF161,CASE162
+EMG124,Aaradhya Mishra,+91-6721335051,2025-11-11 00:01:44,PS033,Assault,Kathriguppe Highway,Medium,42,OFF161,CASE162
+EMG125,Sunil Yadav,+91-7275100473,2025-11-28 16:47:23,PS009,Suspicious Activity,Batawadi Highway,Low,15,OFF041,CASE080
+EMG126,Suresh Reddy,+91-9532048991,2026-04-27 06:43:33,PS017,Suspicious Activity,Keelu Kote 4th Bazaar Street,Medium,38,OFF082,CASE023
+EMG127,Rohan Gill,+91-9475663406,2026-02-18 03:55:07,PS041,Domestic Violence,Basavanagudi 4th Junction Road,Critical,40,OFF201,CASE223
+EMG128,Anil Das,+91-7512237531,2025-10-20 07:36:23,PS011,Suspicious Activity,Bellary Road,High,20,OFF051,CASE045
+EMG129,Arjun Nair,+91-9918015223,2026-01-14 06:17:13,PS021,Disturbance,RT Nagar Main Road,High,34,OFF102,CASE157
+EMG130,Anjali Verma,+91-7416162748,2026-01-22 20:22:24,PS001,Cyber Crime,Vinayaka Nagar Ramanagara Main Road,High,26,OFF001,CASE073
+EMG131,Jyoti Gupta,+91-6924039702,2025-01-17 08:27:01,PS009,Cyber Crime,Ncb Colony 4th Station Road,Low,31,OFF041,CASE169
+EMG132,Sandip Nair,+91-8821297468,2026-01-19 20:55:46,PS021,Cyber Crime,Cowl Bazar Cross Road,Critical,32,OFF101,CASE030
+EMG133,Aaradhya Gupta,+91-9685063441,2025-08-13 15:51:44,PS027,Disturbance,Urwa Temple Road,Low,23,OFF132,CASE081
+EMG134,Anjali Sharma,+91-9413923668,2025-07-31 18:22:08,PS033,Theft,Commercial Street Bazaar Street,Critical,43,OFF161,CASE278
+EMG135,Pooja Jadav,+91-7113452726,2025-04-07 09:24:58,PS006,Disturbance,Navanagar Church Road,High,30,OFF026,CASE058
+EMG136,Pooja Singh,+91-9413699290,2025-01-09 22:59:28,PS022,Cyber Crime,Madiwala Lane,High,17,OFF106,CASE191
+EMG137,Sharda Choudhury,+91-8343030152,2025-12-30 18:12:17,PS012,Domestic Violence,Bendoorwell Main Road,High,11,OFF056,CASE286
+EMG138,Ritu Rao,+91-8472870082,2025-08-25 01:15:42,PS006,Disturbance,Hebbal Flyover Road,High,45,OFF027,CASE233
+EMG139,Preeti Chawla,+91-9790610180,2026-04-23 05:03:35,PS023,Theft,Jayalakshmipuram Main Road,Critical,10,OFF111,CASE068
+EMG140,Aarav Kumar,+91-7273022830,2025-02-27 23:55:29,PS032,Cyber Crime,Kammasandra Temple Road,Low,30,OFF157,CASE247
+EMG141,Geeta Jadav,+91-7928082143,2025-07-28 09:43:34,PS022,Cyber Crime,Ganesh Nagar Bidar 4th Galli,Critical,29,OFF106,CASE296
+EMG142,Babita Reddy,+91-8636351119,2025-05-01 21:23:11,PS016,Suspicious Activity,Museum Road,Critical,27,OFF076,CASE056
+EMG143,Rohan Verma,+91-9215659992,2026-01-20 10:59:54,PS010,Disturbance,Narayanpur Dharwad Galli,High,12,OFF046,CASE295
+EMG144,Ramesh Banerjee,+91-9334239239,2025-01-01 18:15:11,PS015,Accident,BTM 2nd Stage 16th Main,Critical,8,OFF071,CASE145
+EMG145,Suresh Verma,+91-6511088019,2026-03-24 13:35:54,PS042,Disturbance,Vidyanagar Hubli 4th Link Road,Critical,35,OFF206,CASE094
+EMG146,Ajay Yadav,+91-7330518781,2025-03-27 03:49:35,PS019,Suspicious Activity,Peenya Temple Road,Critical,18,OFF091,CASE090
+EMG147,Deepa Gupta,+91-9955415873,2025-10-18 15:10:51,PS026,Accident,New BEL Road Lane,Critical,42,OFF127,CASE265
+EMG148,Vijay Verma,+91-6562278191,2026-04-27 02:38:55,PS029,Domestic Violence,Khuba Plot Station Road,Medium,32,OFF141,CASE243
+EMG149,Anita Mishra,+91-9728004837,2025-10-20 07:29:23,PS011,Accident,Vinoba Nagar Club Road,Low,9,OFF051,CASE045
+EMG150,Sandip Prasad,+91-7825331723,2026-06-10 16:00:59,PS014,Accident,Shanti Nagar Highway,Low,29,OFF066,CASE131
+EMG151,Sneha Sharma,+91-9836409119,2025-05-01 21:11:11,PS016,Theft,Whitefield Main Road,Critical,45,OFF076,CASE056
+EMG152,Ritu Joshi,+91-8314973475,2025-02-28 22:46:05,PS024,Accident,Harlur Road 4th Ring Road,High,35,OFF117,CASE026
+EMG153,Sharda Banerjee,+91-7261100339,2025-10-26 20:25:14,PS035,Assault,JP Nagar Outer Ring Road,Low,29,OFF172,CASE078
+EMG154,Geeta Jadav,+91-9428340740,2026-01-30 14:07:27,PS008,Accident,HAL Bypass Road,Low,10,OFF037,CASE060
+EMG155,Vikram Choudhury,+91-7101369509,2025-04-11 08:31:46,PS020,Disturbance,Vinoba Nagar Club Road,Medium,9,OFF096,CASE194
+EMG156,Aaradhya Das,+91-9548569341,2025-04-08 14:59:23,PS031,Domestic Violence,Koramangala Valley Road,Low,36,OFF152,CASE269
+EMG157,Pooja Singh,+91-6565742524,2025-08-10 02:57:15,PS005,Assault,Arekere Link Road,Low,21,OFF021,CASE248
+EMG158,Meena Yadav,+91-7526537456,2025-09-10 06:59:26,PS005,Disturbance,Karanjikatte Lane,Low,45,OFF022,CASE187
+EMG159,Manoj Reddy,+91-8686066930,2025-05-25 07:47:30,PS009,Assault,Amaragol Main Road,Critical,15,OFF041,CASE053
+EMG160,Vijay Verma,+91-9167603928,2025-11-12 02:55:34,PS011,Theft,Bilekahalli Highway,Low,28,OFF052,CASE015
+EMG161,Vinay Nair,+91-7746694575,2025-07-10 03:40:44,PS040,Cyber Crime,Vinayaka Nagar Ramanagara 5th Club Road,Medium,23,OFF196,CASE294
+EMG162,Rohan Nair,+91-6913042579,2025-12-30 18:20:17,PS012,Accident,Brahmpur Main Road,High,5,OFF056,CASE286
+EMG163,Babita Choudhury,+91-7433666741,2025-05-21 20:43:34,PS036,Suspicious Activity,Mahadevapura Church Road,Critical,28,OFF177,CASE160
+EMG164,Jyoti Nair,+91-6992421300,2025-06-15 05:01:26,PS017,Theft,Bommasandra 1th Junction Road,Medium,20,OFF082,CASE204
+EMG165,Sandip Mishra,+91-6222979286,2025-08-10 03:42:15,PS005,Cyber Crime,Banashankari Junction Road,Low,17,OFF021,CASE248
+EMG166,Suresh Nair,+91-8964415123,2025-02-23 09:37:31,PS015,Theft,College Road Hosapete 2th Lane,Critical,14,OFF071,CASE258
+EMG167,Swati Verma,+91-8807362881,2025-12-16 07:40:00,PS043,Theft,Jigani Main Road,Medium,8,OFF212,CASE039
+EMG168,Rohan Banerjee,+91-6523757448,2026-06-05 06:35:36,PS028,Assault,Banashankari Junction Road,Medium,5,OFF137,CASE241
+EMG169,Pooja Verma,+91-6702736310,2025-05-19 12:45:11,PS048,Theft,Hebbal Mysuru Lane,Medium,35,OFF236,CASE188
+EMG170,Suresh Gupta,+91-9522591465,2026-02-13 17:43:58,PS048,Cyber Crime,Manipal Main Road,Medium,16,OFF237,CASE180
+EMG171,Anita Joshi,+91-9460077300,2026-02-28 17:05:58,PS021,Assault,Mailoor Lane,High,12,OFF102,CASE013
+EMG172,Suresh Chawla,+91-8964447630,2026-01-22 04:05:55,PS046,Domestic Violence,Kodigehalli Galli,Medium,16,OFF227,CASE298
+EMG173,Babita Joshi,+91-8373591217,2025-05-01 01:09:40,PS029,Domestic Violence,Camp Belagavi Church Road,Critical,10,OFF141,CASE135
+EMG174,Babita Joshi,+91-7244178991,2025-06-17 13:35:16,PS018,Cyber Crime,Ullal Link Road,High,39,OFF087,CASE027
+EMG175,Sunita Prasad,+91-7903907954,2025-04-05 23:36:03,PS042,Accident,Nazarbad Bypass Road,Low,23,OFF206,CASE288
+EMG176,Sanjay Gupta,+91-6860587471,2025-08-10 03:01:15,PS005,Accident,Hebbal Mysuru Lane,Critical,8,OFF021,CASE248
+EMG177,Sunita Yadav,+91-7159543428,2025-01-21 01:55:31,PS026,Theft,Dam Road Bazaar Street,Critical,12,OFF127,CASE270
+EMG178,Renu Sharma,+91-9219161107,2025-05-21 20:25:16,PS014,Assault,Haroorgeri Main Road,High,33,OFF067,CASE103
+EMG179,Vijay Das,+91-7163892291,2026-04-13 20:02:00,PS028,Theft,Jigani Main Road,Critical,28,OFF137,CASE184
+EMG180,Babita Joshi,+91-8613438950,2025-10-17 12:24:41,PS004,Domestic Violence,Kodigehalli Galli,Critical,41,OFF016,CASE014
+EMG181,Sandip Sharma,+91-8860639260,2025-07-22 02:23:49,PS031,Disturbance,Keelu Kote 4th Bazaar Street,Low,9,OFF152,CASE221
+EMG182,Pooja Gupta,+91-7615527469,2025-06-17 13:09:16,PS018,Domestic Violence,Saraswatpur Dharwad 1th Lane,Low,29,OFF087,CASE027
+EMG183,Sunita Nair,+91-9294231430,2025-01-21 20:33:59,PS035,Assault,Ulsoor Highway,High,10,OFF171,CASE255
+EMG184,Sanjay Reddy,+91-7204717654,2025-03-14 15:55:04,PS035,Assault,Bellandur Main Road,Medium,16,OFF171,CASE009
+EMG185,Vinay Gupta,+91-8861744097,2026-05-10 16:36:02,PS006,Theft,Keerthi Nagar 4th Church Road,Medium,39,OFF027,CASE116
+EMG186,Sunita Banerjee,+91-7197055233,2025-09-22 09:49:47,PS049,Disturbance,Lingarajapuram 3th Club Road,Medium,8,OFF242,CASE036
+EMG187,Anjali Gupta,+91-7731492421,2026-04-29 14:22:16,PS001,Disturbance,Karanjikatte Lane,Critical,16,OFF001,CASE237
+EMG188,Preeti Gupta,+91-7903364235,2026-05-31 15:59:01,PS029,Assault,Gottigere 5th Galli,Critical,30,OFF141,CASE021
+EMG189,Vinay Sharma,+91-6895896154,2025-08-10 03:43:15,PS005,Domestic Violence,KB Extension Station Road,Critical,23,OFF021,CASE248
+EMG190,Ajay Rao,+91-6751032211,2026-04-29 14:46:16,PS001,Suspicious Activity,Kadri Highway,Medium,28,OFF001,CASE237
+EMG191,Vinay Gill,+91-6302105588,2025-04-08 14:49:23,PS031,Suspicious Activity,Neelasandra 3th Ring Road,Low,19,OFF152,CASE269
+EMG192,Ajay Das,+91-8676779204,2026-06-03 20:22:27,PS048,Domestic Violence,Kadugodi Junction Road,High,21,OFF237,CASE172
+EMG193,Neha Patel,+91-7379385223,2026-06-10 15:19:59,PS014,Assault,Hampankatta Highway,High,26,OFF066,CASE131
+EMG194,Aarav Yadav,+91-7780112941,2025-05-25 07:22:30,PS009,Theft,Whitefield Main Road,Critical,22,OFF041,CASE053
+EMG195,Anjali Gupta,+91-8746197865,2026-01-18 12:59:56,PS019,Domestic Violence,Shahapur Belagavi Galli,Low,40,OFF091,CASE222
+EMG196,Pooja Banerjee,+91-8636246432,2025-02-23 15:39:23,PS037,Accident,Arekere Link Road,Low,33,OFF181,CASE254
+EMG197,Sharda Patel,+91-8303877835,2025-10-12 21:02:19,PS028,Cyber Crime,Chidri Lane,Low,12,OFF137,CASE067
+EMG198,Suresh Reddy,+91-7222602808,2026-04-02 19:30:14,PS016,Suspicious Activity,Ashok Nagar Tumkur Bypass Road,High,23,OFF076,CASE267
+EMG199,Babita Mehta,+91-6549925535,2026-03-16 03:28:26,PS001,Theft,Jayalakshmipuram Main Road,Low,29,OFF002,CASE287
+EMG200,Geeta Singh,+91-6629887260,2026-04-03 10:13:27,PS016,Accident,Cottonpet Double Road,High,12,OFF076,CASE025
+EMG201,Kavita Chawla,+91-7356351604,2026-02-28 16:45:58,PS021,Domestic Violence,Unkal Bypass Road,Low,44,OFF102,CASE013
+EMG202,Suresh Jadav,+91-8939417605,2026-01-05 21:21:47,PS030,Accident,Kammanahalli 3th Station Road,High,15,OFF146,CASE266
+EMG203,Jyoti Rao,+91-6743696927,2025-05-05 14:58:05,PS005,Cyber Crime,Langford Town Bazaar Street,Critical,17,OFF021,CASE112
+EMG204,Karan Jadav,+91-8306831424,2025-06-23 10:08:31,PS050,Domestic Violence,Subhash Ward Junction Road,Medium,15,OFF247,CASE175
+EMG205,Deepa Banerjee,+91-8221815479,2025-04-15 06:00:49,PS019,Assault,Bellary Road,Critical,43,OFF091,CASE121
+EMG206,Kiran Mehta,+91-7362743647,2026-03-24 13:25:54,PS042,Cyber Crime,Shastri Ward 1th Highway,Medium,27,OFF206,CASE094
+EMG207,Anita Reddy,+91-9692308439,2025-10-18 15:49:51,PS026,Assault,Malpe Club Road,Critical,35,OFF127,CASE265
+EMG208,Amit Choudhury,+91-7704138282,2025-01-21 21:24:59,PS035,Theft,Gandhinagar Ballari Bypass Road,High,14,OFF171,CASE255
+EMG209,Anita Nair,+91-9439670937,2026-02-27 10:17:24,PS039,Accident,Vidyaranyapuram Mysuru Galli,Medium,43,OFF191,CASE214
+EMG210,Karan Das,+91-6318160121,2025-01-28 00:53:27,PS025,Cyber Crime,Nehru Nagar Junction Road,High,28,OFF121,CASE137
+EMG211,Kavita Sharma,+91-9522042559,2026-01-05 21:04:47,PS030,Disturbance,Austin Town 5th Temple Road,Medium,26,OFF146,CASE266
+EMG212,Sanjay Yadav,+91-7526153795,2026-01-22 03:41:55,PS046,Theft,College Road Hosapete Main Road,Low,9,OFF227,CASE298
+EMG213,Harish Jadav,+91-7221749941,2026-05-19 11:35:16,PS008,Disturbance,Sanjaynagar Double Road,Low,15,OFF036,CASE098
+EMG214,Aarav Mishra,+91-9773368469,2025-06-23 10:02:31,PS050,Suspicious Activity,Lingarajapuram Station Road,Medium,39,OFF247,CASE175
+EMG215,Anita Reddy,+91-6181840482,2025-10-02 04:34:45,PS012,Cyber Crime,Bellary Road,Low,20,OFF056,CASE280
+EMG216,Kiran Verma,+91-9736330004,2025-06-06 12:41:47,PS018,Theft,Vidyaranyapuram Mysuru Galli,Low,37,OFF087,CASE171
+EMG217,Priya Choudhury,+91-9623775878,2025-03-04 17:40:26,PS036,Theft,Arekere Link Road,Low,37,OFF176,CASE124
+EMG218,Babita Rao,+91-8168666865,2025-10-08 23:17:25,PS018,Assault,Lingarajapuram Station Road,High,27,OFF087,CASE199
+EMG219,Anjali Patel,+91-9537687789,2025-12-26 06:20:26,PS012,Assault,Jigani Main Road,High,14,OFF056,CASE003
+EMG220,Ramesh Chawla,+91-7213404179,2025-10-25 07:34:43,PS043,Disturbance,Jalahalli Lane,Low,20,OFF211,CASE061
+EMG221,Sunil Gupta,+91-6266463065,2025-08-25 01:08:42,PS006,Disturbance,Electronic City Flyover Road,High,38,OFF027,CASE233
+EMG222,Rohan Rao,+91-9816978673,2025-06-17 13:43:16,PS018,Accident,Kulshekar Main Road,Medium,20,OFF087,CASE027
+EMG223,Amit Chawla,+91-8592525688,2025-07-28 10:02:34,PS022,Domestic Violence,Super Market Bazaar Street,Critical,37,OFF106,CASE296
+EMG224,Kiran Mehta,+91-8949440184,2026-05-05 14:23:08,PS039,Suspicious Activity,Chickpet Cross Road,High,37,OFF191,CASE198
+EMG225,Sandip Banerjee,+91-8532619074,2025-07-01 14:32:16,PS031,Suspicious Activity,Savalanga Road 2th Junction Road,Medium,20,OFF151,CASE106
+EMG226,Aarav Verma,+91-7882245670,2025-05-26 09:47:27,PS019,Cyber Crime,Sadashivanagar Temple Road,Critical,30,OFF091,CASE004
+EMG227,Arjun Choudhury,+91-7492958820,2025-03-05 08:49:23,PS017,Domestic Violence,Rashtreeya Vidyalaya Road,Low,13,OFF081,CASE127
+EMG228,Vinay Choudhury,+91-6907475696,2026-04-19 12:44:50,PS042,Theft,HAL Bypass Road,High,13,OFF206,CASE002
+EMG229,Ramesh Yadav,+91-6674862080,2025-02-23 15:54:23,PS037,Domestic Violence,Shanti Nagar Highway,Low,24,OFF181,CASE254
+EMG230,Ritu Reddy,+91-9799364910,2025-10-21 23:02:40,PS036,Theft,Kunjibettu Ring Road,Low,45,OFF177,CASE122
+EMG231,Anjali Jadav,+91-7921913805,2026-04-14 23:07:18,PS022,Accident,Museum Road,High,20,OFF106,CASE234
+EMG232,Anjali Banerjee,+91-8896826334,2025-05-01 01:35:40,PS029,Domestic Violence,Lingarajapuram Station Road,Medium,14,OFF141,CASE135
+EMG233,Preeti Nair,+91-9138201937,2025-12-30 14:32:54,PS008,Cyber Crime,Neelasandra 3th Ring Road,Low,41,OFF037,CASE029
+EMG234,Vijay Nair,+91-6751198920,2026-05-10 16:19:02,PS006,Disturbance,Sadashivanagar Temple Road,High,11,OFF027,CASE116
+EMG235,Anita Prasad,+91-8768055571,2025-09-22 21:07:02,PS048,Theft,Tavarekere Main Road,Critical,26,OFF236,CASE153
+EMG236,Aaradhya Prasad,+91-8515143603,2025-03-25 00:39:25,PS048,Accident,Chamrajpet Cross Road,High,29,OFF237,CASE289
+EMG237,Preeti Mishra,+91-8560013322,2025-11-25 15:06:20,PS031,Assault,Shanti Nagar Highway,Low,7,OFF151,CASE035
+EMG238,Sunil Kumar,+91-7757527059,2025-10-17 12:11:41,PS004,Theft,KR Puram Bypass Road,High,6,OFF016,CASE014
+EMG239,Jyoti Joshi,+91-8283248058,2026-04-15 12:41:03,PS006,Assault,Horamavu Ring Road,Critical,13,OFF026,CASE012
+EMG240,Amit Chawla,+91-8338878910,2026-06-10 15:28:59,PS014,Assault,80 Feet Road Koramangala,Medium,24,OFF066,CASE131
+EMG241,Sandip Prasad,+91-8597382417,2026-04-14 23:08:18,PS022,Disturbance,Savalanga Road Church Road,Medium,23,OFF106,CASE234
+EMG242,Arjun Rao,+91-7323256771,2026-05-31 16:25:01,PS029,Domestic Violence,PJ Extension Lane,Medium,25,OFF141,CASE021
+EMG243,Anita Mehta,+91-9889752040,2025-09-22 09:36:47,PS049,Cyber Crime,Vidyanagar Davanagere Junction Road,High,41,OFF242,CASE036
+EMG244,Renu Chawla,+91-8324265860,2025-09-10 06:31:26,PS005,Accident,Vidya Nagar Hassan Bazaar Street,High,20,OFF022,CASE187
+EMG245,Meena Gill,+91-8228766857,2025-11-10 23:42:44,PS033,Theft,Shanti Nagar Highway,Medium,31,OFF161,CASE162
+EMG246,Rahul Patel,+91-9236531778,2025-08-18 05:20:23,PS045,Theft,Karanjikatte Lane,High,40,OFF222,CASE147
+EMG247,Priya Reddy,+91-8798287300,2025-10-25 06:59:43,PS043,Accident,Benson Town Bazaar Street,High,8,OFF211,CASE061
+EMG248,Babita Mehta,+91-7938805047,2025-01-21 20:51:59,PS035,Domestic Violence,SIT Extension 1th Lane,Low,11,OFF171,CASE255
+EMG249,Ritu Sharma,+91-6559591518,2025-01-20 17:15:03,PS034,Accident,Ganesh Nagar Bidar Link Road,High,26,OFF166,CASE104
+EMG250,Ritu Sharma,+91-8858598404,2026-02-20 20:32:12,PS036,Cyber Crime,Jayalakshmipuram Main Road,Medium,35,OFF177,CASE093
+EMG251,Rohan Jadav,+91-9878979784,2025-02-23 08:55:31,PS015,Disturbance,College Road Hosapete Main Road,High,30,OFF071,CASE258
+EMG252,Sunil Verma,+91-8204980373,2025-01-21 01:30:31,PS026,Accident,Neelasandra 3th Ring Road,Low,16,OFF127,CASE270
+EMG253,Ritu Mishra,+91-8781252455,2025-06-05 04:30:32,PS030,Theft,Kadugodi 3th Junction Road,High,16,OFF147,CASE252
+EMG254,Aaradhya Patel,+91-7559362862,2026-01-20 10:34:54,PS010,Cyber Crime,Ijoor Lane,Medium,24,OFF046,CASE295
+EMG255,Vijay Singh,+91-6130953511,2026-03-01 01:12:34,PS045,Accident,Banjara Nagar Link Road,Low,45,OFF221,CASE138
+EMG256,Sneha Sharma,+91-9485996215,2025-09-27 22:11:44,PS034,Domestic Violence,Gachinakatti Colony Church Road,Medium,6,OFF167,CASE097
+EMG257,Jyoti Reddy,+91-7432751740,2025-09-07 01:23:46,PS024,Cyber Crime,BTM Layout 80 Feet Road,High,25,OFF117,CASE064
+EMG258,Preeti Mehta,+91-6380188663,2026-04-13 19:54:00,PS028,Domestic Violence,Langford Town Bazaar Street,Medium,31,OFF137,CASE184
+EMG259,Arjun Mehta,+91-6744829078,2025-01-11 01:36:34,PS028,Domestic Violence,Cooke Town Main Road,Low,7,OFF137,CASE109
+EMG260,Suresh Verma,+91-7682724855,2025-06-17 03:15:06,PS012,Assault,Vinayaka Nagar Ramanagara Main Road,Low,7,OFF056,CASE251
+EMG261,Swati Prasad,+91-6713499629,2025-08-12 08:19:08,PS016,Suspicious Activity,Super Market 3th Highway,Low,31,OFF077,CASE207
+EMG262,Jyoti Yadav,+91-8314673566,2025-12-29 15:12:35,PS019,Cyber Crime,Kudlu Gate Club Road,Low,43,OFF091,CASE101
+EMG263,Arjun Prasad,+91-6812785340,2026-02-20 20:25:12,PS036,Assault,Richmond Town Bypass Road,Low,11,OFF177,CASE093
+EMG264,Priya Mishra,+91-8313932972,2025-05-01 08:35:00,PS005,Cyber Crime,Mailoor Lane,High,35,OFF021,CASE118
+EMG265,Karan Choudhury,+91-7736236336,2025-05-01 11:59:48,PS001,Assault,Kyathasandra Bazaar Street,Medium,28,OFF001,CASE163
+EMG266,Rajesh Banerjee,+91-7815276038,2026-03-10 00:24:26,PS037,Accident,Banjara Nagar Link Road,Critical,14,OFF181,CASE189
+EMG267,Amit Mehta,+91-7341203205,2025-11-10 01:11:00,PS049,Theft,Mahadevapura Church Road,Medium,29,OFF242,CASE019
+EMG268,Priya Singh,+91-9346010428,2025-07-15 20:04:39,PS011,Accident,Chamundipuram Highway,High,27,OFF052,CASE260
+EMG269,Anil Singh,+91-6986315157,2025-10-30 04:35:50,PS033,Domestic Violence,Lalbagh Mangaluru 4th Cross Road,Low,24,OFF161,CASE239
+EMG270,Deepak Reddy,+91-7417665924,2026-01-14 06:13:13,PS021,Cyber Crime,Ambalpady Galli,Critical,5,OFF102,CASE157
+EMG271,Sunita Gupta,+91-6638237084,2026-05-31 15:43:01,PS029,Domestic Violence,Peenya Temple Road,Critical,22,OFF141,CASE021
+EMG272,Vikram Banerjee,+91-9377726931,2025-01-21 01:52:31,PS026,Accident,Udyambag Main Road,High,13,OFF127,CASE270
+EMG273,Pooja Jadav,+91-8899510293,2026-01-04 18:40:09,PS006,Cyber Crime,Batawadi Highway,Low,5,OFF027,CASE110
+EMG274,Anjali Rao,+91-7484530509,2025-03-03 07:50:25,PS012,Cyber Crime,Jigani Main Road,Medium,36,OFF057,CASE210
+EMG275,Rohan Mehta,+91-8686989277,2025-04-23 17:52:22,PS028,Theft,Yelahanka New Town Road,Low,6,OFF136,CASE284
+EMG276,Sanjay Das,+91-7123819919,2025-12-11 23:38:41,PS015,Assault,Super Market Bazaar Street,Critical,29,OFF071,CASE037
+EMG277,Deepak Nair,+91-7500761009,2026-02-12 03:53:38,PS047,Suspicious Activity,Gandhi Nagar Shivamogga Station Road,Critical,23,OFF231,CASE299
+EMG278,Anita Singh,+91-7885856382,2025-02-23 09:11:31,PS015,Disturbance,Kalasipalyam Main Road,Medium,10,OFF071,CASE258
+EMG279,Neha Jadav,+91-8926115379,2026-04-13 02:08:11,PS022,Domestic Violence,Kadirenahalli Ring Road,Low,23,OFF106,CASE077
+EMG280,Sharda Chawla,+91-6317529594,2026-01-18 13:11:56,PS019,Theft,Vidyagiri 4th Station Road,Low,45,OFF091,CASE222
+EMG281,Renu Choudhury,+91-6779498577,2025-08-03 11:42:57,PS030,Suspicious Activity,Arekere Link Road,Medium,33,OFF147,CASE079
+EMG282,Sunita Choudhury,+91-8792916651,2026-06-04 21:45:56,PS024,Disturbance,Vidyanagar Davanagere Junction Road,Medium,18,OFF117,CASE177
+EMG283,Amit Gill,+91-9149864810,2025-01-07 01:56:28,PS007,Disturbance,Kammanahalli Main Road,High,15,OFF031,CASE114
+EMG284,Pooja Jadav,+91-6413713318,2025-07-16 23:38:57,PS011,Domestic Violence,Gottigere 5th Galli,High,24,OFF052,CASE229
+EMG285,Sneha Mehta,+91-8511180409,2026-05-25 04:27:53,PS013,Accident,Ambedkar Nagar Yadgir Station Road,Critical,26,OFF062,CASE134
+EMG286,Arjun Singh,+91-6115530181,2025-12-11 23:36:41,PS015,Accident,Kasavanahalli Cross Road,Medium,9,OFF071,CASE037
+EMG287,Anil Chawla,+91-8680402258,2026-03-08 06:15:39,PS029,Assault,RT Nagar Main Road,Critical,40,OFF142,CASE273
+EMG288,Sneha Verma,+91-7349319642,2025-03-12 04:58:49,PS041,Accident,RT Nagar Bazaar Street,Low,20,OFF202,CASE076
+EMG289,Neha Joshi,+91-8873186986,2025-10-27 16:59:15,PS032,Domestic Violence,Kalasipalyam Main Road,High,33,OFF157,CASE136
+EMG290,Vikram Gupta,+91-9531782167,2025-10-02 04:24:45,PS012,Theft,Tavarekere Main Road,Low,18,OFF056,CASE280
+EMG291,Rohan Jadav,+91-6616369842,2025-09-27 21:55:44,PS034,Disturbance,Sadashivanagar Temple Road,High,10,OFF167,CASE097
+EMG292,Neha Patel,+91-9484502646,2025-06-01 14:48:58,PS029,Domestic Violence,Gokulam 2th Temple Road,High,28,OFF142,CASE225
+EMG293,Ajay Patel,+91-7105435032,2025-11-25 15:22:20,PS031,Accident,Vidyapeetha Circle Link Road,Critical,30,OFF151,CASE035
+EMG294,Preeti Yadav,+91-6995875197,2025-01-09 23:05:28,PS022,Disturbance,Residency Road,Critical,30,OFF106,CASE191
+EMG295,Meena Gupta,+91-9255744949,2025-12-30 18:35:17,PS012,Accident,Benson Town Bazaar Street,Low,18,OFF056,CASE286
+EMG296,Priya Singh,+91-9199906419,2026-04-04 08:07:29,PS022,Suspicious Activity,Richards Town Galli,Medium,13,OFF106,CASE156
+EMG297,Meena Mehta,+91-6705843213,2026-02-04 04:59:22,PS025,Suspicious Activity,Singasandra Station Road,Low,29,OFF121,CASE208
+EMG298,Kavita Singh,+91-6939486104,2025-06-06 12:24:47,PS018,Suspicious Activity,Marathahalli Bridge Road,Low,38,OFF087,CASE171
+EMG299,Anjali Yadav,+91-6813769205,2025-01-06 10:12:29,PS032,Assault,Electronic City Flyover Road,Critical,44,OFF156,CASE140
+EMG300,Anita Gill,+91-6775858974,2025-10-08 20:12:09,PS035,Disturbance,Navanagar Church Road,High,41,OFF171,CASE238

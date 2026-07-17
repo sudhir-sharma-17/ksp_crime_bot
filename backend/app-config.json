@@ -1,0 +1,39 @@
+{
+  "service": {
+    "name": "aloka-backend",
+    "type": "appsail",
+    "stack": "custom",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "platform": {
+      "os": "linux",
+      "architecture": "amd64"
+    },
+    "resources": {
+      "cpu": 1,
+      "memory": "2Gi"
+    },
+    "scaling": {
+      "min_instances": 1,
+      "max_instances": 3
+    },
+    "env_variables": {
+      "DB_TYPE": "mysql",
+      "DB_HOST": "${CATALYST_DATASTORE_HOST}",
+      "DB_PORT": "3306",
+      "DB_USER": "${CATALYST_DATASTORE_USER}",
+      "DB_PASSWORD": "${CATALYST_DATASTORE_PASSWORD}",
+      "DB_NAME": "KarnatakaPoliceFIRDB",
+      "QUICKML_ENDPOINT_URL": "${QUICKML_ENDPOINT_URL}",
+      "QUICKML_ACCESS_TOKEN": "${QUICKML_ACCESS_TOKEN}",
+      "USE_MOCK_LLM": "false"
+    },
+    "health_check": {
+      "path": "/docs",
+      "port_variable": "X_ZOHO_CATALYST_LISTEN_PORT",
+      "interval_seconds": 30,
+      "timeout_seconds": 5
+    }
+  }
+}

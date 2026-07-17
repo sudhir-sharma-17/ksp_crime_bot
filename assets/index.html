@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SherlockAI Enterprise</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Cyber Command Theme -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar glass">
+        <div class="sidebar-header">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Aloka</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active"><i class="fa-solid fa-layer-group"></i> Command Center</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-database"></i> Database</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-chart-line"></i> Intelligence</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-gear"></i> System Config</a>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="user-avatar">PN</div>
+            <div class="user-info">
+                <span class="user-name">Investigator</span>
+                <span class="user-role">Admin Access</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+        
+        <!-- TOP HEADER -->
+        <header class="top-header glass">
+            <div class="breadcrumbs">
+                Operations &nbsp;/&nbsp; <span>Cyber Command Matrix</span>
+            </div>
+            <div class="system-status">
+                <div class="status-dot"></div>
+                Uplink: SECURE
+            </div>
+        </header>
+
+        <!-- CONTENT AREA -->
+        <main class="content-area" id="content-area">
+            
+            <!-- CHAT SECTION -->
+            <section class="card glass chat-section">
+                <div class="card-header">
+                    <span><i class="fa-solid fa-terminal"></i> NLP Uplink</span>
+                </div>
+                <div class="chat-history" id="chat-history">
+                    <div class="message agent">
+                        System initialized. Awaiting natural language query against the secure database...
+                    </div>
+                </div>
+                
+                <div class="chat-input-area">
+                    <form id="chat-form">
+                        <div class="input-wrapper">
+                            <input type="text" id="user-input" placeholder="Execute command..." autocomplete="off" required>
+                            <button type="submit" class="send-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- 3D WIDGET SECTION -->
+            <section class="card glass widget-3d-section">
+                <div class="card-header">
+                    <span><i class="fa-solid fa-cube"></i> State Emblem</span>
+                </div>
+                <div class="card-body" style="padding: 0; position: relative;">
+                    <canvas id="canvas3d"></canvas>
+                </div>
+            </section>
+
+            <!-- CHART SECTION -->
+            <section class="card glass chart-section">
+                <div class="card-header">
+                    <span><i class="fa-solid fa-chart-pie"></i> Visual Intelligence</span>
+                </div>
+                <div class="card-body" id="chart-container">
+                    <div class="empty-state" id="chart-empty">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>No visualization available</p>
+                    </div>
+                    <canvas id="visualChart" style="display:none;"></canvas>
+                </div>
+            </section>
+
+            <!-- DEBUG SECTION -->
+            <section class="card glass debug-section">
+                <div class="card-header collapsible-header open" id="debug-toggle">
+                    <span><i class="fa-solid fa-code"></i> Execution Log</span>
+                    <i class="fa-solid fa-chevron-down chevron"></i>
+                </div>
+                <div class="debug-content open" id="debug-log">
+                    <span class="terminal-prompt">Waiting for query execution...</span>
+                </div>
+            </section>
+
+            <!-- TABLE SECTION -->
+            <section class="card glass table-section">
+                <div class="card-header">
+                    <span><i class="fa-solid fa-table"></i> Result Grid</span>
+                    <span id="row-count" style="font-size: 0.85rem; color: var(--text-secondary); background: rgba(0,0,0,0.5); padding: 0.25rem 0.75rem; border-radius: 1rem;"></span>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <div id="table-container">
+                        <div class="empty-state" style="padding: 2rem;">
+                            <i class="fa-solid fa-database"></i>
+                            <p>No data records loaded</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="/assets/app.js"></script>
+</body>
+</html>

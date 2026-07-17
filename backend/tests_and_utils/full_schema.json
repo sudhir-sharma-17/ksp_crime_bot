@@ -1,0 +1,1483 @@
+{
+  "Accused": {
+    "columns": [
+      {
+        "name": "AccusedMasterID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AccusedName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AgeYear",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "GenderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PersonID",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "accused_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "Act": {
+    "columns": [
+      {
+        "name": "ActCode",
+        "type": "VARCHAR(50)",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "ActDescription",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ShortName",
+        "type": "VARCHAR(100)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "ActSectionAssociation": {
+    "columns": [
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ActID",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SectionID",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ActOrderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SectionOrderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "actsectionassociation_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "actsectionassociation_ibfk_2",
+        "constrained_columns": [
+          "ActID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Act",
+        "referred_columns": [
+          "ActCode"
+        ],
+        "options": {}
+      },
+      {
+        "name": "actsectionassociation_ibfk_3",
+        "constrained_columns": [
+          "SectionID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Section",
+        "referred_columns": [
+          "SectionCode"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "ArrestSurrender": {
+    "columns": [
+      {
+        "name": "ArrestSurrenderID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ArrestSurrenderTypeID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ArrestSurrenderDate",
+        "type": "DATE",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ArrestSurrenderStateId",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ArrestSurrenderDistrictId",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PoliceStationID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IOID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CourtID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AccusedMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IsAccused",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IsComplainantAccused",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "arrestsurrender_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_2",
+        "constrained_columns": [
+          "ArrestSurrenderStateId"
+        ],
+        "referred_schema": null,
+        "referred_table": "State",
+        "referred_columns": [
+          "StateID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_3",
+        "constrained_columns": [
+          "ArrestSurrenderDistrictId"
+        ],
+        "referred_schema": null,
+        "referred_table": "District",
+        "referred_columns": [
+          "DistrictID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_4",
+        "constrained_columns": [
+          "PoliceStationID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Unit",
+        "referred_columns": [
+          "UnitID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_5",
+        "constrained_columns": [
+          "IOID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Employee",
+        "referred_columns": [
+          "EmployeeID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_6",
+        "constrained_columns": [
+          "CourtID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Court",
+        "referred_columns": [
+          "CourtID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "arrestsurrender_ibfk_7",
+        "constrained_columns": [
+          "AccusedMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Accused",
+        "referred_columns": [
+          "AccusedMasterID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "CaseCategory": {
+    "columns": [
+      {
+        "name": "CaseCategoryID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "LookupValue",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "CaseMaster": {
+    "columns": [
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CrimeNo",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CaseNo",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CrimeRegisteredDate",
+        "type": "DATE",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PolicePersonID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PoliceStationID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CaseCategoryID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "GravityOffenceID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CrimeMajorHeadID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CrimeMinorHeadID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CaseStatusID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CourtID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IncidentFromDate",
+        "type": "DATETIME",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IncidentToDate",
+        "type": "DATETIME",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "InfoReceivedPSDate",
+        "type": "DATETIME",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "latitude",
+        "type": "DECIMAL(10, 6)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "longitude",
+        "type": "DECIMAL(10, 6)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "BriefFacts",
+        "type": "LONGTEXT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "casemaster_ibfk_1",
+        "constrained_columns": [
+          "PolicePersonID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Employee",
+        "referred_columns": [
+          "EmployeeID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_2",
+        "constrained_columns": [
+          "PoliceStationID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Unit",
+        "referred_columns": [
+          "UnitID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_3",
+        "constrained_columns": [
+          "CaseCategoryID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseCategory",
+        "referred_columns": [
+          "CaseCategoryID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_4",
+        "constrained_columns": [
+          "GravityOffenceID"
+        ],
+        "referred_schema": null,
+        "referred_table": "GravityOffence",
+        "referred_columns": [
+          "GravityOffenceID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_5",
+        "constrained_columns": [
+          "CrimeMajorHeadID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CrimeHead",
+        "referred_columns": [
+          "CrimeHeadID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_6",
+        "constrained_columns": [
+          "CrimeMinorHeadID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CrimeSubHead",
+        "referred_columns": [
+          "CrimeSubHeadID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_7",
+        "constrained_columns": [
+          "CaseStatusID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseStatusMaster",
+        "referred_columns": [
+          "CaseStatusID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "casemaster_ibfk_8",
+        "constrained_columns": [
+          "CourtID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Court",
+        "referred_columns": [
+          "CourtID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "CaseStatusMaster": {
+    "columns": [
+      {
+        "name": "CaseStatusID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseStatusName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "CasteMaster": {
+    "columns": [
+      {
+        "name": "caste_master_id",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "caste_master_name",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "ChargesheetDetails": {
+    "columns": [
+      {
+        "name": "CSID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "csdate",
+        "type": "DATETIME",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "cstype",
+        "type": "CHAR(1)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PolicePersonID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "chargesheetdetails_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "chargesheetdetails_ibfk_2",
+        "constrained_columns": [
+          "PolicePersonID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Employee",
+        "referred_columns": [
+          "EmployeeID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "ComplainantDetails": {
+    "columns": [
+      {
+        "name": "ComplainantID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ComplainantName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AgeYear",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "OccupationID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ReligionID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CasteID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "GenderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "complainantdetails_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "complainantdetails_ibfk_2",
+        "constrained_columns": [
+          "OccupationID"
+        ],
+        "referred_schema": null,
+        "referred_table": "OccupationMaster",
+        "referred_columns": [
+          "OccupationID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "complainantdetails_ibfk_3",
+        "constrained_columns": [
+          "ReligionID"
+        ],
+        "referred_schema": null,
+        "referred_table": "ReligionMaster",
+        "referred_columns": [
+          "ReligionID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "complainantdetails_ibfk_4",
+        "constrained_columns": [
+          "CasteID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CasteMaster",
+        "referred_columns": [
+          "caste_master_id"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "Court": {
+    "columns": [
+      {
+        "name": "CourtID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CourtName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "DistrictID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "StateID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "court_ibfk_1",
+        "constrained_columns": [
+          "DistrictID"
+        ],
+        "referred_schema": null,
+        "referred_table": "District",
+        "referred_columns": [
+          "DistrictID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "court_ibfk_2",
+        "constrained_columns": [
+          "StateID"
+        ],
+        "referred_schema": null,
+        "referred_table": "State",
+        "referred_columns": [
+          "StateID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "CrimeHead": {
+    "columns": [
+      {
+        "name": "CrimeHeadID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CrimeGroupName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "CrimeHeadActSection": {
+    "columns": [
+      {
+        "name": "CrimeHeadID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ActCode",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SectionCode",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "crimeheadactsection_ibfk_1",
+        "constrained_columns": [
+          "CrimeHeadID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CrimeHead",
+        "referred_columns": [
+          "CrimeHeadID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "crimeheadactsection_ibfk_2",
+        "constrained_columns": [
+          "ActCode"
+        ],
+        "referred_schema": null,
+        "referred_table": "Act",
+        "referred_columns": [
+          "ActCode"
+        ],
+        "options": {}
+      },
+      {
+        "name": "crimeheadactsection_ibfk_3",
+        "constrained_columns": [
+          "SectionCode"
+        ],
+        "referred_schema": null,
+        "referred_table": "Section",
+        "referred_columns": [
+          "SectionCode"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "CrimeSubHead": {
+    "columns": [
+      {
+        "name": "CrimeSubHeadID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CrimeHeadID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CrimeHeadName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SeqID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "crimesubhead_ibfk_1",
+        "constrained_columns": [
+          "CrimeHeadID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CrimeHead",
+        "referred_columns": [
+          "CrimeHeadID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "Cyber_Evidence": {
+    "columns": [
+      {
+        "name": "EvidenceID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "FIRNumber",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "IPAddress",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "CrimeType",
+        "type": "VARCHAR(100)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "Designation": {
+    "columns": [
+      {
+        "name": "DesignationID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "DesignationName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SortOrder",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "District": {
+    "columns": [
+      {
+        "name": "DistrictID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "DistrictName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "StateID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "district_ibfk_1",
+        "constrained_columns": [
+          "StateID"
+        ],
+        "referred_schema": null,
+        "referred_table": "State",
+        "referred_columns": [
+          "StateID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "Employee": {
+    "columns": [
+      {
+        "name": "EmployeeID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "DistrictID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "UnitID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "RankID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "DesignationID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "KGID",
+        "type": "VARCHAR(100)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "FirstName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "EmployeeDOB",
+        "type": "DATE",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "GenderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "BloodGroupID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "PhysicallyChallenged",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AppointmentDate",
+        "type": "DATE",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "employee_ibfk_1",
+        "constrained_columns": [
+          "DistrictID"
+        ],
+        "referred_schema": null,
+        "referred_table": "District",
+        "referred_columns": [
+          "DistrictID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "employee_ibfk_2",
+        "constrained_columns": [
+          "UnitID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Unit",
+        "referred_columns": [
+          "UnitID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "employee_ibfk_3",
+        "constrained_columns": [
+          "RankID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Rank",
+        "referred_columns": [
+          "RankID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "employee_ibfk_4",
+        "constrained_columns": [
+          "DesignationID"
+        ],
+        "referred_schema": null,
+        "referred_table": "Designation",
+        "referred_columns": [
+          "DesignationID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "GravityOffence": {
+    "columns": [
+      {
+        "name": "GravityOffenceID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "LookupValue",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "OccupationMaster": {
+    "columns": [
+      {
+        "name": "OccupationID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "OccupationName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "Rank": {
+    "columns": [
+      {
+        "name": "RankID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "RankName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Hierarchy",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "ReligionMaster": {
+    "columns": [
+      {
+        "name": "ReligionID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "ReligionName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "Section": {
+    "columns": [
+      {
+        "name": "SectionCode",
+        "type": "VARCHAR(50)",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "ActCode",
+        "type": "VARCHAR(50)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "SectionDescription",
+        "type": "VARCHAR(500)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "section_ibfk_1",
+        "constrained_columns": [
+          "ActCode"
+        ],
+        "referred_schema": null,
+        "referred_table": "Act",
+        "referred_columns": [
+          "ActCode"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "State": {
+    "columns": [
+      {
+        "name": "StateID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "StateName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "NationalityID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "Unit": {
+    "columns": [
+      {
+        "name": "UnitID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "UnitName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "TypeID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "ParentUnit",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "NationalityID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "StateID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "DistrictID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "unit_ibfk_1",
+        "constrained_columns": [
+          "TypeID"
+        ],
+        "referred_schema": null,
+        "referred_table": "UnitType",
+        "referred_columns": [
+          "UnitTypeID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "unit_ibfk_2",
+        "constrained_columns": [
+          "StateID"
+        ],
+        "referred_schema": null,
+        "referred_table": "State",
+        "referred_columns": [
+          "StateID"
+        ],
+        "options": {}
+      },
+      {
+        "name": "unit_ibfk_3",
+        "constrained_columns": [
+          "DistrictID"
+        ],
+        "referred_schema": null,
+        "referred_table": "District",
+        "referred_columns": [
+          "DistrictID"
+        ],
+        "options": {}
+      }
+    ]
+  },
+  "UnitType": {
+    "columns": [
+      {
+        "name": "UnitTypeID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "UnitTypeName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "City_Dist_State",
+        "type": "VARCHAR(100)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Hierarchy",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "Active",
+        "type": "BIT",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": []
+  },
+  "Victim": {
+    "columns": [
+      {
+        "name": "VictimMasterID",
+        "type": "INTEGER",
+        "nullable": false,
+        "pk": false
+      },
+      {
+        "name": "CaseMasterID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "VictimName",
+        "type": "VARCHAR(255)",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "AgeYear",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "GenderID",
+        "type": "INTEGER",
+        "nullable": true,
+        "pk": false
+      },
+      {
+        "name": "VictimPolice",
+        "type": "VARCHAR(10)",
+        "nullable": true,
+        "pk": false
+      }
+    ],
+    "foreign_keys": [
+      {
+        "name": "victim_ibfk_1",
+        "constrained_columns": [
+          "CaseMasterID"
+        ],
+        "referred_schema": null,
+        "referred_table": "CaseMaster",
+        "referred_columns": [
+          "CaseMasterID"
+        ],
+        "options": {}
+      }
+    ]
+  }
+}

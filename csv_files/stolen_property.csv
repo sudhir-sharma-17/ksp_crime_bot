@@ -1,0 +1,301 @@
+property_id,fir_id,case_id,property_type,description,estimated_value,recovered,recovery_date
+PRP001,FIR236,CASE236,Scooter,Stolen scooter reported at scene.,320000,No,N/A
+PRP002,FIR072,CASE072,Laptop,Stolen laptop reported at scene.,30000,No,N/A
+PRP003,FIR028,CASE028,Scooter,Stolen scooter reported at scene.,420000,No,N/A
+PRP004,FIR003,CASE003,ATM Card,Stolen atm card reported at scene.,365000,Yes,2026-03-14 15:42:23
+PRP005,FIR243,CASE243,Passport,Stolen passport reported at scene.,330000,Yes,2026-05-04 19:17:28
+PRP006,FIR261,CASE261,Television,Stolen television reported at scene.,375000,Yes,2025-06-07 20:36:29
+PRP007,FIR013,CASE013,Television,Stolen television reported at scene.,170000,Yes,2026-04-08 20:34:22
+PRP008,FIR229,CASE229,Passport,Stolen passport reported at scene.,185000,Yes,2025-08-27 13:28:43
+PRP009,FIR158,CASE158,ATM Card,Stolen atm card reported at scene.,70000,No,N/A
+PRP010,FIR004,CASE004,Passport,Stolen passport reported at scene.,485000,No,N/A
+PRP011,FIR250,CASE250,Documents,Stolen documents reported at scene.,490000,No,N/A
+PRP012,FIR040,CASE040,Television,Stolen television reported at scene.,450000,No,N/A
+PRP013,FIR083,CASE083,Scooter,Stolen scooter reported at scene.,380000,Yes,2025-04-23 07:20:45
+PRP014,FIR234,CASE234,Documents,Stolen documents reported at scene.,25000,Yes,2026-06-07 02:06:36
+PRP015,FIR269,CASE269,Mobile Phone,Stolen mobile phone reported at scene.,435000,Yes,2025-05-20 19:27:32
+PRP016,FIR245,CASE245,Jewellery,Stolen jewellery reported at scene.,445000,Yes,2026-02-06 09:03:59
+PRP017,FIR298,CASE298,Mobile Phone,Stolen mobile phone reported at scene.,305000,Yes,2026-03-03 09:53:02
+PRP018,FIR161,CASE161,Documents,Stolen documents reported at scene.,120000,No,N/A
+PRP019,FIR071,CASE071,ATM Card,Stolen atm card reported at scene.,245000,No,N/A
+PRP020,FIR234,CASE234,Mobile Phone,Stolen mobile phone reported at scene.,70000,No,N/A
+PRP021,FIR173,CASE173,Cash,Stolen cash reported at scene.,500000,No,N/A
+PRP022,FIR144,CASE144,Jewellery,Stolen jewellery reported at scene.,475000,No,N/A
+PRP023,FIR226,CASE226,Passport,Stolen passport reported at scene.,220000,No,N/A
+PRP024,FIR106,CASE106,ATM Card,Stolen atm card reported at scene.,65000,No,N/A
+PRP025,FIR152,CASE152,Cash,Stolen cash reported at scene.,255000,Yes,2025-06-28 23:52:07
+PRP026,FIR059,CASE059,Gold Chain,Stolen gold chain reported at scene.,260000,No,N/A
+PRP027,FIR191,CASE191,Scooter,Stolen scooter reported at scene.,200000,Yes,2025-03-16 10:25:27
+PRP028,FIR221,CASE221,Passport,Stolen passport reported at scene.,320000,No,N/A
+PRP029,FIR252,CASE252,Passport,Stolen passport reported at scene.,105000,No,N/A
+PRP030,FIR209,CASE209,Cash,Stolen cash reported at scene.,175000,Yes,2026-06-23 18:53:08
+PRP031,FIR045,CASE045,Laptop,Stolen laptop reported at scene.,80000,Yes,2025-10-24 12:47:53
+PRP032,FIR286,CASE286,Passport,Stolen passport reported at scene.,130000,Yes,2026-02-04 23:00:04
+PRP033,FIR035,CASE035,Mobile Phone,Stolen mobile phone reported at scene.,50000,Yes,2025-12-07 02:14:44
+PRP034,FIR067,CASE067,Laptop,Stolen laptop reported at scene.,55000,No,N/A
+PRP035,FIR157,CASE157,ATM Card,Stolen atm card reported at scene.,170000,Yes,2026-02-26 07:57:37
+PRP036,FIR244,CASE244,Documents,Stolen documents reported at scene.,280000,Yes,2025-03-20 23:17:59
+PRP037,FIR067,CASE067,Cash,Stolen cash reported at scene.,500000,Yes,2025-11-08 05:30:03
+PRP038,FIR035,CASE035,Scooter,Stolen scooter reported at scene.,165000,No,N/A
+PRP039,FIR276,CASE276,Scooter,Stolen scooter reported at scene.,170000,No,N/A
+PRP040,FIR005,CASE005,Passport,Stolen passport reported at scene.,20000,No,N/A
+PRP041,FIR023,CASE023,Documents,Stolen documents reported at scene.,120000,No,N/A
+PRP042,FIR265,CASE265,Television,Stolen television reported at scene.,290000,No,N/A
+PRP043,FIR099,CASE099,Jewellery,Stolen jewellery reported at scene.,445000,No,N/A
+PRP044,FIR084,CASE084,Television,Stolen television reported at scene.,180000,Yes,2026-07-08 02:46:44
+PRP045,FIR237,CASE237,Laptop,Stolen laptop reported at scene.,115000,No,N/A
+PRP046,FIR056,CASE056,Television,Stolen television reported at scene.,425000,No,N/A
+PRP047,FIR205,CASE205,Jewellery,Stolen jewellery reported at scene.,280000,Yes,2025-01-27 04:27:03
+PRP048,FIR090,CASE090,Documents,Stolen documents reported at scene.,295000,Yes,2025-04-15 05:47:36
+PRP049,FIR060,CASE060,Passport,Stolen passport reported at scene.,415000,No,N/A
+PRP050,FIR014,CASE014,Passport,Stolen passport reported at scene.,265000,Yes,2025-11-15 02:27:38
+PRP051,FIR142,CASE142,Television,Stolen television reported at scene.,150000,No,N/A
+PRP052,FIR185,CASE185,Laptop,Stolen laptop reported at scene.,355000,Yes,2025-10-18 21:15:20
+PRP053,FIR011,CASE011,Cash,Stolen cash reported at scene.,330000,No,N/A
+PRP054,FIR200,CASE200,Documents,Stolen documents reported at scene.,325000,Yes,2026-04-18 00:26:33
+PRP055,FIR156,CASE156,Mobile Phone,Stolen mobile phone reported at scene.,5000,Yes,2026-06-03 08:44:31
+PRP056,FIR103,CASE103,Jewellery,Stolen jewellery reported at scene.,445000,Yes,2025-08-15 13:46:41
+PRP057,FIR283,CASE283,Mobile Phone,Stolen mobile phone reported at scene.,400000,No,N/A
+PRP058,FIR056,CASE056,Mobile Phone,Stolen mobile phone reported at scene.,295000,Yes,2025-06-06 15:38:30
+PRP059,FIR234,CASE234,Television,Stolen television reported at scene.,55000,No,N/A
+PRP060,FIR121,CASE121,ATM Card,Stolen atm card reported at scene.,410000,Yes,2025-06-06 20:06:26
+PRP061,FIR010,CASE010,Jewellery,Stolen jewellery reported at scene.,15000,Yes,2026-06-14 00:35:13
+PRP062,FIR265,CASE265,Scooter,Stolen scooter reported at scene.,10000,Yes,2025-10-22 13:48:38
+PRP063,FIR089,CASE089,Documents,Stolen documents reported at scene.,305000,Yes,2025-05-24 07:01:23
+PRP064,FIR247,CASE247,Passport,Stolen passport reported at scene.,90000,No,N/A
+PRP065,FIR217,CASE217,Television,Stolen television reported at scene.,405000,No,N/A
+PRP066,FIR104,CASE104,Laptop,Stolen laptop reported at scene.,395000,Yes,2025-02-11 16:56:57
+PRP067,FIR088,CASE088,Gold Chain,Stolen gold chain reported at scene.,85000,Yes,2025-11-27 10:40:37
+PRP068,FIR011,CASE011,Cash,Stolen cash reported at scene.,205000,Yes,2025-03-06 22:41:29
+PRP069,FIR077,CASE077,Cash,Stolen cash reported at scene.,110000,No,N/A
+PRP070,FIR074,CASE074,Cash,Stolen cash reported at scene.,200000,No,N/A
+PRP071,FIR071,CASE071,Mobile Phone,Stolen mobile phone reported at scene.,50000,No,N/A
+PRP072,FIR030,CASE030,Passport,Stolen passport reported at scene.,140000,Yes,2026-02-22 20:18:43
+PRP073,FIR300,CASE300,Documents,Stolen documents reported at scene.,175000,Yes,2026-03-03 05:10:46
+PRP074,FIR110,CASE110,Cash,Stolen cash reported at scene.,85000,Yes,2026-03-13 02:29:23
+PRP075,FIR155,CASE155,Jewellery,Stolen jewellery reported at scene.,485000,No,N/A
+PRP076,FIR062,CASE062,Documents,Stolen documents reported at scene.,375000,No,N/A
+PRP077,FIR042,CASE042,Laptop,Stolen laptop reported at scene.,330000,Yes,2025-12-14 07:15:48
+PRP078,FIR101,CASE101,Scooter,Stolen scooter reported at scene.,75000,Yes,2026-03-23 06:28:06
+PRP079,FIR229,CASE229,Television,Stolen television reported at scene.,460000,Yes,2025-07-29 16:28:43
+PRP080,FIR177,CASE177,Television,Stolen television reported at scene.,195000,No,N/A
+PRP081,FIR229,CASE229,Scooter,Stolen scooter reported at scene.,100000,No,N/A
+PRP082,FIR015,CASE015,Laptop,Stolen laptop reported at scene.,170000,No,N/A
+PRP083,FIR135,CASE135,Mobile Phone,Stolen mobile phone reported at scene.,110000,Yes,2025-07-25 08:31:04
+PRP084,FIR232,CASE232,Cash,Stolen cash reported at scene.,25000,Yes,2025-08-20 19:29:50
+PRP085,FIR264,CASE264,Television,Stolen television reported at scene.,415000,Yes,2026-03-07 06:56:58
+PRP086,FIR225,CASE225,Mobile Phone,Stolen mobile phone reported at scene.,145000,Yes,2025-06-09 08:42:17
+PRP087,FIR205,CASE205,Laptop,Stolen laptop reported at scene.,415000,Yes,2025-01-27 07:27:03
+PRP088,FIR233,CASE233,ATM Card,Stolen atm card reported at scene.,160000,No,N/A
+PRP089,FIR196,CASE196,ATM Card,Stolen atm card reported at scene.,490000,No,N/A
+PRP090,FIR260,CASE260,Television,Stolen television reported at scene.,375000,No,N/A
+PRP091,FIR250,CASE250,Gold Chain,Stolen gold chain reported at scene.,470000,No,N/A
+PRP092,FIR240,CASE240,Cash,Stolen cash reported at scene.,145000,Yes,2025-03-19 11:54:46
+PRP093,FIR257,CASE257,Cash,Stolen cash reported at scene.,320000,Yes,2025-06-08 03:22:17
+PRP094,FIR274,CASE274,Documents,Stolen documents reported at scene.,190000,Yes,2026-03-14 01:48:39
+PRP095,FIR149,CASE149,ATM Card,Stolen atm card reported at scene.,245000,Yes,2026-07-14 10:41:23
+PRP096,FIR238,CASE238,Passport,Stolen passport reported at scene.,80000,Yes,2026-01-05 21:21:41
+PRP097,FIR237,CASE237,Documents,Stolen documents reported at scene.,405000,No,N/A
+PRP098,FIR080,CASE080,Mobile Phone,Stolen mobile phone reported at scene.,350000,Yes,2026-02-12 04:48:16
+PRP099,FIR181,CASE181,Scooter,Stolen scooter reported at scene.,105000,No,N/A
+PRP100,FIR069,CASE069,ATM Card,Stolen atm card reported at scene.,210000,No,N/A
+PRP101,FIR060,CASE060,ATM Card,Stolen atm card reported at scene.,460000,Yes,2026-03-31 11:20:43
+PRP102,FIR028,CASE028,Gold Chain,Stolen gold chain reported at scene.,305000,Yes,2025-08-14 20:00:21
+PRP103,FIR229,CASE229,Television,Stolen television reported at scene.,410000,No,N/A
+PRP104,FIR171,CASE171,Jewellery,Stolen jewellery reported at scene.,295000,No,N/A
+PRP105,FIR151,CASE151,ATM Card,Stolen atm card reported at scene.,160000,No,N/A
+PRP106,FIR058,CASE058,Laptop,Stolen laptop reported at scene.,270000,No,N/A
+PRP107,FIR156,CASE156,Mobile Phone,Stolen mobile phone reported at scene.,170000,Yes,2026-06-08 01:44:31
+PRP108,FIR205,CASE205,ATM Card,Stolen atm card reported at scene.,405000,No,N/A
+PRP109,FIR266,CASE266,Passport,Stolen passport reported at scene.,35000,Yes,2026-01-09 14:34:00
+PRP110,FIR147,CASE147,Documents,Stolen documents reported at scene.,90000,Yes,2025-11-15 13:08:57
+PRP111,FIR001,CASE001,Laptop,Stolen laptop reported at scene.,360000,Yes,2025-02-23 08:39:48
+PRP112,FIR062,CASE062,Passport,Stolen passport reported at scene.,310000,Yes,2025-12-02 13:57:47
+PRP113,FIR161,CASE161,Laptop,Stolen laptop reported at scene.,130000,Yes,2025-10-31 00:54:41
+PRP114,FIR261,CASE261,Laptop,Stolen laptop reported at scene.,125000,No,N/A
+PRP115,FIR138,CASE138,Cash,Stolen cash reported at scene.,70000,Yes,2026-04-29 04:30:28
+PRP116,FIR113,CASE113,Gold Chain,Stolen gold chain reported at scene.,100000,No,N/A
+PRP117,FIR015,CASE015,Mobile Phone,Stolen mobile phone reported at scene.,355000,Yes,2026-01-31 02:54:06
+PRP118,FIR256,CASE256,Television,Stolen television reported at scene.,365000,No,N/A
+PRP119,FIR117,CASE117,Scooter,Stolen scooter reported at scene.,445000,Yes,2025-06-28 18:21:58
+PRP120,FIR069,CASE069,ATM Card,Stolen atm card reported at scene.,340000,Yes,2025-11-26 05:06:32
+PRP121,FIR074,CASE074,Passport,Stolen passport reported at scene.,155000,No,N/A
+PRP122,FIR108,CASE108,Documents,Stolen documents reported at scene.,65000,Yes,2025-07-28 23:02:29
+PRP123,FIR016,CASE016,Mobile Phone,Stolen mobile phone reported at scene.,275000,No,N/A
+PRP124,FIR288,CASE288,Jewellery,Stolen jewellery reported at scene.,130000,Yes,2025-05-07 06:38:18
+PRP125,FIR033,CASE033,Jewellery,Stolen jewellery reported at scene.,375000,Yes,2025-08-03 13:52:24
+PRP126,FIR280,CASE280,Jewellery,Stolen jewellery reported at scene.,310000,Yes,2025-12-03 04:02:27
+PRP127,FIR195,CASE195,Documents,Stolen documents reported at scene.,345000,No,N/A
+PRP128,FIR132,CASE132,Mobile Phone,Stolen mobile phone reported at scene.,180000,Yes,2025-07-19 19:58:08
+PRP129,FIR180,CASE180,Gold Chain,Stolen gold chain reported at scene.,30000,Yes,2026-03-31 07:48:54
+PRP130,FIR086,CASE086,ATM Card,Stolen atm card reported at scene.,500000,Yes,2025-08-08 07:49:58
+PRP131,FIR236,CASE236,Cash,Stolen cash reported at scene.,10000,Yes,2026-08-01 06:38:31
+PRP132,FIR024,CASE024,Passport,Stolen passport reported at scene.,320000,Yes,2026-02-10 00:05:13
+PRP133,FIR155,CASE155,Scooter,Stolen scooter reported at scene.,145000,Yes,2026-03-12 03:14:45
+PRP134,FIR244,CASE244,Scooter,Stolen scooter reported at scene.,315000,No,N/A
+PRP135,FIR082,CASE082,Gold Chain,Stolen gold chain reported at scene.,440000,No,N/A
+PRP136,FIR087,CASE087,ATM Card,Stolen atm card reported at scene.,500000,Yes,2025-10-26 07:13:59
+PRP137,FIR062,CASE062,Mobile Phone,Stolen mobile phone reported at scene.,145000,No,N/A
+PRP138,FIR035,CASE035,Jewellery,Stolen jewellery reported at scene.,250000,Yes,2026-02-04 03:14:44
+PRP139,FIR214,CASE214,ATM Card,Stolen atm card reported at scene.,285000,No,N/A
+PRP140,FIR299,CASE299,ATM Card,Stolen atm card reported at scene.,85000,No,N/A
+PRP141,FIR226,CASE226,ATM Card,Stolen atm card reported at scene.,75000,No,N/A
+PRP142,FIR209,CASE209,Laptop,Stolen laptop reported at scene.,230000,Yes,2026-08-29 17:53:08
+PRP143,FIR202,CASE202,Television,Stolen television reported at scene.,410000,No,N/A
+PRP144,FIR147,CASE147,Laptop,Stolen laptop reported at scene.,395000,No,N/A
+PRP145,FIR276,CASE276,Cash,Stolen cash reported at scene.,170000,No,N/A
+PRP146,FIR259,CASE259,ATM Card,Stolen atm card reported at scene.,65000,No,N/A
+PRP147,FIR149,CASE149,Jewellery,Stolen jewellery reported at scene.,105000,Yes,2026-07-08 09:41:23
+PRP148,FIR255,CASE255,ATM Card,Stolen atm card reported at scene.,485000,Yes,2025-03-13 06:50:41
+PRP149,FIR167,CASE167,Cash,Stolen cash reported at scene.,485000,Yes,2026-08-25 10:47:30
+PRP150,FIR044,CASE044,Laptop,Stolen laptop reported at scene.,15000,Yes,2026-06-23 22:00:30
+PRP151,FIR242,CASE242,Passport,Stolen passport reported at scene.,155000,Yes,2025-07-21 15:35:54
+PRP152,FIR210,CASE210,Cash,Stolen cash reported at scene.,310000,No,N/A
+PRP153,FIR037,CASE037,Documents,Stolen documents reported at scene.,350000,No,N/A
+PRP154,FIR025,CASE025,Cash,Stolen cash reported at scene.,120000,Yes,2026-05-15 16:55:54
+PRP155,FIR264,CASE264,Gold Chain,Stolen gold chain reported at scene.,400000,Yes,2026-01-28 12:56:58
+PRP156,FIR077,CASE077,Scooter,Stolen scooter reported at scene.,305000,No,N/A
+PRP157,FIR150,CASE150,Television,Stolen television reported at scene.,170000,No,N/A
+PRP158,FIR146,CASE146,Mobile Phone,Stolen mobile phone reported at scene.,310000,Yes,2026-08-03 16:00:30
+PRP159,FIR254,CASE254,Documents,Stolen documents reported at scene.,115000,No,N/A
+PRP160,FIR145,CASE145,ATM Card,Stolen atm card reported at scene.,435000,No,N/A
+PRP161,FIR039,CASE039,ATM Card,Stolen atm card reported at scene.,200000,Yes,2026-02-09 10:17:10
+PRP162,FIR286,CASE286,Jewellery,Stolen jewellery reported at scene.,290000,No,N/A
+PRP163,FIR065,CASE065,Laptop,Stolen laptop reported at scene.,440000,No,N/A
+PRP164,FIR062,CASE062,Cash,Stolen cash reported at scene.,305000,No,N/A
+PRP165,FIR273,CASE273,Scooter,Stolen scooter reported at scene.,125000,No,N/A
+PRP166,FIR193,CASE193,Gold Chain,Stolen gold chain reported at scene.,360000,Yes,2026-07-04 18:40:47
+PRP167,FIR105,CASE105,Laptop,Stolen laptop reported at scene.,350000,No,N/A
+PRP168,FIR266,CASE266,ATM Card,Stolen atm card reported at scene.,365000,Yes,2026-03-24 13:34:00
+PRP169,FIR091,CASE091,Passport,Stolen passport reported at scene.,50000,Yes,2025-12-26 01:53:12
+PRP170,FIR208,CASE208,Cash,Stolen cash reported at scene.,205000,Yes,2026-03-25 06:05:38
+PRP171,FIR245,CASE245,Gold Chain,Stolen gold chain reported at scene.,25000,Yes,2026-02-26 11:03:59
+PRP172,FIR088,CASE088,Television,Stolen television reported at scene.,485000,Yes,2025-12-23 04:40:37
+PRP173,FIR099,CASE099,Television,Stolen television reported at scene.,270000,Yes,2026-07-31 05:25:42
+PRP174,FIR149,CASE149,Cash,Stolen cash reported at scene.,315000,Yes,2026-07-05 10:41:23
+PRP175,FIR257,CASE257,Mobile Phone,Stolen mobile phone reported at scene.,20000,Yes,2025-06-06 05:22:17
+PRP176,FIR068,CASE068,Laptop,Stolen laptop reported at scene.,30000,No,N/A
+PRP177,FIR126,CASE126,Scooter,Stolen scooter reported at scene.,30000,Yes,2025-09-02 19:29:32
+PRP178,FIR257,CASE257,Gold Chain,Stolen gold chain reported at scene.,100000,No,N/A
+PRP179,FIR247,CASE247,Documents,Stolen documents reported at scene.,255000,No,N/A
+PRP180,FIR221,CASE221,ATM Card,Stolen atm card reported at scene.,330000,Yes,2025-07-26 18:41:55
+PRP181,FIR050,CASE050,ATM Card,Stolen atm card reported at scene.,110000,No,N/A
+PRP182,FIR026,CASE026,Documents,Stolen documents reported at scene.,395000,Yes,2025-05-02 18:46:43
+PRP183,FIR042,CASE042,Cash,Stolen cash reported at scene.,315000,No,N/A
+PRP184,FIR274,CASE274,Mobile Phone,Stolen mobile phone reported at scene.,340000,Yes,2026-03-11 06:48:39
+PRP185,FIR053,CASE053,Documents,Stolen documents reported at scene.,475000,No,N/A
+PRP186,FIR254,CASE254,Documents,Stolen documents reported at scene.,395000,Yes,2025-05-06 22:31:24
+PRP187,FIR168,CASE168,Gold Chain,Stolen gold chain reported at scene.,400000,Yes,2025-01-08 06:06:46
+PRP188,FIR140,CASE140,Documents,Stolen documents reported at scene.,480000,No,N/A
+PRP189,FIR180,CASE180,Cash,Stolen cash reported at scene.,330000,No,N/A
+PRP190,FIR047,CASE047,Documents,Stolen documents reported at scene.,170000,Yes,2025-11-07 18:43:49
+PRP191,FIR277,CASE277,Mobile Phone,Stolen mobile phone reported at scene.,485000,No,N/A
+PRP192,FIR298,CASE298,Cash,Stolen cash reported at scene.,445000,No,N/A
+PRP193,FIR028,CASE028,Gold Chain,Stolen gold chain reported at scene.,35000,No,N/A
+PRP194,FIR187,CASE187,Scooter,Stolen scooter reported at scene.,355000,No,N/A
+PRP195,FIR243,CASE243,Scooter,Stolen scooter reported at scene.,90000,No,N/A
+PRP196,FIR242,CASE242,Television,Stolen television reported at scene.,35000,Yes,2025-06-07 18:35:54
+PRP197,FIR128,CASE128,Gold Chain,Stolen gold chain reported at scene.,425000,Yes,2025-12-17 13:13:32
+PRP198,FIR087,CASE087,Television,Stolen television reported at scene.,175000,No,N/A
+PRP199,FIR292,CASE292,Television,Stolen television reported at scene.,205000,Yes,2025-04-29 16:54:20
+PRP200,FIR007,CASE007,ATM Card,Stolen atm card reported at scene.,370000,No,N/A
+PRP201,FIR280,CASE280,Scooter,Stolen scooter reported at scene.,215000,No,N/A
+PRP202,FIR220,CASE220,ATM Card,Stolen atm card reported at scene.,285000,Yes,2025-06-16 09:19:15
+PRP203,FIR193,CASE193,ATM Card,Stolen atm card reported at scene.,430000,No,N/A
+PRP204,FIR267,CASE267,Cash,Stolen cash reported at scene.,365000,Yes,2026-05-30 06:39:56
+PRP205,FIR042,CASE042,Jewellery,Stolen jewellery reported at scene.,130000,Yes,2025-11-30 07:15:48
+PRP206,FIR093,CASE093,Jewellery,Stolen jewellery reported at scene.,485000,No,N/A
+PRP207,FIR154,CASE154,Laptop,Stolen laptop reported at scene.,390000,Yes,2026-05-14 12:52:49
+PRP208,FIR239,CASE239,Scooter,Stolen scooter reported at scene.,110000,Yes,2026-01-02 12:03:18
+PRP209,FIR141,CASE141,Passport,Stolen passport reported at scene.,10000,Yes,2025-10-28 04:25:01
+PRP210,FIR147,CASE147,Television,Stolen television reported at scene.,195000,No,N/A
+PRP211,FIR013,CASE013,Scooter,Stolen scooter reported at scene.,385000,Yes,2026-05-19 17:34:22
+PRP212,FIR196,CASE196,Television,Stolen television reported at scene.,15000,No,N/A
+PRP213,FIR268,CASE268,Mobile Phone,Stolen mobile phone reported at scene.,360000,No,N/A
+PRP214,FIR037,CASE037,Mobile Phone,Stolen mobile phone reported at scene.,370000,Yes,2025-12-30 15:07:34
+PRP215,FIR115,CASE115,Television,Stolen television reported at scene.,460000,No,N/A
+PRP216,FIR018,CASE018,Scooter,Stolen scooter reported at scene.,90000,Yes,2026-01-15 15:04:38
+PRP217,FIR042,CASE042,ATM Card,Stolen atm card reported at scene.,495000,No,N/A
+PRP218,FIR262,CASE262,Jewellery,Stolen jewellery reported at scene.,125000,No,N/A
+PRP219,FIR125,CASE125,Passport,Stolen passport reported at scene.,475000,Yes,2025-03-28 08:25:21
+PRP220,FIR130,CASE130,Jewellery,Stolen jewellery reported at scene.,25000,No,N/A
+PRP221,FIR004,CASE004,Mobile Phone,Stolen mobile phone reported at scene.,150000,No,N/A
+PRP222,FIR054,CASE054,ATM Card,Stolen atm card reported at scene.,240000,Yes,2025-07-11 00:14:18
+PRP223,FIR083,CASE083,Jewellery,Stolen jewellery reported at scene.,45000,Yes,2025-04-10 14:20:45
+PRP224,FIR135,CASE135,Television,Stolen television reported at scene.,255000,Yes,2025-07-23 04:31:04
+PRP225,FIR129,CASE129,ATM Card,Stolen atm card reported at scene.,440000,No,N/A
+PRP226,FIR054,CASE054,Scooter,Stolen scooter reported at scene.,270000,No,N/A
+PRP227,FIR026,CASE026,Passport,Stolen passport reported at scene.,345000,No,N/A
+PRP228,FIR185,CASE185,Television,Stolen television reported at scene.,325000,No,N/A
+PRP229,FIR100,CASE100,ATM Card,Stolen atm card reported at scene.,380000,No,N/A
+PRP230,FIR276,CASE276,Passport,Stolen passport reported at scene.,55000,No,N/A
+PRP231,FIR215,CASE215,Passport,Stolen passport reported at scene.,410000,Yes,2025-06-07 20:15:48
+PRP232,FIR169,CASE169,Gold Chain,Stolen gold chain reported at scene.,70000,No,N/A
+PRP233,FIR147,CASE147,Mobile Phone,Stolen mobile phone reported at scene.,455000,No,N/A
+PRP234,FIR100,CASE100,Scooter,Stolen scooter reported at scene.,55000,No,N/A
+PRP235,FIR232,CASE232,Passport,Stolen passport reported at scene.,490000,No,N/A
+PRP236,FIR151,CASE151,Television,Stolen television reported at scene.,300000,No,N/A
+PRP237,FIR245,CASE245,ATM Card,Stolen atm card reported at scene.,15000,No,N/A
+PRP238,FIR021,CASE021,Passport,Stolen passport reported at scene.,495000,No,N/A
+PRP239,FIR174,CASE174,Passport,Stolen passport reported at scene.,465000,Yes,2025-09-04 19:33:23
+PRP240,FIR192,CASE192,Jewellery,Stolen jewellery reported at scene.,185000,Yes,2026-01-01 23:27:59
+PRP241,FIR187,CASE187,Mobile Phone,Stolen mobile phone reported at scene.,55000,Yes,2025-10-23 10:50:50
+PRP242,FIR187,CASE187,Scooter,Stolen scooter reported at scene.,305000,No,N/A
+PRP243,FIR027,CASE027,Gold Chain,Stolen gold chain reported at scene.,415000,No,N/A
+PRP244,FIR197,CASE197,Scooter,Stolen scooter reported at scene.,250000,No,N/A
+PRP245,FIR290,CASE290,Passport,Stolen passport reported at scene.,55000,Yes,2025-12-28 12:18:15
+PRP246,FIR231,CASE231,Documents,Stolen documents reported at scene.,100000,Yes,2025-07-17 16:00:08
+PRP247,FIR167,CASE167,Mobile Phone,Stolen mobile phone reported at scene.,255000,Yes,2026-06-30 15:47:30
+PRP248,FIR143,CASE143,Jewellery,Stolen jewellery reported at scene.,30000,No,N/A
+PRP249,FIR206,CASE206,Mobile Phone,Stolen mobile phone reported at scene.,365000,Yes,2026-04-16 18:35:25
+PRP250,FIR249,CASE249,Television,Stolen television reported at scene.,215000,Yes,2025-11-09 07:47:18
+PRP251,FIR104,CASE104,Cash,Stolen cash reported at scene.,150000,Yes,2025-02-25 23:56:57
+PRP252,FIR128,CASE128,Scooter,Stolen scooter reported at scene.,230000,No,N/A
+PRP253,FIR262,CASE262,Television,Stolen television reported at scene.,370000,Yes,2025-10-24 09:44:19
+PRP254,FIR090,CASE090,Laptop,Stolen laptop reported at scene.,255000,No,N/A
+PRP255,FIR223,CASE223,Television,Stolen television reported at scene.,135000,No,N/A
+PRP256,FIR256,CASE256,Documents,Stolen documents reported at scene.,290000,Yes,2026-04-06 15:57:41
+PRP257,FIR011,CASE011,Laptop,Stolen laptop reported at scene.,100000,Yes,2025-02-12 11:41:29
+PRP258,FIR011,CASE011,Cash,Stolen cash reported at scene.,110000,No,N/A
+PRP259,FIR205,CASE205,Jewellery,Stolen jewellery reported at scene.,60000,No,N/A
+PRP260,FIR288,CASE288,Laptop,Stolen laptop reported at scene.,330000,No,N/A
+PRP261,FIR132,CASE132,Mobile Phone,Stolen mobile phone reported at scene.,445000,Yes,2025-08-23 13:58:08
+PRP262,FIR254,CASE254,ATM Card,Stolen atm card reported at scene.,500000,No,N/A
+PRP263,FIR177,CASE177,Laptop,Stolen laptop reported at scene.,95000,No,N/A
+PRP264,FIR083,CASE083,Television,Stolen television reported at scene.,40000,Yes,2025-02-19 06:20:45
+PRP265,FIR294,CASE294,Gold Chain,Stolen gold chain reported at scene.,235000,Yes,2025-08-28 15:59:45
+PRP266,FIR234,CASE234,Television,Stolen television reported at scene.,375000,Yes,2026-06-17 19:06:36
+PRP267,FIR238,CASE238,Jewellery,Stolen jewellery reported at scene.,480000,No,N/A
+PRP268,FIR060,CASE060,Jewellery,Stolen jewellery reported at scene.,110000,No,N/A
+PRP269,FIR070,CASE070,Documents,Stolen documents reported at scene.,485000,Yes,2025-04-21 19:22:43
+PRP270,FIR013,CASE013,Gold Chain,Stolen gold chain reported at scene.,430000,Yes,2026-05-01 22:34:22
+PRP271,FIR023,CASE023,Gold Chain,Stolen gold chain reported at scene.,285000,No,N/A
+PRP272,FIR151,CASE151,Mobile Phone,Stolen mobile phone reported at scene.,255000,Yes,2025-07-14 03:12:18
+PRP273,FIR152,CASE152,Passport,Stolen passport reported at scene.,245000,No,N/A
+PRP274,FIR295,CASE295,Gold Chain,Stolen gold chain reported at scene.,315000,No,N/A
+PRP275,FIR005,CASE005,ATM Card,Stolen atm card reported at scene.,355000,Yes,2025-04-11 07:03:40
+PRP276,FIR105,CASE105,Cash,Stolen cash reported at scene.,75000,No,N/A
+PRP277,FIR116,CASE116,Mobile Phone,Stolen mobile phone reported at scene.,385000,No,N/A
+PRP278,FIR194,CASE194,Scooter,Stolen scooter reported at scene.,70000,No,N/A
+PRP279,FIR147,CASE147,Gold Chain,Stolen gold chain reported at scene.,410000,Yes,2025-11-10 06:08:57
+PRP280,FIR232,CASE232,Television,Stolen television reported at scene.,70000,No,N/A
+PRP281,FIR055,CASE055,Jewellery,Stolen jewellery reported at scene.,180000,No,N/A
+PRP282,FIR197,CASE197,Passport,Stolen passport reported at scene.,440000,Yes,2026-06-19 18:57:19
+PRP283,FIR233,CASE233,Cash,Stolen cash reported at scene.,415000,Yes,2025-10-22 02:38:50
+PRP284,FIR202,CASE202,Laptop,Stolen laptop reported at scene.,105000,No,N/A
+PRP285,FIR212,CASE212,Cash,Stolen cash reported at scene.,235000,No,N/A
+PRP286,FIR183,CASE183,Laptop,Stolen laptop reported at scene.,45000,Yes,2026-04-17 23:26:16
+PRP287,FIR291,CASE291,Gold Chain,Stolen gold chain reported at scene.,170000,No,N/A
+PRP288,FIR067,CASE067,Television,Stolen television reported at scene.,125000,No,N/A
+PRP289,FIR296,CASE296,Television,Stolen television reported at scene.,155000,Yes,2025-08-10 10:11:05
+PRP290,FIR199,CASE199,Television,Stolen television reported at scene.,175000,No,N/A
+PRP291,FIR030,CASE030,Television,Stolen television reported at scene.,400000,No,N/A
+PRP292,FIR132,CASE132,Television,Stolen television reported at scene.,435000,Yes,2025-08-06 16:58:08
+PRP293,FIR076,CASE076,Gold Chain,Stolen gold chain reported at scene.,5000,Yes,2025-03-18 09:54:39
+PRP294,FIR105,CASE105,Passport,Stolen passport reported at scene.,350000,No,N/A
+PRP295,FIR001,CASE001,ATM Card,Stolen atm card reported at scene.,50000,Yes,2025-04-17 10:39:48
+PRP296,FIR012,CASE012,Mobile Phone,Stolen mobile phone reported at scene.,85000,Yes,2026-05-05 01:53:22
+PRP297,FIR004,CASE004,Laptop,Stolen laptop reported at scene.,185000,No,N/A
+PRP298,FIR278,CASE278,ATM Card,Stolen atm card reported at scene.,390000,No,N/A
+PRP299,FIR182,CASE182,Scooter,Stolen scooter reported at scene.,55000,Yes,2025-10-08 23:48:06
+PRP300,FIR146,CASE146,Passport,Stolen passport reported at scene.,280000,No,N/A
