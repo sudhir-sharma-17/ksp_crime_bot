@@ -17,7 +17,6 @@ DB_USER = os.environ.get("DB_USER", "root")
 DB_PASSWORD = os.environ.get("DB_PASSWORD", "")
 DB_NAME = os.environ.get("DB_NAME", "KarnatakaPoliceFIRDB")
 DB_PORT = int(os.environ.get("DB_PORT", "3306"))
-
 print(f"Connecting to database: {DB_NAME} at {DB_HOST}...")
 
 try:

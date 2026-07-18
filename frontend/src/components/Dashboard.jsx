@@ -160,6 +160,7 @@ export default function Dashboard() {
   const [offset, setOffset] = useState(0);
   const [hasMore, setHasMore] = useState(false);
   const [cachedSql, setCachedSql] = useState(null);
+  const abortControllerRef = useRef(null);
 
   const [isListening, setIsListening] = useState(false);
 
@@ -378,10 +379,29 @@ export default function Dashboard() {
     doc.save('KSP_Intelligence_Report.pdf');
   };
 
+  const cancelQuery = () => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
+    }
+    setIsLoading(false);
+    setMessages((prev) => [
+      ...prev,
+      {
+        sender: 'ai',
+        text: '⚠️ **Query Terminated**\n\nThe query execution was canceled by the user.'
+      }
+    ]);
+  };
+
   const handleSendMessage = async (e) => {
     e?.preventDefault();
     const query = inputVal.trim();
     if (!query || isLoading) return;
+    
+    // Create abort controller for this execution
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
     
     setCachedSql(null); // Clear cache on new prompt
     setMessages((prev) => [...prev, { sender: 'user', text: query }]);
@@ -397,6 +417,7 @@ export default function Dashboard() {
       const response = await fetch('http://localhost:8000/query', {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
+        signal: controller.signal,
         body: JSON.stringify({ 
           query,
           chat_history: recentHistory,
@@ -431,6 +452,10 @@ export default function Dashboard() {
         return [...prev, newMsg];
       });
     } catch (err) {
+      if (err.name === 'AbortError') {
+        console.log("Query fetch was aborted.");
+        return;
+      }
       console.error(err);
       setMessages((prev) => [
         ...prev,
@@ -440,6 +465,7 @@ export default function Dashboard() {
         },
       ]);
     } finally {
+      abortControllerRef.current = null;
       setIsLoading(false);
       inputRef.current?.focus();
     }
@@ -676,11 +702,21 @@ export default function Dashboard() {
                  );
                }
 
-              return (
-                <div 
-                  key={index} 
-                  className="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-100 dark:border-slate-800 shadow-sm mb-4 transition-colors duration-300"
-                >
+               const isSelected = activeDataIndex === index;
+               return (
+                 <div 
+                   key={index} 
+                   onClick={() => {
+                     if (msg.all_sql_results && msg.all_sql_results.length > 0) {
+                       setActiveDataIndex(index);
+                     }
+                   }}
+                   className={`p-4 rounded-xl border mb-4 transition-all duration-300 cursor-pointer ${
+                     isSelected 
+                       ? 'bg-blue-50/50 dark:bg-slate-800/80 border-blue-300 dark:border-blue-900 shadow-md ring-1 ring-blue-200/50 dark:ring-blue-950/50' 
+                       : 'bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800 hover:border-blue-200 dark:hover:border-blue-950 shadow-sm hover:shadow-sm'
+                   }`}
+                 >
                   <div className="flex items-center gap-2 mb-2">
                     <img 
                       src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
@@ -729,31 +765,41 @@ export default function Dashboard() {
             })}
 
              {isLoading && (
-               <div className="flex items-center gap-3 p-4 mb-4 rounded-lg bg-blue-50/50 border border-blue-100 animate-pulse">
-                 
-                 {/* The Logo / Avatar Element */}
-                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-inner overflow-hidden border border-slate-200">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
-                      alt="Aloka Intelligence Thinking" 
-                      className="w-5 h-5 object-contain drop-shadow-sm animate-pulse"
-                    />
+               <div className="flex items-center justify-between p-4 mb-4 rounded-lg bg-blue-50/50 border border-blue-100 animate-pulse">
+                 <div className="flex items-center gap-3">
+                   {/* The Logo / Avatar Element */}
+                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-inner overflow-hidden border border-slate-200">
+                      <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
+                        alt="Aloka Intelligence Thinking" 
+                        className="w-5 h-5 object-contain drop-shadow-sm animate-pulse"
+                      />
+                   </div>
+
+                   {/* The "Thinking" Text */}
+                   <div className="flex flex-col">
+                     <span className="text-xs font-bold text-blue-900 uppercase tracking-widest">
+                       Aloka Intelligence
+                     </span>
+                     <span className="text-sm font-medium text-slate-500 flex items-center gap-1">
+                       Analyzing database
+                       <span className="flex gap-0.5 mt-1">
+                         <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
+                         <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></span>
+                         <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></span>
+                       </span>
+                     </span>
+                   </div>
                  </div>
 
-                 {/* The "Thinking" Text */}
-                 <div className="flex flex-col">
-                   <span className="text-xs font-bold text-blue-900 uppercase tracking-widest">
-                     Aloka Intelligence
-                   </span>
-                   <span className="text-sm font-medium text-slate-500 flex items-center gap-1">
-                     Analyzing database
-                     <span className="flex gap-0.5 mt-1">
-                       <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
-                       <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></span>
-                       <span className="w-1 h-1 bg-slate-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></span>
-                     </span>
-                   </span>
-                 </div>
+                 {/* Terminate Button */}
+                 <button
+                   type="button"
+                   onClick={cancelQuery}
+                   className="bg-red-600 hover:bg-red-700 text-white text-xs font-bold py-1.5 px-3 rounded shadow transition-all cursor-pointer select-none"
+                 >
+                   Terminate
+                 </button>
                </div>
              )}
              <div ref={messagesEndRef} />
