@@ -101,7 +101,7 @@ const renderCell = (key, value) => {
 
   // Case Number Highlighting
   if (lowerKey.includes('case')) {
-    return <span className="font-mono text-xs text-blue-900">{strVal}</span>;
+    return <span className="font-mono text-xs text-blue-900 dark:text-white">{strVal}</span>;
   }
 
   return strVal;

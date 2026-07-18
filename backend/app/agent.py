@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-# Force load the variables from the .env file
-load_dotenv(override=True)
+# Force load the variables from the .env file using explicit path
+env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.env'))
+load_dotenv(dotenv_path=env_path, override=True)
 
 import logging
 import httpx
@@ -17,11 +18,23 @@ from langchain_groq import ChatGroq
 # ==================================================
 # CLOUD GROQ LLM INITIALIZATION
 # ==================================================
-print("⚡ Initializing Cloud AI Engine via Groq...")
+print("[Groq] Initializing Cloud AI Engine via Groq...")
+
+groq_key = os.getenv("GROQ_API_KEY", "").strip() or None
+groq_model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b").strip()
+
+if groq_key:
+    # Print the first 8 characters safely (mask the rest)
+    key_prefix = groq_key[:8] if len(groq_key) >= 8 else groq_key
+    print(f"Loaded GROQ key: {key_prefix}...")
+else:
+    print("Loaded GROQ key: None")
+
+print(f"Model: {groq_model}")
 
 llm = ChatGroq(
-    model="openai/gpt-oss-120b",  # High-parameter 120B model with a fresh token bucket
-    api_key=os.getenv("GROQ_API_KEY"),
+    model=groq_model,
+    api_key=groq_key,
     temperature=0
 )
 from sqlalchemy import text
