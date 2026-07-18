@@ -1,0 +1,6 @@
+version: 1.0
+stages:
+  - name: Build and Deploy
+    actions:
+      - name: Catalyst Deploy
+        type: catalyst-deploy
