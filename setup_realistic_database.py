@@ -144,6 +144,37 @@ CRIME_PROFILES = [
 
 # Set foreign keys check to 0 to safely re-create/clean tables
 cursor.execute("SET FOREIGN_KEY_CHECKS = 0;")
+
+# Create tables if they do not exist (critical for new/empty DB instances like Railway)
+cursor.execute("DROP TABLE IF EXISTS State;")
+cursor.execute("CREATE TABLE IF NOT EXISTS State (StateID INT PRIMARY KEY, StateName VARCHAR(255), NationalityID INT, Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS District (DistrictID INT PRIMARY KEY, DistrictName VARCHAR(255), StateID INT, Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS Court (CourtID INT PRIMARY KEY, CourtName VARCHAR(255), DistrictID INT, StateID INT, Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS Unit (UnitID INT PRIMARY KEY, UnitName VARCHAR(255), TypeID INT, ParentUnit INT, NationalityID INT, StateID INT, DistrictID INT, Active BIT);")
+cursor.execute("DROP TABLE IF EXISTS `Rank`;")
+cursor.execute("CREATE TABLE IF NOT EXISTS `Rank` (RankID INT PRIMARY KEY, RankDescription VARCHAR(255), RankOrder INT, Active BIT);")
+cursor.execute("DROP TABLE IF EXISTS Designation;")
+cursor.execute("CREATE TABLE IF NOT EXISTS Designation (DesignationID INT PRIMARY KEY, DesignationDescription VARCHAR(255), DesignationOrder INT, Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS Act (ActCode VARCHAR(50) PRIMARY KEY, ActDescription VARCHAR(255), ShortName VARCHAR(100), Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS Section (ActCode VARCHAR(50), SectionCode VARCHAR(50), SectionDescription VARCHAR(255), Active BIT, PRIMARY KEY (ActCode, SectionCode));")
+cursor.execute("CREATE TABLE IF NOT EXISTS CrimeHead (CrimeHeadID INT PRIMARY KEY, CrimeGroupName VARCHAR(255), Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS CrimeSubHead (CrimeSubHeadID INT PRIMARY KEY, CrimeHeadID INT, CrimeSubHeadName VARCHAR(255), Active BIT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS CaseCategory (CaseCategoryID INT PRIMARY KEY, CaseCategoryName VARCHAR(255));")
+cursor.execute("CREATE TABLE IF NOT EXISTS GravityOffence (GravityOffenceID INT PRIMARY KEY, GravityOffenceName VARCHAR(255));")
+cursor.execute("CREATE TABLE IF NOT EXISTS CaseStatusMaster (CaseStatusID INT PRIMARY KEY, CaseStatusName VARCHAR(255));")
+cursor.execute("CREATE TABLE IF NOT EXISTS CasteMaster (caste_master_id INT PRIMARY KEY, caste_master_name VARCHAR(100));")
+cursor.execute("CREATE TABLE IF NOT EXISTS ReligionMaster (ReligionID INT PRIMARY KEY, ReligionName VARCHAR(100));")
+cursor.execute("CREATE TABLE IF NOT EXISTS OccupationMaster (OccupationID INT PRIMARY KEY, OccupationName VARCHAR(100));")
+cursor.execute("CREATE TABLE IF NOT EXISTS Employee (EmployeeID INT PRIMARY KEY, DistrictID INT, UnitID INT, RankID INT, DesignationID INT, KGID VARCHAR(50), FirstName VARCHAR(255), EmployeeDOB DATE, GenderID VARCHAR(10), BloodGroupID INT, PhysicallyChallenged INT, AppointmentDate DATE);")
+cursor.execute("CREATE TABLE IF NOT EXISTS CaseMaster (CaseMasterID INT PRIMARY KEY, CrimeNo VARCHAR(50), CaseNo VARCHAR(50), CrimeRegisteredDate DATE, PolicePersonID INT, PoliceStationID INT, CaseCategoryID INT, GravityOffenceID INT, CrimeMajorHeadID INT, CrimeMinorHeadID INT, CaseStatusID INT, CourtID INT, IncidentFromDate DATETIME, IncidentToDate DATETIME, InfoReceivedPSDate DATETIME, latitude DOUBLE, longitude DOUBLE, BriefFacts TEXT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS Accused (AccusedMasterID INT PRIMARY KEY, CaseMasterID INT, AccusedName VARCHAR(255), AgeYear INT, GenderID VARCHAR(10), PersonID VARCHAR(50));")
+cursor.execute("CREATE TABLE IF NOT EXISTS Victim (VictimMasterID INT PRIMARY KEY, CaseMasterID INT, VictimName VARCHAR(255), AgeYear INT, GenderID VARCHAR(10), VictimPolice VARCHAR(10));")
+cursor.execute("CREATE TABLE IF NOT EXISTS ComplainantDetails (ComplainantID INT PRIMARY KEY, CaseMasterID INT, ComplainantName VARCHAR(255), AgeYear INT, OccupationID INT, ReligionID INT, CasteID INT, GenderID VARCHAR(10));")
+cursor.execute("CREATE TABLE IF NOT EXISTS ChargesheetDetails (CSID INT PRIMARY KEY, CaseMasterID INT, csdate DATE, cstype VARCHAR(50), PolicePersonID INT);")
+cursor.execute("CREATE TABLE IF NOT EXISTS ActSectionAssociation (CaseMasterID INT, ActID VARCHAR(50), SectionID VARCHAR(50), ActOrderID INT, SectionOrderID INT, PRIMARY KEY (CaseMasterID, ActID, SectionID));")
+cursor.execute("CREATE TABLE IF NOT EXISTS Cyber_Evidence (EvidenceID INT AUTO_INCREMENT PRIMARY KEY, FIRNumber VARCHAR(50), IPAddress VARCHAR(50), CrimeType VARCHAR(100));")
+
+# Safely truncate all tables
 cursor.execute("TRUNCATE TABLE Accused;")
 cursor.execute("TRUNCATE TABLE Victim;")
 cursor.execute("TRUNCATE TABLE ComplainantDetails;")
@@ -159,6 +190,7 @@ cursor.execute("TRUNCATE TABLE Act;")
 cursor.execute("TRUNCATE TABLE Section;")
 cursor.execute("TRUNCATE TABLE CrimeHead;")
 cursor.execute("TRUNCATE TABLE CrimeSubHead;")
+
 cursor.execute("SET FOREIGN_KEY_CHECKS = 1;")
 cursor.execute("ALTER TABLE Accused MODIFY COLUMN GenderID VARCHAR(10);")
 cursor.execute("ALTER TABLE Victim MODIFY COLUMN GenderID VARCHAR(10);")
@@ -226,11 +258,18 @@ for i in range(1, 51):
 conn.commit()
 print("[INFO] Seeded 50 Officers with realistic full names and string genders.")
 
-# 3. Seed 500 Cases with logical relationships
+# 3. Seed 500 Cases with logical relationships (Batched for instant remote database import)
 accused_id = 1
 victim_id = 1
 comp_id = 1
 cs_id = 1
+
+case_master_rows = []
+act_section_rows = []
+accused_rows = []
+victim_rows = []
+complainant_rows = []
+chargesheet_rows = []
 
 for case_id in range(1, 501):
     profile = random.choice(CRIME_PROFILES)
@@ -259,90 +298,102 @@ for case_id in range(1, 501):
     lat = round(random.uniform(12.5, 18.0), 6)
     lon = round(random.uniform(74.0, 78.0), 6)
     
-    # Insert CaseMaster
-    cursor.execute("""
-    INSERT INTO CaseMaster 
-    (CaseMasterID, CrimeNo, CaseNo, CrimeRegisteredDate, PolicePersonID, PoliceStationID, 
-    CaseCategoryID, GravityOffenceID, CrimeMajorHeadID, CrimeMinorHeadID, CaseStatusID, CourtID, 
-    IncidentFromDate, IncidentToDate, InfoReceivedPSDate, latitude, longitude, BriefFacts) 
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
-    """, (case_id, crime_no, case_no, reg_date.date(), officer[0], officer[1], 
-          1, 1 if profile["type"] == "Murder" else 2, profile["crime_head"], profile["crime_subhead"], 
-          1, officer[2] + 10, incident_date, incident_date + timedelta(hours=2), reg_date, lat, lon, brief_facts))
+    # Collect CaseMaster Row
+    case_master_rows.append((
+        case_id, crime_no, case_no, reg_date.date(), officer[0], officer[1], 
+        1, 1 if profile["type"] == "Murder" else 2, profile["crime_head"], profile["crime_subhead"], 
+        1, officer[2] + 10, incident_date, incident_date + timedelta(hours=2), reg_date, lat, lon, brief_facts
+    ))
           
-    # Insert Act & Section Association (Logical connection!)
-    cursor.execute("""
-    INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
-    VALUES (%s, %s, %s, 1, 1);
-    """, (case_id, profile["act"], profile["section"]))
+    # Collect primary Act & Section Association
+    act_section_rows.append((case_id, profile["act"], profile["section"], 1, 1))
     
     # 30% chance of adding a second, logical act/section association to vary ActOrderID and SectionOrderID
     if random.random() < 0.3:
         if profile["type"] == "Murder":
             # Add assault under same Act (IPC), so ActOrderID=1, SectionOrderID=2
-            cursor.execute("""
-            INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
-            VALUES (%s, 'IPC', '324', 1, 2);
-            """, (case_id,))
+            act_section_rows.append((case_id, 'IPC', '324', 1, 2))
         elif profile["type"] == "Cyber Fraud":
             # Add theft under different Act (IPC), so ActOrderID=2, SectionOrderID=1
-            cursor.execute("""
-            INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
-            VALUES (%s, 'IPC', '379', 2, 1);
-            """, (case_id,))
+            act_section_rows.append((case_id, 'IPC', '379', 2, 1))
         elif profile["type"] == "Theft":
             # Add assault under same Act (IPC), so ActOrderID=1, SectionOrderID=2
-            cursor.execute("""
-            INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
-            VALUES (%s, 'IPC', '324', 1, 2);
-            """, (case_id,))
+            act_section_rows.append((case_id, 'IPC', '324', 1, 2))
         elif profile["type"] == "Assault / Physical Altercation":
             # Add theft under same Act (IPC), so ActOrderID=1, SectionOrderID=2
-            cursor.execute("""
-            INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
-            VALUES (%s, 'IPC', '379', 1, 2);
-            """, (case_id,))
+            act_section_rows.append((case_id, 'IPC', '379', 1, 2))
     
-    # Insert Accused (Male name = Male GenderID, Female name = Female GenderID)
+    # Collect Accused Row
     is_male = random.choice([True, False])
     acc_name = random.choice(MALE_NAMES) if is_male else random.choice(FEMALE_NAMES)
     acc_gender = 'Male' if is_male else 'Female'
-    cursor.execute("""
-    INSERT INTO Accused (AccusedMasterID, CaseMasterID, AccusedName, AgeYear, GenderID, PersonID) 
-    VALUES (%s, %s, %s, %s, %s, %s);
-    """, (accused_id, case_id, acc_name, random.randint(18, 60), acc_gender, f"ACC-{accused_id:04d}"))
+    accused_rows.append((accused_id, case_id, acc_name, random.randint(18, 60), acc_gender, f"ACC-{accused_id:04d}"))
     accused_id += 1
     
-    # Insert Victim
+    # Collect Victim Row
     is_male_v = random.choice([True, False])
     vic_name = random.choice(MALE_NAMES) if is_male_v else random.choice(FEMALE_NAMES)
     vic_gender = 'Male' if is_male_v else 'Female'
-    cursor.execute("""
-    INSERT INTO Victim (VictimMasterID, CaseMasterID, VictimName, AgeYear, GenderID, VictimPolice) 
-    VALUES (%s, %s, %s, %s, %s, %s);
-    """, (victim_id, case_id, vic_name, random.randint(10, 80), vic_gender, "No"))
+    victim_rows.append((victim_id, case_id, vic_name, random.randint(10, 80), vic_gender, "No"))
     victim_id += 1
     
-    # Insert Complainant
+    # Collect Complainant Row
     is_male_c = random.choice([True, False])
     comp_name = random.choice(MALE_NAMES) if is_male_c else random.choice(FEMALE_NAMES)
     comp_gender = 'Male' if is_male_c else 'Female'
-    cursor.execute("""
-    INSERT INTO ComplainantDetails (ComplainantID, CaseMasterID, ComplainantName, AgeYear, OccupationID, ReligionID, CasteID, GenderID) 
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
-    """, (comp_id, case_id, comp_name, random.randint(18, 70), random.choice([1, 2, 3]), random.choice([1, 2]), random.choice([1, 2]), comp_gender))
+    complainant_rows.append((
+        comp_id, case_id, comp_name, random.randint(18, 70), 
+        random.choice([1, 2, 3]), random.choice([1, 2]), random.choice([1, 2]), comp_gender
+    ))
     comp_id += 1
     
-    # Insert Chargesheet details for 50% of the cases
+    # Collect Chargesheet Row
     if random.choice([True, False]):
-        cursor.execute("""
-        INSERT INTO ChargesheetDetails (CSID, CaseMasterID, csdate, cstype, PolicePersonID) 
-        VALUES (%s, %s, %s, %s, %s);
-        """, (cs_id, case_id, reg_date + timedelta(days=30), 'A', officer[0]))
+        chargesheet_rows.append((cs_id, case_id, reg_date + timedelta(days=30), 'A', officer[0]))
         cs_id += 1
 
+print("[INFO] Performing bulk database insertions...")
+# Bulk insert CaseMaster
+cursor.executemany("""
+INSERT INTO CaseMaster 
+(CaseMasterID, CrimeNo, CaseNo, CrimeRegisteredDate, PolicePersonID, PoliceStationID, 
+CaseCategoryID, GravityOffenceID, CrimeMajorHeadID, CrimeMinorHeadID, CaseStatusID, CourtID, 
+IncidentFromDate, IncidentToDate, InfoReceivedPSDate, latitude, longitude, BriefFacts) 
+VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+""", case_master_rows)
+
+# Bulk insert ActSectionAssociation
+cursor.executemany("""
+INSERT INTO ActSectionAssociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)
+VALUES (%s, %s, %s, %s, %s);
+""", act_section_rows)
+
+# Bulk insert Accused
+cursor.executemany("""
+INSERT INTO Accused (AccusedMasterID, CaseMasterID, AccusedName, AgeYear, GenderID, PersonID) 
+VALUES (%s, %s, %s, %s, %s, %s);
+""", accused_rows)
+
+# Bulk insert Victim
+cursor.executemany("""
+INSERT INTO Victim (VictimMasterID, CaseMasterID, VictimName, AgeYear, GenderID, VictimPolice) 
+VALUES (%s, %s, %s, %s, %s, %s);
+""", victim_rows)
+
+# Bulk insert ComplainantDetails
+cursor.executemany("""
+INSERT INTO ComplainantDetails (ComplainantID, CaseMasterID, ComplainantName, AgeYear, OccupationID, ReligionID, CasteID, GenderID) 
+VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+""", complainant_rows)
+
+# Bulk insert ChargesheetDetails
+cursor.executemany("""
+INSERT INTO ChargesheetDetails (CSID, CaseMasterID, csdate, cstype, PolicePersonID) 
+VALUES (%s, %s, %s, %s, %s);
+""", chargesheet_rows)
+
 conn.commit()
-print(f"[INFO] Seeding finished. Generated {case_id} realistic cases with complete linkages.")
+print(f"[INFO] Seeding finished. Generated {accused_id - 1} accused, {victim_id - 1} victims, and {case_id} realistic cases in bulk.")
 cursor.close()
 conn.close()
 
