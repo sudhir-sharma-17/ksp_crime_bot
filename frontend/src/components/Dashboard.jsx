@@ -728,7 +728,7 @@ export default function Dashboard() {
                     </span>
                   </div>
 
-                  <div className="prose prose-sm max-w-none text-slate-700 dark:text-slate-300">
+                  <div className="prose dark:prose-invert prose-sm max-w-none text-slate-700 dark:text-slate-300">
                     <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>{msg.text || msg.response}</ReactMarkdown>
                   </div>
 
@@ -935,7 +935,7 @@ export default function Dashboard() {
                                         {index + 1}
                                       </td>
                                       {Object.entries(row).map(([key, val], i) => (
-                                        <td key={i} className="px-6 py-3 border-r border-slate-200 dark:border-slate-800 last:border-0 text-slate-700 dark:text-slate-350 whitespace-nowrap">
+                                        <td key={i} className="px-6 py-3 border-r border-slate-200 dark:border-slate-800 last:border-0 text-slate-700 dark:text-slate-200 whitespace-nowrap">
                                           {renderCell(key, val)}
                                         </td>
                                       ))}

@@ -14,4 +14,37 @@
   }
 }
 
+.dark {
+  /* Replace bluish slate with crisp neutral charcoal tones */
+  --color-slate-900: #121214 !important;
+  --color-slate-950: #0a0a0c !important;
+  --color-slate-800: #1e1e24 !important;
+  --color-slate-700: #2d2d34 !important;
+
+  /* Increase text visibility for contrast */
+  --color-slate-100: #fbfbfb !important;
+  --color-slate-200: #f1f1f5 !important;
+  --color-slate-300: #e2e2eb !important;
+  --color-slate-400: #a5a5b5 !important;
+  
+  /* Markdown prose fixes for readability */
+  .prose {
+    color: #e2e2eb !important;
+  }
+  .prose strong {
+    color: #ffffff !important;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4 {
+    color: #ffffff !important;
+  }
+  .prose code {
+    color: #a5f3fc !important;
+    background-color: #16202c !important;
+    border-color: #243347 !important;
+  }
+  .prose li::marker {
+    color: #3b82f6 !important;
+  }
+}
+
 
