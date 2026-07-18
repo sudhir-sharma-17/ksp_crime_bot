@@ -1,10 +1,9 @@
 version: 1.0
 stages:
-  - name: Build and Deploy Chatbot
+  - name: Build and Deploy Backend
     actions:
-      - name: Deploy Frontend and Backend
+      - name: Deploy AppSail
         type: catalyst-deploy
         inputs:
-          # This instructs Zoho to read your root catalyst.json file
-          # and deploy all packages (AppSail backend & React frontend)
-          command: catalyst deploy --all
+          # Tells Zoho to only deploy the AppSail service inside /backend
+          command: catalyst deploy --only appsail
