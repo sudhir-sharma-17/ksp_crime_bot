@@ -3,7 +3,11 @@ jobs:
   build_and_deploy:
     steps:
       - npm install -g zcatalyst-cli
-      - catalyst deploy
+      - cd backend
+      - npm install
+      - npm run build --if-present
+      # Adding the explicit project identity mapping parameter to link it to your dashboard
+      - catalyst deploy appsail --name aloka-backend --stack python-3.13 --startup-command "python3 -m uvicorn app.app:app --host 0.0.0.0 --port \$X_ZOHO_CATALYST_LISTEN_PORT" --project 45673000000037001
 stages:
   - name: deploy_stage
     jobs:
