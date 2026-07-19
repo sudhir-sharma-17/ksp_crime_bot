@@ -3,14 +3,8 @@ jobs:
   build_and_deploy:
     steps:
       - npm install -g zcatalyst-cli
-      # 1. Create a completely isolated deployment directory
-      - mkdir /clean-deploy
-      # 2. Copy only your backend source code and config files into it
-      - cp -r backend/* /clean-deploy/
-      - cp catalyst.json /clean-deploy/
-      # 3. Enter the pristine directory and run a direct component deployment
-      - cd /clean-deploy
-      - catalyst deploy --only appsail --token $CATALYST_TOKEN --project 45673000000037001
+      - cd backend
+      - catalyst deploy appsail --name aloka-backend-dev --build-path . --stack python-3.13 --command "python3 -m uvicorn app.app:app --host 0.0.0.0 --port 8000" --token $CATALYST_TOKEN --project 45673000000037001
 stages:
   - name: deploy_stage
     jobs:
