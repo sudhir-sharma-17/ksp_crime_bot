@@ -8,7 +8,7 @@
   "cli_version": "4.0.0",
   "appsail": [
     {
-      "name": "aloka-api",
+      "name": "aloka-backend",
       "path": "backend"
     }
   ]
