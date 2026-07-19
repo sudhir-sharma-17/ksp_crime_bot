@@ -3,6 +3,8 @@ jobs:
   build_and_deploy:
     steps:
       - npm install -g zcatalyst-cli
+      # Move into the backend folder so it reads app-config.json natively
+      - cd backend
       - catalyst deploy --token $CATALYST_TOKEN --project 45673000000037001
 stages:
   - name: deploy_stage
