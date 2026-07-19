@@ -1,9 +1,0 @@
-version: 1.0
-stages:
-  - name: Build and Deploy Backend
-    actions:
-      - name: Deploy AppSail
-        type: catalyst-deploy
-        inputs:
-          # Tells Zoho to only deploy the AppSail service inside /backend
-          command: catalyst deploy --only appsail
