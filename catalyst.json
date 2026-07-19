@@ -3,12 +3,12 @@
   "project_name": "KSP-Aloka-Intelligence",
   "project_domain": "aloka-intelligence-60078006552.development",
   "env_name": "Development",
-  "api_domain": "https://zoho.com",
-  "accounts_domain": "https://zoho.com",
+  "api_domain": "https://api.catalyst.zoho.com",
+  "accounts_domain": "https://accounts.zoho.com",
   "cli_version": "4.0.0",
   "appsail": [
     {
-      "name": "aloka-backend",
+      "name": "aloka-api",
       "path": "backend"
     }
   ]
