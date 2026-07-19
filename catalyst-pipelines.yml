@@ -1,0 +1,11 @@
+version: 1.0
+jobs:
+  deploy_job:
+    steps:
+      - npm install
+      - npm run build
+      - catalyst deploy --app appsail-aloka
+stages:
+  - name: deploy_stage
+    jobs:
+      - deploy_job
