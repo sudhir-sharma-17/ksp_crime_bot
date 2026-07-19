@@ -4,10 +4,8 @@ jobs:
     steps:
       - npm install -g zcatalyst-cli
       - cd backend
-      # Authenticate the cloud pipeline container runner using your secure variable token
-      - catalyst login --token $ZOHO_TOKEN
-      # Explicitly deploy the backend folder directly into your production app slot
-      - catalyst deploy --org 45673000000037001
+      # Force login and deployment targeting your specific project ID using the CATALYST_TOKEN
+      - catalyst deploy --token $CATALYST_TOKEN --project 45673000000037001
 stages:
   - name: deploy_stage
     jobs:
