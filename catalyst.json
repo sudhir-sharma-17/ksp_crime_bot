@@ -10,7 +10,7 @@
     {
       "name": "aloka-backend",
       "path": "backend",
-      "env": "production"
+      "env": "development"
     }
   ]
 }
