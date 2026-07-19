@@ -3,11 +3,7 @@ jobs:
   build_and_deploy:
     steps:
       - npm install -g zcatalyst-cli
-      - cd backend
-      # Authenticate the cloud runner using your secret token variable
-      - catalyst login --token $ZOHO_TOKEN
-      # Create and deploy the app directly into your dashboard workspace
-      - catalyst deploy appsail --name aloka-backend --stack python-3.13 --startup-command "python3 -m uvicorn app.app:app --host 0.0.0.0 --port \$X_ZOHO_CATALYST_LISTEN_PORT" --project 45673000000037001
+      - catalyst deploy
 stages:
   - name: deploy_stage
     jobs:
