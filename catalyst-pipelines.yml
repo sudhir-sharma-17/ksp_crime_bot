@@ -3,7 +3,8 @@ jobs:
   build_and_deploy:
     steps:
       - npm install -g zcatalyst-cli
-      - catalyst deploy
+      # Authenticate the runner using the built-in system project tokens
+      - catalyst deploy --token $CATALYST_PROJECT_TOKEN
 stages:
   - name: deploy_stage
     jobs:
