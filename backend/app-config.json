@@ -1,6 +1,6 @@
 {
-  "stack": "python-3.13",
-  "startup_command": "python3 -m uvicorn app.app:app --host 0.0.0.0 --port $X_ZOHO_CATALYST_LISTEN_PORT",
+  "stack": "python311",
+  "command": "python3 -m uvicorn app.app:app --host 0.0.0.0 --port $X_ZOHO_CATALYST_LISTEN_PORT",
   "env_variables": {
     "DB_TYPE": "mysql",
     "DB_HOST": "${CATALYST_DATASTORE_HOST}",
