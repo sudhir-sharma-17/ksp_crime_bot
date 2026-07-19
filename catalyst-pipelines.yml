@@ -4,7 +4,9 @@ jobs:
     steps:
       - npm install -g zcatalyst-cli
       - cd backend
-      - catalyst deploy appsail --name aloka-backend-dev --build-path . --stack python-3.13 --command "python3 -m uvicorn app.app:app --host 0.0.0.0 --port 8000" --token $CATALYST_TOKEN --project 45673000000037001
+      - pip install -r requirements.txt -t .
+      - cd ..
+      - catalyst deploy --token $CATALYST_TOKEN --project 45673000000037001
 stages:
   - name: deploy_stage
     jobs:
