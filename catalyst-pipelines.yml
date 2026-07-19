@@ -1,6 +1,10 @@
 version: 1.0
+images:
+  build_env:
+    image: nikolaik/python-nodejs:python3.10-nodejs18
 jobs:
   build_and_deploy:
+    image: build_env
     steps:
       - npm install -g zcatalyst-cli
       - cd backend
