@@ -1,12 +1,11 @@
 {
-  "project_id": "",
+  "project_id": "45673000000037001",
   "project_name": "KSP-Aloka-Intelligence",
-  "project_domain": "",
+  "project_domain": "aloka-intelligence-60078006552.development",
   "env_name": "Development",
   "api_domain": "https://api.catalyst.zoho.com",
   "accounts_domain": "https://accounts.zoho.com",
   "cli_version": "4.0.0",
-  "functions": [],
   "appsail": [
     {
       "name": "aloka-backend",
