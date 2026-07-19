@@ -6,14 +6,16 @@
   "api_domain": "https://api.catalyst.zoho.com",
   "accounts_domain": "https://accounts.zoho.com",
   "cli_version": "4.0.0",
-  "appsail": [
-    {
-      "name": "aloka-backend",
-      "path": "./backend",
-      "stack": "custom",
-      "build_config": {
-        "dockerfile": "Dockerfile"
+  "appsail": {
+    "targets": [
+      {
+        "name": "aloka-backend",
+        "path": "backend",
+        "stack": "custom",
+        "build_config": {
+          "dockerfile": "Dockerfile"
+        }
       }
-    }
-  ]
+    ]
+  }
 }
