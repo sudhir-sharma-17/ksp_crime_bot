@@ -9,7 +9,7 @@
   "appsail": [
     {
       "name": "aloka-backend-dev",
-      "path": "backend",
+      "path": ".",
       "env": "development"
     }
   ]
