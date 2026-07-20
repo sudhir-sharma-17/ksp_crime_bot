@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Any, Dict, List, Optional
 
-# Ensure backend directory is in sys.path to allow absolute imports from backend root
+# Ensure backend directory is in the  sys.path to allow absolute imports from backend root
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 

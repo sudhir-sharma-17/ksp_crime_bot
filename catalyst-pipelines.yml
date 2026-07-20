@@ -1,17 +1,16 @@
 version: 1.0
-jobs:
-  build_and_deploy:
-    steps:
-      - npm install -g zcatalyst-cli
-      - apt-get update && apt-get install -y software-properties-common curl
-      - add-apt-repository -y ppa:deadsnakes/ppa
-      - apt-get update && apt-get install -y python3.10 python3.10-distutils python3.10-dev
-      - curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
-      - cd backend
-      - python3.10 -m pip install -r requirements.txt -t .
-      - cd ..
-      - catalyst deploy --token $CATALYST_TOKEN --project 45673000000037001
+
 stages:
   - name: deploy_stage
     jobs:
-      - build_and_deploy
+      - name: build_and_deploy
+        steps:
+          - npm install -g zcatalyst-cli@1.27.0
+          - catalyst deploy appsail \
+              --name aloka-backend-dev \
+              --build-path ./backend \
+              --stack python_3_10 \
+              --command "python -m uvicorn app.app:app --host 0.0.0.0 --port 9000" \
+              --project 45673000000037001 \
+              --token $CATALYST_TOKEN \
+              --verbose
