@@ -125,7 +125,7 @@ export default function Dashboard() {
     
     setTranslatingMessageIndex(msgIndex);
     try {
-      const res = await fetch('http://localhost:8000/api/translate', {
+      const res = await fetch('http://localhost:9000/api/translate', {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ text, target_language: targetLang })
@@ -260,7 +260,7 @@ export default function Dashboard() {
   useEffect(() => {
     if (messages.length > 1 && sessionId) {
       const title = messages.find(m => m.sender === 'user')?.text || 'New Session';
-      fetch(`http://localhost:8000/api/sessions/${sessionId}`, {
+      fetch(`http://localhost:9000/api/sessions/${sessionId}`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ title, messages })
@@ -273,7 +273,7 @@ export default function Dashboard() {
   // ── Fetch Sessions List on Mount ───────────────────────────────────────────
   const fetchSessions = async () => {
     try {
-      const res = await fetch('http://localhost:8000/api/sessions', { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      const res = await fetch('http://localhost:9000/api/sessions', { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (res.ok) {
         const data = await res.json();
         setSessionsList(data);
@@ -314,7 +314,7 @@ export default function Dashboard() {
 
   const handleLoadSession = async (id) => {
     try {
-      const res = await fetch(`http://localhost:8000/api/sessions/${id}`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      const res = await fetch(`http://localhost:9000/api/sessions/${id}`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (res.ok) {
         const data = await res.json();
         setMessages(data.messages || DEFAULT_WELCOME);
@@ -328,7 +328,7 @@ export default function Dashboard() {
   const handleDeleteSession = async (e, id) => {
     e.stopPropagation();
     try {
-      await fetch(`http://localhost:8000/api/sessions/${id}`, { method: 'DELETE', headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      await fetch(`http://localhost:9000/api/sessions/${id}`, { method: 'DELETE', headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (sessionId === id) {
         clearChat();
       }
@@ -414,7 +414,7 @@ export default function Dashboard() {
     }));
 
     try {
-      const response = await fetch('http://localhost:8000/query', {
+      const response = await fetch('http://localhost:9000/query', {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         signal: controller.signal,
@@ -479,7 +479,7 @@ export default function Dashboard() {
     const offset = msg.all_pagination[queryIdx]?.next_offset ?? 0;
     
     try {
-      const response = await fetch('http://localhost:8000/query', {
+      const response = await fetch('http://localhost:9000/query', {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ 
