@@ -393,11 +393,8 @@ def delete_session(session_id: str):
 
 
 @app.get("/")
-def read_root():
-    """Root endpoint so users don't see Not Found when opening the backend in a browser."""
-    return {
-        "message": "Aloka Backend is Alive! Please use the React frontend at http://localhost:5173"
-    }
+async def root():
+    return FileResponse(os.path.join(frontend_dir, "index.html"))
 
 
 @app.get("/api/health")
