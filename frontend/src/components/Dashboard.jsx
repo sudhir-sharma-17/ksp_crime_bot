@@ -7,7 +7,9 @@ import { jsPDF } from "jspdf";
 import autoTable from 'jspdf-autotable';
 
 const headerLogoSrc = 'https://en.wikipedia.org/wiki/Special:FilePath/Seal_of_Karnataka.svg';
-const API_URL = import.meta.env.VITE_API_URL;
+
+
+
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = SpeechRecognition ? new SpeechRecognition() : null;
@@ -126,7 +128,7 @@ export default function Dashboard() {
     
     setTranslatingMessageIndex(msgIndex);
     try {
-      const res = await fetch(`${API_URL}/api/translate`, {
+      const res = await fetch(`/api/translate`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ text, target_language: targetLang })
@@ -261,7 +263,7 @@ export default function Dashboard() {
   useEffect(() => {
     if (messages.length > 1 && sessionId) {
       const title = messages.find(m => m.sender === 'user')?.text || 'New Session';
-      fetch(`${API_URL}/api/sessions/${sessionId}`, {
+      fetch(`/api/sessions/${sessionId}`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ title, messages })
@@ -274,7 +276,7 @@ export default function Dashboard() {
   // ── Fetch Sessions List on Mount ───────────────────────────────────────────
   const fetchSessions = async () => {
     try {
-      const res = await fetch(`${API_URL}/api/sessions`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      const res = await fetch(`/api/sessions`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (res.ok) {
         const data = await res.json();
         setSessionsList(data);
@@ -315,7 +317,7 @@ export default function Dashboard() {
 
   const handleLoadSession = async (id) => {
     try {
-      const res = await fetch(`${API_URL}/api/sessions/${id}`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      const res = await fetch(`/api/sessions/${id}`, { headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (res.ok) {
         const data = await res.json();
         setMessages(data.messages || DEFAULT_WELCOME);
@@ -329,7 +331,7 @@ export default function Dashboard() {
   const handleDeleteSession = async (e, id) => {
     e.stopPropagation();
     try {
-      await fetch(`${API_URL}/api/sessions/${id}`, { method: 'DELETE', headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
+      await fetch(`/api/sessions/${id}`, { method: 'DELETE', headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123' } });
       if (sessionId === id) {
         clearChat();
       }
@@ -415,7 +417,7 @@ export default function Dashboard() {
     }));
 
     try {
-      const response = await fetch(`${API_URL}/query`, {
+      const response = await fetch(`/query`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         signal: controller.signal,
@@ -480,7 +482,7 @@ export default function Dashboard() {
     const offset = msg.all_pagination[queryIdx]?.next_offset ?? 0;
     
     try {
-      const response = await fetch(`${API_URL}/query`, {
+      const response = await fetch(`/query`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ 

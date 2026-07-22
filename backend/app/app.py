@@ -1,5 +1,7 @@
 import os
 import logging
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -7,29 +9,32 @@ from typing import Any, Dict, List, Optional
 
 # Ensure backend directory is in the  sys.path to allow absolute imports from backend root
 import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # Import the compiled LangGraph agent
 from app.agent import agent_app
 
+
 # Configure logging — filter out browser-extension tracker spam
 class _SuppressTrackerFilter(logging.Filter):
     def filter(self, record: logging.LogRecord) -> bool:
-        return 'hybridaction' not in record.getMessage()
+        return "hybridaction" not in record.getMessage()
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Apply filter to uvicorn access logger to hide noisy 404 spam
-for _handler in logging.getLogger('uvicorn.access').handlers:
+for _handler in logging.getLogger("uvicorn.access").handlers:
     _handler.addFilter(_SuppressTrackerFilter())
-logging.getLogger('uvicorn.access').addFilter(_SuppressTrackerFilter())
+logging.getLogger("uvicorn.access").addFilter(_SuppressTrackerFilter())
 
 # Initialize FastAPI app
 app = FastAPI(
     title="Police Investigations AI Agent API",
     description="Backend API for multilingual Text-to-SQL criminological agent",
-    version="1.0.0"
+    version="1.0.0",
 )
 
 import sqlite3
@@ -42,6 +47,7 @@ from typing import List, Optional
 from fastapi import Header, HTTPException, Depends
 from datetime import datetime
 
+
 async def verify_token(x_ksp_auth_token: str = Header(None)):
     if x_ksp_auth_token != "ksp-secure-demo-123":
         raise HTTPException(status_code=401, detail="Unauthorized")
@@ -50,38 +56,53 @@ async def verify_token(x_ksp_auth_token: str = Header(None)):
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "sessions.db")
 
+
 def init_db():
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
-    c.execute("""
+    c.execute(
+        """
         CREATE TABLE IF NOT EXISTS sessions (
             id TEXT PRIMARY KEY,
             title TEXT,
             messages TEXT,
             updated_at DATETIME
         )
-    """)
-    c.execute("""
+    """
+    )
+    c.execute(
+        """
         CREATE TABLE IF NOT EXISTS audit_logs (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             session_id TEXT,
             sql_query TEXT,
             executed_at DATETIME
         )
-    """)
-    c.execute("""
+    """
+    )
+    c.execute(
+        """
         CREATE TABLE IF NOT EXISTS users (
             username TEXT PRIMARY KEY,
             role TEXT
         )
-    """)
-    c.execute("INSERT OR IGNORE INTO users (username, role) VALUES ('admin', 'dgp_command')")
-    c.execute("INSERT OR IGNORE INTO users (username, role) VALUES ('analyst', 'inspector_sho')")
-    c.execute("INSERT OR IGNORE INTO users (username, role) VALUES ('field', 'constable_beat')")
+    """
+    )
+    c.execute(
+        "INSERT OR IGNORE INTO users (username, role) VALUES ('admin', 'dgp_command')"
+    )
+    c.execute(
+        "INSERT OR IGNORE INTO users (username, role) VALUES ('analyst', 'inspector_sho')"
+    )
+    c.execute(
+        "INSERT OR IGNORE INTO users (username, role) VALUES ('field', 'constable_beat')"
+    )
     conn.commit()
     conn.close()
 
+
 init_db()
+
 
 class SessionPayload(BaseModel):
     title: str
@@ -91,11 +112,12 @@ class SessionPayload(BaseModel):
 # Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allows all origins for local testing
-    allow_credentials=True,
-    allow_methods=["*"], # Allows all methods (GET, POST, OPTIONS)
-    allow_headers=["*"], # Allows all headers
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],  # Allows all methods (GET, POST, OPTIONS)
+    allow_headers=["*"],  # Allows all headers
 )
+
 
 # ==================================================
 # REQUEST & RESPONSE MODELS
@@ -108,14 +130,17 @@ class QueryRequest(BaseModel):
     sql: Optional[str] = None
     offset: Optional[int] = 0
 
+
 class QueryMoreRequest(BaseModel):
     sql: str
     offset: int
+
 
 # ==================================================
 # QUERY CACHE
 # ==================================================
 QUERY_CACHE = {}
+
 
 # ==================================================
 # API ENDPOINT
@@ -129,60 +154,74 @@ async def handle_query(request: QueryRequest, role: str = Depends(verify_token))
     # ── Lane 2: Fast-track pagination (Bypass LLM) ──
     if request.is_pagination:
         if not request.sql:
-            raise HTTPException(status_code=400, detail="SQL query required for pagination.")
-            
+            raise HTTPException(
+                status_code=400, detail="SQL query required for pagination."
+            )
+
         import re
+
         sql = request.sql.strip()
         # Remove any existing LIMIT and OFFSET clauses generated by the AI
-        clean_sql = re.sub(r'(?i)\bLIMIT\s+\d+\b', '', sql)
-        clean_sql = re.sub(r'(?i)\bOFFSET\s+\d+\b', '', clean_sql)
-        clean_sql = clean_sql.strip().rstrip(';')
+        clean_sql = re.sub(r"(?i)\bLIMIT\s+\d+\b", "", sql)
+        clean_sql = re.sub(r"(?i)\bOFFSET\s+\d+\b", "", clean_sql)
+        clean_sql = clean_sql.strip().rstrip(";")
 
         offset = request.offset or 0
         limit = 15
-        
+
         paginated_sql = f"{clean_sql} LIMIT {limit + 1} OFFSET {offset}"
 
         # Security check — block all write operations
-        forbidden_keywords = ['INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'CREATE']
+        forbidden_keywords = ["INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "CREATE"]
         if any(kw in paginated_sql.upper() for kw in forbidden_keywords):
-            raise HTTPException(status_code=403, detail="Non-read-only queries are strictly prohibited.")
+            raise HTTPException(
+                status_code=403, detail="Non-read-only queries are strictly prohibited."
+            )
 
         try:
             from db.database import get_db_connection
             from sqlalchemy import text as sa_text
+
             engine = get_db_connection()
             with engine.connect() as conn:
                 result = conn.execute(sa_text(paginated_sql))
-                results = [dict(row._mapping) for row in result.fetchall()] if result.returns_rows else []
+                results = (
+                    [dict(row._mapping) for row in result.fetchall()]
+                    if result.returns_rows
+                    else []
+                )
 
             has_more = len(results) > limit
             final_data = results[:limit]
 
-            logger.info(f"⚡ PAGINATION HIT: bypassed LLM. offset={offset}, has_more={has_more}, returning {len(final_data)} rows")
+            logger.info(
+                f"⚡ PAGINATION HIT: bypassed LLM. offset={offset}, has_more={has_more}, returning {len(final_data)} rows"
+            )
 
             return {
                 "data": final_data,
-                "total": len(final_data), # Return the length of final_data for consistency
+                "total": len(
+                    final_data
+                ),  # Return the length of final_data for consistency
                 "has_more": has_more,
-                "sql_used": clean_sql
+                "sql_used": clean_sql,
             }
         except Exception as e:
             logger.error(f"Error executing pagination query: {e}")
             raise HTTPException(
                 status_code=500,
-                detail=f"An error occurred while executing the pagination query: {str(e)}"
+                detail=f"An error occurred while executing the pagination query: {str(e)}",
             )
 
     # ── Lane 1: New Query (Uses LLM via LangGraph) ──
     user_query = request.query
     logger.info(f"Received request: query='{user_query}'")
-    
+
     normalized_query = user_query.strip().lower()
     if normalized_query in QUERY_CACHE:
         logger.info("⚡ CACHE HIT: Returning saved data")
         return QUERY_CACHE[normalized_query]
-        
+
     logger.info("🧠 CACHE MISS: Running LangGraph Agent")
 
     # Prepare initial LangGraph state
@@ -198,14 +237,14 @@ async def handle_query(request: QueryRequest, role: str = Depends(verify_token))
         "retry_count": 0,
         "analytical_summary": "",
         "final_output": "",
-        "chat_history": request.chat_history or []
+        "chat_history": request.chat_history or [],
     }
-    
+
     try:
         # Invoke the compiled agent graph with thread config
         config = {"configurable": {"thread_id": request.session_id or "default-thread"}}
         result = await agent_app.ainvoke(initial_state, config=config)
-        
+
         response_data = {
             "response": result["final_output"],
             "generated_sql": result.get("generated_sql"),
@@ -213,27 +252,26 @@ async def handle_query(request: QueryRequest, role: str = Depends(verify_token))
             "all_generated_sql": result.get("all_generated_sql", []),
             "all_sql_results": result.get("all_sql_results", []),
             "all_pagination": result.get("all_pagination", []),
-            "chart_metadata": result.get("chart_metadata")
+            "chart_metadata": result.get("chart_metadata"),
         }
-        
+
         # Cache response
         QUERY_CACHE[normalized_query] = response_data
         return response_data
-        
+
     except Exception as e:
         logger.error(f"Error executing agent workflow: {e}")
         raise HTTPException(
             status_code=500,
-            detail=f"An error occurred while processing the query: {str(e)}"
+            detail=f"An error occurred while processing the query: {str(e)}",
         )
-
 
 
 @app.post("/query_more", dependencies=[Depends(verify_token)])
 async def handle_query_more(request: QueryMoreRequest):
     """
     Stateless pagination endpoint using Python-side array slicing.
-    
+
     Strategy: Re-execute the original SQL to fetch ALL rows, then slice
     using the provided offset. This avoids mutating complex SQL strings
     with LIMIT/OFFSET clauses that can break subqueries, CTEs, and
@@ -248,15 +286,21 @@ async def handle_query_more(request: QueryMoreRequest):
     limit = 15
 
     # Safety check — block all write operations
-    forbidden_keywords = ['INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'CREATE']
+    forbidden_keywords = ["INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "CREATE"]
     if any(kw in sql.upper() for kw in forbidden_keywords):
-        raise HTTPException(status_code=403, detail="Non-read-only queries are strictly prohibited.")
+        raise HTTPException(
+            status_code=403, detail="Non-read-only queries are strictly prohibited."
+        )
 
     try:
         engine = get_db_connection()
         with engine.connect() as conn:
             result = conn.execute(sa_text(sql))
-            all_rows = [dict(row._mapping) for row in result.fetchall()] if result.returns_rows else []
+            all_rows = (
+                [dict(row._mapping) for row in result.fetchall()]
+                if result.returns_rows
+                else []
+            )
 
         total_records = len(all_rows)
 
@@ -266,7 +310,9 @@ async def handle_query_more(request: QueryMoreRequest):
         has_more = new_offset < total_records
         remaining = max(0, total_records - new_offset)
 
-        logger.info(f"/query_more: offset={offset}, total={total_records}, returning {len(paginated_rows)} rows, has_more={has_more}")
+        logger.info(
+            f"/query_more: offset={offset}, total={total_records}, returning {len(paginated_rows)} rows, has_more={has_more}"
+        )
 
         return {
             "sql_results": paginated_rows,
@@ -274,14 +320,14 @@ async def handle_query_more(request: QueryMoreRequest):
                 "has_more": has_more,
                 "total": total_records,
                 "remaining_count": remaining,
-                "next_offset": new_offset if has_more else offset
-            }
+                "next_offset": new_offset if has_more else offset,
+            },
         }
     except Exception as e:
         logger.error(f"Error executing query_more: {e}")
         raise HTTPException(
             status_code=500,
-            detail=f"An error occurred while fetching more records: {str(e)}"
+            detail=f"An error occurred while fetching more records: {str(e)}",
         )
 
 
@@ -296,6 +342,7 @@ def get_sessions():
     rows = c.fetchall()
     conn.close()
     return [{"id": r[0], "title": r[1], "updated_at": r[2]} for r in rows]
+
 
 @app.get("/api/sessions/{session_id}", dependencies=[Depends(verify_token)])
 def get_session(session_id: str):
@@ -312,23 +359,28 @@ def get_session(session_id: str):
         messages = []
     return {"messages": messages}
 
+
 @app.post("/api/sessions/{session_id}", dependencies=[Depends(verify_token)])
 def save_session(session_id: str, payload: SessionPayload):
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     updated_at = datetime.utcnow().isoformat()
     msgs_json = json.dumps(payload.messages)
-    c.execute("""
+    c.execute(
+        """
         INSERT INTO sessions (id, title, messages, updated_at) 
         VALUES (?, ?, ?, ?)
         ON CONFLICT(id) DO UPDATE SET 
             title=excluded.title,
             messages=excluded.messages,
             updated_at=excluded.updated_at
-    """, (session_id, payload.title, msgs_json, updated_at))
+    """,
+        (session_id, payload.title, msgs_json, updated_at),
+    )
     conn.commit()
     conn.close()
     return {"status": "success"}
+
 
 @app.delete("/api/sessions/{session_id}", dependencies=[Depends(verify_token)])
 def delete_session(session_id: str):
@@ -339,10 +391,14 @@ def delete_session(session_id: str):
     conn.close()
     return {"status": "success"}
 
+
 @app.get("/")
 def read_root():
     """Root endpoint so users don't see Not Found when opening the backend in a browser."""
-    return {"message": "Aloka Backend is Alive! Please use the React frontend at http://localhost:5173"}
+    return {
+        "message": "Aloka Backend is Alive! Please use the React frontend at http://localhost:5173"
+    }
+
 
 @app.get("/api/health")
 def health_check():
@@ -352,20 +408,51 @@ def health_check():
 
 if __name__ == "__main__":
     import uvicorn
+
     # Allow running server directly for local testing
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+
 
 class TranslateRequest(BaseModel):
     text: str
     target_language: str
 
+
 @app.post("/api/translate", dependencies=[Depends(verify_token)])
 async def translate_text(req: TranslateRequest):
     try:
         system_prompt = f"You are a professional government intelligence translator. Translate the following text into {req.target_language}. Maintain all markdown formatting, tables, spaces, and professional tone exactly as they appear in the original text. Output ONLY the translated text without any conversational fillers, greetings, or explanations."
-        
+
         translated = await query_llm(req.text, system_prompt)
         return {"translated_text": translated}
     except Exception as e:
         logger.error(f"Translation failed: {e}")
         raise HTTPException(status_code=500, detail="Translation failed")
+
+
+# -----------------------------
+# Serve React Frontend
+# -----------------------------
+
+frontend_dir = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "frontend")
+)
+
+assets_dir = os.path.join(frontend_dir, "assets")
+
+if os.path.exists(assets_dir):
+    app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+
+@app.get("/{full_path:path}")
+async def serve_frontend(full_path: str):
+    # Don't intercept API routes
+    if (
+        full_path.startswith("api")
+        or full_path.startswith("docs")
+        or full_path.startswith("openapi.json")
+        or full_path.startswith("redoc")
+    ):
+        raise HTTPException(status_code=404)
+
+    return FileResponse(os.path.join(frontend_dir, "index.html"))
