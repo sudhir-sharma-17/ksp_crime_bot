@@ -6,73 +6,121 @@ import asyncio
 backend_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, backend_path)
 
-# Set standard output encoding to UTF-8 to prevent CP1252 encoding crashes on Windows console
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 from app.agent import agent_app
 
-test_queries = [
-    "Find case KSP-CASE-0004",
-    "Show the accused persons for case KSP-CASE-0004",
-    "Show the victim and complainant for case KSP-CASE-0004",
-    "Show the police station and investigating officer for case KSP-CASE-0004"
+single_scenarios = [
+    ("A", "Find case KSP-CASE-0004"),
+    ("B", "Who are the people accused in case KSP-CASE-0004?"),
+    ("C", "Who are the victims in case KSP-CASE-0004?"),
+    ("D", "Who filed the complaint?"),
+    ("E", "Which officer registered the FIR?"),
+    ("F", "Which police station registered the case?"),
+    ("G", "What happened in this case?"),
+    ("H", "How many cases are there?"),
+    ("I", "Show me the cases involving Vijay Mishra"),
+    ("J", "Who was arrested in case KSP-CASE-0004?"),
+    ("K", "Which court is handling this case?"),
+    ("L", "What sections were applied?"),
+    ("M", "Who is Ravi's case?")  # Ambiguity test -> should ask for clarification
 ]
 
-async def run_test():
+conversation_scenario_N = [
+    "Show case KSP-CASE-0004.",
+    "Who are the accused?",
+    "Was anyone arrested?"
+]
+
+async def run_single_scenarios():
     print("="*80)
-    print("RUNNING TEXT-TO-SQL CASING AND SCHEMA MISMATCH TESTS")
+    print("PART 1: TESTING SCENARIOS A THROUGH M")
     print("="*80)
     
-    for query in test_queries:
-        print(f"\n[QUERY]: {query}")
+    results_summary = []
+    
+    for tag, query in single_scenarios:
+        print(f"\n[{tag}] Query: '{query}'")
         try:
-            # Invoke the LangGraph agent with a configuration containing thread_id
-            result = await agent_app.ainvoke(
+            res = await agent_app.ainvoke(
                 {
                     "user_query": query,
                     "user_role": "Investigator",
                     "language_preference": "English",
                     "chat_history": []
                 },
-                config={"configurable": {"thread_id": "test_thread_casing"}}
+                config={"configurable": {"thread_id": f"thread_{tag}"}}
             )
             
-            # Print intermediate query splitting details
-            print(f"  Queries split: {result.get('queries')}")
-            
-            # Print generated SQL queries
-            gen_sqls = result.get('all_generated_sql', [])
-            for idx, sql in enumerate(gen_sqls):
-                print(f"  Generated SQL [{idx}]:\n{sql}")
-            
-            # Print results total and sample
-            sql_results = result.get('all_sql_results', [])
-            sql_paginations = result.get('all_pagination', [])
-            for idx, res in enumerate(sql_results):
-                total = sql_paginations[idx].get('total', len(res)) if idx < len(sql_paginations) else len(res)
-                print(f"  SQL Results [{idx}] (Total {total}):")
-                if res:
-                    # Print first 2 rows for brevity
-                    for row in res[:2]:
-                        print(f"    - {row}")
-                    if len(res) > 2:
-                        print("    - ...")
-                else:
-                    print("    - [No rows returned]")
-            
-            # Print final summary
-            print(f"  Analytical Summary:\n{result.get('analytical_summary')}")
-            
-            # Print any errors encountered
-            sql_error = result.get('sql_error')
-            if sql_error:
-                print(f"  [ERROR] SQL Error: {sql_error}")
+            plan = res.get("query_plan", {})
+            print(f"  Plan Intent: {plan.get('intent')} | Ambiguous: {plan.get('ambiguous')}")
+            if plan.get("ambiguous"):
+                print(f"  Clarification Prompt: {res.get('analytical_summary')}")
+                results_summary.append((tag, query, "CLARIFICATION PROMPT (SUCCESS)", None))
+            else:
+                sqls = res.get("all_generated_sql", [])
+                sql_str = sqls[0] if sqls else res.get("generated_sql", "")
+                print(f"  Generated SQL: {sql_str}")
                 
+                rows = res.get("all_sql_results", [[]])[0]
+                row_count = len(rows)
+                print(f"  Rows Returned: {row_count}")
+                if rows:
+                    print(f"  Sample Row: {rows[0]}")
+                print(f"  Summary Headline:\n{res.get('analytical_summary', '')[:200]}...")
+                results_summary.append((tag, query, "SUCCESS", sql_str))
         except Exception as e:
-            print(f"  [ERROR] Exception during execution: {e}")
+            print(f"  [FAIL] Exception: {e}")
+            results_summary.append((tag, query, f"FAILED: {e}", None))
             
         print("-" * 80)
+        
+    return results_summary
+
+
+async def run_conversation_scenario_N():
+    print("\n" + "="*80)
+    print("PART 2: TESTING MULTI-TURN CONVERSATIONAL SCENARIO N")
+    print("="*80)
+    
+    chat_history = []
+    thread_id = "thread_scenario_N"
+    
+    for step_idx, user_msg in enumerate(conversation_scenario_N, 1):
+        print(f"\n[Turn {step_idx}] User: '{user_msg}'")
+        res = await agent_app.ainvoke(
+            {
+                "user_query": user_msg,
+                "user_role": "Investigator",
+                "language_preference": "English",
+                "chat_history": chat_history
+            },
+            config={"configurable": {"thread_id": thread_id}}
+        )
+        
+        plan = res.get("query_plan", {})
+        print(f"  Resolved Case No from Context: {plan.get('entities', {}).get('case_no')}")
+        sqls = res.get("all_generated_sql", [])
+        sql_str = sqls[0] if sqls else res.get("generated_sql", "")
+        print(f"  Generated SQL: {sql_str}")
+        
+        rows = res.get("all_sql_results", [[]])[0]
+        print(f"  Rows Returned: {len(rows)}")
+        if rows:
+            print(f"  Sample Row: {rows[0]}")
+            
+        summary = res.get("analytical_summary", "")
+        print(f"  Aloka Response:\n{summary[:250]}...")
+        
+        # Update chat history for next turn
+        chat_history.append({"role": "user", "content": user_msg})
+        chat_history.append({"role": "assistant", "content": summary})
+        print("-" * 80)
+
+async def main():
+    await run_single_scenarios()
+    await run_conversation_scenario_N()
 
 if __name__ == "__main__":
-    asyncio.run(run_test())
+    asyncio.run(main())

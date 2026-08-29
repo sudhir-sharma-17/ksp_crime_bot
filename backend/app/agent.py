@@ -14,7 +14,6 @@ from typing import TypedDict, List, Any, Optional
 from langchain_core.tools import tool
 from langchain_groq import ChatGroq
 
-
 # ==================================================
 # CLOUD GROQ LLM INITIALIZATION
 # ==================================================
@@ -24,7 +23,6 @@ groq_key = os.getenv("GROQ_API_KEY", "").strip() or None
 groq_model = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b").strip()
 
 if groq_key:
-    # Print the first 8 characters safely (mask the rest)
     key_prefix = groq_key[:8] if len(groq_key) >= 8 else groq_key
     print(f"Loaded GROQ key: {key_prefix}...")
 else:
@@ -63,12 +61,388 @@ def analyze_threat_ip(ip_address: str) -> str:
         if response.status_code == 200:
             data = response.json()
             if data.get("status") == "success":
-                # Mock threat logic
                 threat = "High" if data.get("countryCode") in ["RU", "CN", "KP"] else "Medium" if data.get("countryCode") != "IN" else "Low"
                 return f"**IP Analysis: {ip_address}**\n- **Country**: {data.get('country')}\n- **Region**: {data.get('regionName')}\n- **ISP**: {data.get('isp')}\n- **Threat Level**: {threat} (Mocked)"
         return f"IP Analysis failed for {ip_address}"
     except Exception as e:
         return f"Error analyzing IP: {str(e)}"
+
+# ==================================================
+# AUTHORITATIVE DATABASE SCHEMA DEFINITION & ALIASES
+# ==================================================
+DB_SCHEMA = {
+    "casemaster": {
+        "columns": {
+            "CaseMasterID": "INTEGER",
+            "CrimeNo": "VARCHAR(50)",
+            "CaseNo": "VARCHAR(50)",
+            "CrimeRegisteredDate": "DATE",
+            "PolicePersonID": "INTEGER",
+            "PoliceStationID": "INTEGER",
+            "CaseCategoryID": "INTEGER",
+            "GravityOffenceID": "INTEGER",
+            "CrimeMajorHeadID": "INTEGER",
+            "CrimeMinorHeadID": "INTEGER",
+            "CaseStatusID": "INTEGER",
+            "CourtID": "INTEGER",
+            "IncidentFromDate": "DATETIME",
+            "IncidentToDate": "DATETIME",
+            "InfoReceivedPSDate": "DATETIME",
+            "latitude": "DECIMAL(10,6)",
+            "longitude": "DECIMAL(10,6)",
+            "BriefFacts": "TEXT"
+        },
+        "primary_key": "CaseMasterID",
+        "foreign_keys": {
+            "PolicePersonID": "employee.EmployeeID",
+            "PoliceStationID": "unit.UnitID",
+            "CaseCategoryID": "casecategory.CaseCategoryID",
+            "GravityOffenceID": "gravityoffence.GravityOffenceID",
+            "CrimeMajorHeadID": "crimehead.CrimeHeadID",
+            "CrimeMinorHeadID": "crimesubhead.CrimeSubHeadID",
+            "CaseStatusID": "casestatusmaster.CaseStatusID",
+            "CourtID": "court.CourtID"
+        },
+        "aliases": ["case", "cases", "fir", "firs", "complaint case", "crime case", "fir record", "incident", "casemaster"]
+    },
+    "accused": {
+        "columns": {
+            "AccusedMasterID": "INTEGER",
+            "CaseMasterID": "INTEGER",
+            "AccusedName": "VARCHAR(255)",
+            "AgeYear": "INTEGER",
+            "GenderID": "VARCHAR(10)",
+            "PersonID": "VARCHAR(50)"
+        },
+        "primary_key": "AccusedMasterID",
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID"
+        },
+        "aliases": ["accused", "accused person", "accused persons", "offender", "offenders", "person accused", "culprit", "suspect", "accused name"]
+    },
+    "victim": {
+        "columns": {
+            "VictimMasterID": "INTEGER",
+            "CaseMasterID": "INTEGER",
+            "VictimName": "VARCHAR(255)",
+            "AgeYear": "INTEGER",
+            "GenderID": "VARCHAR(10)",
+            "VictimPolice": "VARCHAR(50)"
+        },
+        "primary_key": "VictimMasterID",
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID"
+        },
+        "aliases": ["victim", "victims", "affected person", "victim of crime", "suffered person"]
+    },
+    "complainantdetails": {
+        "columns": {
+            "ComplainantID": "INTEGER",
+            "CaseMasterID": "INTEGER",
+            "ComplainantName": "VARCHAR(255)",
+            "AgeYear": "INTEGER",
+            "OccupationID": "INTEGER",
+            "ReligionID": "INTEGER",
+            "CasteID": "INTEGER",
+            "GenderID": "VARCHAR(10)"
+        },
+        "primary_key": "ComplainantID",
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID",
+            "OccupationID": "occupationmaster.OccupationID",
+            "ReligionID": "religionmaster.ReligionID",
+            "CasteID": "castemaster.caste_master_id"
+        },
+        "aliases": ["complainant", "complainants", "person who filed complaint", "person who reported case", "reporter", "informant", "filed complaint", "filed the complaint"]
+    },
+    "arrestsurrender": {
+        "columns": {
+            "ArrestSurrenderID": "INTEGER",
+            "CaseMasterID": "INTEGER",
+            "ArrestSurrenderTypeID": "INTEGER",
+            "ArrestSurrenderDate": "DATE",
+            "ArrestSurrenderStateId": "INTEGER",
+            "ArrestSurrenderDistrictId": "INTEGER",
+            "PoliceStationID": "INTEGER",
+            "IOID": "INTEGER",
+            "CourtID": "INTEGER",
+            "AccusedMasterID": "INTEGER",
+            "IsAccused": "BIT",
+            "IsComplainantAccused": "BIT"
+        },
+        "primary_key": "ArrestSurrenderID",
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID",
+            "AccusedMasterID": "accused.AccusedMasterID",
+            "PoliceStationID": "unit.UnitID",
+            "IOID": "employee.EmployeeID",
+            "CourtID": "court.CourtID",
+            "ArrestSurrenderDistrictId": "district.DistrictID",
+            "ArrestSurrenderStateId": "state.StateID"
+        },
+        "aliases": ["arrest", "arrests", "arrested", "arrested person", "surrender", "detained", "was anyone arrested"]
+    },
+    "actsectionassociation": {
+        "columns": {
+            "CaseMasterID": "INTEGER",
+            "ActID": "VARCHAR(50)",
+            "SectionID": "VARCHAR(50)",
+            "ActOrderID": "INTEGER",
+            "SectionOrderID": "INTEGER"
+        },
+        "primary_key": None,
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID",
+            "ActID": "act.ActCode",
+            "SectionID": "section.SectionCode"
+        },
+        "aliases": ["applied laws", "sections applied", "acts applied", "legal sections", "offence sections", "sections", "acts"]
+    },
+    "act": {
+        "columns": {
+            "ActCode": "VARCHAR(50)",
+            "ActDescription": "VARCHAR(255)",
+            "ShortName": "VARCHAR(100)",
+            "Active": "BIT"
+        },
+        "primary_key": "ActCode",
+        "foreign_keys": {},
+        "aliases": ["act", "acts", "law", "statute", "legal act"]
+    },
+    "section": {
+        "columns": {
+            "ActCode": "VARCHAR(50)",
+            "SectionCode": "VARCHAR(50)",
+            "SectionDescription": "VARCHAR(255)",
+            "Active": "BIT"
+        },
+        "primary_key": "SectionCode",
+        "foreign_keys": {
+            "ActCode": "act.ActCode"
+        },
+        "aliases": ["section", "sections", "section of law", "legal section", "what sections were applied"]
+    },
+    "crimehead": {
+        "columns": {
+            "CrimeHeadID": "INTEGER",
+            "CrimeGroupName": "VARCHAR(255)",
+            "Active": "BIT"
+        },
+        "primary_key": "CrimeHeadID",
+        "foreign_keys": {},
+        "aliases": ["major head", "crime group", "crime category", "major head name", "crimehead"]
+    },
+    "crimesubhead": {
+        "columns": {
+            "CrimeSubHeadID": "INTEGER",
+            "CrimeHeadID": "INTEGER",
+            "CrimeHeadName": "VARCHAR(255)",
+            "SeqID": "INTEGER"
+        },
+        "primary_key": "CrimeSubHeadID",
+        "foreign_keys": {
+            "CrimeHeadID": "crimehead.CrimeHeadID"
+        },
+        "aliases": ["minor head", "crime sub head", "sub head", "minor crime type", "crimesubhead"]
+    },
+    "employee": {
+        "columns": {
+            "EmployeeID": "INTEGER",
+            "DistrictID": "INTEGER",
+            "UnitID": "INTEGER",
+            "RankID": "INTEGER",
+            "DesignationID": "INTEGER",
+            "KGID": "VARCHAR(50)",
+            "FirstName": "VARCHAR(100)",
+            "EmployeeDOB": "DATE",
+            "GenderID": "VARCHAR(10)",
+            "BloodGroupID": "INTEGER",
+            "PhysicallyChallenged": "BIT",
+            "AppointmentDate": "DATE"
+        },
+        "primary_key": "EmployeeID",
+        "foreign_keys": {
+            "UnitID": "unit.UnitID",
+            "DistrictID": "district.DistrictID",
+            "RankID": "rank.RankID",
+            "DesignationID": "designation.DesignationID"
+        },
+        "aliases": ["officer", "officers", "police officer", "investigating officer", "io", "police person", "registering officer", "employee"]
+    },
+    "unit": {
+        "columns": {
+            "UnitID": "INTEGER",
+            "UnitName": "VARCHAR(255)",
+            "TypeID": "INTEGER",
+            "ParentUnit": "INTEGER",
+            "NationalityID": "INTEGER",
+            "StateID": "INTEGER",
+            "DistrictID": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "UnitID",
+        "foreign_keys": {
+            "TypeID": "unittype.UnitTypeID",
+            "StateID": "state.StateID",
+            "DistrictID": "district.DistrictID"
+        },
+        "aliases": ["police station", "station", "police unit", "ps", "unit", "police stations"]
+    },
+    "court": {
+        "columns": {
+            "CourtID": "INTEGER",
+            "CourtName": "VARCHAR(255)",
+            "DistrictID": "INTEGER",
+            "StateID": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "CourtID",
+        "foreign_keys": {
+            "DistrictID": "district.DistrictID",
+            "StateID": "state.StateID"
+        },
+        "aliases": ["court", "courts", "court handling case", "judiciary", "law court"]
+    },
+    "district": {
+        "columns": {
+            "DistrictID": "INTEGER",
+            "DistrictName": "VARCHAR(100)",
+            "StateID": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "DistrictID",
+        "foreign_keys": {
+            "StateID": "state.StateID"
+        },
+        "aliases": ["district", "districts", "dist"]
+    },
+    "state": {
+        "columns": {
+            "StateID": "INTEGER",
+            "StateName": "VARCHAR(100)",
+            "NationalityID": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "StateID",
+        "foreign_keys": {},
+        "aliases": ["state", "states"]
+    },
+    "chargesheetdetails": {
+        "columns": {
+            "CSID": "INTEGER",
+            "CaseMasterID": "INTEGER",
+            "csdate": "DATE",
+            "cstype": "VARCHAR(50)",
+            "PolicePersonID": "INTEGER"
+        },
+        "primary_key": "CSID",
+        "foreign_keys": {
+            "CaseMasterID": "casemaster.CaseMasterID",
+            "PolicePersonID": "employee.EmployeeID"
+        },
+        "aliases": ["charge sheet", "chargesheet", "cs"]
+    },
+    "castemaster": {
+        "columns": {
+            "caste_master_id": "INTEGER",
+            "caste_master_name": "VARCHAR(100)"
+        },
+        "primary_key": "caste_master_id",
+        "foreign_keys": {},
+        "aliases": ["caste"]
+    },
+    "religionmaster": {
+        "columns": {
+            "ReligionID": "INTEGER",
+            "ReligionName": "VARCHAR(100)"
+        },
+        "primary_key": "ReligionID",
+        "foreign_keys": {},
+        "aliases": ["religion"]
+    },
+    "occupationmaster": {
+        "columns": {
+            "OccupationID": "INTEGER",
+            "OccupationName": "VARCHAR(100)"
+        },
+        "primary_key": "OccupationID",
+        "foreign_keys": {},
+        "aliases": ["occupation", "job", "profession"]
+    },
+    "casecategory": {
+        "columns": {
+            "CaseCategoryID": "INTEGER",
+            "LookupValue": "VARCHAR(100)"
+        },
+        "primary_key": "CaseCategoryID",
+        "foreign_keys": {},
+        "aliases": ["case category", "category"]
+    },
+    "casestatusmaster": {
+        "columns": {
+            "CaseStatusID": "INTEGER",
+            "CaseStatusName": "VARCHAR(100)"
+        },
+        "primary_key": "CaseStatusID",
+        "foreign_keys": {},
+        "aliases": ["case status", "status"]
+    },
+    "gravityoffence": {
+        "columns": {
+            "GravityOffenceID": "INTEGER",
+            "LookupValue": "VARCHAR(100)"
+        },
+        "primary_key": "GravityOffenceID",
+        "foreign_keys": {},
+        "aliases": ["gravity offence", "gravity", "seriousness", "serious cases"]
+    },
+    "designation": {
+        "columns": {
+            "DesignationID": "INTEGER",
+            "DesignationName": "VARCHAR(100)",
+            "Active": "BIT",
+            "SortOrder": "INTEGER"
+        },
+        "primary_key": "DesignationID",
+        "foreign_keys": {},
+        "aliases": ["designation"]
+    },
+    "rank": {
+        "columns": {
+            "RankID": "INTEGER",
+            "RankName": "VARCHAR(100)",
+            "Hierarchy": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "RankID",
+        "foreign_keys": {},
+        "aliases": ["rank", "police rank"]
+    },
+    "unittype": {
+        "columns": {
+            "UnitTypeID": "INTEGER",
+            "UnitTypeName": "VARCHAR(100)",
+            "CityDistState": "VARCHAR(100)",
+            "Hierarchy": "INTEGER",
+            "Active": "BIT"
+        },
+        "primary_key": "UnitTypeID",
+        "foreign_keys": {},
+        "aliases": ["unit type"]
+    },
+    "crimeheadactsection": {
+        "columns": {
+            "CrimeHeadID": "INTEGER",
+            "ActCode": "VARCHAR(50)",
+            "SectionCode": "VARCHAR(50)"
+        },
+        "primary_key": None,
+        "foreign_keys": {
+            "CrimeHeadID": "crimehead.CrimeHeadID"
+        },
+        "aliases": ["crime head act section"]
+    }
+}
 
 # ==================================================
 # 1. GRAPH STATE DEFINITION
@@ -83,6 +457,11 @@ class State(TypedDict):
     # Bulk Query fields
     queries: List[str]            # List of distinct questions
     current_query_index: int      # Pointer to current question
+    
+    # Structured Query Intelligence
+    query_plan: Optional[dict]
+    needs_clarification: bool
+    clarification_question: str
     
     # State for current query
     generated_sql: str
@@ -145,6 +524,9 @@ async def translation_input_node(state: State) -> State:
         "translated_query": translated,
         "queries": [],
         "current_query_index": 0,
+        "query_plan": None,
+        "needs_clarification": False,
+        "clarification_question": "",
         "all_generated_sql": [],
         "all_sql_results": [],
         "all_pagination": [],
@@ -178,14 +560,11 @@ async def intent_router_node(state: State) -> State:
     }
 
 
-
 async def cyber_node(state: State) -> State:
     logger.info("Node [cyber_node]: Processing IP threat analysis.")
-    # Extract IP using regex
-    ip_match = re.search(r'(?:[0-9]{1,3}\.){3}[0-9]{1,3}', state["translated_query"])
+    ip_match = re.search(r' (?:[0-9]{1,3}\.){3}[0-9]{1,3} ', state["translated_query"])
     if ip_match:
         ip = ip_match.group(0)
-        # Call the tool directly
         result = analyze_threat_ip.invoke({"ip_address": ip})
     else:
         result = "No valid IP address found in the query."
@@ -194,6 +573,7 @@ async def cyber_node(state: State) -> State:
         **state,
         "analytical_summary": result
     }
+
 
 async def chat_response_node(state: State) -> State:
     """Handles general chitchat seamlessly without executing SQL."""
@@ -210,7 +590,7 @@ async def chat_response_node(state: State) -> State:
         **state,
         "analytical_summary": response,
         "all_sql_results": [[]],
-        "all_generated_sql": ["CHITCHAT"], # Passed to UI to hide tables/charts
+        "all_generated_sql": ["CHITCHAT"],
         "all_pagination": [{"has_more": False}],
         "sql_results": [],
         "generated_sql": "CHITCHAT",
@@ -231,7 +611,6 @@ async def query_splitter_node(state: State) -> State:
     prompt = f"User Request: {state['translated_query']}\nJSON Array:"
     result = await query_llm(prompt, system_prompt)
     
-    # Strip markdown in case the LLM ignored instructions
     result = result.replace("```json", "").replace("```", "").strip()
     
     try:
@@ -251,89 +630,206 @@ async def query_splitter_node(state: State) -> State:
     }
 
 
-async def generate_sql_node(state: State) -> State:
-    """Generates SQL query using schema context for the current sub-query."""
+async def query_planner_node(state: State) -> State:
+    """
+    Step A-B: Parses natural-language queries into structured JSON Query Plans.
+    Resolves conversational context (e.g. 'this case' -> 'KSP-CASE-0004') from chat history
+    and detects ambiguous queries (e.g., 'Show Ravi's case') requiring clarification.
+    """
     current_query = state["queries"][state["current_query_index"]]
-    logger.info(f"Node [generate_sql]: Generating SQL for sub-query '{current_query}'")
+    logger.info(f"Node [query_planner]: Planning query '{current_query}'")
     
+    # ── Context Resolution Helper: Scan history for case numbers ──
+    context_case_no = None
+    chat_hist = state.get("chat_history", []) or []
+    for msg in reversed(chat_hist):
+        content = msg.get("content", "")
+        match = re.search(r'KSP-CASE-\d+', content, re.IGNORECASE)
+        if match:
+            context_case_no = match.group(0).upper()
+            break
+            
+    system_prompt = (
+        "You are an expert Query Planner and Intent Understanding engine for the Karnataka State Police AI (Aloka).\n"
+        "Your task is to parse a natural-language query and conversation history into a strict JSON Query Plan.\n\n"
+        "DATABASE CONCEPTS & TABLE MAPPING:\n"
+        "- casemaster: case, cases, FIR, FIRs, complaint case, crime case, FIR record, incident (Identifier: CaseNo e.g., 'KSP-CASE-0004')\n"
+        "- accused: accused, accused person, offender, culprit, suspect (Columns: AccusedName, AgeYear, GenderID, PersonID)\n"
+        "- victim: victim, victims, affected person, suffered person (Columns: VictimName, AgeYear, GenderID)\n"
+        "- complainantdetails: complainant, person who filed complaint, reporter, informant (Columns: ComplainantName, AgeYear, GenderID)\n"
+        "- arrestsurrender: arrest, arrested, detained, surrender, was anyone arrested (Columns: ArrestSurrenderDate, IOID, PoliceStationID)\n"
+        "- employee: officer, police officer, investigating officer, IO, registering officer (Columns: FirstName, EmployeeID, RankID)\n"
+        "- unit: police station, station, police unit, PS (Columns: UnitName, UnitID)\n"
+        "- court: court, law court, judiciary (Columns: CourtName, CourtID)\n"
+        "- act / section / actsectionassociation: sections, acts, applied laws, section of law\n"
+        "- crimehead: major head, crime group, category\n"
+        "- crimesubhead: minor head, sub head\n"
+        "- castemaster / religionmaster / occupationmaster: caste, religion, occupation lookup\n\n"
+        "CONVERSATIONAL CONTEXT RULES:\n"
+        "1. Inspect the query and history. If the user refers to 'this case', 'the case', 'the accused', 'the victim', 'was anyone arrested', 'who registered the FIR', or follow-up questions, resolve the case number (e.g. 'KSP-CASE-0004') from previous turns.\n"
+        f"2. Current active case from history: '{context_case_no}'. If no case is in the current prompt but 'this case' is implied, use '{context_case_no}'.\n"
+        "3. If a case number (e.g. 'KSP-CASE-0004') is present or resolved, ALWAYS include filter: casemaster.CaseNo = 'KSP-CASE-0004'.\n\n"
+        "AMBIGUITY & CLARIFICATION RULES:\n"
+        "1. If the user asks about a person's name (e.g., 'Who is Ravi's case?', 'Show Ravi's case', 'Show Ramesh') without specifying whether that person is an accused, victim, complainant, or police officer, you MUST set \"ambiguous\": true, and set \"clarification_question\": \"Do you mean cases where [Name] is an accused, victim, complainant, or police officer?\".\n"
+        "2. If the user explicitly specifies the role (e.g., 'Who are the accused in case KSP-CASE-0004?', 'Show accused Ravi', 'Who filed complaint?'), set \"ambiguous\": false.\n\n"
+        "JSON OUTPUT FORMAT STRICTLY REQUIRED:\n"
+        "```json\n"
+        "{\n"
+        "  \"intent\": \"find_accused | find_victim | find_complainant | find_officer | find_station | find_arrested | find_court | find_sections | find_case | count_cases | general_search\",\n"
+        "  \"target_tables\": [\"casemaster\", \"accused\"],\n"
+        "  \"ambiguous\": false,\n"
+        "  \"clarification_question\": \"\",\n"
+        "  \"entities\": {\n"
+        "    \"case_no\": \"KSP-CASE-0004\" or null,\n"
+        "    \"person_name\": \"Ravi\" or null\n"
+        "  },\n"
+        "  \"filters\": [\n"
+        "    {\"table\": \"casemaster\", \"column\": \"CaseNo\", \"operator\": \"=\", \"value\": \"KSP-CASE-0004\"}\n"
+        "  ],\n"
+        "  \"requested_fields\": [\"accused.AccusedName\", \"accused.AgeYear\", \"accused.GenderID\"],\n"
+        "  \"relationships_required\": [\n"
+        "    {\"from\": \"casemaster.CaseMasterID\", \"to\": \"accused.CaseMasterID\"}\n"
+        "  ]\n"
+        "}\n"
+        "```\n"
+        "Output ONLY the raw JSON object."
+    )
+
+    prompt = f"User Request: {current_query}\n\nGenerate JSON Query Plan:"
+    result = await query_llm(prompt, system_prompt, chat_hist)
+    
+    clean_json = re.sub(r'```(?:json)?\n(.*?)```', r'\1', result, flags=re.DOTALL).strip()
+    clean_json = clean_json.strip('`').strip()
+    
+    query_plan = {}
+    try:
+        query_plan = json.loads(clean_json)
+    except Exception as e:
+        logger.error(f"Failed to parse query plan JSON: {e}. Raw: {result}")
+        query_plan = {
+            "intent": "general_search",
+            "target_tables": ["casemaster"],
+            "ambiguous": False,
+            "clarification_question": "",
+            "entities": {"case_no": context_case_no, "person_name": None},
+            "filters": [{"table": "casemaster", "column": "CaseNo", "operator": "=", "value": context_case_no}] if context_case_no else [],
+            "requested_fields": [],
+            "relationships_required": []
+        }
+        
+    return {
+        **state,
+        "query_plan": query_plan
+    }
+
+
+async def schema_validator_node(state: State) -> State:
+    """
+    Step C: Validates the generated query plan against the authoritative DB_SCHEMA.
+    Validates tables, columns, and foreign-key join paths.
+    If ambiguity is flagged, prepares clarification routing.
+    """
+    plan = state.get("query_plan", {})
+    logger.info(f"Node [schema_validator]: Validating plan for intent '{plan.get('intent')}'")
+    
+    if plan.get("ambiguous") or plan.get("clarification_question"):
+        clarification_msg = plan.get("clarification_question") or "Could you please clarify your request?"
+        logger.info(f"Ambiguity detected. Prepared clarification: {clarification_msg}")
+        return {
+            **state,
+            "needs_clarification": True,
+            "clarification_question": clarification_msg
+        }
+        
+    validated_target_tables = []
+    for tbl in plan.get("target_tables", []):
+        tbl_lower = tbl.lower()
+        if tbl_lower in DB_SCHEMA:
+            validated_target_tables.append(tbl_lower)
+        else:
+            matched = False
+            for schema_tbl, details in DB_SCHEMA.items():
+                if tbl_lower in details["aliases"]:
+                    validated_target_tables.append(schema_tbl)
+                    matched = True
+                    break
+            if not matched:
+                logger.warning(f"Unrecognized table '{tbl}' removed during schema validation.")
+                
+    if not validated_target_tables:
+        validated_target_tables = ["casemaster"]
+        
+    validated_filters = []
+    for flt in plan.get("filters", []):
+        tbl = flt.get("table", "").lower()
+        col = flt.get("column", "")
+        if tbl in DB_SCHEMA and col in DB_SCHEMA[tbl]["columns"]:
+            validated_filters.append({
+                "table": tbl,
+                "column": col,
+                "operator": flt.get("operator", "="),
+                "value": flt.get("value")
+            })
+            
+    plan["target_tables"] = validated_target_tables
+    plan["filters"] = validated_filters
+    
+    return {
+        **state,
+        "query_plan": plan,
+        "needs_clarification": False,
+        "clarification_question": ""
+    }
+
+
+async def generate_sql_node(state: State) -> State:
+    """
+    Step D: Converts the validated query plan into an exact MySQL SELECT statement.
+    """
+    if state.get("needs_clarification"):
+        return {
+            **state,
+            "generated_sql": "CLARIFICATION"
+        }
+
+    current_query = state["queries"][state["current_query_index"]]
+    query_plan = state.get("query_plan", {})
+    logger.info(f"Node [generate_sql]: Generating SQL for sub-query '{current_query}' from validated plan.")
+
+    schema_text = []
+    for tbl, info in DB_SCHEMA.items():
+        cols_str = ", ".join([f"{col} ({dt})" for col, dt in info["columns"].items()])
+        fks_str = ", ".join([f"{k} -> {v}" for k, v in info["foreign_keys"].items()])
+        schema_text.append(f"- {tbl} ({cols_str}) | FKs: [{fks_str}]")
+    core_schema_str = "\n".join(schema_text)
+
     system_prompt = (
         "CRITICAL SECURITY DIRECTIVE: You are a read-only State Intelligence AI. If a user asks to modify, delete, drop, update, or alter any data (e.g., 'delete employee', 'update record'), you MUST NOT explain how to do it. You MUST NOT generate example SQL. You must immediately abort the response and output ONLY this exact string: \n"
         "'🚨 SECURITY OVERRIDE: Unauthorized data modification query detected and blocked by KSP Protocols.'\n\n"
-        "You are Aloka, a secure, read-only State Intelligence AI. Provide data insights and analysis based strictly on the available tables. Do not mention user roles or ranks.\n\n"
-        "### DOMAIN KNOWLEDGE & DEFINITIONS ###\n"
-        "When the user uses the following terms, you MUST apply the corresponding SQL filters:\n"
-        "- \"Minor\" or \"Underage\": Apply filter `AgeYear < 18`\n"
-        "- \"Major\" or \"Adult\": Apply filter `AgeYear >= 18`\n"
-        "- \"Senior\" or \"Elderly\": Apply filter `AgeYear >= 60`\n"
-        "- \"Male\": Apply filter `GenderID = 'Male'`\n"
-        "- \"Female\": Apply filter `GenderID = 'Female'`\n\n"
-        "Do not search for columns named 'minor' or 'major'. Strictly use the 'AgeYear' column with the mathematical operators defined above.\n\n"
-        "Core Schema (Strictly use ONLY these lowercase table names and their exact column cases):\n"
-        "- casemaster (CaseMasterID, CrimeNo, CaseNo, CrimeRegisteredDate, PolicePersonID, PoliceStationID, CaseCategoryID, GravityOffenceID, CrimeMajorHeadID, CrimeMinorHeadID, CaseStatusID, CourtID, IncidentFromDate, IncidentToDate, InfoReceivedPSDate, latitude, longitude, BriefFacts)\n"
-        "- accused (AccusedMasterID, CaseMasterID, AccusedName, AgeYear, GenderID, PersonID) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- victim (VictimMasterID, CaseMasterID, VictimName, AgeYear, GenderID, VictimPolice) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- complainantdetails (ComplainantID, CaseMasterID, ComplainantName, AgeYear, OccupationID, ReligionID, CasteID, GenderID) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- employee (EmployeeID, DistrictID, UnitID, RankID, DesignationID, KGID, FirstName, EmployeeDOB, GenderID, BloodGroupID, PhysicallyChallenged, AppointmentDate) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- unit (UnitID, UnitName, TypeID, ParentUnit, NationalityID, StateID, DistrictID, Active) -- Note: Represents Police Station. UnitName contains the police station name.\n"
-        "- actsectionassociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)\n"
-        "- section (ActCode, SectionCode, SectionDescription, Active)\n"
-        "- act (ActCode, ActDescription, ShortName, Active)\n"
-        "- district (DistrictID, DistrictName, StateID, Active)\n"
-        "- state (StateID, StateName, NationalityID, Active)\n"
-        "- crimehead (CrimeHeadID, CrimeGroupName, Active)\n"
-        "- crimesubhead (CrimeSubHeadID, CrimeHeadID, CrimeHeadName, SeqID)\n"
-        "- court (CourtID, CourtName, DistrictID, StateID, Active)\n"
-        "- arrestsurrender (ArrestSurrenderID, CaseMasterID, ArrestSurrenderTypeID, ArrestSurrenderDate, ArrestSurrenderStateId, ArrestSurrenderDistrictId, PoliceStationID, IOID, CourtID, AccusedMasterID, IsAccused, IsComplainantAccused)\n"
-        "- chargesheetdetails (CSID, CaseMasterID, csdate, cstype, PolicePersonID)\n"
-        "- castemaster (caste_master_id, caste_master_name)\n"
-        "- religionmaster (ReligionID, ReligionName)\n"
-        "- occupationmaster (OccupationID, OccupationName)\n"
-        "- casecategory (CaseCategoryID, LookupValue)\n"
-        "- casestatusmaster (CaseStatusID, CaseStatusName)\n"
-        "- gravityoffence (GravityOffenceID, LookupValue)\n"
-        "- designation (DesignationID, DesignationName, Active, SortOrder)\n"
-        "- rank (RankID, RankName, Hierarchy, Active)\n"
-        "- unittype (UnitTypeID, UnitTypeName, CityDistState, Hierarchy, Active)\n"
-        "- crimeheadactsection (CrimeHeadID, ActCode, SectionCode)\n\n"
-        "SQL Join & Mapping Guidelines:\n"
-        "1. Police Station Name: ALWAYS join `unit` on `casemaster.PoliceStationID = unit.UnitID` or `employee.UnitID = unit.UnitID` and select `unit.UnitName`.\n"
-        "2. Investigating Officer (IO) / Police Person Name: Join `employee` on `casemaster.PolicePersonID = employee.EmployeeID` or `arrestsurrender.IOID = employee.EmployeeID` and use `employee.FirstName`.\n"
-        "3. Act & Section details: Join `actsectionassociation` on `casemaster.CaseMasterID = actsectionassociation.CaseMasterID`.\n"
-        "4. Act details: Join `act` on `actsectionassociation.ActID = act.ActCode`.\n"
-        "5. Section details: ALWAYS join `section` on BOTH `actsectionassociation.SectionID = section.SectionCode` AND `actsectionassociation.ActID = section.ActCode`.\n"
-        "6. Crime Head / Major Head: Join `crimehead` on `casemaster.CrimeMajorHeadID = crimehead.CrimeHeadID` and select `crimehead.CrimeGroupName`.\n"
-        "7. Crime Sub Head / Minor Head: Join `crimesubhead` on `casemaster.CrimeMinorHeadID = crimesubhead.CrimeSubHeadID` and select `crimesubhead.CrimeHeadName`.\n"
-        "8. Caste: Join `castemaster` on `complainantdetails.CasteID = castemaster.caste_master_id` and select `castemaster.caste_master_name`.\n"
-        "9. Religion: Join `religionmaster` on `complainantdetails.ReligionID = religionmaster.ReligionID` and select `religionmaster.ReligionName`.\n"
-        "10. Occupation: Join `occupationmaster` on `complainantdetails.OccupationID = occupationmaster.OccupationID` and select `occupationmaster.OccupationName`.\n"
-        "11. Court Name: Join `court` on `casemaster.CourtID = court.CourtID` and select `court.CourtName`.\n"
-        "12. District: Join `district` on `unit.DistrictID = district.DistrictID` or `court.DistrictID = district.DistrictID` or `employee.DistrictID = district.DistrictID` or `arrestsurrender.ArrestSurrenderDistrictId = district.DistrictID`.\n"
-        "13. State: Join `state` on `unit.StateID = state.StateID` or `court.StateID = state.StateID` or `district.StateID = state.StateID` or `arrestsurrender.ArrestSurrenderStateId = state.StateID`.\n"
-        "14. Case ID / Case Number: When searching or filtering by a case code/ID like 'KSP-CASE-XXXX' or similar, ALWAYS filter using `casemaster.CaseNo = 'KSP-CASE-XXXX'`. Do NOT filter on `CrimeNo` (e.g. `casemaster.CrimeNo`), as `CrimeNo` contains the crime registration number format like '0004/2026' which is different. `CaseNo` is the correct case identifier.\n\n"
-        "ABSOLUTE CONSTRAINTS:\n"
-        "1. You must output ONLY the exact, raw SQL query.\n"
-        "2. DO NOT wrap the SQL in markdown blocks (e.g., no ```sql ... ```).\n"
-        "3. DO NOT include any explanations, apologies, comments, or conversational text before or after the query.\n"
-        "4. If you realize you made a mistake with a column name, silently correct it. Never output your thought process.\n"
-        "5. STRICTLY use ONLY the tables and columns present in the schema definition above. Do NOT invent tables or columns. Never guess column names.\n"
-        "6. The query must be strictly READ-ONLY (use SELECT statements only).\n"
-        "7. SMART DUAL-MODE PROCESSING:\n"
+        "You are Aloka, an expert SQL generator for the Karnataka State Police. Convert the validated Query Plan into an exact MySQL SELECT statement.\n\n"
+        f"AUTHORITATIVE MYSQL SCHEMA (Strictly use ONLY these lowercase table names and exact column cases):\n{core_schema_str}\n\n"
+        "STRICT SQL GENERATION RULES:\n"
+        "1. TABLE NAMES: Must be strictly lowercase (e.g., casemaster, accused, victim, complainantdetails, employee, unit, court, district, state, arrestsurrender, act, section, actsectionassociation, crimehead, crimesubhead, castemaster, religionmaster, occupationmaster).\n"
+        "2. COLUMN NAMES: Must match the exact casing specified in the schema definition (e.g., CaseMasterID, CrimeNo, CaseNo, AccusedName, AgeYear, GenderID, FirstName, UnitName, caste_master_id, caste_master_name).\n"
+        "3. CASE IDENTIFIER: Always filter case IDs like 'KSP-CASE-XXXX' using `casemaster.CaseNo = 'KSP-CASE-XXXX'`. Do NOT filter on `CrimeNo`.\n"
+        "4. JOINS: Join tables strictly using foreign key relationships (e.g., casemaster.PoliceStationID = unit.UnitID, casemaster.PolicePersonID = employee.EmployeeID, accused.CaseMasterID = casemaster.CaseMasterID, victim.CaseMasterID = casemaster.CaseMasterID, complainantdetails.CaseMasterID = casemaster.CaseMasterID).\n"
+        "5. SECTION JOIN: Join section on BOTH `actsectionassociation.SectionID = section.SectionCode` AND `actsectionassociation.ActID = section.ActCode`.\n"
+        "6. CASTE / RELIGION / OCCUPATION: Join complainantdetails on CasteID = castemaster.caste_master_id, ReligionID = religionmaster.ReligionID, OccupationID = occupationmaster.OccupationID.\n"
+        "7. DUAL MODE PROCESSING:\n"
         "   - Group A (Analytical/Summary): If the user asks for high-level metrics, counts, or groupings, DO NOT use COUNT(*) OVER() and DO NOT append LIMIT 15. Let the database group naturally.\n"
         "   - Group B (Raw List): If the user asks for a massive list of individual records, strictly inject `COUNT(*) OVER() AS Total_Matching_Records` into the SELECT statement and append a strict `LIMIT 15`.\n"
-        "8. STRICT LOWERCASE TABLE NAMES: You MUST write all SQL queries using strictly lowercase table names (e.g. use `casemaster` instead of `CaseMaster`, `unit` instead of `Unit`, `employee` instead of `Employee`, `accused` instead of `Accused`, `victim` instead of `Victim`, `crimehead` instead of `CrimeHead`, etc.). The target MySQL database runs on Linux and is case-sensitive for table names.\n"
-        "9. CASE-SENSITIVE COLUMN NAMES: You MUST write column names matching their exact casing from the schema definition (e.g. `CaseMasterID`, `AccusedMasterID`, `caste_master_id`). Do not blindly lowercase column names.\n\n"
-        "CRITICAL SQL GENERATION RULES:\n"
-        "1. READ-ONLY STRICTLY ENFORCED: You must ONLY generate `SELECT` statements. Never generate `UPDATE`, `INSERT`, `DELETE`, `DROP`, `ALTER`, or any other modification commands.\n"
-        "2. CONVERSATIONAL FOLLOW-UPS: If the user responds with a short confirmation (e.g., \"yes\", \"more details\"), you must look at the chat history, determine the context of the previous query, and write a NEW, valid `SELECT` statement to fetch the requested deeper level of detail. Do NOT output conversational text in the SQL execution block.\n"
-        "3. NO MARKDOWN IN SQL: Output the raw SQL string only, without ```sql``` markdown blocks."
+        "8. OUTPUT FORMAT: Output ONLY the raw SQL SELECT query without markdown formatting."
     )
-    
-    prompt = f"User Request: {current_query}\n\nSQL Query:"
+
+    prompt = (
+        f"Natural Language Query: {current_query}\n"
+        f"Validated Query Plan: {json.dumps(query_plan, indent=2)}\n\n"
+        f"SQL Query:"
+    )
+
     sql = await query_llm(prompt, system_prompt, state.get("chat_history"))
-    
-    # Strip common LLM markdown formatting if returned anyway
     sql = sql.replace("```sql", "").replace("```", "").strip()
-    
+
     return {
         **state,
         "generated_sql": sql
@@ -341,20 +837,25 @@ async def generate_sql_node(state: State) -> State:
 
 
 async def execute_sql_node(state: State) -> State:
-    """Securely runs the generated SQL query with read-only checks and error catching.
-    
-    Fetches ALL rows from the database, then applies Python-side array slicing
-    to return the first page (15 rows). The full result set is stored in
-    `sql_results_all` so that subsequent /query_more requests can slice it
-    without re-executing the query (handled by caching in app.py).
     """
+    Step E-F: Securely runs the generated SQL query with pre-execution checks, error catching,
+    and graceful handling of empty result sets.
+    """
+    if state.get("needs_clarification") or state.get("generated_sql") == "CLARIFICATION":
+        return {
+            **state,
+            "sql_results": [],
+            "sql_results_total": 0,
+            "sql_error": "",
+            "analytical_summary": state.get("clarification_question", "Could you please clarify your request?")
+        }
+
     raw_sql = state["generated_sql"]
     
-    # ── Fail-safe Regex Cleanup ──
+    # Fail-safe Regex Cleanup
     sql = re.sub(r'```(?:sql)?\n(.*?)```', r'\1', raw_sql, flags=re.DOTALL).strip()
     sql = sql.strip('`').strip()
     
-    # Remove any existing LIMIT and OFFSET clauses generated by the AI
     clean_sql = re.sub(r'(?i)\bLIMIT\s+\d+\b', '', sql)
     clean_sql = re.sub(r'(?i)\bOFFSET\s+\d+\b', '', clean_sql)
     clean_sql = clean_sql.strip().rstrip(';')
@@ -364,36 +865,15 @@ async def execute_sql_node(state: State) -> State:
     
     logger.info(f"Node [execute_sql]: Executing SQL: {paginated_sql}")
     
-    # ── SECURITY GUARDRAILS ──
-    destructive_keywords = ["INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "TRUNCATE", "GRANT", "REVOKE"]
-    if any(keyword in paginated_sql.upper() for keyword in destructive_keywords):
+    # SECURITY GUARDRAILS & READ-ONLY ENFORCEMENT
+    forbidden_keywords = ["INSERT", "UPDATE", "DELETE", "DROP", "ALTER", "TRUNCATE", "GRANT", "REVOKE", "CREATE"]
+    if any(keyword in paginated_sql.upper() for keyword in forbidden_keywords):
         logger.warning(f"SECURITY OVERRIDE: Destructive query blocked: {paginated_sql}")
         return {
             **state,
             "sql_results": [],
             "sql_results_total": 0,
             "sql_error": "🚨 SECURITY OVERRIDE: Unauthorized data modification query detected and blocked by KSP Protocols."
-        }
-        
-    if sql.startswith("Raw Backend Crash:") or sql.startswith("AI Engine Error:") or "Unable to connect to the LLM" in sql:
-        logger.error(f"Intercepted LLM Error: {sql}")
-        return {
-            **state,
-            "sql_results": [],
-            "sql_results_total": 0,
-            "sql_error": sql
-        }
-        
-    # STRICT SECURITY CONSTRAINT: Prevent modifying or destructive queries
-    forbidden_keywords = ['INSERT', 'UPDATE', 'DELETE', 'DROP', 'ALTER', 'CREATE']
-    if any(keyword in paginated_sql.upper() for keyword in forbidden_keywords):
-        err = "Security Exception: Non-read-only queries (INSERT, UPDATE, DELETE, DROP, ALTER, CREATE) are strictly prohibited."
-        logger.error(err)
-        return {
-            **state,
-            "sql_error": err,
-            "sql_results_total": 0,
-            "retry_count": state.get("retry_count", 0) + 1
         }
         
     try:
@@ -405,19 +885,18 @@ async def execute_sql_node(state: State) -> State:
             total_records = len(results)
             
             if total_records == 0:
-                logger.warning("Query returned 0 rows — tables may be empty or query is too restrictive.")
+                logger.warning("Query returned 0 rows — no matching records found in database.")
             else:
                 logger.info(f"Query returned {total_records} total row(s).")
             
-            # ── Python-side pagination slicing ──
             first_page = results[:limit]
                 
             return {
                 **state,
-                "generated_sql": clean_sql,           # Save clean SQL for frontend caching/pagination
-                "sql_results": first_page,          # First 15 rows for the initial response
-                "sql_results_total": total_records,  # True count (up to 16) for accurate has_more calculation in next node
-                "sql_error": ""                       # Clear previous errors
+                "generated_sql": clean_sql,
+                "sql_results": first_page,
+                "sql_results_total": total_records,
+                "sql_error": ""
             }
     except Exception as e:
         logger.error(f"SQL execution error: {e}")
@@ -433,57 +912,19 @@ async def self_correct_node(state: State) -> State:
     """Feeds the broken SQL and database error back to LLM to self-correct."""
     logger.info(f"Node [self_correct]: Retry {state['retry_count']}/3. Fixing error: {state['sql_error']}")
     
+    schema_text = []
+    for tbl, info in DB_SCHEMA.items():
+        cols_str = ", ".join([f"{col} ({dt})" for col, dt in info["columns"].items()])
+        schema_text.append(f"- {tbl} ({cols_str})")
+    core_schema_str = "\n".join(schema_text)
+
     system_prompt = (
         "You are an expert SQL debugger for the Karnataka Police. You correct broken MySQL queries.\n\n"
-        "Core Schema (Strictly use ONLY these lowercase table names and their exact column cases):\n"
-        "- casemaster (CaseMasterID, CrimeNo, CaseNo, CrimeRegisteredDate, PolicePersonID, PoliceStationID, CaseCategoryID, GravityOffenceID, CrimeMajorHeadID, CrimeMinorHeadID, CaseStatusID, CourtID, IncidentFromDate, IncidentToDate, InfoReceivedPSDate, latitude, longitude, BriefFacts)\n"
-        "- accused (AccusedMasterID, CaseMasterID, AccusedName, AgeYear, GenderID, PersonID) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- victim (VictimMasterID, CaseMasterID, VictimName, AgeYear, GenderID, VictimPolice) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- complainantdetails (ComplainantID, CaseMasterID, ComplainantName, AgeYear, OccupationID, ReligionID, CasteID, GenderID) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- employee (EmployeeID, DistrictID, UnitID, RankID, DesignationID, KGID, FirstName, EmployeeDOB, GenderID, BloodGroupID, PhysicallyChallenged, AppointmentDate) -- Note: GenderID contains string values 'Male' or 'Female'.\n"
-        "- unit (UnitID, UnitName, TypeID, ParentUnit, NationalityID, StateID, DistrictID, Active) -- Note: Represents Police Station. UnitName contains the police station name.\n"
-        "- actsectionassociation (CaseMasterID, ActID, SectionID, ActOrderID, SectionOrderID)\n"
-        "- section (ActCode, SectionCode, SectionDescription, Active)\n"
-        "- act (ActCode, ActDescription, ShortName, Active)\n"
-        "- district (DistrictID, DistrictName, StateID, Active)\n"
-        "- state (StateID, StateName, NationalityID, Active)\n"
-        "- crimehead (CrimeHeadID, CrimeGroupName, Active)\n"
-        "- crimesubhead (CrimeSubHeadID, CrimeHeadID, CrimeHeadName, SeqID)\n"
-        "- court (CourtID, CourtName, DistrictID, StateID, Active)\n"
-        "- arrestsurrender (ArrestSurrenderID, CaseMasterID, ArrestSurrenderTypeID, ArrestSurrenderDate, ArrestSurrenderStateId, ArrestSurrenderDistrictId, PoliceStationID, IOID, CourtID, AccusedMasterID, IsAccused, IsComplainantAccused)\n"
-        "- chargesheetdetails (CSID, CaseMasterID, csdate, cstype, PolicePersonID)\n"
-        "- castemaster (caste_master_id, caste_master_name)\n"
-        "- religionmaster (ReligionID, ReligionName)\n"
-        "- occupationmaster (OccupationID, OccupationName)\n"
-        "- casecategory (CaseCategoryID, LookupValue)\n"
-        "- casestatusmaster (CaseStatusID, CaseStatusName)\n"
-        "- gravityoffence (GravityOffenceID, LookupValue)\n"
-        "- designation (DesignationID, DesignationName, Active, SortOrder)\n"
-        "- rank (RankID, RankName, Hierarchy, Active)\n"
-        "- unittype (UnitTypeID, UnitTypeName, CityDistState, Hierarchy, Active)\n"
-        "- crimeheadactsection (CrimeHeadID, ActCode, SectionCode)\n\n"
-        "SQL Join & Mapping Guidelines:\n"
-        "1. Police Station Name: ALWAYS join `unit` on `casemaster.PoliceStationID = unit.UnitID` or `employee.UnitID = unit.UnitID` and select `unit.UnitName`.\n"
-        "2. Investigating Officer (IO) / Police Person Name: Join `employee` on `casemaster.PolicePersonID = employee.EmployeeID` or `arrestsurrender.IOID = employee.EmployeeID` and use `employee.FirstName`.\n"
-        "3. Act & Section details: Join `actsectionassociation` on `casemaster.CaseMasterID = actsectionassociation.CaseMasterID`.\n"
-        "4. Act details: Join `act` on `actsectionassociation.ActID = act.ActCode`.\n"
-        "5. Section details: ALWAYS join `section` on BOTH `actsectionassociation.SectionID = section.SectionCode` AND `actsectionassociation.ActID = section.ActCode`.\n"
-        "6. Crime Head / Major Head: Join `crimehead` on `casemaster.CrimeMajorHeadID = crimehead.CrimeHeadID` and select `crimehead.CrimeGroupName`.\n"
-        "7. Crime Sub Head / Minor Head: Join `crimesubhead` on `casemaster.CrimeMinorHeadID = crimesubhead.CrimeSubHeadID` and select `crimesubhead.CrimeHeadName`.\n"
-        "8. Caste: Join `castemaster` on `complainantdetails.CasteID = castemaster.caste_master_id` and select `castemaster.caste_master_name`.\n"
-        "9. Religion: Join `religionmaster` on `complainantdetails.ReligionID = religionmaster.ReligionID` and select `religionmaster.ReligionName`.\n"
-        "10. Occupation: Join `occupationmaster` on `complainantdetails.OccupationID = occupationmaster.OccupationID` and select `occupationmaster.OccupationName`.\n"
-        "11. Court Name: Join `court` on `casemaster.CourtID = court.CourtID` and select `court.CourtName`.\n"
-        "12. District: Join `district` on `unit.DistrictID = district.DistrictID` or `court.DistrictID = district.DistrictID` or `employee.DistrictID = district.DistrictID` or `arrestsurrender.ArrestSurrenderDistrictId = district.DistrictID`.\n"
-        "13. State: Join `state` on `unit.StateID = state.StateID` or `court.StateID = state.StateID` or `district.StateID = state.StateID` or `arrestsurrender.ArrestSurrenderStateId = state.StateID`.\n"
-        "14. Case ID / Case Number: When searching or filtering by a case code/ID like 'KSP-CASE-XXXX' or similar, ALWAYS filter using `casemaster.CaseNo = 'KSP-CASE-XXXX'`. Do NOT filter on `CrimeNo` (e.g. `casemaster.CrimeNo`), as `CrimeNo` contains the crime registration number format like '0004/2026' which is different. `CaseNo` is the correct case identifier.\n\n"
-        "ABSOLUTE CONSTRAINTS:\n"
-        "1. You must output ONLY the exact, raw SQL query.\n"
-        "2. DO NOT wrap the SQL in markdown blocks (e.g., no ```sql ... ```).\n"
-        "3. DO NOT include any explanations, apologies, comments, or conversational text before or after the query.\n"
-        "4. STRICTLY use ONLY the tables and columns present in the schema definition above. Do NOT invent tables or columns. Never guess column names.\n"
-        "5. STRICT LOWERCASE TABLE NAMES: You MUST write all SQL queries using strictly lowercase table names (e.g. use `casemaster` instead of `CaseMaster`, `unit` instead of `Unit`, `employee` instead of `Employee`, `accused` instead of `Accused`, `victim` instead of `Victim`, `crimehead` instead of `CrimeHead`, etc.). The target MySQL database runs on Linux and is case-sensitive for table names.\n"
-        "6. CASE-SENSITIVE COLUMN NAMES: You MUST write column names matching their exact casing from the schema definition (e.g. `CaseMasterID`, `AccusedMasterID`, `caste_master_id`). Do not blindly lowercase column names."
+        f"Core Schema (Strictly use ONLY these lowercase table names and their exact column cases):\n{core_schema_str}\n\n"
+        "STRICT CONSTRAINTS:\n"
+        "1. Output ONLY the exact, raw SQL query without markdown formatting.\n"
+        "2. Table names MUST be strictly lowercase (e.g. casemaster, unit, employee, accused, victim, complainantdetails).\n"
+        "3. Column names MUST match the exact casing from the schema definition (e.g. CaseMasterID, AccusedName, caste_master_id)."
     )
     
     prompt = (
@@ -516,10 +957,9 @@ async def next_query_node(state: State) -> State:
         all_pagination.append({"has_more": False, "total": 0, "next_offset": 0})
     else:
         all_gen_sql.append(state.get("generated_sql", ""))
-        results = state.get("sql_results", [])  # Already sliced to first 15 by execute_sql_node
+        results = state.get("sql_results", [])
         all_results.append(results)
         
-        # ── Use the true total stored by execute_sql_node for accurate pagination ──
         total_records = state.get("sql_results_total", len(results))
         limit = 15
         has_more = (limit < total_records)
@@ -546,9 +986,15 @@ async def next_query_node(state: State) -> State:
 
 
 async def analyze_data_node(state: State) -> State:
-    """Generates a professional criminological summary for all executed queries."""
+    """Step G: Generates a professional criminological summary or clarification response."""
     logger.info("Node [analyze_data]: Analysis started for all queries.")
     
+    if state.get("needs_clarification"):
+        return {
+            **state,
+            "analytical_summary": state.get("clarification_question", "Could you please clarify your request?")
+        }
+        
     # Short-circuit if a security override was triggered
     for sql_err in state.get("all_generated_sql", []):
         if str(sql_err).startswith("ERROR: 🚨 SECURITY OVERRIDE"):
@@ -557,7 +1003,6 @@ async def analyze_data_node(state: State) -> State:
                 "analytical_summary": "🚨 SECURITY OVERRIDE: Unauthorized data modification query detected and blocked by KSP Protocols."
             }
 
-    # We pass all queries and their corresponding truncated results to the LLM
     context_str = ""
     for i, query in enumerate(state["queries"]):
         results = state["all_sql_results"][i] if i < len(state["all_sql_results"]) else []
@@ -567,7 +1012,7 @@ async def analyze_data_node(state: State) -> State:
         if sql_err:
             context_str += f"Execution Error: {sql_err}\n"
         elif not results:
-            context_str += "Result: No matching records found.\n"
+            context_str += "Result: I couldn't find any matching records for that request.\n"
         else:
             total_rows = len(results)
             if results and isinstance(results[0], dict) and 'Total_Matching_Records' in results[0]:
@@ -579,21 +1024,17 @@ async def analyze_data_node(state: State) -> State:
             context_str += f"The database returned {total_rows} total records. Here is a sample of the top 5 records for context:\n{res_str}\n"
 
     system_prompt = (
-        "You are Aloka, an elite State Intelligence AI for the KSP. You must structure all your responses using advanced Markdown.\n"
-        "DATA SUMMARY RULE: When summarizing SQL results, you will be given the TOTAL row count and a small data sample. You MUST state the true total row count in your analysis (e.g., 'The database found 800 records'). You MUST NEVER claim the total data size is only 5 rows just because you were only shown a 5-row sample. Base your summary on the total count provided.\n\n"
-        "SYSTEM DIRECTIVE: You MUST respond in English. Do not translate headings, analysis, or text into Kannada, Hindi, or French unless the user's prompt is written 100% in that specific language. Default to English for all formatting.\n\n"
-        "CRITICAL FORMATTING RULE:\n"
-        "You must NEVER output giant walls of text or raw Markdown tables. You must format EVERY response using the exact structure below:\n\n"
+        "You are Aloka, an elite State Intelligence AI for the KSP. You structure all responses using clear Markdown.\n"
+        "DATA SUMMARY RULE: When summarizing SQL results, state the true total row count provided. If no matching records were found, state clearly: 'I couldn't find any matching records for that request.' Do NOT report zero-row results as database errors.\n\n"
+        "SYSTEM DIRECTIVE: Respond in English unless the prompt is strictly in another language.\n\n"
+        "FORMATTING RULE:\n"
         "## [Main Title of the Analysis]\n\n"
         "### Key Insights\n"
-        "* [Bullet point 1 explaining a key finding]\n"
-        "* [Bullet point 2 explaining a key finding]\n"
-        "* [Bullet point 3 explaining a key finding]\n\n"
-        "[One single conversational sentence asking the user directly if they need further filtering or details. You must speak directly to the user using first/second person (e.g., \"Would you like me to...\", \"Do you need further details on this?\"). Do NOT use third-person terms like \"the officer\".]\n\n"
+        "* [Bullet point 1]\n"
+        "* [Bullet point 2]\n\n"
+        "[One conversational sentence asking the user if they need further details or filtering.]\n\n"
         "CHART METADATA GENERATION:\n"
-        "At the very end of your response, you MUST include a strict JSON block wrapped in ```json ... ``` that defines a chart for the data if applicable.\n"
-        "If the user asks for a 'breakdown', 'distribution', 'comparison', 'count', or explicitly requests a chart, you MUST set `type` to 'pie' or 'bar'.\n"
-        "Identify the text column for `label_column` and the numerical count/sum column for `value_column`.\n"
+        "At the end of your response, output a strict JSON block wrapped in ```json ... ``` defining a chart if applicable.\n"
         "Format:\n"
         "```json\n"
         "{\n"
@@ -601,26 +1042,22 @@ async def analyze_data_node(state: State) -> State:
         "  \"label_column\": \"column_name_for_labels\",\n"
         "  \"value_column\": \"column_name_for_values\"\n"
         "}\n"
-        "```\n"
-        "Only generate 'pie' or 'bar' if the data is aggregated (like counts, totals). Otherwise, return type 'none'."
+        "```"
     )
     
     prompt = (
         f"Original User Query: {state['user_query']}\n"
         f"Execution Results:\n{context_str}\n\n"
-        f"Provide the final professional summary and the chart metadata JSON block."
+        f"Provide the final professional summary and chart metadata JSON block."
     )
     
     summary_raw = await query_llm(prompt, system_prompt, state.get("chat_history"))
     
-    # Extract JSON chart metadata
     chart_metadata = {"type": "none", "label_column": "", "value_column": ""}
     json_match = re.search(r"```json\s*({.*?})\s*```", summary_raw, re.DOTALL)
     if json_match:
         try:
-            import json
             chart_metadata = json.loads(json_match.group(1))
-            # Remove the json block from the visible text
             summary_raw = summary_raw.replace(json_match.group(0), "").strip()
         except Exception as e:
             logger.error(f"Failed to parse chart metadata JSON: {e}")
@@ -647,6 +1084,8 @@ async def translation_output_node(state: State) -> State:
 def route_intent(state: State) -> str:
     if state.get("intent") == "CHAT":
         return "chat_response"
+    elif state.get("intent") == "CYBER":
+        return "cyber_node"
     return "query_splitter"
 
 def should_continue(state: State) -> str:
@@ -661,7 +1100,7 @@ def should_continue(state: State) -> str:
 
 def has_more_queries(state: State) -> str:
     if state.get("current_query_index", 0) < len(state.get("queries", [])):
-        return "generate_sql"
+        return "query_planner"
     return "analyze_data"
 
 
@@ -673,7 +1112,10 @@ workflow = StateGraph(State)
 workflow.add_node("translation_input", translation_input_node)
 workflow.add_node("intent_router", intent_router_node)
 workflow.add_node("chat_response", chat_response_node)
+workflow.add_node("cyber_node", cyber_node)
 workflow.add_node("query_splitter", query_splitter_node)
+workflow.add_node("query_planner", query_planner_node)
+workflow.add_node("schema_validator", schema_validator_node)
 workflow.add_node("generate_sql", generate_sql_node)
 workflow.add_node("execute_sql", execute_sql_node)
 workflow.add_node("self_correct", self_correct_node)
@@ -683,15 +1125,18 @@ workflow.add_node("translation_output", translation_output_node)
 
 workflow.add_edge(START, "translation_input")
 workflow.add_edge("translation_input", "intent_router")
-workflow.add_conditional_edges("intent_router", route_intent, {"chat_response": "chat_response", "query_splitter": "query_splitter"})
+workflow.add_conditional_edges("intent_router", route_intent, {"chat_response": "chat_response", "cyber_node": "cyber_node", "query_splitter": "query_splitter"})
 workflow.add_edge("chat_response", "translation_output")
+workflow.add_edge("cyber_node", "translation_output")
 
-workflow.add_edge("query_splitter", "generate_sql")
+workflow.add_edge("query_splitter", "query_planner")
+workflow.add_edge("query_planner", "schema_validator")
+workflow.add_edge("schema_validator", "generate_sql")
 workflow.add_edge("generate_sql", "execute_sql")
 workflow.add_conditional_edges("execute_sql", should_continue, {"self_correct": "self_correct", "next_query_node": "next_query_node"})
 workflow.add_edge("self_correct", "execute_sql")
 
-workflow.add_conditional_edges("next_query_node", has_more_queries, {"generate_sql": "generate_sql", "analyze_data": "analyze_data"})
+workflow.add_conditional_edges("next_query_node", has_more_queries, {"query_planner": "query_planner", "analyze_data": "analyze_data"})
 
 workflow.add_edge("analyze_data", "translation_output")
 workflow.add_edge("translation_output", END)
@@ -702,4 +1147,4 @@ agent_app = workflow.compile(checkpointer=checkpointer)
 
 if __name__ == "__main__":
     import asyncio
-    asyncio.run(agent_app.ainvoke({"user_query": "List all active cases and show all officers"}))
+    asyncio.run(agent_app.ainvoke({"user_query": "List all active cases and show all officers"}, config={"configurable": {"thread_id": "main_thread"}}))
