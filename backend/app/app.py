@@ -407,7 +407,8 @@ if __name__ == "__main__":
     import uvicorn
 
     # Allow running server directly for local testing
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app.app:app", host="0.0.0.0", port=9000, reload=True)
+
 
 
 class TranslateRequest(BaseModel):

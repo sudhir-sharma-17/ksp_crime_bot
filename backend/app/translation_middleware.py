@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from deep_translator import GoogleTranslator
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 # Setup logging
 logger = logging.getLogger(__name__)

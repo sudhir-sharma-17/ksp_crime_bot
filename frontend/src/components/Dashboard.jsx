@@ -296,6 +296,13 @@ export default function Dashboard() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isLoading]);
 
+  // ── Auto focus input when loading completes ──────────────────────────────────
+  useEffect(() => {
+    if (!isLoading) {
+      inputRef.current?.focus();
+    }
+  }, [isLoading]);
+
   // ── Live clock ────────────────────────────────────────────────────────────────
   useEffect(() => {
     const t = setInterval(() => setCurrentTime(new Date()), 1000);

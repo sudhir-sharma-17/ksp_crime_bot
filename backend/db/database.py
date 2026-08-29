@@ -5,7 +5,7 @@ from urllib.parse import quote_plus
 from dotenv import load_dotenv
 
 # Load local environment variables if present
-load_dotenv()
+load_dotenv(override=True)
 
 # Configure logging
 
