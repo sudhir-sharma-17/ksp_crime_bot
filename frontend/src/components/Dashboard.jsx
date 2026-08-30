@@ -4,6 +4,7 @@ import Footer from './layout/Footer';
 import Sidebar from './layout/Sidebar';
 import ChatStream from './chat/ChatStream';
 import DataCanvas from './canvas/DataCanvas';
+import { GripVertical } from 'lucide-react';
 
 const DEFAULT_WELCOME = [
   {
@@ -37,10 +38,12 @@ export default function Dashboard() {
   const [isListening, setIsListening] = useState(false);
   const [activeTab, setActiveTab] = useState('chat'); // 'chat' | 'canvas' for mobile/tablet responsive views
   const [selectedLanguage, setSelectedLanguage] = useState('en');
+  const [isCanvasMaximized, setIsCanvasMaximized] = useState(false);
 
   // Layout Dimensions (Resizable)
   const [sidebarWidth, setSidebarWidth] = useState(250);
   const [chatWidth, setChatWidth] = useState(480);
+  const [isDraggingChatActive, setIsDraggingChatActive] = useState(false);
   const isDraggingSidebar = useRef(false);
   const isDraggingChat = useRef(false);
 
@@ -62,6 +65,7 @@ export default function Dashboard() {
   const startSidebarResize = (e) => {
     e.preventDefault();
     isDraggingSidebar.current = true;
+    document.body.style.cursor = 'col-resize';
     document.addEventListener('mousemove', onSidebarMouseMove);
     document.addEventListener('mouseup', onSidebarMouseUp);
   };
@@ -74,6 +78,7 @@ export default function Dashboard() {
 
   const onSidebarMouseUp = () => {
     isDraggingSidebar.current = false;
+    document.body.style.cursor = '';
     document.removeEventListener('mousemove', onSidebarMouseMove);
     document.removeEventListener('mouseup', onSidebarMouseUp);
   };
@@ -81,6 +86,8 @@ export default function Dashboard() {
   const startChatResize = (e) => {
     e.preventDefault();
     isDraggingChat.current = true;
+    setIsDraggingChatActive(true);
+    document.body.style.cursor = 'col-resize';
     document.addEventListener('mousemove', onChatMouseMove);
     document.addEventListener('mouseup', onChatMouseUp);
   };
@@ -88,14 +95,40 @@ export default function Dashboard() {
   const onChatMouseMove = (e) => {
     if (!isDraggingChat.current) return;
     const offsetLeft = sidebarOpen ? sidebarWidth : 60;
-    const newWidth = Math.max(340, Math.min(e.clientX - offsetLeft, 800));
+    const maxChatWidth = Math.max(300, window.innerWidth - offsetLeft - 300);
+    const newWidth = Math.max(260, Math.min(e.clientX - offsetLeft, maxChatWidth));
     setChatWidth(newWidth);
   };
 
   const onChatMouseUp = () => {
     isDraggingChat.current = false;
+    setIsDraggingChatActive(false);
+    document.body.style.cursor = '';
     document.removeEventListener('mousemove', onChatMouseMove);
     document.removeEventListener('mouseup', onChatMouseUp);
+  };
+
+  // ── Data Center Quick Size Presets ─────────────────────────────────────────
+  const handleSetPreset = (mode) => {
+    const currentSidebar = sidebarOpen ? sidebarWidth : 60;
+    const availableWidth = window.innerWidth - currentSidebar;
+
+    if (mode === 'default') {
+      setChatWidth(480);
+      setIsCanvasMaximized(false);
+    } else if (mode === 'balanced') {
+      // 50% Chat / 50% Data Center
+      setChatWidth(Math.round(availableWidth * 0.5));
+      setIsCanvasMaximized(false);
+    } else if (mode === 'expanded') {
+      // 30% Chat / 70% Data Center
+      setChatWidth(Math.max(280, Math.round(availableWidth * 0.3)));
+      setIsCanvasMaximized(false);
+    } else if (mode === 'max') {
+      // 18% Chat / 82% Data Center
+      setChatWidth(Math.max(260, Math.round(availableWidth * 0.18)));
+      setIsCanvasMaximized(false);
+    }
   };
 
   // ── Speech Recognition ────────────────────────────────────────────────────
@@ -402,7 +435,7 @@ export default function Dashboard() {
   const hasDataOnCanvas = Boolean(activeMessageWithData && activeMessageWithData.all_sql_results && activeMessageWithData.all_sql_results.length > 0);
 
   return (
-    <div className="h-screen flex flex-col bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans overflow-hidden transition-colors duration-200">
+    <div className="h-screen flex flex-col bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans overflow-hidden transition-colors duration-200 select-none">
       <Header 
         isDarkMode={isDarkMode} 
         setIsDarkMode={setIsDarkMode} 
@@ -416,50 +449,69 @@ export default function Dashboard() {
       />
 
       <div className="flex flex-1 overflow-hidden relative">
-        {/* Sidebar */}
-        <Sidebar
-          sidebarOpen={sidebarOpen}
-          setSidebarOpen={setSidebarOpen}
-          sidebarWidth={sidebarWidth}
-          startSidebarResize={startSidebarResize}
-          sessionsList={sessionsList}
-          sessionId={sessionId}
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          clearChat={clearChat}
-          handleLoadSession={handleLoadSession}
-          handleDeleteSession={handleDeleteSession}
-        />
-
-        {/* Conversation Stream (hidden on mobile if canvas tab is selected) */}
-        <div className={`${activeTab === 'canvas' ? 'hidden md:flex' : 'flex'} flex-col h-full shrink-0`}>
-          <ChatStream
-            chatWidth={chatWidth}
-            startChatResize={startChatResize}
-            messages={messages}
-            activeDataIndex={activeDataIndex}
-            setActiveDataIndex={setActiveDataIndex}
-            handleTranslate={handleTranslate}
-            isLoading={isLoading}
-            cancelQuery={cancelQuery}
-            queryQueue={queryQueue}
-            setQueryQueue={setQueryQueue}
-            inputVal={inputVal}
-            setInputVal={setInputVal}
-            handleSendMessage={handleSendMessage}
-            isListening={isListening}
-            toggleVoiceCommand={toggleVoiceCommand}
-            messagesEndRef={messagesEndRef}
-            inputRef={inputRef}
+        {/* Sidebar (Hidden in Fullscreen Canvas mode) */}
+        {!isCanvasMaximized && (
+          <Sidebar
+            sidebarOpen={sidebarOpen}
+            setSidebarOpen={setSidebarOpen}
+            sidebarWidth={sidebarWidth}
+            startSidebarResize={startSidebarResize}
+            sessionsList={sessionsList}
+            sessionId={sessionId}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            clearChat={clearChat}
+            handleLoadSession={handleLoadSession}
+            handleDeleteSession={handleDeleteSession}
           />
-        </div>
+        )}
 
-        {/* Data Canvas (hidden on mobile if chat tab is selected) */}
-        <div className={`${activeTab === 'chat' ? 'hidden md:flex' : 'flex'} flex-1 h-full overflow-hidden`}>
+        {/* Conversation Stream (hidden on mobile if canvas tab is selected, or when canvas is maximized) */}
+        {!isCanvasMaximized && (
+          <div className={`${activeTab === 'canvas' ? 'hidden md:flex' : 'flex'} flex-col h-full shrink-0 relative`}>
+            <ChatStream
+              chatWidth={chatWidth}
+              messages={messages}
+              activeDataIndex={activeDataIndex}
+              setActiveDataIndex={setActiveDataIndex}
+              handleTranslate={handleTranslate}
+              isLoading={isLoading}
+              cancelQuery={cancelQuery}
+              queryQueue={queryQueue}
+              setQueryQueue={setQueryQueue}
+              inputVal={inputVal}
+              setInputVal={setInputVal}
+              handleSendMessage={handleSendMessage}
+              isListening={isListening}
+              toggleVoiceCommand={toggleVoiceCommand}
+              messagesEndRef={messagesEndRef}
+              inputRef={inputRef}
+            />
+          </div>
+        )}
+
+        {/* ── DRAGGABLE DIVIDER RESIZE HANDLE ─────────────────────────────── */}
+        {!isCanvasMaximized && (
+          <div
+            onMouseDown={startChatResize}
+            className={`hidden md:flex w-2 hover:w-2.5 bg-slate-200 dark:bg-slate-800 hover:bg-cyan-500 dark:hover:bg-cyan-500 cursor-col-resize self-stretch items-center justify-center transition-all z-20 group relative ${
+              isDraggingChatActive ? 'bg-cyan-500 dark:bg-cyan-500 w-2.5' : ''
+            }`}
+            title="Drag to resize Data Center & Conversation"
+          >
+            <GripVertical className="w-3.5 h-3.5 text-slate-400 group-hover:text-white dark:group-hover:text-slate-900 transition-colors pointer-events-none" />
+          </div>
+        )}
+
+        {/* Data Center / Data Canvas */}
+        <div className={`${activeTab === 'chat' && !isCanvasMaximized ? 'hidden md:flex' : 'flex'} flex-1 h-full overflow-hidden`}>
           <DataCanvas
             activeMessageWithData={activeMessageWithData}
             activeDataIndex={activeDataIndex}
             handleLoadMore={handleLoadMore}
+            onSetPreset={handleSetPreset}
+            isCanvasMaximized={isCanvasMaximized}
+            setIsCanvasMaximized={setIsCanvasMaximized}
           />
         </div>
       </div>
