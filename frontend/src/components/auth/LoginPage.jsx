@@ -192,7 +192,7 @@ export default function LoginPage({ onLoginSuccess }) {
   };
 
   return (
-    <div className="h-screen w-full bg-[#EBF0F7] text-slate-800 flex flex-col justify-between overflow-x-hidden overflow-y-auto lg:overflow-hidden selection:bg-blue-700 selection:text-white bg-[radial-gradient(#CBD5E1_1.5px,transparent_1.5px)] [background-size:24px_24px]">
+    <div className="h-screen w-full bg-[#EBF0F7] text-slate-800 flex flex-col justify-between overflow-x-hidden overflow-y-auto lg:overflow-hidden selection:bg-blue-700 selection:text-white">
       {/* Top High-Contrast Status Bar */}
       <header className="w-full h-11 border-b border-slate-300/80 px-4 sm:px-8 flex items-center justify-between bg-white/95 backdrop-blur-md shrink-0 z-20 shadow-xs">
         <div className="flex items-center gap-2.5">
