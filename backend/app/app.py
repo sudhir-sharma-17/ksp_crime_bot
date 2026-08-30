@@ -398,6 +398,89 @@ async def root():
     return FileResponse(os.path.join(frontend_dir, "index.html"))
 
 
+# ==================================================
+# EMPLOYEE / OFFICER KGID LOOKUP ENDPOINT
+# ==================================================
+@app.get("/employee/lookup/{kgid}")
+@app.get("/api/employee/lookup/{kgid}")
+async def lookup_employee(kgid: str):
+    """
+    Read-only lookup endpoint for Officer KGID auto-identification.
+    Searches the employee table by KGID or EmployeeID and returns the officer details.
+    """
+    import re
+    from app.agent import get_db_connection
+    from sqlalchemy import text as sa_text
+
+    clean_kgid = kgid.strip().upper()
+    if not clean_kgid:
+        return {"found": False, "message": "KGID is required."}
+
+    # Extract digits if any (e.g. KGID143106 -> 143106)
+    digits_match = re.search(r'\d+', clean_kgid)
+    digits = digits_match.group(0) if digits_match else clean_kgid
+    emp_id_val = int(digits) if digits.isdigit() else -1
+
+    try:
+        engine = get_db_connection()
+        with engine.connect() as conn:
+            query = sa_text("""
+                SELECT 
+                    e.EmployeeID,
+                    e.KGID,
+                    e.FirstName,
+                    r.RankName,
+                    d.DesignationName,
+                    u.UnitName
+                FROM employee e
+                LEFT JOIN `rank` r ON e.RankID = r.RankID
+                LEFT JOIN designation d ON e.DesignationID = d.DesignationID
+                LEFT JOIN unit u ON e.UnitID = u.UnitID
+                WHERE UPPER(e.KGID) = :exact_kgid 
+                   OR UPPER(e.KGID) LIKE :like_kgid
+                   OR e.EmployeeID = :emp_id
+                LIMIT 1
+            """)
+            res = conn.execute(query, {
+                "exact_kgid": clean_kgid,
+                "like_kgid": f"%{digits}%",
+                "emp_id": emp_id_val
+            }).fetchone()
+
+            if res:
+                name = res.FirstName or "Officer"
+                rank = res.RankName or ""
+                full_display_name = f"{rank} {name}".strip() if rank else name
+
+                # Derive realistic official email from name
+                slug = re.sub(r'[^a-zA-Z0-9]', '.', name.lower())
+                slug = re.sub(r'\.+', '.', slug).strip('.')
+                suggested_email = f"{slug}@ksp.gov.in"
+
+                return {
+                    "found": True,
+                    "employee_id": res.EmployeeID,
+                    "kgid": res.KGID or clean_kgid,
+                    "first_name": res.FirstName,
+                    "name": full_display_name,
+                    "rank": res.RankName,
+                    "designation": res.DesignationName,
+                    "unit": res.UnitName,
+                    "email": suggested_email
+                }
+            else:
+                return {
+                    "found": False,
+                    "message": "KGID not found in State Police database."
+                }
+    except Exception as e:
+        logger.error(f"Error during KGID lookup: {e}")
+        return {
+            "found": False,
+            "message": "Database query error during officer verification."
+        }
+
+
 @app.get("/api/health")
 def health_check():
     """Health check endpoint."""
