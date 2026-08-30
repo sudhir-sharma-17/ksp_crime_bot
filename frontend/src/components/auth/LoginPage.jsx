@@ -10,12 +10,8 @@ import {
   AlertTriangle,
   Loader2,
   FolderSearch, 
-  Database, 
-  MessageSquare, 
   BarChart3, 
-  Search, 
   Globe, 
-  Layers, 
   Activity,
   Check,
   Sparkles,
@@ -23,48 +19,21 @@ import {
   UserCheck
 } from 'lucide-react';
 
-const CAPABILITIES = [
+const SYSTEM_CAPABILITIES = [
   {
-    title: "Natural-Language Investigation",
-    desc: "Ask complex case lookups in plain conversational phrasing.",
-    icon: FolderSearch,
-    animClass: "anim-init-cap-1"
+    title: "CASE INTELLIGENCE",
+    desc: "Search and understand FIRs, accused, victims, officers and case information.",
+    icon: FolderSearch
   },
   {
-    title: "Multi-Table Relational Reasoning",
-    desc: "Automated join inference across FIRs, accused, victims, and officers.",
-    icon: Database,
-    animClass: "anim-init-cap-2"
+    title: "DATA ANALYSIS",
+    desc: "Explore case trends, distributions, rankings and database-driven insights.",
+    icon: BarChart3
   },
   {
-    title: "Conversational Case Context",
-    desc: "Maintains active case IDs and suspect references across multi-turn queries.",
-    icon: MessageSquare,
-    animClass: "anim-init-cap-3"
-  },
-  {
-    title: "Analytical Crime Insights",
-    desc: "Aggregations, caseload rankings, and time-series trend analysis.",
-    icon: BarChart3,
-    animClass: "anim-init-cap-4"
-  },
-  {
-    title: "Semantic Modus-Operandi Discovery",
-    desc: "In-memory BM25 concept expansion search across case brief facts.",
-    icon: Search,
-    animClass: "anim-init-cap-5"
-  },
-  {
-    title: "Multilingual Interaction",
-    desc: "Native understanding and synthesis in English, ಕನ್ನಡ (Kannada), and हिन्दी (Hindi).",
-    icon: Globe,
-    animClass: "anim-init-cap-6"
-  },
-  {
-    title: "Visual Analytics & Dossier Export",
-    desc: "Live dynamic charts and 1-click confidential law enforcement PDF dossiers.",
-    icon: Layers,
-    animClass: "anim-init-cap-7"
+    title: "INTELLIGENT ASSISTANCE",
+    desc: "Ask questions naturally in English, Hindi or Kannada and receive contextual answers.",
+    icon: Globe
   }
 ];
 
@@ -217,7 +186,7 @@ export default function LoginPage({ onLoginSuccess }) {
       </header>
 
       {/* Main Split-Screen Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-4 flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-12 z-10">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-4 flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-14 z-10">
         
         {/* ============================================================ */}
         {/* LEFT SIDE: OFFICER LOGIN PANEL (40-45% on Desktop)          */}
@@ -254,7 +223,7 @@ export default function LoginPage({ onLoginSuccess }) {
                 </label>
                 {isVerifying && (
                   <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-blue-700 animate-pulse">
-                    <Loader2 className="w-3 h-3 animate-spin" />
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
                     <span>Verifying officer...</span>
                   </span>
                 )}
@@ -485,12 +454,12 @@ export default function LoginPage({ onLoginSuccess }) {
 
 
         {/* ============================================================ */}
-        {/* RIGHT SIDE: ALOKA WELCOME & OVERVIEW (55-60% on Desktop)    */}
+        {/* RIGHT SIDE: STATE INTELLIGENCE COMMAND CENTER INTRODUCTION  */}
         {/* ============================================================ */}
-        <section className="w-full lg:w-[580px] max-w-2xl flex flex-col justify-center py-2">
+        <section className="w-full lg:w-[520px] max-w-lg flex flex-col justify-center py-2">
           
-          {/* 1. Animated Logo */}
-          <div className="flex items-center gap-3.5 mb-3.5 anim-init-logo">
+          {/* Official Karnataka Police Branding Header */}
+          <div className="flex items-center gap-3.5 mb-4">
             <div className="w-12 h-12 sm:w-13 sm:h-13 rounded-2xl bg-white border-2 border-slate-300 p-2 flex items-center justify-center shadow-md shrink-0">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
@@ -500,7 +469,7 @@ export default function LoginPage({ onLoginSuccess }) {
             </div>
             
             <div className="flex flex-col">
-              <div className="flex items-center gap-2 anim-init-title">
+              <div className="flex items-center gap-2">
                 <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-wider font-mono uppercase">
                   ALOKA INTELLIGENCE
                 </h1>
@@ -509,45 +478,54 @@ export default function LoginPage({ onLoginSuccess }) {
                 </span>
               </div>
 
-              <span className="text-[11px] font-mono font-extrabold uppercase tracking-widest text-blue-800 anim-init-subtitle">
+              <span className="text-[11px] font-mono font-extrabold uppercase tracking-widest text-blue-800">
                 STATE INTELLIGENCE COMMAND CENTER
               </span>
             </div>
           </div>
 
-          {/* 2. Welcome Message */}
-          <div className="mb-4 anim-init-welcome">
+          {/* Welcome Message */}
+          <div className="mb-4">
             <h2 className="text-base sm:text-lg font-black text-slate-900 mb-1 tracking-tight">
-              Welcome to Aloka Intelligence
+              Welcome to Aloka
             </h2>
-            <p className="text-xs sm:text-[13px] text-slate-700 leading-relaxed max-w-xl font-medium">
+            <p className="text-xs sm:text-[13px] text-slate-700 leading-relaxed font-medium">
               An AI-powered intelligence assistant for exploring and understanding Karnataka State criminological data.
             </p>
           </div>
 
-          {/* 3. Capability Indicators */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 max-w-xl">
-            {CAPABILITIES.map((cap, idx) => {
-              const Icon = cap.icon;
-              return (
-                <div 
-                  key={idx}
-                  className={`flex items-start gap-2.5 p-2.5 rounded-xl bg-white border-2 border-slate-300 hover:border-blue-600 hover:shadow-lg transition-all group shadow-xs ${cap.animClass}`}
-                >
-                  <div className="p-1.5 rounded-lg bg-blue-100/90 text-blue-800 group-hover:text-white group-hover:bg-blue-700 transition-colors shrink-0 mt-0.5 border border-blue-300">
-                    <Icon className="w-4 h-4 stroke-[2.2]" />
+          {/* Institutional Overview: WHAT ALOKA PROVIDES */}
+          <div className="space-y-2.5">
+            <div className="flex items-center gap-2 pb-1 border-b border-slate-300">
+              <Shield className="w-3.5 h-3.5 text-blue-700" />
+              <span className="text-[10.5px] font-mono font-black uppercase tracking-widest text-slate-700">
+                WHAT ALOKA PROVIDES
+              </span>
+            </div>
+
+            <div className="space-y-2">
+              {SYSTEM_CAPABILITIES.map((item, idx) => {
+                const Icon = item.icon;
+                return (
+                  <div 
+                    key={idx}
+                    className="flex items-start gap-3 p-3 rounded-xl bg-white/95 border border-slate-300 shadow-2xs hover:border-slate-400 transition-colors"
+                  >
+                    <div className="p-2 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 shrink-0 mt-0.5">
+                      <Icon className="w-4 h-4 stroke-[2.2]" />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="text-xs font-mono font-black text-slate-900 tracking-wide uppercase">
+                        {item.title}
+                      </span>
+                      <span className="text-[11px] text-slate-600 font-medium leading-normal mt-0.5">
+                        {item.desc}
+                      </span>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <span className="text-xs font-black text-slate-900 group-hover:text-blue-800 transition-colors">
-                      {cap.title}
-                    </span>
-                    <span className="text-[10px] text-slate-600 font-medium line-clamp-1 leading-normal">
-                      {cap.desc}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
 
         </section>
