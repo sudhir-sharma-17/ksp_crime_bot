@@ -10,28 +10,32 @@ const SUGGESTIONS = [
     description: "Lookup accused, victims & IPC sections",
     query: "Who are the accused in KSP-CASE-0004?",
     icon: FolderSearch,
-    accent: "text-[#2F5DA8] dark:text-[#93B4E8]"
+    accent: "text-blue-700 dark:text-[#93B4E8]",
+    iconBg: "bg-blue-50 dark:bg-blue-950/40 border-blue-200 dark:border-blue-900/50"
   },
   {
     title: "Analyze Case Data",
     description: "Time-series crime trends & distributions",
     query: "Show me the number of cases registered over time.",
     icon: BarChart3,
-    accent: "text-[#4B72B0] dark:text-[#A7C4F2]"
+    accent: "text-indigo-700 dark:text-[#A7C4F2]",
+    iconBg: "bg-indigo-50 dark:bg-indigo-950/40 border-indigo-200 dark:border-indigo-900/50"
   },
   {
     title: "Find Similar Cases",
     description: "Semantic search across brief facts",
     query: "Find cases related to vehicle theft and burglary",
     icon: Search,
-    accent: "text-emerald-600 dark:text-emerald-400"
+    accent: "text-emerald-700 dark:text-emerald-400",
+    iconBg: "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-900/50"
   },
   {
     title: "Explore Police Stations",
     description: "Station workload and case count rankings",
     query: "Which police station has registered the most cases?",
     icon: Building2,
-    accent: "text-amber-600 dark:text-amber-400"
+    accent: "text-amber-700 dark:text-amber-400",
+    iconBg: "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-900/50"
   }
 ];
 
@@ -62,7 +66,7 @@ export default function ChatStream({
 
   return (
     <section 
-      className="bg-[#F4F6F9] dark:bg-[#0B1017] flex flex-col relative shrink-0 transition-colors duration-200 overflow-hidden h-full select-text"
+      className="bg-[#EEF2F6] dark:bg-[#0B1017] flex flex-col relative shrink-0 transition-colors duration-200 overflow-hidden h-full select-text"
       style={{ width: `${chatWidth}px` }}
     >
       {/* Stream Messages Scrollable Area */}
@@ -70,26 +74,26 @@ export default function ChatStream({
         {/* Landing State with Command Center Suggestions */}
         {isFreshSession && (
           <div className="flex flex-col items-center justify-center py-6 px-2 text-center animate-fade-in select-none">
-            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] flex items-center justify-center shadow-xs mb-4 p-2.5">
+            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-[#141C28] border-2 border-slate-300 dark:border-[#263142] flex items-center justify-center shadow-md mb-4 p-2.5">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
                 alt="KSP Emblem" 
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain drop-shadow-xs"
               />
             </div>
 
-            <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#2F5DA8] dark:text-[#93B4E8] mb-1">
+            <span className="text-[11px] font-mono font-extrabold uppercase tracking-widest text-blue-800 dark:text-[#93B4E8] mb-1">
               State Intelligence Command Center
             </span>
-            <h1 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight mb-2">
+            <h1 className="text-2xl sm:text-3xl font-black text-slate-950 dark:text-slate-100 tracking-tight mb-2 font-mono uppercase">
               ALOKA INTELLIGENCE
             </h1>
-            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-md mb-6 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-400 max-w-md mb-6 leading-relaxed font-medium">
               "How can I assist your investigation today? Ask any case lookup, statistical analysis, or semantic inquiry."
             </p>
 
             {/* 4 Interactive Suggestion Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 w-full text-left max-w-lg mb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full text-left max-w-lg mb-4">
               {SUGGESTIONS.map((item, idx) => {
                 const Icon = item.icon;
                 return (
@@ -97,15 +101,17 @@ export default function ChatStream({
                     key={idx}
                     type="button"
                     onClick={() => handleSuggestionClick(item.query)}
-                    className="p-3.5 rounded-xl bg-white dark:bg-[#141C28] hover:bg-slate-50 dark:hover:bg-[#172640] border border-slate-200 dark:border-[#263142] hover:border-[#2F5DA8] dark:hover:border-[#2F5DA8] shadow-xs transition-all text-left cursor-pointer group"
+                    className="p-3.5 rounded-2xl bg-white dark:bg-[#141C28] hover:bg-blue-50/50 dark:hover:bg-[#172640] border-2 border-slate-300 dark:border-[#263142] hover:border-blue-600 dark:hover:border-blue-500 shadow-sm hover:shadow-md transition-all text-left cursor-pointer group"
                   >
-                    <div className="flex items-center gap-2 mb-1">
-                      <Icon className={`w-4 h-4 ${item.accent}`} />
-                      <span className="text-xs font-bold text-slate-900 dark:text-slate-100 group-hover:text-[#2F5DA8] dark:group-hover:text-[#93B4E8] transition-colors">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <div className={`p-1.5 rounded-lg border ${item.iconBg} shrink-0`}>
+                        <Icon className={`w-4 h-4 ${item.accent}`} />
+                      </div>
+                      <span className="text-xs font-bold text-slate-900 dark:text-slate-100 group-hover:text-blue-800 dark:group-hover:text-[#93B4E8] transition-colors">
                         {item.title}
                       </span>
                     </div>
-                    <p className="text-[11px] text-slate-500 dark:text-slate-400 line-clamp-1">
+                    <p className="text-[11px] text-slate-600 dark:text-slate-400 line-clamp-1 font-medium pl-0.5">
                       {item.description}
                     </p>
                   </button>

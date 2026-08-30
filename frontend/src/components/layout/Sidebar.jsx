@@ -39,7 +39,7 @@ export default function Sidebar({
       )}
 
       <aside
-        className={`bg-white dark:bg-[#101722] border-r border-slate-200 dark:border-[#263142] flex flex-col shrink-0 relative transition-all duration-200 select-none ${
+        className={`bg-[#F8FAFC] dark:bg-[#101722] border-r-2 border-slate-200/90 dark:border-[#263142] flex flex-col shrink-0 relative transition-all duration-200 select-none ${
           sidebarOpen ? 'z-40' : 'z-20'
         } ${
           'fixed inset-y-0 left-0 md:relative md:inset-auto'
@@ -49,20 +49,20 @@ export default function Sidebar({
         style={{ width: sidebarOpen ? `${sidebarWidth}px` : '60px' }}
       >
         {/* + NEW INVESTIGATION Button */}
-        <div className="p-3 border-b border-slate-100 dark:border-[#263142] flex items-center justify-between gap-2">
+        <div className="p-3 border-b-2 border-slate-200/80 dark:border-[#263142] flex items-center justify-between gap-2 bg-white dark:bg-[#101722]">
           <button
             type="button"
             onClick={() => {
               clearChat();
               if (window.innerWidth < 768) setSidebarOpen(false);
             }}
-            className={`flex items-center gap-2 w-full text-xs font-bold text-white bg-[#2F5DA8] hover:bg-[#3A6DBD] py-2.5 px-3 rounded-lg transition-colors cursor-pointer ${
+            className={`flex items-center gap-2 w-full text-xs font-black text-white bg-blue-700 hover:bg-blue-800 py-2.5 px-3 rounded-xl transition-all cursor-pointer shadow-md hover:shadow-lg border border-blue-800 ${
               !sidebarOpen ? 'justify-center px-0' : ''
             }`}
             title="Start New Investigation Session"
             aria-label="New Investigation"
           >
-            <Plus className="w-4 h-4 shrink-0 stroke-[2.5]" />
+            <Plus className="w-4 h-4 shrink-0 stroke-[2.8]" />
             {sidebarOpen && <span className="uppercase tracking-wider font-mono text-[11px]">NEW INVESTIGATION</span>}
           </button>
 
@@ -71,7 +71,7 @@ export default function Sidebar({
             <button
               type="button"
               onClick={() => setSidebarOpen(false)}
-              className="p-1.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 md:hidden rounded-lg hover:bg-slate-100 dark:hover:bg-[#141C28]"
+              className="p-1.5 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 md:hidden rounded-lg hover:bg-slate-100 dark:hover:bg-[#141C28]"
               aria-label="Close sidebar"
             >
               <X className="w-4 h-4" />
@@ -83,7 +83,7 @@ export default function Sidebar({
         {sidebarOpen && (
           <div className="flex-1 flex flex-col overflow-hidden px-3 py-3">
             <div className="flex items-center justify-between px-1 mb-2 shrink-0">
-              <span className="text-[10px] font-mono font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-widest">
+              <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-500 uppercase tracking-widest">
                 RECENT SESSIONS ({filteredSessions.length})
               </span>
             </div>
@@ -96,7 +96,7 @@ export default function Sidebar({
                 placeholder="Search sessions..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-8 pr-7 py-1.5 bg-slate-50 dark:bg-[#0B1017] border border-slate-200 dark:border-[#263142] rounded-lg text-xs text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-[#2F5DA8] transition-colors font-medium"
+                className="w-full pl-8 pr-7 py-1.5 bg-white dark:bg-[#0B1017] border-2 border-slate-300 dark:border-[#263142] rounded-xl text-xs text-slate-900 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-medium shadow-2xs"
               />
               {searchQuery && (
                 <button
@@ -120,16 +120,16 @@ export default function Sidebar({
                       handleLoadSession(item.id);
                       if (window.innerWidth < 768) setSidebarOpen(false);
                     }}
-                    className={`group relative flex flex-col p-2.5 rounded-lg transition-all cursor-pointer border ${
+                    className={`group relative flex flex-col p-2.5 rounded-xl transition-all cursor-pointer border ${
                       isActive 
-                        ? 'bg-blue-50/80 dark:bg-[#172640] text-slate-900 dark:text-slate-100 font-semibold border-blue-300 dark:border-[#2F5DA8]' 
-                        : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-[#141C28] hover:text-slate-900 dark:hover:text-slate-200 border-transparent'
+                        ? 'bg-blue-100/90 dark:bg-[#172640] text-blue-950 dark:text-slate-100 font-extrabold border-2 border-blue-400 dark:border-[#2F5DA8] shadow-xs' 
+                        : 'bg-white/70 dark:bg-transparent text-slate-700 dark:text-slate-400 hover:bg-white dark:hover:bg-[#141C28] hover:text-slate-950 dark:hover:text-slate-200 border-slate-200/80 hover:border-slate-300 dark:border-transparent'
                     }`}
                   >
                     <div className="flex items-center justify-between gap-1.5 overflow-hidden">
                       <div className="flex items-center gap-2 overflow-hidden">
-                        <Database className={`w-3.5 h-3.5 shrink-0 ${isActive ? 'text-[#2F5DA8] dark:text-[#93B4E8]' : 'text-slate-400 dark:text-slate-500'}`} />
-                        <span className="truncate text-xs font-semibold leading-tight">
+                        <Database className={`w-3.5 h-3.5 shrink-0 ${isActive ? 'text-blue-700 dark:text-[#93B4E8]' : 'text-slate-400 dark:text-slate-500'}`} />
+                        <span className="truncate text-xs font-bold leading-tight">
                           {item.title || 'Untitled Investigation'}
                         </span>
                       </div>
@@ -137,7 +137,7 @@ export default function Sidebar({
                       <button
                         type="button"
                         onClick={(e) => handleDeleteSession(e, item.id)}
-                        className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-[#101722] rounded transition-all shrink-0" 
+                        className="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-[#101722] rounded-md transition-all shrink-0" 
                         title="Delete session"
                         aria-label="Delete session"
                       >
@@ -145,13 +145,13 @@ export default function Sidebar({
                       </button>
                     </div>
 
-                    <div className="flex items-center justify-between mt-1 text-[10px] text-slate-400 dark:text-slate-500 font-mono">
-                      <div className="flex items-center gap-1">
+                    <div className="flex items-center justify-between mt-1 text-[10px] text-slate-500 dark:text-slate-500 font-mono">
+                      <div className="flex items-center gap-1 font-semibold">
                         <Clock className="w-2.5 h-2.5" />
                         <span>{formatSessionTime(item.updated_at)}</span>
                       </div>
                       {isActive && (
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#2F5DA8]"></span>
+                        <span className="w-2 h-2 rounded-full bg-blue-600 shadow-xs"></span>
                       )}
                     </div>
                   </div>
@@ -171,23 +171,15 @@ export default function Sidebar({
         <button
           type="button"
           onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 bg-white dark:bg-[#141C28] hover:bg-slate-50 dark:hover:bg-[#172640] border border-slate-300 dark:border-[#263142] shadow-xs rounded-full items-center justify-center transition-colors z-30 cursor-pointer"
+          className="hidden md:flex absolute -right-3 top-1/2 -translate-y-1/2 w-6 h-6 bg-white dark:bg-[#141C28] hover:bg-slate-50 dark:hover:bg-[#172640] border-2 border-slate-300 dark:border-[#263142] shadow-sm rounded-full items-center justify-center transition-colors z-30 cursor-pointer"
           title={sidebarOpen ? "Collapse Sidebar" : "Expand Sidebar"}
           aria-label="Collapse or expand sidebar"
         >
           {sidebarOpen
-            ? <ChevronLeft className="w-3 h-3 text-slate-500 dark:text-slate-400" />
-            : <ChevronRight className="w-3 h-3 text-slate-500 dark:text-slate-400" />}
+            ? <ChevronLeft className="w-3 h-3 text-slate-600 dark:text-slate-400 stroke-[2.5]" />
+            : <ChevronRight className="w-3 h-3 text-slate-600 dark:text-slate-400 stroke-[2.5]" />}
         </button>
       </aside>
-
-      {/* Desktop Resize Handle */}
-      {sidebarOpen && (
-        <div
-          onMouseDown={startSidebarResize}
-          className="hidden md:block w-1 hover:w-1.5 bg-transparent hover:bg-[#2F5DA8]/50 cursor-col-resize self-stretch select-none transition-colors z-20"
-        />
-      )}
     </>
   );
 }

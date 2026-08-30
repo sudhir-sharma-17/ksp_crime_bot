@@ -13,25 +13,25 @@ export default function Composer({
   inputRef
 }) {
   return (
-    <div className="bg-[#F4F6F9] dark:bg-[#0B1017] border-t border-slate-200 dark:border-[#263142] p-3 sm:p-4 shrink-0 transition-colors">
+    <div className="bg-[#E2E8F0]/80 dark:bg-[#0B1017] border-t-2 border-slate-300/80 dark:border-[#263142] p-3 sm:p-4 shrink-0 transition-colors">
       {/* Queued Queries Indicator */}
       {queryQueue.length > 0 && (
-        <div className="mb-2.5 flex items-center justify-between px-3.5 py-2 bg-slate-100 dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] rounded-xl text-xs animate-fade-in">
+        <div className="mb-2.5 flex items-center justify-between px-3.5 py-2 bg-white dark:bg-[#141C28] border-2 border-blue-200 dark:border-[#263142] rounded-xl text-xs animate-fade-in shadow-xs">
           <div className="flex items-center gap-2 truncate">
             <span className="flex h-2 w-2 relative shrink-0">
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#2F5DA8]"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
             </span>
-            <span className="font-mono font-bold uppercase tracking-wider text-[10px] text-[#2F5DA8] dark:text-[#93B4E8] shrink-0">
+            <span className="font-mono font-bold uppercase tracking-wider text-[10px] text-blue-800 dark:text-[#93B4E8] shrink-0">
               Queued ({queryQueue.length}):
             </span>
-            <span className="truncate italic text-slate-700 dark:text-slate-300 font-medium">
+            <span className="truncate italic text-slate-800 dark:text-slate-300 font-semibold">
               "{queryQueue[0]}"{queryQueue.length > 1 ? ` (+${queryQueue.length - 1} more)` : ''}
             </span>
           </div>
           <button
             type="button"
             onClick={() => setQueryQueue([])}
-            className="flex items-center gap-1 text-slate-400 hover:text-red-500 text-[10px] font-bold uppercase ml-2 px-2 py-0.5 rounded hover:bg-red-50 dark:hover:bg-[#101722] cursor-pointer transition-colors"
+            className="flex items-center gap-1 text-slate-400 hover:text-red-600 text-[10px] font-bold uppercase ml-2 px-2 py-0.5 rounded hover:bg-red-50 dark:hover:bg-[#101722] cursor-pointer transition-colors"
             title="Clear queued queries"
           >
             <X className="w-3 h-3" />
@@ -43,10 +43,10 @@ export default function Composer({
       {/* Input Form */}
       <form
         onSubmit={handleSendMessage}
-        className="relative flex items-center bg-white dark:bg-[#101722] border border-slate-300 dark:border-[#263142] rounded-xl focus-within:border-[#2F5DA8] dark:focus-within:border-[#2F5DA8] focus-within:ring-1 focus-within:ring-[#2F5DA8]/40 transition-all p-1"
+        className="relative flex items-center bg-white dark:bg-[#101722] border-2 border-slate-300 dark:border-[#263142] rounded-2xl focus-within:border-blue-700 dark:focus-within:border-[#2F5DA8] focus-within:ring-4 focus-within:ring-blue-100 dark:focus-within:ring-[#2F5DA8]/40 transition-all p-1 shadow-sm"
       >
         <div className="pl-3 text-slate-400 dark:text-slate-500 hidden sm:block">
-          <Terminal className="w-4 h-4" />
+          <Terminal className="w-4 h-4 text-blue-700 dark:text-slate-500" />
         </div>
 
         <input
@@ -59,31 +59,31 @@ export default function Composer({
               ? "Executing inquiry... Type next query to queue for sequential processing..."
               : "Ask Aloka (e.g., 'Who are the accused in KSP-CASE-0004?', 'Show cases by station')..."
           }
-          className="flex-1 bg-transparent border-none focus:ring-0 text-slate-900 dark:text-slate-100 text-xs sm:text-sm placeholder-slate-400 dark:placeholder-slate-500 py-2 px-3 outline-none font-medium"
+          className="flex-1 bg-transparent border-none focus:ring-0 text-slate-950 dark:text-slate-100 text-xs sm:text-sm placeholder-slate-400 dark:placeholder-slate-500 py-2 px-3 outline-none font-semibold"
         />
 
         {/* Voice Command Button */}
         <button 
           type="button"
           onClick={toggleVoiceCommand} 
-          className={`p-2 rounded-lg transition-all shrink-0 cursor-pointer ${
+          className={`p-2 rounded-xl transition-all shrink-0 cursor-pointer ${
             isListening 
-              ? 'bg-red-500 text-white animate-pulse' 
-              : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-[#141C28]'
+              ? 'bg-red-600 text-white animate-pulse shadow-xs' 
+              : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-[#141C28]'
           }`}
           title={isListening ? "Listening... Click to stop" : "Voice Command"}
         >
-          <Mic className="w-4 h-4" />
+          <Mic className="w-4 h-4 stroke-[2.2]" />
         </button>
 
         {/* Submit Button */}
         <button
           type="submit"
           disabled={!inputVal.trim()}
-          className="w-8 h-8 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-slate-200 dark:disabled:bg-[#141C28] disabled:text-slate-400 text-white rounded-lg flex items-center justify-center transition-all shrink-0 cursor-pointer disabled:cursor-not-allowed"
+          className="w-9 h-9 bg-blue-700 hover:bg-blue-800 disabled:bg-slate-200 dark:disabled:bg-[#141C28] disabled:text-slate-400 text-white rounded-xl flex items-center justify-center transition-all shrink-0 cursor-pointer disabled:cursor-not-allowed shadow-xs border border-blue-800"
           title={isLoading ? "Queue query" : "Send inquiry"}
         >
-          <ArrowUp className="w-4 h-4 stroke-[2.5]" />
+          <ArrowUp className="w-4 h-4 stroke-[3]" />
         </button>
       </form>
     </div>
