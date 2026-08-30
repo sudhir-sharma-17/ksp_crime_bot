@@ -31,7 +31,7 @@ const getDefaultChatWidth = (sidebarW = 250) => {
   return 850;
 };
 
-export default function Dashboard() {
+export default function Dashboard({ officerProfile, onLogout }) {
   const [messages, setMessages] = useState(DEFAULT_WELCOME);
   const [inputVal, setInputVal] = useState('');
   const [activeDataIndex, setActiveDataIndex] = useState(null);
@@ -492,6 +492,8 @@ export default function Dashboard() {
         setSelectedLanguage={setSelectedLanguage}
         sidebarOpen={sidebarOpen}
         setSidebarOpen={setSidebarOpen}
+        officerProfile={officerProfile}
+        onLogout={onLogout}
       />
 
       <div className="flex flex-1 overflow-hidden relative">

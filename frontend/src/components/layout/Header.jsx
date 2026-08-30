@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Moon, Shield, Database, Globe, MessageSquare, LayoutDashboard, Menu } from 'lucide-react';
+import { Sun, Moon, Shield, Database, Globe, MessageSquare, LayoutDashboard, Menu, Lock } from 'lucide-react';
 
 export default function Header({
   isDarkMode,
@@ -10,7 +10,9 @@ export default function Header({
   selectedLanguage,
   setSelectedLanguage,
   sidebarOpen,
-  setSidebarOpen
+  setSidebarOpen,
+  officerProfile,
+  onLogout
 }) {
   return (
     <header className="h-14 bg-white dark:bg-[#101722] border-b border-slate-200 dark:border-[#263142] flex items-center justify-between px-3 sm:px-5 shrink-0 z-30 transition-colors duration-200">
@@ -84,8 +86,8 @@ export default function Header({
         </button>
       </div>
 
-      {/* Right: Operational Status + Language + Theme Toggle */}
-      <div className="flex items-center gap-2 sm:gap-3">
+      {/* Right: Operational Status + Officer Profile + Language + Theme Toggle + Lock */}
+      <div className="flex items-center gap-2 sm:gap-2.5">
         {/* Status Indicators */}
         <div className="hidden lg:flex items-center gap-2 border-r border-slate-200 dark:border-[#263142] pr-3">
           <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-[#102619] px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-900/60">
@@ -98,6 +100,15 @@ export default function Header({
             <span>DATABASE CONNECTED</span>
           </div>
         </div>
+
+        {/* Optional Officer Badge */}
+        {officerProfile?.name && (
+          <div className="hidden xl:flex items-center gap-1.5 text-[10px] font-mono text-slate-300 bg-[#141C28] px-2.5 py-1 rounded-lg border border-[#263142]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#2F5DA8]"></span>
+            <span className="font-semibold text-slate-200">{officerProfile.name}</span>
+            <span className="text-slate-500">({officerProfile.kgid})</span>
+          </div>
+        )}
 
         {/* Global Language Selector */}
         <div className="flex items-center gap-1 bg-slate-100 dark:bg-[#141C28] px-2 py-1 rounded-lg border border-slate-200 dark:border-[#263142] text-xs text-slate-700 dark:text-slate-300">
@@ -128,6 +139,19 @@ export default function Header({
             <Moon className="w-4 h-4 text-slate-600" />
           )}
         </button>
+
+        {/* Lock / Exit Session Button */}
+        {onLogout && (
+          <button
+            type="button"
+            onClick={onLogout}
+            className="p-1.5 rounded-lg text-slate-500 hover:text-red-500 dark:text-slate-400 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-[#141C28] border border-slate-200 dark:border-[#263142] transition-colors cursor-pointer"
+            title="Lock Session / Exit to Login"
+            aria-label="Lock Session"
+          >
+            <Lock className="w-4 h-4" />
+          </button>
+        )}
       </div>
     </header>
   );
