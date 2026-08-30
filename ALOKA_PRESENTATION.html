@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aloka Intelligence — Hackathon Presentation Deck</title>
+  <style>
+    :root {
+      --bg: #0B1017;
+      --panel: #101722;
+      --card: #141C28;
+      --border: #263142;
+      --primary: #2F5DA8;
+      --primary-hover: #3A6DBD;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --accent: #93B4E8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+    }
+    .header {
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand img { width: 38px; height: 38px; }
+    .brand h1 {
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: monospace;
+    }
+    .brand span {
+      font-size: 10px;
+      color: var(--text-muted);
+      letter-spacing: 2px;
+      display: block;
+    }
+    .deck-container {
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .slide-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 35px 40px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      page-break-after: always;
+      position: relative;
+    }
+    .slide-number {
+      font-family: monospace;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      background: #172640;
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+    .slide-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      font-family: monospace;
+    }
+    .slide-body h3 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent);
+      margin: 18px 0 8px 0;
+      font-family: monospace;
+    }
+    .slide-body ul { padding-left: 20px; margin-bottom: 15px; }
+    .slide-body li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #CBD5E1;
+      margin-bottom: 6px;
+    }
+    .speaker-note {
+      background: var(--card);
+      border-left: 3px solid var(--primary);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 20px;
+      font-style: italic;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #94A3B8;
+    }
+    .speaker-note strong {
+      color: var(--text);
+      font-style: normal;
+      display: block;
+      font-size: 11px;
+      font-family: monospace;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .actions { margin-top: 30px; display: flex; gap: 12px; justify-content: center; }
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover { background: var(--primary-hover); }
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      .slide-card { background: #fff; border: 1px solid #ccc; color: #000; box-shadow: none; margin-bottom: 30px; }
+      .slide-title { color: #000; }
+      .slide-body li { color: #333; }
+      .speaker-note { background: #f4f4f4; color: #555; border-left-color: #333; }
+      .header, .actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" alt="KSP Emblem">
+      <div>
+        <h1>ALOKA INTELLIGENCE</h1>
+        <span>STATE POLICE COMMAND CENTER — PRESENTATION DECK</span>
+      </div>
+    </div>
+    <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <div class="deck-container">
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 1 of 30</span>
+      <h2 class="slide-title">1: Title Slide — Aloka Intelligence</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 2 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>System Name</strong>: ALOKA INTELLIGENCE (ಆಲೋಕ ಇಂಟೆಲಿಜೆನ್ಸ್)</li>
+<li><strong>Subtitle</strong>: Multilingual AI-Powered State Police Intelligence & Criminological Command Center</li>
+<li><strong>Authority</strong>: Built for Karnataka State Police (KSP) & Law Enforcement Investigators</li>
+<li><strong>Core Paradigm</strong>: Zero-SQL Natural Language Conversational Access over Complex Relational Crime Databases</li>
+<li><strong>Language Support</strong>: English • ಕನ್ನಡ (Kannada) • हिन्दी (Hindi)</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Good morning, esteemed judges. Law enforcement officers and intelligence analysts manage massive relational databases containing FIRs, accused profiles, penal sections, and personnel records. However, retrieving actionable intelligence traditionally requires writing complex multi-table SQL queries or waiting for database administrators. Today, we introduce <strong>Aloka Intelligence</strong> — a state-of-the-art, multilingual conversational intelligence assistant that enables officers to query, analyze, semantically search, and visualize state crime records directly in natural language across English, Kannada, and Hindi."</div>
+<h3>Visual Suggestion</h3>* Official Karnataka Police emblem centered with a sleek dark command center interface preview (`#0B1017` / `#2F5DA8`), accompanied by the live badge: `SYSTEM SECURE & OPERATIONAL`.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 3 of 30</span>
+      <h2 class="slide-title">2: Problem Statement</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 4 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>SQL Barrier for Field Personnel</strong>: Investigating officers and analysts should not need database programming skills during active investigations.</li>
+<li><strong>Complex Multi-Table Schemas</strong>: Crime data is fragmented across 13+ relational tables (FIRs, Accused, Victims, Officers, Legal Acts, Sections).</li>
+<li><strong>Semantic Ambiguity</strong>: Search terms like *"fraud"*, *"phishing"*, or *"police personnel"* do not directly match strict database column names.</li>
+<li><strong>Loss of Conversational Context</strong>: Traditional database search tools cannot understand pronoun follow-up questions (e.g., *"Who was the accused in that case?"*).</li>
+<li><strong>Linguistic Barriers</strong>: Field officers across Karnataka frequently think and operate in Kannada and Hindi, while databases store data in standardized schemas.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"When a police officer needs to know 'Who are the accused in KSP-CASE-0004?' or 'Which police station has the highest crime volume this year?', they face multiple friction points: complex join logic across multiple tables, rigid keyword searches, and lack of regional language support. Aloka eliminates these barriers by turning natural language into verified, schema-aware SQL."</div>
+<h3>Visual Suggestion</h3>* Split comparison diagram: Left side shows a frustrated officer facing a 15-line SQL query with syntax errors; Right side shows an officer typing a 1-line question in Kannada and getting an instant structured dossier.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 5 of 30</span>
+      <h2 class="slide-title">3: Proposed Solution — Aloka Intelligence</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 6 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Natural Language to Verified SQL</strong>: Translates plain text questions into optimized, schema-validated MySQL queries.</li>
+<li><strong>14-Node Stateful AI Graph</strong>: Orchestrated via LangGraph with multi-step validation, schema checking, and automated self-correction.</li>
+<li><strong>Relational Relationship Reasoning</strong>: Automatically navigates foreign key paths (`casemaster → accused`, `employee → rank → designation`).</li>
+<li><strong>Hybrid Semantic Crime Search</strong>: In-memory BM25 + dense TF-IDF vector space engine to discover similar modus operandi across case brief facts.</li>
+<li><strong>Instant Visual Analytics & Dossier Export</strong>: Automatic generation of Bar, Pie, and Line charts + 1-click confidential PDF dossier generation.</li>
+<li><strong>Native Multilingual Pipeline</strong>: End-to-end support for English, Kannada, and Hindi with entity and case-number preservation.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Aloka is not just a chatbot wrapping an LLM. It is a deterministic, 14-node LangGraph pipeline with strict schema validation, AST safety filtering, relationship path discovery, in-memory BM25 semantic retrieval, and live data visualization. It delivers high-accuracy answers directly backed by the state's criminological database."</div>
+<h3>Visual Suggestion</h3>* 3 Core Pillars graphic: <strong>Conversational Interface</strong> ➔ <strong>14-Node LangGraph Engine</strong> ➔ <strong>Live KSP Relational Database</strong>.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 7 of 30</span>
+      <h2 class="slide-title">4: Key Objectives & Implementation Scope</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 8 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Zero-SQL Data Accessibility</strong>: Enable non-technical personnel to extract relational data seamlessly.</li>
+<li><strong>Multi-Turn Contextual Memory</strong>: Maintain active case IDs, suspect names, and police stations across continuous conversations.</li>
+<li><strong>Read-Only Database Safeguards</strong>: Enforce strict `SELECT`-only execution to prevent unauthorized modification or data corruption.</li>
+<li><strong>Self-Healing SQL Generation</strong>: Automatically catch and repair syntax or schema errors in real time without crashing.</li>
+<li><strong>Operational Command Center UI</strong>: Modern, high-density dashboard featuring a 3-panel layout, session history, and live SQL inspection.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Our primary objectives were security, accuracy, and ease of use. We strictly enforce read-only database operations so no user input can modify police records. Furthermore, we designed an intelligent self-correction loop that retries queries if MySQL returns any syntax error."</div>
+<h3>Visual Suggestion</h3>* Feature checklist diagram displaying green verification checkmarks across: *Intent Routing, Schema Validation, Context Tracking, Visual Analytics, and Multilingual Middleware*.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 9 of 30</span>
+      <h2 class="slide-title">5: System Architecture & Workflow</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 10 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Client Layer</strong>: React 19 + Tailwind CSS v4 Command Center with real-time state synchronization.</li>
+<li><strong>API Gateway</strong>: FastAPI async web service providing non-blocking query streaming.</li>
+<li><strong>StateGraph Orchestrator</strong>: 14 specialized LangGraph nodes handling language detection, intent classification, planning, SQL generation, execution, and analytics.</li>
+<li><strong>Inference Layer</strong>: Groq Cloud LPU running high-performance models (`qwen/qwen3.8-27b`, `openai/gpt-oss-safeguard-20b`).</li>
+<li><strong>Database & Search</strong>: MySQL 8.0 relational case repository + in-memory BM25 semantic index.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Here is the architectural overview of Aloka. The user enters a query in our React frontend. The request is processed by FastAPI and enters our 14-node LangGraph state machine. It normalizes language, routes intent, constructs a structured JSON query plan, validates schema foreign keys, generates and executes safe SQL against MySQL, and synthesizes analytical insights."</div>
+<h3>Visual Suggestion</h3>* Architectural flow diagram showing:
+  `User → React 19 Frontend → FastAPI Gateway → LangGraph Engine (14 Nodes) → MySQL Database / BM25 Index → Recharts / PDF Dossier`.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 11 of 30</span>
+      <h2 class="slide-title">6: The AI Query Pipeline in Action</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 12 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Step 1 — Language Normalization</strong>: Detects Kannada/Hindi, isolates case tokens (`KSP-CASE-0004`), and maps regional phrasing.</li>
+<li><strong>Step 2 — Intent Router</strong>: Dispatches query to `DATABASE`, `SEMANTIC_SEARCH`, `CYBER`, or `CHAT`.</li>
+<li><strong>Step 3 — Query Planner</strong>: Produces a formal JSON specification with target tables and required foreign-key joins.</li>
+<li><strong>Step 4 — Schema Validator</strong>: Inspects tables, injects missing join keys, and verifies field validity against `DB_SCHEMA`.</li>
+<li><strong>Step 5 — SQL Generation & Safety Guard</strong>: Synthesizes clean SQL and applies strict regex and token security filters.</li>
+<li><strong>Step 6 — Execution & Synthesis</strong>: Runs query on MySQL, calculates totals, and renders formatted analytical Markdown.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"When an investigator asks 'Who are the accused in KSP-CASE-0004?', the pipeline doesn't just guess SQL. The Query Planner builds a structured plan with target tables `casemaster` and `accused`. The Schema Validator verifies the foreign key join `casemaster.CaseMasterID = accused.CaseMasterID`. Safe SQL is generated and executed, returning exact accused records with age, gender, and arrest status in milliseconds."</div>
+<h3>Visual Suggestion</h3>* Pipeline diagram tracking the step-by-step transformation of *"Who are the accused in KSP-CASE-0004?"* into `SELECT accused.AccusedName, accused.Age, accused.ArrestStatus FROM casemaster LEFT JOIN accused ON casemaster.CaseMasterID = accused.CaseMasterID WHERE casemaster.CaseNo = 'KSP-CASE-0004'`.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 13 of 30</span>
+      <h2 class="slide-title">7: Conversational Context & Multi-Turn Intelligence</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 14 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Active Entity Tracking</strong>: Automatically remembers `active_case`, `active_person`, and `active_station`.</li>
+<li><strong>Pronoun Resolution</strong>: Understands queries like *"Who was the victim?"* after examining a case.</li>
+<li><strong>Seamless Context Switching</strong>: Instantly shifts focus when a new case or station ID is introduced.</li>
+<li><strong>Global Query Isolation</strong>: Bypasses active case filters when users ask broad questions like *"List all police stations"*.</li>
+<li><strong>Ambiguity Detection</strong>: Prompts the user for clarification if a reference is missing or unclear.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"In real investigations, conversations happen in multi-step dialogues. If an officer asks 'Show KSP-CASE-0004', Aloka sets the active context. When the officer follows up with 'Which sections of law were applied?', Aloka automatically joins `actsectionassociation`, `act`, and `section` for that specific case without asking the officer to repeat the case number."</div>
+<h3>Visual Suggestion</h3>* Multi-turn chat progression graphic showing:
+  1. *User*: "Show FIR KSP-CASE-0004" ➔ *Context Badge*: `ACTIVE CASE: KSP-CASE-0004`
+  2. *User*: "Who were the accused?" ➔ *Aloka*: Resolves accused for `KSP-CASE-0004`.
+  3. *User*: "Now show KSP-CASE-0012" ➔ *Context Switch*: `ACTIVE CASE: KSP-CASE-0012`.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 15 of 30</span>
+      <h2 class="slide-title">8: Multi-Table Database Relationship Reasoning</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 16 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>13 Connected Entities</strong>: Full mapping across CaseMaster, Accused, Victims, Complainants, Officers, Ranks, Designations, Acts, and Sections.</li>
+<li><strong>Automated Join Discovery</strong>: Dynamically resolves 1-to-many and many-to-many relationships without hardcoding queries.</li>
+<li><strong>MySQL 8 Reserved Keyword Protection</strong>: Safely escapes reserved system keywords like `` `rank` `` in SQL syntax.</li>
+<li><strong>Domain Synonym Graph</strong>: Connects terms like *"officers"*, *"personnel"*, *"posts"*, and *"statutes"* to their exact database tables.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"A major breakthrough in Aloka is our relational relationship reasoning engine. When a user asks 'Show employee ID, name, rank and designation for all officers', Aloka reasons over 3 distinct tables: `employee`, `rank`, and `designation`, connecting them via `RankID` and `DesignationID` to produce clean 16-row officer directories."</div>
+<h3>Visual Suggestion</h3>* Entity Relationship Diagram (ERD) showing `casemaster` at the core connected to `accused`, `victim`, `complainant`, `actsectionassociation`, and `unit`.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 17 of 30</span>
+      <h2 class="slide-title">9: Hybrid Semantic Crime Search</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 18 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Natural Language Modus Operandi Matching</strong>: Discovers cases based on conceptual descriptions rather than exact keywords.</li>
+<li><strong>BM25 + Dense TF-IDF Engine</strong>: In-memory vector space indexing 500+ case `BriefFacts`.</li>
+<li><strong>Domain Concept Expansion</strong>: Expands crime terms (e.g., *"phishing"* expands to *fake link, SMS, OTP, fraud, URL*).</li>
+<li><strong>Relevance Scoring & Ranking</strong>: Returns top matching cases with similarity scores, brief summaries, and station details.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Traditional database searches fail if an investigator searches for 'ATM card cloned' and the database recorded 'debit card skimmed'. Aloka's semantic search engine uses BM25 with criminological synonym expansion to match concepts across case BriefFacts, returning ranked results with similarity scores."</div>
+<h3>Visual Suggestion</h3>* Diagram illustrating a query *"Cases involving fraudulent prize SMS"* expanding into semantic tokens, matching `BriefFacts` in the BM25 vector space, and outputting ranked case cards.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 19 of 30</span>
+      <h2 class="slide-title">10: Visual Analytics & The Data Center</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 20 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Automatic Chart Selection</strong>: Deterministically selects the optimal visualization format based on query structure:</li>
+  </ul>* <strong>Bar Chart</strong>: Station comparisons, top crime categories, officer caseload rankings.
+  * <strong>Pie / Donut Chart</strong>: Demographic distributions (gender, age groups, case status).
+  * <strong>Line Chart</strong>: Time-series crime trends and chronological FIR registration rates.
+<ul><li><strong>Interactive Recharts Visualization</strong>: Hover tooltips, responsive legends, and custom command center styling.</li>
+<li><strong>Key Insight Generation</strong>: Automated analytical bullet points highlighting top categories and statistical percentages.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"When queries return aggregate or time-series data, Aloka automatically populates the Data Center panel. If you ask for 'Cases registered over time', it renders a smooth Line Chart. If you ask for 'Accused distribution by gender', it renders a Pie Chart with an automated Key Insight summary."</div>
+<h3>Visual Suggestion</h3>* Screenshot of the Data Center panel showing a Bar Chart of *Top Police Stations by Case Count* alongside the structured Data Table and Key Insight card.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 21 of 30</span>
+      <h2 class="slide-title">11: Multilingual Intelligence (English • ಕನ್ನಡ • हिन्दी)</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 22 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Universal Language Middleware</strong>: Deterministic Unicode script detection (`\u0C80-\u0CFF` for Kannada, `\u0900-\u097F` for Hindi).</li>
+<li><strong>Case Token Protection</strong>: Preserves FIR numbers (e.g., `KSP-CASE-0004`), personal names, and station codes during translation.</li>
+<li><strong>Bhashini & Fallback Engine</strong>: Accurate bidirectional query translation and response generation.</li>
+<li><strong>Cross-Language Consistency</strong>: Queries in Kannada generate the same accurate SQL and visualizations as English queries.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Karnataka is a diverse state where field officers frequently work in Kannada. An officer can type 'ಯಾವ ಪೊಲೀಸ್ ಠಾಣೆಯಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಕರಣಗಳಿವೆ' (Which police station has the most cases?), and Aloka seamlessly normalizes the query, queries MySQL, and responds in fluent Kannada while rendering the English visualization."</div>
+<h3>Visual Suggestion</h3>* Split-screen comparison showing a Kannada question on the left and Hindi question on the right, both converging into the same SQL query and verified charts.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 23 of 30</span>
+      <h2 class="slide-title">12: Verified Technology Stack</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 24 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Frontend</strong>: React 19.2, Vite 8.1, Tailwind CSS v4, Recharts 3.9, jsPDF 4.2, Lucide React.</li>
+<li><strong>Backend</strong>: FastAPI 0.139, Uvicorn 0.51, LangGraph 1.2, SQLAlchemy 2.0, PyMySQL 1.2.</li>
+<li><strong>AI & Inference</strong>: Groq Cloud LPU (`qwen/qwen3.8-27b`, `openai/gpt-oss-safeguard-20b`).</li>
+<li><strong>Database</strong>: MySQL 8.0 Relational Case Database + SQLite 3 Session Store.</li>
+<li><strong>Containerization</strong>: Docker (Python 3.12-slim) / Zoho Catalyst AppSail / Railway Cloud.</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Our technology stack was carefully chosen for sub-second latency and rock-solid reliability. We leverage React 19 with Vite on the frontend for instantaneous rendering, FastAPI with LangGraph on the backend for asynchronous agent orchestration, and Groq LPUs for ultra-fast model inference."</div>
+<h3>Visual Suggestion</h3>* Technology stack grid displaying official logos for React 19, FastAPI, LangGraph, Groq, MySQL, and Docker.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 25 of 30</span>
+      <h2 class="slide-title">13: Command Center User Experience (UI/UX)</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 26 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Institutional Command Center Design</strong>: Calm, authoritative government dark theme (`#0B1017` / `#101722` / `#2F5DA8`).</li>
+<li><strong>Three-Panel Reactive Layout</strong>:</li>
+  </ul>* <strong>Sidebar</strong>: New investigation launcher, session search, and conversation history.
+  * <strong>Conversation Stream</strong>: Markdown reports, 5-stage AI processing card, and persistent composer auto-focus.
+  * <strong>Data Center</strong>: Interactive charts, paginated data tables, executed SQL viewer, and PDF export.
+<ul><li><strong>Adjustable Split View</strong>: Interactive drag-handle with layout presets (Default, 50/50, 70% Analytics, 85% Wide).</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"We avoided flashy, neon 'AI chatbot' aesthetics in favor of a clean, institutional Command Center layout tailored for law enforcement. The UI features adjustable split views, interactive paginated data tables, live SQL inspection, and 1-click dossier export."</div>
+<h3>Visual Suggestion</h3>* Full-screen preview of the Aloka Command Center interface showing all three panels populated during an active investigation.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 27 of 30</span>
+      <h2 class="slide-title">14: Verification, Testing & Empirical Results</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 28 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>100% Test Pass Rate</strong>: Verified across Phase 1–7 test suites (Single case lookups, multi-table joins, analytics, semantic search).</li>
+<li><strong>Relationship Reasoning Benchmark</strong>: Queries A through F (Employee, Rank, Designation) executed with 100% foreign-key accuracy.</li>
+<li><strong>Zero Production Build Errors</strong>: Clean `npm run build` compilation (9.18s) and 0 backend crashes.</li>
+<li><strong>Strict Security Validation</strong>: 100% rejection of non-`SELECT` statements (`DROP`, `DELETE`, `UPDATE`, `INSERT`).</li>
+
+</ul><h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"We rigorously tested Aloka against comprehensive test suites covering multi-table joins, aggregate queries, semantic search, and regional language translations. All 6 benchmark relationship queries passed with zero errors, and our frontend builds with zero warnings."</div>
+<h3>Visual Suggestion</h3>* Test matrix table summarizing test execution results across *Entity Lookups, Join Accuracy, Analytics, Semantic Search, and Safety Filters*.
+
+---
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 29 of 30</span>
+      <h2 class="slide-title">15: Impact & Future Scope</h2>
+      <div class="slide-body">
+        #
+      </div>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-number">Slide 30 of 30</span>
+      <h2 class="slide-title">Content</h2>
+      <div class="slide-body">
+        <ul><li><strong>Operational Law Enforcement Impact</strong>:</li>
+  </ul>* Reduces intelligence retrieval time from minutes to milliseconds.
+  * Democratizes state crime data access for non-technical field personnel.
+  * Bridges linguistic divides with native Kannada and Hindi support.
+<ul><li><strong>Future Roadmap</strong>:</li>
+  </ul>* Role-Based Access Control (RBAC) & Officer Authentication.
+  * Geospatial Heatmap & GIS Mapping Integration.
+  * Predictive Crime Hotspot Analytics & Real-Time Alert Subscriptions.
+  * Automated Multilingual Voice Recognition via Edge Microphones.
+
+<h3>Speaker Notes</h3><div class="speaker-note"><strong>🎤 Speaker Script</strong>"Aloka Intelligence transforms how law enforcement personnel interact with state crime data. By combining conversational ease with strict relational precision and regional language support, Aloka empowers officers to solve cases faster. In future phases, we plan to introduce GIS geospatial crime mapping and role-based access control. Thank you, and we are ready for your questions!"</div>
+<h3>Visual Suggestion</h3>* Vision roadmap diagram charting Phase 1–7 (Implemented) ➔ Phase 8 (GIS Mapping & RBAC) ➔ Phase 9 (Predictive Crime Analytics).
+      </div>
+    </div>
+
+  </div>
+
+  <div class="actions">
+    <button class="btn" onclick="window.print()">Print or Export PDF Deck</button>
+  </div>
+</body>
+</html>

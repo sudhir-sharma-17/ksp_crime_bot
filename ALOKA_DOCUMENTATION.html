@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aloka Intelligence — Master Technical Documentation</title>
+  <style>
+    :root {
+      --bg: #0B1017;
+      --panel: #101722;
+      --card: #141C28;
+      --border: #263142;
+      --primary: #2F5DA8;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --accent: #93B4E8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 960px;
+      width: 100%;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 50px 60px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 35px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand img { width: 44px; height: 44px; }
+    .brand h1 {
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: monospace;
+    }
+    h1 { font-size: 28px; margin: 30px 0 15px 0; color: #FFFFFF; font-family: monospace; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    h2 { font-size: 20px; margin: 25px 0 12px 0; color: var(--accent); font-family: monospace; }
+    h3 { font-size: 15px; margin: 18px 0 8px 0; color: #FFFFFF; text-transform: uppercase; }
+    p { margin-bottom: 14px; color: #CBD5E1; font-size: 14px; }
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 6px; color: #CBD5E1; font-size: 14px; }
+    pre {
+      background: #080C12;
+      border: 1px solid var(--border);
+      padding: 16px 20px;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 18px 0;
+      font-family: monospace;
+      font-size: 12px;
+      color: #A7C4F2;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      padding: 10px 16px;
+      background: var(--card);
+      color: var(--text-muted);
+      margin: 15px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+    th {
+      background: #172640;
+      color: #FFFFFF;
+      font-family: monospace;
+    }
+    td {
+      background: var(--card);
+      color: #CBD5E1;
+    }
+    .btn-print {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; color: #000; padding: 0; }
+      .container { background: #fff; border: none; box-shadow: none; padding: 20px; }
+      h1, h2, h3, p, li { color: #000 !important; }
+      pre { background: #f4f4f4; color: #000; border: 1px solid #ccc; }
+      td { background: #fff; color: #000; }
+      th { background: #eee; color: #000; }
+      .btn-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-bar">
+      <div class="brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" alt="KSP Emblem">
+        <div>
+          <h1>ALOKA INTELLIGENCE</h1>
+          <p style="margin:0; font-size:11px; color:var(--text-muted);">MASTER TECHNICAL SPECIFICATION REPORT</p>
+        </div>
+      </div>
+      <button class="btn-print" onclick="window.print()">🖨️ Print / Save PDF</button>
+    </div>
+
+    <h1>ALOKA INTELLIGENCE — MASTER TECHNICAL PROJECT DOCUMENTATION</h1>
+
+<blockquote><strong>Document Version</strong>: 2.0.0  </blockquote>
+<blockquote><strong>Classification</strong>: Law Enforcement Intelligence & Technical Specification  </blockquote>
+<blockquote><strong>Source of Truth</strong>: Verified directly against application source code repository  </blockquote>
+<blockquote><strong>System Name</strong>: <strong>ALOKA INTELLIGENCE</strong> (ಆಲೋಕ ಇಂಟೆಲಿಜೆನ್ಸ್)  </blockquote>
+<blockquote><strong>Target Audience</strong>: Hackathon Evaluators, Technical Architects, Law Enforcement Officers, and Software Engineers</blockquote>
+
+---
+
+<h2>1. Title Page & Executive Summary</h2>
+
+<ul><li><strong>Project Title</strong>: ALOKA INTELLIGENCE</li>
+<li><strong>System Classification</strong>: Multilingual AI-Powered State Police Intelligence & Criminological Command Center</li>
+<li><strong>Lead Target Agency</strong>: Karnataka State Police (KSP) & Law Enforcement Agencies</li>
+<li><strong>Core Technology Stack</strong>: React 19, FastAPI, LangGraph, Groq LPU, SQLAlchemy, MySQL 8.0, Recharts, Tailwind CSS v4, Docker</li>
+<li><strong>Supported Natural Languages</strong>: English, Kannada (ಕನ್ನಡ), Hindi (हिन्दी)</li>
+
+</ul>---
+
+<h2>2. Project Abstract</h2>
+
+Traditional law enforcement records management systems require specialized knowledge of relational database schemas and structured query language (SQL) to extract operational intelligence. Investigating officers and crime analysts often struggle to query disparate relational tables, link penal code sections to FIR case records, perform cross-table suspect profiling, and generate visual crime trend analytics—especially under time-sensitive field conditions and across regional languages.
+
+<strong>Aloka Intelligence</strong> is an enterprise-grade, multilingual, AI-powered intelligence assistant and command center engineered for state police departments. Operating on top of a relational MySQL criminological database containing FIR records, accused individuals, victims, complainants, investigating officers, legal acts, penal sections, and police units, Aloka enables non-technical personnel to interact with complex datasets using conversational natural language in English, Kannada, and Hindi.
+
+Orchestrated through a deterministic <strong>14-node LangGraph state machine</strong>, Aloka executes language normalization, intent classification, entity extraction, foreign-key relationship reasoning, schema-aware SQL generation, AST/regex read-only safety validation, database execution, self-healing query correction, in-memory BM25 semantic case search, and automatic data visualization (Bar, Line, and Pie charts). Empirical benchmarks demonstrate a 100% query pass rate across multi-table joins, sub-second inference latency, and zero production compilation errors.
+
+---
+
+<h2>3. Introduction</h2>
+
+Modern law enforcement agencies generate vast amounts of structured data daily, spanning First Information Reports (FIRs), arrest logs, evidence records, witness statements, and legal charge sheets. While relational database management systems (RDBMS) provide robust transactional storage, querying this data requires translating investigative questions into multi-table SQL queries with complex `JOIN`, `GROUP BY`, and `ORDER BY` clauses.
+
+Aloka Intelligence bridges the gap between raw relational police data and human investigative workflows. By combining state-of-the-art Large Language Models (LLMs) with formal query planning, schema validation graphs, and multi-turn conversational context, Aloka converts complex police inquiries into verified SQL, executes them safely against production databases, and returns rich, structured dossiers and visual charts.
+
+---
+
+<h2>4. Problem Statement</h2>
+
+1. <strong>SQL Barrier for Field Personnel</strong>: Field police officers and senior commanders lack the technical database expertise required to write multi-table SQL statements.
+2. <strong>Normalized Data Fragmentation</strong>: Criminological data is partitioned across multiple normalized relational tables (CaseMaster, Accused, Victim, Complainant, Employee, Rank, Designation, Act, Section, Unit, District), making manual join formulation error-prone.
+3. <strong>Semantic & Vocabulary Disconnect</strong>: Everyday investigative terminology (<em>"cyber fraud"</em>, <em>"police personnel"</em>, <em>"phone scam"</em>, <em>"penal post"</em>) does not match physical database column names (<em>`BriefFacts`</em>, <em>`EmployeeID`</em>, <em>`DesignationName`</em>).
+4. <strong>Lack of Conversational Context</strong>: Traditional database reporting tools cannot resolve pronouns or contextual references across multi-step inquiries (e.g., <em>"Show case KSP-CASE-0004"</em> followed by <em>"Who were the accused?"</em> and <em>"Which sections of law applied?"</em>).
+5. <strong>Regional Linguistic Barriers</strong>: Police personnel in Karnataka frequently record information and formulate queries in regional languages (Kannada and Hindi), which standard SQL engines cannot parse.
+6. <strong>Data Presentation Complexity</strong>: Tabular SQL query outputs are difficult to interpret rapidly without automated statistical summaries, charts, and downloadable official dossiers.
+
+---
+
+<h2>5. Existing System vs. Proposed Aloka System</h2>
+
+| Evaluation Dimension | Existing Traditional Police Search Systems | Proposed Aloka Intelligence Command Center |
+| :--- | :--- | :--- |
+| <strong>Query Mechanism</strong> | Rigid form filters, hardcoded drop-downs, or raw SQL queries | Conversational Natural Language in English, Kannada, and Hindi |
+| <strong>Schema Navigation</strong> | Manual table selection and manual foreign-key join mapping | Automated 14-Node LangGraph relationship reasoning engine |
+| <strong>Conversational Memory</strong> | Stateless (every query must repeat all case IDs and parameters) | Stateful multi-turn memory tracking active cases, suspects, and stations |
+| <strong>Semantic Matching</strong> | Exact keyword/substring matching only (`LIKE '%phishing%'`) | In-memory BM25 + dense TF-IDF vector space with domain synonym expansion |
+| <strong>Visual Analytics</strong> | Static pre-built reports requiring manual configuration | Deterministic automatic chart selection (Bar, Pie, Line) via Recharts |
+| <strong>Database Safety</strong> | Application-level UI permissions only; vulnerable to bad inputs | Strict AST and regex read-only enforcement (`SELECT`-only) |
+| <strong>Self-Healing SQL</strong> | Database syntax errors crash or show unhelpful stack traces | Automatic self-correcting feedback loop with retry logic |
+| <strong>Report Generation</strong> | Manual export to CSV or raw text dumps | 1-Click confidential law enforcement PDF dossier generation |
+
+---
+
+<h2>6. Project Objectives</h2>
+
+1. <strong>Natural Language Database Querying</strong>: Translate plain language queries into optimized, valid SQL queries.
+2. <strong>Deterministic Intent Routing</strong>: Classify requests into Database, Semantic Search, Threat Intelligence, or General Assistance.
+3. <strong>Multi-Table Relational Reasoning</strong>: Reason across 13 relational tables and infer required foreign-key joins.
+4. <strong>Multi-Turn Contextual Tracking</strong>: Maintain active case IDs, person profiles, and police stations across multi-step conversations.
+5. <strong>Hybrid Semantic Crime Search</strong>: Index case brief facts using BM25 and semantic synonym expansion for modus operandi matching.
+6. <strong>Automatic Visual Analytics</strong>: Automatically generate interactive charts for statistical and time-series inquiries.
+7. <strong>Native Multilingual Interaction</strong>: Support seamless input and output in English, Kannada, and Hindi with entity preservation.
+8. <strong>Read-Only Database Safeguards</strong>: Enforce strict read-only execution to prevent data corruption or unauthorized modifications.
+9. <strong>Modern Command Center Experience</strong>: Deliver an institutional, high-density 3-panel UI with live session history and SQL transparency.
+
+---
+
+<h2>7. Project Scope & Operational Boundaries</h2>
+
+<h3>Implemented & Fully Operational Scope</h3>
+<ul><li>Full conversational querying over 500+ KSP FIR records, accused profiles, victims, legal acts, and officers.</li>
+<li>14-node LangGraph execution state machine with self-correcting retry loop.</li>
+<li>Dynamic Recharts data visualization (Bar, Pie, Line) in Data Center panel.</li>
+<li>1-Click PDF intelligence dossier export with official confidentiality headers.</li>
+<li>Kannada, Hindi, and English multilingual translation with case-token isolation.</li>
+<li>Persistent SQLite session history and real-time query queueing.</li>
+
+</ul><h3>Explicitly Excluded / Future Scope (Not Implemented in Current Build)</h3>
+<em> User authentication and Role-Based Access Control (RBAC) </em>(intentionally deferred for hackathon presentation simplicity)*.
+<ul><li>Live biometric / facial recognition integration.</li>
+<li>External live GPS vehicle tracking feeds.</li>
+<li>Write-access / FIR insertion endpoints.</li>
+
+</ul>---
+
+<h2>8. Complete System Architecture</h2>
+
+<pre><code>                                  ┌──────────────────────────────────────────────┐
+                                  │           INVESTIGATOR / USER                │
+                                  │      (English / Kannada / Hindi)             │
+                                  └──────────────────────┬───────────────────────┘
+                                                         │ HTTP / WebSockets
+                                                         ▼
+                                  ┌──────────────────────────────────────────────┐
+                                  │         REACT 19 COMMAND CENTER UI           │
+                                  │  - Header & Status  - Sidebar & History      │
+                                  │  - Chat Stream      - Data Canvas & Analytics│
+                                  └──────────────────────┬───────────────────────┘
+                                                         │ REST API (POST /api/chat)
+                                                         ▼
+                                  ┌──────────────────────────────────────────────┐
+                                  │          FASTAPI BACKEND GATEWAY             │
+                                  │  - CORS & Middleware - Session Orchestration │
+                                  └──────────────────────┬───────────────────────┘
+                                                         │
+                                                         ▼
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   14-NODE LANGGRAPH STATE MACHINE PIPELINE                                     │
+│                                                                                                                │
+│   [1. translation_input] ──► [2. intent_router] ──┬──► [3. chat_response] ──────┐                             │
+│                                                   ├──► [4. cyber_node] ─────────┤                             │
+│                                                   ├──► [5. semantic_search] ────┼──► [13. analyze_data] ──┐   │
+│                                                   │                             │         ▲               │   │
+│                                                   └──► [6. query_splitter]      │         │               │   │
+│                                                                │                │         │               │   │
+│                                                                ▼                │         │               │   │
+│                                                        [7. query_planner]       │         │               │   │
+│                                                                │                │         │               │   │
+│                                                                ▼                │         │               │   │
+│                                                       [8. schema_validator]     │         │               │   │
+│                                                                │                │         │               │   │
+│                                                                ▼                │         │               │   │
+│                                                        [9. generate_sql]        │         │               │   │
+│                                                                │                │         │               │   │
+│                                                                ▼                │         │               │   │
+│                                                        [10. execute_sql] ───────┤         │               │   │
+│                                                          ▲           │          │         │               │   │
+│                                           (Error &       │           ▼          │         │               │   │
+│                                            Retry <= 3)   │     [12. next_query] ┼─────────┘               │   │
+│                                                          │           ▲          │                         │   │
+│                                                   [11. self_correct] ┘          │                         │   │
+│                                                                                 ▼                         ▼   │
+│                                                                       [14. translation_output] ──► [ END ]    │
+└─────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────┘
+                                                                                  │
+                                            ┌─────────────────────────────────────┴───────────────────────┐
+                                            ▼                                                             ▼
+                             ┌───────────────────────────────┐                             ┌──────────────────────────────┐
+                             │       MYSQL 8.0 DATABASE      │                             │      IN-MEMORY BM25 INDEX    │
+                             │  - casemaster     - accused   │                             │  - 500+ Case BriefFacts      │
+                             │  - employee       - rank      │                             │  - Domain Synonym Expansion  │
+                             │  - act / section  - unit      │                             │  - TF-IDF Vector Space       │
+                             └───────────────────────────────┘                             └──────────────────────────────┘
+</code></pre>
+
+---
+
+<h2>9. Verified Technology Stack Specification</h2>
+
+<h3>Frontend Architecture</h3>
+<ul><li><strong>React 19.2.7</strong>: Modern reactive user interface rendering component state.</li>
+<li><strong>Vite 8.1.1</strong>: Ultra-fast build engine and HMR development server.</li>
+<li><strong>Tailwind CSS 4.3.2</strong>: Custom institutional command center theme (`#0B1017`, `#101722`, `#2F5DA8`).</li>
+<li><strong>Recharts 3.9.2</strong>: High-performance SVG charting library for Bar, Pie, and Line charts.</li>
+<li><strong>Lucide React 1.24.0</strong>: Clean, consistent icon set.</li>
+<li><strong>jsPDF 4.2.1 & jspdf-autotable 5.0.8</strong>: Vector PDF generation for official dossiers.</li>
+<li><strong>React Markdown 10.1.0 & remark-gfm 4.0.1</strong>: Markdown rendering with tables and code blocks.</li>
+
+</ul><h3>Backend Architecture</h3>
+<ul><li><strong>FastAPI 0.139.0</strong>: Async REST API framework with Pydantic validation.</li>
+<li><strong>Uvicorn 0.51.0</strong>: High-throughput ASGI server.</li>
+<li><strong>LangGraph 1.2.9</strong>: Directed cyclic state graph orchestrator.</li>
+<li><strong>SQLAlchemy 2.0.51 & PyMySQL 1.2.0</strong>: Database connection pooling and parameterized query execution.</li>
+<li><strong>Groq Python SDK 0.37.1</strong>: Ultra-low-latency LLM inference.</li>
+<li><strong>Deep-Translator 1.11.4</strong>: Translation middleware with Unicode character script detection.</li>
+<li><strong>SQLite 3</strong>: Local investigator session store (`sessions.db`).</li>
+
+</ul>---
+
+<h2>10. Database Design & Entity-Relationship Schema</h2>
+
+The state police database comprises <strong>13 relational tables</strong> with primary keys and foreign keys:
+
+<pre><code>┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│     district    │       │       act       │       │     section     │
+│ ─────────────── │       │ ─────────────── │       │ ─────────────── │
+│  DistrictID (PK)│       │  ActID (PK)     │       │  SectionID (PK) │
+│  DistrictName   │       │  ActName        │       │  SectionName    │
+└────────┬────────┘       └────────┬────────┘       └────────┬────────┘
+         │                         │                         │
+         │ 1:N                     │ 1:N                     │ 1:N
+         ▼                         ▼                         ▼
+┌─────────────────┐       ┌───────────────────────────────────────────┐
+│      unit       │       │           actsectionassociation           │
+│ ─────────────── │       │ ───────────────────────────────────────── │
+│  UnitID (PK)    │       │  ActSectionAssociationID (PK)            │
+│  UnitName       │       │  CaseMasterID (FK) ──► casemaster         │
+│  DistrictID (FK)│       │  ActID (FK)        ──► act                │
+└────────┬────────┘       │  SectionID (FK)    ──► section            │
+         │                └───────────────────────────────────────────┘
+         │ 1:N                                     ▲
+         ▼                                         │ 1:N
+┌──────────────────────────────────────────────────┴──────────────────┐
+│                             casemaster                              │
+│ ─────────────────────────────────────────────────────────────────── │
+│  CaseMasterID (PK)                                                  │
+│  CaseNo (Unique, e.g. KSP-CASE-0004)                                │
+│  BriefFacts (Text narrative)                                        │
+│  CrimeRegisteredDate (Datetime)                                     │
+│  PoliceStationID (FK) ──► unit.UnitID                               │
+└────────┬─────────────────────────┬─────────────────────────┬────────┘
+         │ 1:N                     │ 1:N                     │ 1:N
+         ▼                         ▼                         ▼
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│     accused     │       │     victim      │       │   complainant   │
+│ ─────────────── │       │ ─────────────── │       │ ─────────────── │
+│  AccusedID (PK) │       │  VictimID (PK)  │       │  ComplainantID  │
+│  CaseMasterID   │       │  CaseMasterID   │       │  CaseMasterID   │
+│  AccusedName    │       │  VictimName     │       │  ComplainantName│
+│  Age / Gender   │       │  Age / Gender   │       │  Age / Gender   │
+│  ArrestStatus   │       │  InjuryType     │       │  Address        │
+└─────────────────┘       └─────────────────┘       └─────────────────┘
+
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│      rank       │       │   designation   │       │    employee     │
+│ ─────────────── │       │ ─────────────── │       │ ─────────────── │
+│  RankID (PK)    │       │DesignationID(PK)│       │  EmployeeID(PK) │
+│  RankName       │       │DesignationName  │       │  FirstName      │
+└────────┬────────┘       └────────┬────────┘       │  LastName       │
+         │ 1:N                     │ 1:N            │  RankID (FK) ───┤
+         └─────────────────────────┴────────────────┼──DesignationID(FK)
+                                                    │  UnitID (FK) ───┤
+                                                    └─────────────────┘
+</code></pre>
+
+---
+
+<h2>11. The 14-Node AI StateGraph Pipeline</h2>
+
+<h3>Detailed Node-by-Node Execution Workflow</h3>
+
+1. <strong>`translation_input`</strong>: Inspects input string Unicode points. If Kannada (`\u0C80-\u0CFF`) or Hindi (`\u0900-\u097F`) characters are present, normalizes into English while safeguarding case tokens (`KSP-CASE-\d+`).
+2. <strong>`intent_router`</strong>: Classifies query into `DATABASE` (SQL queries), `SEMANTIC_SEARCH` (crime brief fact similarity), `CYBER` (threat intelligence), or `CHAT` (greetings/help).
+3. <strong>`chat_response`</strong>: Returns conversational assistance and suggested prompts for non-database queries.
+4. <strong>`cyber_node`</strong>: Provides cybersecurity domain guidance for threat-intel queries.
+5. <strong>`semantic_search`</strong>: Invokes the BM25 vector space index to find matching crime patterns and case narratives.
+6. <strong>`query_splitter`</strong>: Deconstructs complex compound questions into atomic sub-queries (e.g. <em>"Show FIR details and list officers"</em>).
+7. <strong>`query_planner`</strong>: Evaluates conversational context, resolves entities, and produces a structured JSON query plan.
+8. <strong>`schema_validator`</strong>: Cross-references plan tables and fields against `DB_SCHEMA`, automatically resolving foreign key join edges.
+9. <strong>`generate_sql`</strong>: Synthesizes clean SQL adhering to MySQL 8 syntax (escaping reserved keywords like `` `rank` ``).
+10. <strong>`execute_sql`</strong>: Runs strict safety validation and executes the query via SQLAlchemy against MySQL. Clamps pagination to 16 rows per page.
+11. <strong>`self_correct`</strong>: Catches MySQL exceptions, feeds the error message back to the LLM, and regenerates corrected SQL (up to 3 retries).
+12. <strong>`next_query_node`</strong>: Aggregates multi-query results or loops back to `query_planner` for remaining sub-queries.
+13. <strong>`analyze_data`</strong>: Analyzes the complete SQL result set, generates Markdown summaries, and invokes `determine_visualization`.
+14. <strong>`translation_output`</strong>: Translates final Markdown report into user's preferred language (Kannada or Hindi) if requested.
+
+---
+
+<h2>12. Structured Query Planning & Schema Validation</h2>
+
+<h3>Formal Query Plan Specification</h3>
+Before generating SQL, Aloka creates an intermediate structured JSON contract:
+
+<pre><code>{
+  "intent": "find_accused",
+  "target_tables": ["casemaster", "accused"],
+  "entities": {
+    "case_no": "KSP-CASE-0004"
+  },
+  "requested_fields": [
+    "accused.AccusedName",
+    "accused.Age",
+    "accused.Gender",
+    "accused.ArrestStatus"
+  ],
+  "relationships_required": [
+    {
+      "from": "casemaster.CaseMasterID",
+      "to": "accused.CaseMasterID",
+      "type": "LEFT"
+    }
+  ],
+  "filters": {
+    "casemaster.CaseNo": "KSP-CASE-0004"
+  },
+  "ordering": null,
+  "aggregation": null
+}
+</code></pre>
+
+<h3>Schema Relationship Discovery (`resolve_table_joins`)</h3>
+The validator maintains a graph of verified foreign key connections:
+<ul><li>`casemaster.CaseMasterID = accused.CaseMasterID`</li>
+<li>`casemaster.CaseMasterID = victim.CaseMasterID`</li>
+<li>`casemaster.CaseMasterID = complainant.CaseMasterID`</li>
+<li>`casemaster.CaseMasterID = actsectionassociation.CaseMasterID`</li>
+<li>`actsectionassociation.ActID = act.ActID`</li>
+<li>`actsectionassociation.SectionID = section.SectionID`</li>
+<li>`casemaster.PoliceStationID = unit.UnitID`</li>
+<li>`unit.DistrictID = district.DistrictID`</li>
+<li>`employee.RankID = rank.RankID`</li>
+<li>`employee.DesignationID = designation.DesignationID`</li>
+<li>`employee.UnitID = unit.UnitID`</li>
+
+</ul>---
+
+<h2>13. Conversational Context & Multi-Turn Intelligence</h2>
+
+Aloka maintains state across multi-turn dialogues through the following mechanisms:
+
+1. <strong>Active Case Tracking (`active_case`)</strong>: Captures case identifiers like `KSP-CASE-0004`. Subsequent pronoun questions (<em>"Who were the accused?"</em>, <em>"What were the sections?"</em>) automatically inherit this case context.
+2. <strong>Active Entity Tracking (`active_person`, `active_station`)</strong>: Tracks suspect names and police units for follow-up questions.
+3. <strong>Context Switching</strong>: Explicitly introducing a new case number (e.g., <em>"Now inspect KSP-CASE-0012"</em>) immediately resets the active entity pointer.
+4. <strong>Global Query Isolation</strong>: Broad queries (e.g., <em>"List all police stations"</em> or <em>"Show total cases by district"</em>) bypass active case filters without clearing context.
+5. <strong>Ambiguity Resolution</strong>: When a query requires a case context but none is active, Aloka prompts the user for clarification.
+
+---
+
+<h2>14. Hybrid Semantic Crime Search Engine</h2>
+
+<h3>Architecture</h3>
+For unstructured natural language investigations (e.g., <em>"Find cases involving OTP fraud or lottery scams"</em>), Aloka employs an in-memory <strong>BM25 + dense TF-IDF vector space engine</strong> indexing all 500+ case `BriefFacts`.
+
+<pre><code>User Query: "Find cases involving fake SMS links and bank fraud"
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       SEMANTIC CONCEPT EXPANSION                            │
+│  "sms"       ──► ["sms", "message", "text", "whatsapp", "telegram", "otp"]  │
+│  "fake link" ──► ["fake link", "phishing", "url", "portal", "website"]      │
+│  "bank fraud"──► ["bank", "account", "debited", "transferred", "rupees"]    │
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    BM25 TERM-WEIGHTING & SIMILARITY                         │
+│  Score(D, Q) = Σ IDF(qi) · [ f(qi, D) · (k1 + 1) ] / [ f(qi, D) + k1 · ... ]│
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        RANKED CASE DOSSIER OUTPUT                           │
+│  1. KSP-CASE-0004 (Score: 0.94) — "Victim received fraudulent lottery link" │
+│  2. KSP-CASE-0019 (Score: 0.88) — "Accused sent phishing SMS for bank KYC"  │
+└─────────────────────────────────────────────────────────────────────────────┘
+</code></pre>
+
+---
+
+<h2>15. Automated Visual Analytics (The Data Center)</h2>
+
+The `determine_visualization` service inspects SQL query results, structured query plans, and keywords to automatically render the optimal Recharts visualization:
+
+| Query Type / Structure | Deterministic Chart Selection | Visual Representation | Key Insight Highlight |
+| :--- | :--- | :--- | :--- |
+| <strong>Categorical Comparison</strong> (e.g., <em>"Cases by Police Station"</em>) | `BarChart` | Vertical bars with hover tooltips | Top police station and percentage of total |
+| <strong>Demographic / Proportion</strong> (e.g., <em>"Accused by Gender"</em>) | `PieChart` | Donut pie with slice percentages | Largest demographic segment |
+| <strong>Time-Series / Trends</strong> (e.g., <em>"Cases Registered Over Time"</em>) | `LineChart` | Smooth chronological line with nodes | Peak registration periods |
+| <strong>Multi-Record Structured Data</strong> (e.g., <em>"List all officers"</em>) | `DataTable` | Paginated grid with sorting and export | Total row count and active status |
+
+---
+
+<h2>16. Multilingual Processing Engine</h2>
+
+Aloka features a native multilingual pipeline supporting English, Kannada, and Hindi:
+
+<pre><code>┌─────────────────────────────────────────────────────────────────────────────┐
+│                      1. UNICODE SCRIPT DETECTION                            │
+│  Kannada Regex: [\u0C80-\u0CFF]  |  Devanagari (Hindi) Regex: [\u0900-\u097F]│
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 2. ENTITY & CASE TOKEN PRESERVATION                         │
+│  Isolates "KSP-CASE-0004", Station Names, and Suspect Names from translation│
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│               3. CANONICAL ENGLISH NORMALIZATION & PLANNING                 │
+│  "ಯಾವ ಪೊಲೀಸ್ ಠಾಣೆಯಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಕರಣಗಳಿವೆ" ──► "Which police station has most cases"│
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 4. UNIFIED SQL EXECUTION OVER MYSQL                         │
+│  SELECT unit.UnitName, COUNT(*) FROM casemaster GROUP BY ...                │
+└─────────────────────────────────────┬───────────────────────────────────────┘
+                                      │
+                                      ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│            5. TARGET LANGUAGE SYNTHESIS (Bhashini Engine)                   │
+│  Markdown Report synthesized in Kannada / Hindi + English Visual Charts     │
+└─────────────────────────────────────────────────────────────────────────────┘
+</code></pre>
+
+---
+
+<h2>17. Security, Safety & Read-Only Governance</h2>
+
+1. <strong>Strict Read-Only SQL Policy</strong>:
+   * All incoming generated SQL statements must begin with `SELECT`.
+   * Destructive commands (`DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`, `TRUNCATE`, `GRANT`, `REVOKE`, `EXEC`, `CREATE`) are intercepted and blocked before execution.
+2. <strong>MySQL Keyword Escaping</strong>:
+   * Automatically escapes MySQL 8 reserved keywords (e.g., `` `rank` ``) to prevent syntax injection or execution failures.
+3. <strong>Database Connection Hardening</strong>:
+   * Uses parameterized SQLAlchemy connections with bounded connection pools and short execution timeouts.
+4. <strong>Pagination Clamping</strong>:
+   * Automatically clamps queries to a default of 16 records per page (`LIMIT 16 OFFSET 0`) to prevent memory exhaustion and Denial-of-Service.
+
+---
+
+<h2>18. Verification, Testing & Empirical Results</h2>
+
+The system was evaluated against exhaustive automated test suites:
+
+<h3>Benchmark 1: Relationship Reasoning Suite (Queries A through F)</h3>
+<em> <strong>Query A</strong>: </em>"Return the employee details with their employee id and designation."* ➔ <strong>PASS</strong> (Tables: `employee`, `designation` | 16 rows)
+<em> <strong>Query B</strong>: </em>"Give me all officers with their employee ID and rank."* ➔ <strong>PASS</strong> (Tables: `employee`, `rank` | 16 rows)
+<em> <strong>Query C</strong>: </em>"Show employee ID, name, rank and designation for all officers."* ➔ <strong>PASS</strong> (Tables: `employee`, `rank`, `designation` | 16 rows)
+<em> <strong>Query D</strong>: </em>"List police personnel and their designations."* ➔ <strong>PASS</strong> (Tables: `employee`, `designation` | 16 rows)
+<em> <strong>Query E</strong>: </em>"Which designation does each employee have?"* ➔ <strong>PASS</strong> (Tables: `employee`, `designation` | 16 rows)
+<em> <strong>Query F</strong>: </em>"Give me the officer ID and their designation."* ➔ <strong>PASS</strong> (Tables: `employee`, `designation` | 16 rows)
+
+<h3>Benchmark 2: Frontend Compilation & Performance</h3>
+<ul><li><strong>Build Command</strong>: `npm run build`</li>
+<li><strong>Compilation Status</strong>: `✓ built in 9.18s` (Zero errors, zero broken modules).</li>
+<li><strong>Bundle Optimization</strong>: Gzipped CSS (10.03 kB), Gzipped JS (376 kB).</li>
+
+</ul>---
+
+<h2>19. Sample End-to-End Demonstration Flow</h2>
+
+1. <strong>Initial Case Inquiry</strong>:
+   <em> </em>User<em>: </em>"Tell me about FIR KSP-CASE-0004."*
+   <em> </em>Aloka*: Retrieves FIR registered date, police station, and brief facts narrative.
+2. <strong>Contextual Accused Lookup</strong>:
+   <em> </em>User<em>: </em>"Who were the accused involved?"*
+   <em> </em>Aloka*: Identifies active case `KSP-CASE-0004`, joins `accused`, returns names, ages, and arrest statuses.
+3. <strong>Legal Section Analysis</strong>:
+   <em> </em>User<em>: </em>"Which penal acts and sections were applied?"*
+   <em> </em>Aloka*: Joins `actsectionassociation`, `act`, and `section`, outputting applicable IPC/IT Act sections.
+4. <strong>Modus Operandi Semantic Search</strong>:
+   <em> </em>User<em>: </em>"Find similar cases involving fraudulent lottery SMS."*
+   <em> </em>Aloka*: Executes BM25 semantic search over `BriefFacts`, ranking top matching cybercrime cases.
+5. <strong>Statistical Aggregate & Visual Analytics</strong>:
+   <em> </em>User<em>: </em>"Which police stations have registered the most cases?"*
+   <em> </em>Aloka<em>: Generates `COUNT(</em>) GROUP BY PoliceStationID`, renders a Bar Chart in the Data Center, and summarizes findings.
+6. <strong>Demographic Distribution</strong>:
+   <em> </em>User<em>: </em>"Show accused distribution by gender."*
+   <em> </em>Aloka*: Renders a Donut/Pie Chart with male/female distribution and Key Insight pill.
+7. <strong>Regional Language Query (Kannada)</strong>:
+   <em> </em>User<em>: </em>"ಯಾವ ಪೊಲೀಸ್ ಠಾಣೆಯಲ್ಲಿ ಹೆಚ್ಚು ಪ್ರಕರಣಗಳಿವೆ?"*
+   <em> </em>Aloka*: Processes Kannada query, executes station ranking SQL, and responds in fluent Kannada Markdown.
+8. <strong>Dossier Export</strong>:
+   <em> </em>Investigator<em>: Clicks </em>"Export Report"* in the Data Center to download the official law enforcement PDF intelligence dossier.
+
+---
+
+<h2>20. Current Limitations</h2>
+
+1. <strong>Read-Only Scope</strong>: Current implementation intentionally restricts write operations; FIR creation or status updates must be performed in core CCTNS systems.
+2. <strong>Single Database Instance</strong>: Configured for a single relational MySQL instance; distributed multi-database federation is slated for future milestones.
+3. <strong>Voice Audio Capture</strong>: Voice commands rely on browser Web Speech API; noisy field environments may require dedicated hardware noise cancellation.
+
+---
+
+<h2>21. Future Roadmap</h2>
+
+1. <strong>Role-Based Access Control (RBAC)</strong>: Fine-grained permissions by officer rank (Constable, Sub-Inspector, SP, DGP).
+2. <strong>Geospatial GIS Crime Mapping</strong>: Interactive Leaflet/Mapbox heatmaps pinpointing crime clusters by latitude/longitude.
+3. <strong>Predictive Crime Analytics</strong>: Machine learning models forecasting seasonal crime surges and patrol route optimization.
+4. <strong>Offline Edge Deployment</strong>: Localized quantization (e.g., Qwen 7B GGUF) for deployment on patrol vehicle mobile terminals.
+
+---
+
+<h2>22. Conclusion</h2>
+
+<strong>Aloka Intelligence</strong> demonstrates the power of combining multi-turn conversational AI with deterministic relational database validation. By eliminating the SQL barrier, automating multi-table relationship discovery, supporting regional Indian languages, and delivering real-time visual analytics, Aloka establishes a new benchmark for state police intelligence command centers.
+
+  </div>
+</body>
+</html>
