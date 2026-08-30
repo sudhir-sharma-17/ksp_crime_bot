@@ -168,20 +168,6 @@ export default function Sidebar({
           </div>
         )}
 
-        {/* Clear History Button */}
-        {sidebarOpen && (
-          <div className="p-3 border-t border-slate-100 dark:border-slate-800/80">
-            <button
-              type="button"
-              onClick={clearChat}
-              className="flex items-center justify-center gap-2 w-full text-xs font-bold text-slate-500 hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 px-3 py-2 rounded-lg transition-colors cursor-pointer"
-              aria-label="Clear all session history"
-            >
-              <Trash2 className="w-3.5 h-3.5 shrink-0" />
-              <span>Clear History</span>
-            </button>
-          </div>
-        )}
 
         {/* Desktop Collapse Drawer Toggle Button */}
         <button
