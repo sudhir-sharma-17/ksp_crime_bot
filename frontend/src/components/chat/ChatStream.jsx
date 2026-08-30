@@ -2,7 +2,7 @@ import React from 'react';
 import MessageCard from './MessageCard';
 import Composer from './Composer';
 import ProcessingCard from './ProcessingCard';
-import { Shield, Square, Sparkles, FolderSearch, BarChart3, Search, Building2 } from 'lucide-react';
+import { FolderSearch, BarChart3, Search, Building2 } from 'lucide-react';
 
 const SUGGESTIONS = [
   {
@@ -10,28 +10,28 @@ const SUGGESTIONS = [
     description: "Lookup accused, victims & IPC sections",
     query: "Who are the accused in KSP-CASE-0004?",
     icon: FolderSearch,
-    accent: "text-blue-500"
+    accent: "text-[#2F5DA8] dark:text-[#93B4E8]"
   },
   {
     title: "Analyze Case Data",
     description: "Time-series crime trends & distributions",
     query: "Show me the number of cases registered over time.",
     icon: BarChart3,
-    accent: "text-cyan-500"
+    accent: "text-[#4B72B0] dark:text-[#A7C4F2]"
   },
   {
     title: "Find Similar Cases",
     description: "Semantic search across brief facts",
     query: "Find cases related to vehicle theft and burglary",
     icon: Search,
-    accent: "text-emerald-500"
+    accent: "text-emerald-600 dark:text-emerald-400"
   },
   {
     title: "Explore Police Stations",
     description: "Station workload and case count rankings",
     query: "Which police station has registered the most cases?",
     icon: Building2,
-    accent: "text-amber-500"
+    accent: "text-amber-600 dark:text-amber-400"
   }
 ];
 
@@ -62,7 +62,7 @@ export default function ChatStream({
 
   return (
     <section 
-      className="bg-slate-50 dark:bg-slate-950 flex flex-col relative shrink-0 transition-colors duration-200 overflow-hidden h-full select-text"
+      className="bg-[#F4F6F9] dark:bg-[#0B1017] flex flex-col relative shrink-0 transition-colors duration-200 overflow-hidden h-full select-text"
       style={{ width: `${chatWidth}px` }}
     >
       {/* Stream Messages Scrollable Area */}
@@ -70,7 +70,7 @@ export default function ChatStream({
         {/* Landing State with Command Center Suggestions */}
         {isFreshSession && (
           <div className="flex flex-col items-center justify-center py-6 px-2 text-center animate-fade-in select-none">
-            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center shadow-xs mb-4 p-2.5">
+            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] flex items-center justify-center shadow-xs mb-4 p-2.5">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
                 alt="KSP Emblem" 
@@ -78,7 +78,7 @@ export default function ChatStream({
               />
             </div>
 
-            <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-cyan-400 mb-1">
+            <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-[#2F5DA8] dark:text-[#93B4E8] mb-1">
               State Intelligence Command Center
             </span>
             <h1 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-slate-100 tracking-tight mb-2">
@@ -97,11 +97,11 @@ export default function ChatStream({
                     key={idx}
                     type="button"
                     onClick={() => handleSuggestionClick(item.query)}
-                    className="p-3.5 rounded-xl bg-white dark:bg-slate-900 hover:bg-blue-50/60 dark:hover:bg-slate-850 border border-slate-200 dark:border-slate-800 hover:border-blue-400 dark:hover:border-slate-700 shadow-xs transition-all text-left cursor-pointer group"
+                    className="p-3.5 rounded-xl bg-white dark:bg-[#141C28] hover:bg-slate-50 dark:hover:bg-[#172640] border border-slate-200 dark:border-[#263142] hover:border-[#2F5DA8] dark:hover:border-[#2F5DA8] shadow-xs transition-all text-left cursor-pointer group"
                   >
                     <div className="flex items-center gap-2 mb-1">
                       <Icon className={`w-4 h-4 ${item.accent}`} />
-                      <span className="text-xs font-bold text-slate-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors">
+                      <span className="text-xs font-bold text-slate-900 dark:text-slate-100 group-hover:text-[#2F5DA8] dark:group-hover:text-[#93B4E8] transition-colors">
                         {item.title}
                       </span>
                     </div>
@@ -141,10 +141,10 @@ export default function ChatStream({
         setInputVal={setInputVal}
         handleSendMessage={handleSendMessage}
         isLoading={isLoading}
-        queryQueue={queryQueue}
-        setQueryQueue={setQueryQueue}
         isListening={isListening}
         toggleVoiceCommand={toggleVoiceCommand}
+        queryQueue={queryQueue}
+        setQueryQueue={setQueryQueue}
         inputRef={inputRef}
       />
     </section>

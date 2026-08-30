@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, FileDown, Layers, LineChart, Maximize2, Minimize2, Columns2, PanelRightOpen } from 'lucide-react';
+import { Database, FileDown, LineChart, Maximize2, Minimize2 } from 'lucide-react';
 import { jsPDF } from "jspdf";
 import autoTable from 'jspdf-autotable';
 import VisualizationView from './VisualizationView';
@@ -44,7 +44,7 @@ export default function DataCanvas({
         head: [columns],
         body: rows,
         theme: 'grid',
-        headStyles: { fillColor: [30, 58, 138], textColor: [255, 255, 255], fontStyle: 'bold' },
+        headStyles: { fillColor: [47, 93, 168], textColor: [255, 255, 255], fontStyle: 'bold' },
         styles: { fontSize: 7, cellPadding: 2, overflow: 'linebreak' },
         columnStyles: { text: { cellWidth: 'auto' } }
       });
@@ -57,17 +57,17 @@ export default function DataCanvas({
   const visualizationData = activeMessageWithData?.chart_metadata || activeMessageWithData?.visualization;
 
   return (
-    <section className="flex-1 bg-white dark:bg-slate-900 flex flex-col relative overflow-hidden transition-colors duration-200 h-full">
+    <section className="flex-1 bg-white dark:bg-[#101722] flex flex-col relative overflow-hidden transition-colors duration-200 h-full">
       {/* Canvas Top Bar */}
-      <div className="h-14 sm:h-16 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between px-4 sm:px-6 shrink-0 transition-colors gap-2 select-none">
+      <div className="h-14 sm:h-16 bg-slate-50 dark:bg-[#101722] border-b border-slate-200 dark:border-[#263142] flex items-center justify-between px-4 sm:px-6 shrink-0 transition-colors gap-2 select-none">
         <div className="flex items-center gap-2 sm:gap-2.5">
-          <Database className="w-4 h-4 text-blue-600 dark:text-cyan-400 shrink-0" />
+          <Database className="w-4 h-4 text-[#2F5DA8] dark:text-[#93B4E8] shrink-0" />
           <div className="flex items-center gap-2">
             <h2 className="text-xs font-bold text-slate-800 dark:text-slate-100 uppercase tracking-widest font-mono truncate">
               Data Center
             </h2>
             {activeDataIndex !== null && (
-              <span className="text-[10px] font-mono font-bold text-slate-500 dark:text-slate-400 bg-slate-200 dark:bg-slate-800 px-2 py-0.5 rounded-full shrink-0">
+              <span className="text-[10px] font-mono font-bold text-slate-600 dark:text-[#93B4E8] bg-slate-200 dark:bg-[#172640] px-2 py-0.5 rounded shrink-0 border border-transparent dark:border-[#263142]">
                 Query #{activeDataIndex}
               </span>
             )}
@@ -77,11 +77,11 @@ export default function DataCanvas({
         {/* Action Controls: Size Presets + PDF Export */}
         <div className="flex items-center gap-2">
           {/* Quick Width Adjust Presets (Hidden on Mobile) */}
-          <div className="hidden lg:flex items-center bg-slate-100 dark:bg-slate-800 p-0.5 rounded-lg border border-slate-200 dark:border-slate-700/80 text-[11px] font-mono text-slate-600 dark:text-slate-300">
+          <div className="hidden lg:flex items-center bg-slate-100 dark:bg-[#141C28] p-0.5 rounded-lg border border-slate-200 dark:border-[#263142] text-[11px] font-mono text-slate-600 dark:text-slate-300">
             <button
               type="button"
               onClick={() => onSetPreset?.('default')}
-              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-slate-700 transition-colors"
+              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-[#172640] transition-colors"
               title="Default Layout"
             >
               Default
@@ -89,7 +89,7 @@ export default function DataCanvas({
             <button
               type="button"
               onClick={() => onSetPreset?.('balanced')}
-              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-slate-700 transition-colors"
+              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-[#172640] transition-colors"
               title="50% Chat / 50% Data Center"
             >
               50/50
@@ -97,7 +97,7 @@ export default function DataCanvas({
             <button
               type="button"
               onClick={() => onSetPreset?.('expanded')}
-              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-slate-700 transition-colors font-bold text-blue-600 dark:text-cyan-400"
+              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-[#172640] transition-colors font-bold text-[#2F5DA8] dark:text-[#93B4E8]"
               title="70% Data Center Focus"
             >
               70%
@@ -105,7 +105,7 @@ export default function DataCanvas({
             <button
               type="button"
               onClick={() => onSetPreset?.('max')}
-              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-slate-700 transition-colors"
+              className="px-2 py-1 rounded hover:bg-white dark:hover:bg-[#172640] transition-colors"
               title="85% Wide Data Center"
             >
               85%
@@ -116,7 +116,7 @@ export default function DataCanvas({
           <button
             type="button"
             onClick={() => setIsCanvasMaximized?.(!isCanvasMaximized)}
-            className="p-1.5 sm:p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 transition-colors cursor-pointer"
+            className="p-1.5 sm:p-2 rounded-lg bg-slate-100 dark:bg-[#141C28] text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-[#172640] border border-slate-200 dark:border-[#263142] transition-colors cursor-pointer"
             title={isCanvasMaximized ? "Restore Split View" : "Maximize Data Center"}
             aria-label="Toggle Fullscreen Data Center"
           >
@@ -128,7 +128,7 @@ export default function DataCanvas({
             <button 
               type="button"
               onClick={exportToPDF} 
-              className="flex items-center gap-1.5 bg-blue-900 hover:bg-blue-800 dark:bg-blue-800 dark:hover:bg-blue-700 text-white px-3 py-1.5 sm:py-2 rounded-xl text-xs font-bold shadow-xs transition-colors cursor-pointer shrink-0"
+              className="flex items-center gap-1.5 bg-[#2F5DA8] hover:bg-[#3A6DBD] text-white px-3 py-1.5 sm:py-2 rounded-lg text-xs font-bold transition-colors cursor-pointer shrink-0"
               title="Download PDF intelligence dossier"
               aria-label="Export Official Report"
             >
@@ -140,17 +140,17 @@ export default function DataCanvas({
       </div>
 
       {/* Canvas Scrollable Body */}
-      <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-100/70 dark:bg-slate-950 transition-colors">
+      <div className="flex-1 overflow-y-auto p-4 sm:p-6 bg-slate-100/70 dark:bg-[#0B1017] transition-colors">
         {!hasResults ? (
           <div className="flex flex-col h-full items-center justify-center text-center text-slate-400 dark:text-slate-500 gap-3 py-16 animate-fade-in select-none">
-            <div className="w-14 h-14 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex items-center justify-center shadow-xs">
-              <LineChart className="w-6 h-6 text-slate-400 dark:text-slate-600" />
+            <div className="w-14 h-14 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] flex items-center justify-center shadow-xs">
+              <LineChart className="w-6 h-6 text-slate-400 dark:text-slate-500" />
             </div>
             <div className="flex flex-col gap-1 max-w-sm">
               <span className="text-sm font-bold text-slate-700 dark:text-slate-300">
                 No analytical result to display yet.
               </span>
-              <p className="text-xs text-slate-500 dark:text-slate-500 leading-relaxed">
+              <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
                 Select a query or ask Aloka a question to inspect visual crime analytics and structured database records.
               </p>
             </div>

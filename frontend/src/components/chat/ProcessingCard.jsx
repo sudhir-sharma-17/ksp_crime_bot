@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shield, Square, Check, Circle, Loader2 } from 'lucide-react';
+import { Square, Check, Circle, Loader2 } from 'lucide-react';
 
 const STAGES = [
   { id: 1, label: "Understanding request & intent" },
@@ -12,7 +12,6 @@ const STAGES = [
 export default function ProcessingCard({ onTerminate }) {
   const [currentStageIdx, setCurrentStageIdx] = useState(0);
 
-  // Time-stepped visual progress sequence while awaiting the live API response
   useEffect(() => {
     const timer1 = setTimeout(() => setCurrentStageIdx(1), 1200);
     const timer2 = setTimeout(() => setCurrentStageIdx(2), 2600);
@@ -28,9 +27,9 @@ export default function ProcessingCard({ onTerminate }) {
   }, []);
 
   return (
-    <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-slate-900 border border-blue-200 dark:border-slate-800 shadow-sm animate-fade-in mb-4 select-none">
-      {/* Card Header: Emblem + System Title + Terminate Action */}
-      <div className="flex items-center justify-between pb-3 mb-3.5 border-b border-slate-100 dark:border-slate-800">
+    <div className="p-4 sm:p-5 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] shadow-xs animate-fade-in mb-4 select-none">
+      {/* Card Header */}
+      <div className="flex items-center justify-between pb-3 mb-3.5 border-b border-slate-100 dark:border-[#263142]">
         <div className="flex items-center gap-2.5">
           <div className="relative w-6 h-6 flex items-center justify-center">
             <img 
@@ -53,7 +52,7 @@ export default function ProcessingCard({ onTerminate }) {
         <button
           type="button"
           onClick={onTerminate}
-          className="flex items-center gap-1.5 bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/60 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-900/60 text-[11px] font-bold py-1 px-2.5 rounded-lg transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900/50 text-red-600 dark:text-red-400 border border-red-200 dark:border-red-900/50 text-[11px] font-semibold py-1 px-2.5 rounded-lg transition-colors cursor-pointer"
           title="Cancel active inquiry"
           aria-label="Terminate Query"
         >
@@ -63,12 +62,11 @@ export default function ProcessingCard({ onTerminate }) {
       </div>
 
       {/* Main Status Badge */}
-      <div className="flex items-center gap-2 mb-3 px-3 py-1.5 rounded-xl bg-blue-50/70 dark:bg-slate-800/60 border border-blue-100 dark:border-slate-700/60 w-fit">
+      <div className="flex items-center gap-2 mb-3 px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-[#172640] border border-slate-200 dark:border-[#263142] w-fit">
         <span className="relative flex h-2 w-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-[#2F5DA8]"></span>
         </span>
-        <span className="text-xs font-mono font-bold uppercase tracking-wider text-blue-950 dark:text-cyan-300">
+        <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#2F5DA8] dark:text-[#93B4E8]">
           ANALYZING REQUEST...
         </span>
       </div>
@@ -88,11 +86,11 @@ export default function ProcessingCard({ onTerminate }) {
               }`}
             >
               {isCompleted ? (
-                <div className="w-4 h-4 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                <div className="w-4 h-4 rounded-full bg-emerald-50 dark:bg-[#102619] text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
                 </div>
               ) : isCurrent ? (
-                <div className="w-4 h-4 rounded-full bg-blue-100 dark:bg-cyan-950 text-blue-600 dark:text-cyan-400 flex items-center justify-center shrink-0">
+                <div className="w-4 h-4 rounded-full bg-slate-100 dark:bg-[#101722] text-[#2F5DA8] dark:text-[#93B4E8] flex items-center justify-center shrink-0">
                   <Loader2 className="w-2.5 h-2.5 animate-spin" />
                 </div>
               ) : (

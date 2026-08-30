@@ -540,12 +540,12 @@ export default function Dashboard() {
         {!isCanvasMaximized && (
           <div
             onMouseDown={startChatResize}
-            className={`hidden md:flex w-2 hover:w-2.5 bg-slate-200 dark:bg-slate-800 hover:bg-cyan-500 dark:hover:bg-cyan-500 cursor-col-resize self-stretch items-center justify-center transition-all z-20 group relative ${
-              isDraggingChatActive ? 'bg-cyan-500 dark:bg-cyan-500 w-2.5' : ''
+            className={`hidden md:flex w-2 hover:w-2.5 bg-slate-200 dark:bg-[#101722] hover:bg-[#2F5DA8] dark:hover:bg-[#2F5DA8] border-x border-slate-200 dark:border-[#263142] cursor-col-resize self-stretch items-center justify-center transition-all z-20 group relative ${
+              isDraggingChatActive ? 'bg-[#2F5DA8] dark:bg-[#2F5DA8] w-2.5' : ''
             }`}
             title="Drag to resize Data Center & Conversation"
           >
-            <GripVertical className="w-3.5 h-3.5 text-slate-400 group-hover:text-white dark:group-hover:text-slate-900 transition-colors pointer-events-none" />
+            <GripVertical className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 group-hover:text-white pointer-events-none transition-colors" />
           </div>
         )}
 
