@@ -192,25 +192,25 @@ export default function LoginPage({ onLoginSuccess }) {
   };
 
   return (
-    <div className="h-screen w-full bg-[#0B1017] text-slate-100 flex flex-col justify-between overflow-x-hidden overflow-y-auto lg:overflow-hidden selection:bg-[#2F5DA8] selection:text-white bg-command-grid">
-      {/* Top Subtle Status Bar */}
-      <header className="w-full h-11 border-b border-[#263142] px-4 sm:px-8 flex items-center justify-between bg-[#101722]/90 backdrop-blur-md shrink-0 z-20">
+    <div className="h-screen w-full bg-[#F8FAFC] text-slate-800 flex flex-col justify-between overflow-x-hidden overflow-y-auto lg:overflow-hidden selection:bg-blue-600 selection:text-white bg-[radial-gradient(#E2E8F0_1px,transparent_1px)] [background-size:20px_20px]">
+      {/* Top Status Bar */}
+      <header className="w-full h-11 border-b border-slate-200 px-4 sm:px-8 flex items-center justify-between bg-white/95 backdrop-blur-md shrink-0 z-20 shadow-xs">
         <div className="flex items-center gap-2">
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
             alt="Karnataka Police Emblem" 
-            className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
+            className="w-5 h-5 sm:w-6 sm:h-6 object-contain drop-shadow-xs"
           />
-          <span className="text-[11px] sm:text-xs font-mono font-black tracking-wider text-slate-100 uppercase">
+          <span className="text-[11px] sm:text-xs font-mono font-black tracking-wider text-slate-900 uppercase">
             KARNATAKA STATE POLICE
           </span>
-          <span className="hidden sm:inline-block text-[#263142]">|</span>
-          <span className="hidden sm:inline-block text-[10px] font-mono font-semibold text-slate-400 uppercase tracking-widest">
+          <span className="hidden sm:inline-block text-slate-300">|</span>
+          <span className="hidden sm:inline-block text-[10px] font-mono font-semibold text-slate-500 uppercase tracking-widest">
             STATE INTELLIGENCE PORTAL
           </span>
         </div>
 
-        <div className="flex items-center gap-2 text-[10px] font-mono font-bold text-emerald-400 bg-[#102619] px-2.5 py-0.5 rounded border border-emerald-900/60">
+        <div className="flex items-center gap-2 text-[10px] font-mono font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           <span>SYSTEM ONLINE</span>
         </div>
@@ -225,19 +225,19 @@ export default function LoginPage({ onLoginSuccess }) {
         <section 
           onMouseEnter={() => setIsFormHovered(true)}
           onMouseLeave={() => setIsFormHovered(false)}
-          className="w-full lg:w-[440px] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-5 sm:p-6 shadow-2xl relative shrink-0 transition-all duration-300"
+          className="w-full lg:w-[440px] max-w-md bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-6 shadow-xl relative shrink-0 transition-all duration-300"
         >
           {/* Top Form Header */}
-          <div className="mb-3.5 pb-2.5 border-b border-[#263142]">
-            <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-[#93B4E8] bg-[#172640] px-2.5 py-1 rounded w-fit border border-[#263142] mb-2">
-              <Shield className="w-3 h-3 text-[#93B4E8]" />
+          <div className="mb-3.5 pb-2.5 border-b border-slate-100">
+            <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-2.5 py-1 rounded w-fit border border-blue-200 mb-2">
+              <Shield className="w-3 h-3 text-blue-600" />
               <span>OFFICER AUTHENTICATION</span>
             </div>
             
-            <h2 className="text-lg sm:text-xl font-black text-white font-mono tracking-tight uppercase">
+            <h2 className="text-lg sm:text-xl font-black text-slate-900 font-mono tracking-tight uppercase">
               ALOKA INTELLIGENCE
             </h2>
-            <p className="text-[11px] text-slate-400 mt-0.5">
+            <p className="text-[11px] text-slate-500 mt-0.5">
               Authorized personnel access
             </p>
           </div>
@@ -248,18 +248,18 @@ export default function LoginPage({ onLoginSuccess }) {
             {/* Field 1: KGID Input */}
             <div className="space-y-1">
               <div className="flex items-center justify-between">
-                <label className="text-[10.5px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                  <Shield className="w-3 h-3 text-[#93B4E8]" />
+                <label className="text-[10.5px] font-mono font-semibold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+                  <Shield className="w-3 h-3 text-blue-600" />
                   <span>KGID</span>
                 </label>
                 {isVerifying && (
-                  <span className="flex items-center gap-1 text-[10px] font-mono text-[#93B4E8] animate-pulse">
+                  <span className="flex items-center gap-1 text-[10px] font-mono text-blue-600 animate-pulse">
                     <Loader2 className="w-3 h-3 animate-spin" />
                     <span>Verifying officer...</span>
                   </span>
                 )}
                 {officerData && !isVerifying && (
-                  <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-emerald-400 bg-[#102619] px-2 py-0.2 rounded border border-emerald-900/60">
+                  <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-emerald-700 bg-emerald-50 px-2 py-0.2 rounded border border-emerald-200">
                     <Check className="w-3 h-3 stroke-[3]" />
                     <span>Officer Identified</span>
                   </span>
@@ -273,20 +273,20 @@ export default function LoginPage({ onLoginSuccess }) {
                   value={kgid}
                   onChange={(e) => setKgid(e.target.value)}
                   placeholder="Enter your KGID"
-                  className={`w-full bg-[#141C28] border rounded-lg py-2 px-3 text-xs text-slate-100 placeholder-slate-500 focus:outline-none transition-all font-mono ${
+                  className={`w-full bg-slate-50 border rounded-lg py-2 px-3 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none transition-all font-mono ${
                     kgidError 
-                      ? 'border-rose-500/80 focus:border-rose-500 focus:ring-1 focus:ring-rose-500/30' 
+                      ? 'border-rose-400 focus:border-rose-500 focus:ring-2 focus:ring-rose-100' 
                       : officerData 
-                      ? 'border-emerald-700/80 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/30'
-                      : 'border-[#263142] focus:border-[#2F5DA8] focus:ring-1 focus:ring-[#2F5DA8]/50'
+                      ? 'border-emerald-500 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100'
+                      : 'border-slate-300 focus:border-blue-600 focus:ring-2 focus:ring-blue-100'
                   }`}
                 />
               </div>
 
               {/* KGID Lookup Error Banner */}
               {kgidError && !isVerifying && (
-                <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2 rounded-lg border border-rose-900/50 animate-fade-in font-medium mt-1">
-                  <AlertTriangle className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                <div className="flex items-start gap-1.5 text-[11px] text-rose-700 bg-rose-50 p-2 rounded-lg border border-rose-200 animate-fade-in font-medium mt-1">
+                  <AlertTriangle className="w-3.5 h-3.5 shrink-0 mt-0.5 text-rose-600" />
                   <span>{kgidError}</span>
                 </div>
               )}
@@ -295,29 +295,29 @@ export default function LoginPage({ onLoginSuccess }) {
             {/* Field 2: Officer Name (READ-ONLY, AUTO-POPULATED FROM DB) */}
             <div className="space-y-1">
               <div className="flex items-center justify-between">
-                <label className="text-[10.5px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                  <User className="w-3 h-3 text-[#93B4E8]" />
+                <label className="text-[10.5px] font-mono font-semibold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+                  <User className="w-3 h-3 text-blue-600" />
                   <span>Officer Name</span>
                 </label>
-                <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400">
+                <span className="text-[9px] font-mono uppercase tracking-wider text-slate-400 font-medium">
                   Database Verified
                 </span>
               </div>
 
               <div className="relative flex items-center">
-                <div className={`w-full bg-[#0E1520] border rounded-lg py-2 px-3 text-xs flex items-center justify-between transition-colors select-none ${
+                <div className={`w-full bg-slate-100/80 border rounded-lg py-2 px-3 text-xs flex items-center justify-between transition-colors select-none ${
                   officerData 
-                    ? 'border-emerald-800/60 text-slate-100 font-semibold' 
-                    : 'border-[#263142] text-slate-500 italic'
+                    ? 'border-emerald-300 text-slate-900 font-semibold bg-emerald-50/30' 
+                    : 'border-slate-200 text-slate-400 italic'
                 }`}>
                   <span className="truncate">
                     {isVerifying ? (
-                      <span className="text-slate-400 not-italic flex items-center gap-1.5">
-                        <Loader2 className="w-3.5 h-3.5 animate-spin text-[#93B4E8]" />
+                      <span className="text-slate-500 not-italic flex items-center gap-1.5">
+                        <Loader2 className="w-3.5 h-3.5 animate-spin text-blue-600" />
                         <span>Verifying officer...</span>
                       </span>
                     ) : officerData ? (
-                      <span className="text-white font-bold not-italic">
+                      <span className="text-slate-900 font-bold not-italic">
                         {officerData.name}
                       </span>
                     ) : (
@@ -326,8 +326,8 @@ export default function LoginPage({ onLoginSuccess }) {
                   </span>
 
                   {officerData && !isVerifying && (
-                    <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-emerald-400 shrink-0 ml-2">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200 shrink-0 ml-2">
+                      <CheckCircle2 className="w-3 h-3 text-emerald-600" />
                       <span>Verified</span>
                     </span>
                   )}
@@ -336,13 +336,13 @@ export default function LoginPage({ onLoginSuccess }) {
 
               {/* Station & Designation Info */}
               {officerData?.unit && (
-                <div className="text-[10px] font-mono text-slate-400 flex items-center gap-1.5 pt-0.5">
-                  <span className="text-[#93B4E8]">Station:</span>
-                  <span className="text-slate-300 truncate">{officerData.unit}</span>
+                <div className="text-[10px] font-mono text-slate-500 flex items-center gap-1.5 pt-0.5">
+                  <span className="text-blue-700 font-semibold">Station:</span>
+                  <span className="text-slate-700 truncate">{officerData.unit}</span>
                   {officerData.designation && (
                     <>
-                      <span className="text-slate-600">•</span>
-                      <span className="text-slate-400 font-semibold">{officerData.designation}</span>
+                      <span className="text-slate-300">•</span>
+                      <span className="text-slate-600 font-medium">{officerData.designation}</span>
                     </>
                   )}
                 </div>
@@ -351,8 +351,8 @@ export default function LoginPage({ onLoginSuccess }) {
 
             {/* Field 3: Password */}
             <div className="space-y-1">
-              <label className="text-[10.5px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                <Lock className="w-3 h-3 text-[#93B4E8]" />
+              <label className="text-[10.5px] font-mono font-semibold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+                <Lock className="w-3 h-3 text-blue-600" />
                 <span>Password</span>
               </label>
               <div className="relative flex items-center">
@@ -362,12 +362,12 @@ export default function LoginPage({ onLoginSuccess }) {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter your password"
-                  className="w-full bg-[#141C28] border border-[#263142] rounded-lg py-2 pl-3 pr-10 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#2F5DA8] focus:ring-1 focus:ring-[#2F5DA8]/50 transition-all font-mono"
+                  className="w-full bg-slate-50 border border-slate-300 rounded-lg py-2 pl-3 pr-10 text-xs text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all font-mono"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 p-1 text-slate-400 hover:text-slate-200 transition-colors cursor-pointer"
+                  className="absolute right-3 p-1 text-slate-400 hover:text-slate-600 transition-colors cursor-pointer"
                   title={showPassword ? "Hide password" : "Show password"}
                   aria-label={showPassword ? "Hide password" : "Show password"}
                 >
@@ -378,8 +378,8 @@ export default function LoginPage({ onLoginSuccess }) {
 
             {/* Authentication Failure Error Banner */}
             {authError && (
-              <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2.5 rounded-lg border border-rose-900/50 animate-fade-in font-medium">
-                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
+              <div className="flex items-start gap-1.5 text-[11px] text-rose-700 bg-rose-50 p-2.5 rounded-lg border border-rose-200 animate-fade-in font-medium">
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-rose-600" />
                 <span>{authError}</span>
               </div>
             )}
@@ -388,7 +388,7 @@ export default function LoginPage({ onLoginSuccess }) {
             <button
               type="submit"
               disabled={isAuthenticating || !officerData || isVerifying || !password}
-              className="w-full mt-1.5 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-[#172640] disabled:text-slate-500 text-white py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
+              className="w-full mt-1.5 bg-blue-700 hover:bg-blue-800 disabled:bg-slate-200 disabled:text-slate-400 text-white py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
             >
               {isAuthenticating ? (
                 <>
@@ -409,33 +409,33 @@ export default function LoginPage({ onLoginSuccess }) {
           {/* ============================================================ */}
           <div className={`mt-4 pt-3 p-3.5 rounded-xl border transition-all duration-300 ${
             isFormHovered 
-              ? 'bg-[#152338] border-[#3A6DBD] shadow-[0_0_24px_rgba(59,130,246,0.35)] ring-1 ring-[#3A6DBD]/60' 
-              : 'bg-[#141C28]/90 border-[#2F5DA8]/40 shadow-inner'
+              ? 'bg-blue-50/80 border-blue-400 shadow-[0_0_22px_rgba(37,99,235,0.20)] ring-1 ring-blue-300' 
+              : 'bg-slate-50 border-slate-200 shadow-xs'
           }`}>
             {/* Header Badge & Subtitle */}
             <div className="flex items-center justify-between mb-1">
               <div className="flex items-center gap-1.5 text-xs font-bold font-mono tracking-wide">
-                <Sparkles className={`w-3.5 h-3.5 transition-colors ${isFormHovered ? 'text-cyan-300 animate-pulse' : 'text-[#93B4E8]'}`} />
-                <span className={`transition-colors ${isFormHovered ? 'text-cyan-200 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)]' : 'text-[#93B4E8]'}`}>
+                <Sparkles className={`w-3.5 h-3.5 transition-colors ${isFormHovered ? 'text-blue-600 animate-pulse' : 'text-blue-600'}`} />
+                <span className={`transition-colors ${isFormHovered ? 'text-blue-900 font-black drop-shadow-xs' : 'text-blue-800'}`}>
                   FIRST TIME HERE?
                 </span>
               </div>
               <span className={`text-[9px] font-mono px-1.5 py-0.2 rounded uppercase font-bold transition-all ${
                 isFormHovered 
-                  ? 'bg-[#1e3458] text-cyan-200 border border-[#3A6DBD]' 
-                  : 'bg-[#172640] text-[#93B4E8] border border-[#263142]'
+                  ? 'bg-blue-600 text-white border border-blue-700' 
+                  : 'bg-blue-100 text-blue-800 border border-blue-200'
               }`}>
                 Demo
               </span>
             </div>
             
-            <p className="text-[10.5px] text-slate-300 leading-tight mb-2.5">
+            <p className="text-[10.5px] text-slate-600 leading-tight mb-2.5 font-medium">
               Use Demo Access to explore Aloka Intelligence.
             </p>
 
             {/* Officer Selection Buttons */}
             <div className="space-y-1.5 mb-2.5">
-              <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400 font-bold block">
+              <span className="text-[9px] font-mono uppercase tracking-widest text-slate-500 font-bold block">
                 SELECT DEMO OFFICER
               </span>
               <div className="grid grid-cols-3 gap-1.5">
@@ -448,19 +448,19 @@ export default function LoginPage({ onLoginSuccess }) {
                       onClick={() => handleSelectDemoOfficer(officer.kgid)}
                       className={`flex flex-col items-center justify-center p-2 rounded-lg border transition-all cursor-pointer text-center ${
                         isSelected 
-                          ? 'bg-[#172640] border-[#3A6DBD] text-white ring-1 ring-[#3A6DBD]/60 shadow-xs' 
+                          ? 'bg-blue-600 border-blue-700 text-white shadow-xs font-bold' 
                           : isFormHovered
-                          ? 'bg-[#101722] border-[#2d3e58] text-slate-200 hover:border-[#3A6DBD] hover:bg-[#192b45]'
-                          : 'bg-[#101722] border-[#263142] text-slate-300 hover:border-[#2F5DA8] hover:bg-[#141C28]'
+                          ? 'bg-white border-blue-200 text-slate-800 hover:border-blue-500 hover:bg-blue-50/60'
+                          : 'bg-white border-slate-200 text-slate-700 hover:border-blue-400 hover:bg-slate-50'
                       }`}
                     >
                       <div className="flex items-center gap-1 mb-0.5">
-                        <UserCheck className={`w-3 h-3 ${isSelected ? 'text-[#93B4E8]' : isFormHovered ? 'text-cyan-300' : 'text-slate-400'}`} />
+                        <UserCheck className={`w-3 h-3 ${isSelected ? 'text-white' : isFormHovered ? 'text-blue-600' : 'text-slate-500'}`} />
                         <span className="text-[11px] font-bold tracking-tight">
                           {officer.name}
                         </span>
                       </div>
-                      <span className="text-[9px] font-mono text-slate-400">
+                      <span className={`text-[9px] font-mono ${isSelected ? 'text-blue-100' : 'text-slate-500'}`}>
                         {officer.kgid}
                       </span>
                     </button>
@@ -470,15 +470,15 @@ export default function LoginPage({ onLoginSuccess }) {
             </div>
 
             {/* Demo Password Info */}
-            <div className="flex items-center justify-between text-[10px] font-mono text-slate-300 pt-2 border-t border-[#263142]/80">
+            <div className="flex items-center justify-between text-[10px] font-mono text-slate-700 pt-2 border-t border-slate-200/80">
               <div className="flex items-center gap-1.5">
-                <KeyRound className={`w-3 h-3 transition-colors ${isFormHovered ? 'text-cyan-300' : 'text-[#93B4E8]'}`} />
-                <span className="text-slate-400">Demo Password:</span>
+                <KeyRound className={`w-3 h-3 transition-colors ${isFormHovered ? 'text-blue-600' : 'text-blue-600'}`} />
+                <span className="text-slate-500">Demo Password:</span>
               </div>
               <code className={`px-2 py-0.5 rounded border font-bold transition-all ${
                 isFormHovered 
-                  ? 'bg-[#101722] border-[#3A6DBD] text-cyan-200 shadow-[0_0_8px_rgba(56,189,248,0.25)]' 
-                  : 'bg-[#101722] border-[#263142] text-[#93B4E8]'
+                  ? 'bg-white border-blue-300 text-blue-700 shadow-xs' 
+                  : 'bg-white border-slate-200 text-blue-700'
               }`}>
                 KGID@123
               </code>
@@ -495,25 +495,25 @@ export default function LoginPage({ onLoginSuccess }) {
           
           {/* 1. Animated Logo */}
           <div className="flex items-center gap-3.5 mb-3.5 anim-init-logo">
-            <div className="w-12 h-12 sm:w-13 sm:h-13 rounded-2xl bg-[#101722] border border-[#263142] p-2 flex items-center justify-center shadow-lg shrink-0">
+            <div className="w-12 h-12 sm:w-13 sm:h-13 rounded-2xl bg-white border border-slate-200 p-2 flex items-center justify-center shadow-sm shrink-0">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
                 alt="Seal of Karnataka State Police" 
-                className="w-full h-full object-contain drop-shadow-md"
+                className="w-full h-full object-contain drop-shadow-xs"
               />
             </div>
             
             <div className="flex flex-col">
               <div className="flex items-center gap-2 anim-init-title">
-                <h1 className="text-xl sm:text-2xl font-black text-white tracking-wider font-mono uppercase">
+                <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-wider font-mono uppercase">
                   ALOKA INTELLIGENCE
                 </h1>
-                <span className="px-1.5 py-0.5 rounded text-[8.5px] font-bold font-mono bg-[#172640] text-[#93B4E8] border border-[#263142] tracking-widest uppercase">
+                <span className="px-1.5 py-0.5 rounded text-[8.5px] font-bold font-mono bg-blue-50 text-blue-700 border border-blue-200 tracking-widest uppercase">
                   KSP
                 </span>
               </div>
 
-              <span className="text-[10.5px] font-mono font-bold uppercase tracking-widest text-[#93B4E8] anim-init-subtitle">
+              <span className="text-[10.5px] font-mono font-bold uppercase tracking-widest text-blue-700 anim-init-subtitle">
                 STATE INTELLIGENCE COMMAND CENTER
               </span>
             </div>
@@ -521,10 +521,10 @@ export default function LoginPage({ onLoginSuccess }) {
 
           {/* 2. Welcome Message */}
           <div className="mb-4 anim-init-welcome">
-            <h2 className="text-base sm:text-lg font-bold text-slate-100 mb-1 tracking-tight">
+            <h2 className="text-base sm:text-lg font-bold text-slate-900 mb-1 tracking-tight">
               Welcome to Aloka Intelligence
             </h2>
-            <p className="text-xs sm:text-[13px] text-slate-400 leading-relaxed max-w-xl">
+            <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed max-w-xl">
               An AI-powered intelligence assistant for exploring and understanding Karnataka State criminological data.
             </p>
           </div>
@@ -536,16 +536,16 @@ export default function LoginPage({ onLoginSuccess }) {
               return (
                 <div 
                   key={idx}
-                  className={`flex items-start gap-2.5 p-2 rounded-xl bg-[#101722]/90 border border-[#263142] hover:border-[#2F5DA8] transition-all group ${cap.animClass}`}
+                  className={`flex items-start gap-2.5 p-2.5 rounded-xl bg-white border border-slate-200/90 hover:border-blue-400 hover:shadow-md transition-all group ${cap.animClass}`}
                 >
-                  <div className="p-1.5 rounded-lg bg-[#141C28] text-[#93B4E8] group-hover:text-white group-hover:bg-[#2F5DA8] transition-colors shrink-0 mt-0.5 border border-[#263142]">
+                  <div className="p-1.5 rounded-lg bg-blue-50 text-blue-700 group-hover:text-white group-hover:bg-blue-600 transition-colors shrink-0 mt-0.5 border border-blue-100">
                     <Icon className="w-3.5 h-3.5" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-[11.5px] font-bold text-slate-200 group-hover:text-white transition-colors">
+                    <span className="text-[11.5px] font-bold text-slate-900 group-hover:text-blue-700 transition-colors">
                       {cap.title}
                     </span>
-                    <span className="text-[9.5px] text-slate-400 line-clamp-1 leading-normal">
+                    <span className="text-[9.5px] text-slate-500 line-clamp-1 leading-normal">
                       {cap.desc}
                     </span>
                   </div>
@@ -558,14 +558,14 @@ export default function LoginPage({ onLoginSuccess }) {
       </main>
 
       {/* Bottom Institutional Footer */}
-      <footer className="w-full h-8 border-t border-[#263142] px-4 sm:px-8 flex items-center justify-between bg-[#101722]/90 text-[9.5px] font-mono text-slate-400 uppercase tracking-wider shrink-0 z-20">
-        <div className="flex items-center gap-2 text-slate-400">
-          <Shield className="w-3 h-3 text-[#2F5DA8]" />
+      <footer className="w-full h-8 border-t border-slate-200 px-4 sm:px-8 flex items-center justify-between bg-white/95 text-[9.5px] font-mono text-slate-500 uppercase tracking-wider shrink-0 z-20 shadow-xs">
+        <div className="flex items-center gap-2 text-slate-600 font-medium">
+          <Shield className="w-3 h-3 text-blue-700" />
           <span>KSP STATE CRIMINOLOGICAL DATABASE</span>
         </div>
         
-        <div className="flex items-center gap-2 text-emerald-400 font-semibold">
-          <Activity className="w-3 h-3" />
+        <div className="flex items-center gap-2 text-emerald-700 font-semibold">
+          <Activity className="w-3 h-3 text-emerald-600" />
           <span>SYSTEM SECURE & OPERATIONAL</span>
         </div>
       </footer>
