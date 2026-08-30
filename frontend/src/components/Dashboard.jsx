@@ -178,19 +178,21 @@ export default function Dashboard() {
     }
   };
 
-  // ── Session Sync with Backend ─────────────────────────────────────────────
-  useEffect(() => {
-    if (messages.length > 1 && sessionId) {
-      const title = messages.find(m => m.sender === 'user')?.text || 'New Protocol';
-      fetch(`/api/sessions/${sessionId}`, {
+  // ── Session Sync (Called only when new query/message occurs) ─────────────
+  const saveSession = async (currSessionId, currMessages) => {
+    if (!currSessionId || !currMessages || currMessages.length <= 1) return;
+    try {
+      const title = currMessages.find(m => m.sender === 'user')?.text || 'New Protocol';
+      await fetch(`/api/sessions/${currSessionId}`, {
         headers: { 'X-KSP-Auth-Token': 'ksp-secure-demo-123', 'Content-Type': 'application/json' },
         method: 'POST',
-        body: JSON.stringify({ title, messages })
-      })
-      .then(() => fetchSessions())
-      .catch(err => console.error("Session sync failed:", err));
+        body: JSON.stringify({ title, messages: currMessages })
+      });
+      fetchSessions();
+    } catch (err) {
+      console.error("Session sync failed:", err);
     }
-  }, [messages, sessionId]);
+  };
 
   const fetchSessions = async () => {
     try {
@@ -347,7 +349,9 @@ export default function Dashboard() {
           visualization: data.visualization || data.chart_metadata,
         };
         setActiveDataIndex(prev.length);
-        return [...prev, newMsg];
+        const updated = [...prev, newMsg];
+        saveSession(sessionId, updated);
+        return updated;
       });
     } catch (err) {
       if (err.name === 'AbortError') {
@@ -411,6 +415,7 @@ export default function Dashboard() {
         setMessages((prev) => {
           const updated = [...prev];
           updated[index] = { ...updated[index], text: data.translated_text };
+          saveSession(sessionId, updated);
           return updated;
         });
       }
