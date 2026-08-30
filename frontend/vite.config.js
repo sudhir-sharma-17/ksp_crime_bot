@@ -18,6 +18,14 @@ export default defineConfig({
         target: 'http://localhost:9000',
         changeOrigin: true,
       },
+      '/employee': {
+        target: 'http://localhost:9000',
+        changeOrigin: true,
+      },
+      '/auth': {
+        target: 'http://localhost:9000',
+        changeOrigin: true,
+      },
     },
   },
 })

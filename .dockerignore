@@ -1,0 +1,43 @@
+# Version Control
+.git
+.gitignore
+.gitattributes
+
+# Environment and Secrets (CRITICAL: Do NOT embed into Docker image)
+.env
+.env.*
+*.env
+!.env.example
+
+# Node & Frontend Dependencies
+node_modules
+frontend/node_modules
+frontend/dist
+backend/frontend/dist
+
+# Python Cache & Bytecode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/**/__pycache__
+**/__pycache__
+
+# Virtual Environments
+myenv/
+.venv/
+venv/
+ENV/
+
+# IDE & Tooling
+.vscode/
+.idea/
+.gemini/
+*.swp
+*.swo
+
+# Local Scratch & Development Artifacts
+scratch/
+*.log
+backend/sessions.db

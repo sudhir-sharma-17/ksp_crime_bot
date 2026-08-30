@@ -393,11 +393,6 @@ def delete_session(session_id: str):
     return {"status": "success"}
 
 
-@app.get("/")
-async def root():
-    return FileResponse(os.path.join(frontend_dir, "index.html"))
-
-
 # ==================================================
 # EMPLOYEE / OFFICER KGID LOOKUP ENDPOINT
 # ==================================================
@@ -562,28 +557,50 @@ async def translate_text(req: TranslateRequest):
 
 
 # -----------------------------
-# Serve React Frontend
+# Serve React Frontend Build
 # -----------------------------
 
-frontend_dir = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "frontend")
+possible_dirs = [
+    os.environ.get("FRONTEND_DIST_DIR"),
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist")),
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")),
+    os.path.abspath("/app/frontend/dist"),
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend")),
+]
+
+frontend_dir = next(
+    (d for d in possible_dirs if d and os.path.exists(d) and os.path.exists(os.path.join(d, "index.html"))),
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist"))
 )
 
 assets_dir = os.path.join(frontend_dir, "assets")
-
 if os.path.exists(assets_dir):
     app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
 
 
+@app.get("/")
+async def root():
+    index_path = os.path.join(frontend_dir, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    return {"message": "Aloka Intelligence API running. Frontend build not found.", "status": "healthy"}
+
+
 @app.get("/{full_path:path}")
 async def serve_frontend(full_path: str):
-    # Don't intercept API routes
+    # Don't intercept API routes or documentation
     if (
         full_path.startswith("api")
+        or full_path.startswith("query")
+        or full_path.startswith("employee")
+        or full_path.startswith("auth")
         or full_path.startswith("docs")
         or full_path.startswith("openapi.json")
         or full_path.startswith("redoc")
     ):
-        raise HTTPException(status_code=404)
+        raise HTTPException(status_code=404, detail="API route not found")
 
-    return FileResponse(os.path.join(frontend_dir, "index.html"))
+    index_path = os.path.join(frontend_dir, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
+    raise HTTPException(status_code=404, detail="Frontend index.html not found")

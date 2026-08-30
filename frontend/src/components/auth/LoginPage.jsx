@@ -106,7 +106,7 @@ export default function LoginPage({ onLoginSuccess }) {
 
     debounceTimerRef.current = setTimeout(async () => {
       try {
-        const response = await fetch(`http://localhost:9000/employee/lookup/${encodeURIComponent(trimmedKgid)}`);
+        const response = await fetch(`/employee/lookup/${encodeURIComponent(trimmedKgid)}`);
         const data = await response.json();
 
         if (data.found) {
@@ -141,7 +141,7 @@ export default function LoginPage({ onLoginSuccess }) {
     setAuthError(null);
 
     try {
-      const response = await fetch('http://localhost:9000/auth/login', {
+      const response = await fetch('/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
