@@ -208,21 +208,36 @@ export default function Dashboard() {
     fetchSessions();
   }, []);
 
-  // ── Live Clock & Auto Scroll ──────────────────────────────────────────────
+  // ── Global Keyboard Auto-Focus & Auto Scroll ─────────────────────────────
   useEffect(() => {
-    const timer = setInterval(() => setCurrentTime(new Date()), 1000);
-    return () => clearInterval(timer);
+    const handleGlobalKeyDown = (e) => {
+      // Ignore modifier keys, tab, escape, function keys
+      if (e.ctrlKey || e.metaKey || e.altKey || e.key === 'Tab' || e.key === 'Escape') {
+        return;
+      }
+
+      const activeTag = document.activeElement?.tagName?.toLowerCase();
+      const isInputActive = activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select';
+
+      // If user is not currently typing in another input (like session search), focus main composer
+      if (!isInputActive && inputRef.current) {
+        inputRef.current.focus();
+      }
+    };
+
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
   }, []);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Always keep focus on the composer search bar
+    inputRef.current?.focus();
   }, [messages, isLoading]);
 
   useEffect(() => {
-    if (!isLoading) {
-      inputRef.current?.focus();
-    }
-  }, [isLoading]);
+    inputRef.current?.focus();
+  }, []);
 
   // ── Protocol / Session Actions ────────────────────────────────────────────
   const clearChat = () => {
@@ -369,6 +384,9 @@ export default function Dashboard() {
     if (!query) return;
     
     setInputVal('');
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 10);
 
     if (isLoading || isProcessingRef.current) {
       setQueryQueue((prev) => [...prev, query]);
