@@ -22,6 +22,15 @@ Ask any criminological inquiry, case lookup, or analytical question to begin.`
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = SpeechRecognition ? new SpeechRecognition() : null;
 
+// Calculate optimal default conversation width (63% of available space)
+const getDefaultChatWidth = (sidebarW = 250) => {
+  if (typeof window !== 'undefined') {
+    const available = window.innerWidth - sidebarW;
+    return Math.max(620, Math.round(available * 0.63));
+  }
+  return 850;
+};
+
 export default function Dashboard() {
   const [messages, setMessages] = useState(DEFAULT_WELCOME);
   const [inputVal, setInputVal] = useState('');
@@ -40,9 +49,9 @@ export default function Dashboard() {
   const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [isCanvasMaximized, setIsCanvasMaximized] = useState(false);
 
-  // Layout Dimensions (Resizable)
+  // Layout Dimensions (Exact Initial Layout)
   const [sidebarWidth, setSidebarWidth] = useState(250);
-  const [chatWidth, setChatWidth] = useState(480);
+  const [chatWidth, setChatWidth] = useState(() => getDefaultChatWidth(250));
   const [isDraggingChatActive, setIsDraggingChatActive] = useState(false);
   const isDraggingSidebar = useRef(false);
   const isDraggingChat = useRef(false);
@@ -60,6 +69,19 @@ export default function Dashboard() {
       document.documentElement.classList.remove('dark');
     }
   }, [isDarkMode]);
+
+  // ── Window Resize Listener to adapt default layout if uncustomized ────────
+  useEffect(() => {
+    const handleWindowResize = () => {
+      if (!isDraggingChat.current && !isCanvasMaximized) {
+        const offsetLeft = sidebarOpen ? sidebarWidth : 60;
+        const maxChatWidth = Math.max(300, window.innerWidth - offsetLeft - 300);
+        setChatWidth(prev => Math.min(prev, maxChatWidth));
+      }
+    };
+    window.addEventListener('resize', handleWindowResize);
+    return () => window.removeEventListener('resize', handleWindowResize);
+  }, [sidebarOpen, sidebarWidth, isCanvasMaximized]);
 
   // ── Resize Handlers ────────────────────────────────────────────────────────
   const startSidebarResize = (e) => {
@@ -114,7 +136,8 @@ export default function Dashboard() {
     const availableWidth = window.innerWidth - currentSidebar;
 
     if (mode === 'default') {
-      setChatWidth(480);
+      // Restore the exact default 63% / 37% layout
+      setChatWidth(getDefaultChatWidth(currentSidebar));
       setIsCanvasMaximized(false);
     } else if (mode === 'balanced') {
       // 50% Chat / 50% Data Center
