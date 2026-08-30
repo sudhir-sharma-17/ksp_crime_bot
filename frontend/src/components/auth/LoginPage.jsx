@@ -101,6 +101,7 @@ export default function LoginPage({ onLoginSuccess }) {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
+  const [isFormHovered, setIsFormHovered] = useState(false);
 
   const debounceTimerRef = useRef(null);
 
@@ -221,7 +222,11 @@ export default function LoginPage({ onLoginSuccess }) {
         {/* ============================================================ */}
         {/* LEFT SIDE: OFFICER LOGIN PANEL (40-45% on Desktop)          */}
         {/* ============================================================ */}
-        <section className="w-full lg:w-[440px] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-5 sm:p-6 shadow-2xl relative shrink-0">
+        <section 
+          onMouseEnter={() => setIsFormHovered(true)}
+          onMouseLeave={() => setIsFormHovered(false)}
+          className="w-full lg:w-[440px] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-5 sm:p-6 shadow-2xl relative shrink-0 transition-all duration-300"
+        >
           {/* Top Form Header */}
           <div className="mb-3.5 pb-2.5 border-b border-[#263142]">
             <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-[#93B4E8] bg-[#172640] px-2.5 py-1 rounded w-fit border border-[#263142] mb-2">
@@ -400,16 +405,26 @@ export default function LoginPage({ onLoginSuccess }) {
           </form>
 
           {/* ============================================================ */}
-          {/* NOTICEABLE DEMO ACCESS PANEL FOR HACKATHON JUDGES            */}
+          {/* NOTICEABLE DEMO ACCESS PANEL WITH INTERACTIVE HOVER GLOW     */}
           {/* ============================================================ */}
-          <div className="mt-4 pt-3 border-t border-[#263142] bg-[#141C28]/90 p-3.5 rounded-xl border border-[#2F5DA8]/40 shadow-inner">
+          <div className={`mt-4 pt-3 p-3.5 rounded-xl border transition-all duration-300 ${
+            isFormHovered 
+              ? 'bg-[#152338] border-[#3A6DBD] shadow-[0_0_24px_rgba(59,130,246,0.35)] ring-1 ring-[#3A6DBD]/60' 
+              : 'bg-[#141C28]/90 border-[#2F5DA8]/40 shadow-inner'
+          }`}>
             {/* Header Badge & Subtitle */}
             <div className="flex items-center justify-between mb-1">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-slate-100 font-mono tracking-wide">
-                <Sparkles className="w-3.5 h-3.5 text-[#93B4E8]" />
-                <span className="text-[#93B4E8]">FIRST TIME HERE?</span>
+              <div className="flex items-center gap-1.5 text-xs font-bold font-mono tracking-wide">
+                <Sparkles className={`w-3.5 h-3.5 transition-colors ${isFormHovered ? 'text-cyan-300 animate-pulse' : 'text-[#93B4E8]'}`} />
+                <span className={`transition-colors ${isFormHovered ? 'text-cyan-200 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)]' : 'text-[#93B4E8]'}`}>
+                  FIRST TIME HERE?
+                </span>
               </div>
-              <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-[#172640] text-[#93B4E8] border border-[#263142] uppercase font-bold">
+              <span className={`text-[9px] font-mono px-1.5 py-0.2 rounded uppercase font-bold transition-all ${
+                isFormHovered 
+                  ? 'bg-[#1e3458] text-cyan-200 border border-[#3A6DBD]' 
+                  : 'bg-[#172640] text-[#93B4E8] border border-[#263142]'
+              }`}>
                 Demo
               </span>
             </div>
@@ -434,11 +449,13 @@ export default function LoginPage({ onLoginSuccess }) {
                       className={`flex flex-col items-center justify-center p-2 rounded-lg border transition-all cursor-pointer text-center ${
                         isSelected 
                           ? 'bg-[#172640] border-[#3A6DBD] text-white ring-1 ring-[#3A6DBD]/60 shadow-xs' 
+                          : isFormHovered
+                          ? 'bg-[#101722] border-[#2d3e58] text-slate-200 hover:border-[#3A6DBD] hover:bg-[#192b45]'
                           : 'bg-[#101722] border-[#263142] text-slate-300 hover:border-[#2F5DA8] hover:bg-[#141C28]'
                       }`}
                     >
                       <div className="flex items-center gap-1 mb-0.5">
-                        <UserCheck className={`w-3 h-3 ${isSelected ? 'text-[#93B4E8]' : 'text-slate-400'}`} />
+                        <UserCheck className={`w-3 h-3 ${isSelected ? 'text-[#93B4E8]' : isFormHovered ? 'text-cyan-300' : 'text-slate-400'}`} />
                         <span className="text-[11px] font-bold tracking-tight">
                           {officer.name}
                         </span>
@@ -455,10 +472,14 @@ export default function LoginPage({ onLoginSuccess }) {
             {/* Demo Password Info */}
             <div className="flex items-center justify-between text-[10px] font-mono text-slate-300 pt-2 border-t border-[#263142]/80">
               <div className="flex items-center gap-1.5">
-                <KeyRound className="w-3 h-3 text-[#93B4E8]" />
+                <KeyRound className={`w-3 h-3 transition-colors ${isFormHovered ? 'text-cyan-300' : 'text-[#93B4E8]'}`} />
                 <span className="text-slate-400">Demo Password:</span>
               </div>
-              <code className="bg-[#101722] px-2 py-0.5 rounded border border-[#263142] text-[#93B4E8] font-bold">
+              <code className={`px-2 py-0.5 rounded border font-bold transition-all ${
+                isFormHovered 
+                  ? 'bg-[#101722] border-[#3A6DBD] text-cyan-200 shadow-[0_0_8px_rgba(56,189,248,0.25)]' 
+                  : 'bg-[#101722] border-[#263142] text-[#93B4E8]'
+              }`}>
                 KGID@123
               </code>
             </div>
