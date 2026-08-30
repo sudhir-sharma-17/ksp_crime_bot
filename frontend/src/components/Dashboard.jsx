@@ -36,6 +36,7 @@ export default function Dashboard() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isListening, setIsListening] = useState(false);
   const [activeTab, setActiveTab] = useState('chat'); // 'chat' | 'canvas' for mobile/tablet responsive views
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
 
   // Layout Dimensions (Resizable)
   const [sidebarWidth, setSidebarWidth] = useState(250);
@@ -86,7 +87,7 @@ export default function Dashboard() {
 
   const onChatMouseMove = (e) => {
     if (!isDraggingChat.current) return;
-    const offsetLeft = sidebarOpen ? sidebarWidth : 64;
+    const offsetLeft = sidebarOpen ? sidebarWidth : 60;
     const newWidth = Math.max(340, Math.min(e.clientX - offsetLeft, 800));
     setChatWidth(newWidth);
   };
@@ -401,13 +402,17 @@ export default function Dashboard() {
   const hasDataOnCanvas = Boolean(activeMessageWithData && activeMessageWithData.all_sql_results && activeMessageWithData.all_sql_results.length > 0);
 
   return (
-    <div className="h-screen flex flex-col bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans overflow-hidden transition-colors duration-300">
+    <div className="h-screen flex flex-col bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans overflow-hidden transition-colors duration-200">
       <Header 
         isDarkMode={isDarkMode} 
         setIsDarkMode={setIsDarkMode} 
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         hasDataOnCanvas={hasDataOnCanvas}
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
+        sidebarOpen={sidebarOpen}
+        setSidebarOpen={setSidebarOpen}
       />
 
       <div className="flex flex-1 overflow-hidden relative">
