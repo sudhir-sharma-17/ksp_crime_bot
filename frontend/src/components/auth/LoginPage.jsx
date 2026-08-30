@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Shield, 
   User, 
+  Mail, 
   Lock, 
   Eye, 
   EyeOff, 
@@ -17,7 +18,9 @@ import {
   Globe, 
   Layers, 
   Activity,
-  Check
+  Check,
+  Info,
+  KeyRound
 } from 'lucide-react';
 
 const CAPABILITIES = [
@@ -65,12 +68,20 @@ const CAPABILITIES = [
   }
 ];
 
+const DEMO_ACCOUNTS = [
+  { kgid: 'KGID970867', name: 'Divya Joshi', rank: 'Sub-Inspector', unit: 'Koramangala PS' },
+  { kgid: 'KGID752959', name: 'Pradeep Kumar', rank: 'Inspector', unit: 'Indiranagar PS' },
+  { kgid: 'KGID609762', name: 'Swathi Kumar', rank: 'Inspector', unit: 'Lashkar PS' }
+];
+
 export default function LoginPage({ onLoginSuccess }) {
-  const [kgid, setKgid] = useState('KGID143106');
+  const [kgid, setKgid] = useState('KGID970867');
   const [officerData, setOfficerData] = useState(null);
   const [isVerifying, setIsVerifying] = useState(false);
   const [kgidError, setKgidError] = useState(null);
-  const [password, setPassword] = useState('AlokaKSP@2026');
+  const [authError, setAuthError] = useState(null);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('KGID@123');
   const [showPassword, setShowPassword] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
 
@@ -79,6 +90,8 @@ export default function LoginPage({ onLoginSuccess }) {
   // Auto-verify KGID with 400ms debounce
   useEffect(() => {
     const trimmedKgid = kgid.trim();
+    setAuthError(null);
+
     if (!trimmedKgid || trimmedKgid.length < 3) {
       setOfficerData(null);
       setKgidError(null);
@@ -101,28 +114,17 @@ export default function LoginPage({ onLoginSuccess }) {
         if (data.found) {
           setOfficerData(data);
           setKgidError(null);
+          if (data.email) {
+            setEmail(data.email);
+          }
         } else {
           setOfficerData(null);
-          setKgidError(data.message || "KGID NOT FOUND. Please verify and try again.");
+          setKgidError(data.message || "KGID NOT FOUND. Please verify the KGID and try again.");
         }
       } catch (err) {
-        console.error("KGID lookup network error:", err);
-        // Fallback for local simulation if backend port differs
-        if (trimmedKgid.toUpperCase().includes('143106') || trimmedKgid.toUpperCase().includes('KGID')) {
-          const fallbackData = {
-            found: true,
-            name: "Inspector Vikram Joshi",
-            rank: "Inspector",
-            designation: "SHO",
-            unit: "Koramangala Police Station",
-            email: "vikram.joshi@ksp.gov.in"
-          };
-          setOfficerData(fallbackData);
-          setKgidError(null);
-        } else {
-          setOfficerData(null);
-          setKgidError("KGID NOT FOUND. Please verify the KGID and try again.");
-        }
+        console.error("KGID lookup error:", err);
+        setOfficerData(null);
+        setKgidError("Unable to reach verification server. Please verify backend connection.");
       } finally {
         setIsVerifying(false);
       }
@@ -135,21 +137,44 @@ export default function LoginPage({ onLoginSuccess }) {
     };
   }, [kgid]);
 
-  const handleSubmit = (e) => {
+  // Handle Form Submission / Backend Authentication
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!officerData) return;
+    if (!officerData || isVerifying) return;
 
     setIsAuthenticating(true);
-    setTimeout(() => {
-      onLoginSuccess({
-        kgid: kgid.trim(),
-        name: officerData.name || 'Inspector Officer',
-        rank: officerData.rank,
-        designation: officerData.designation,
-        unit: officerData.unit,
-        email: officerData.email || 'officer@ksp.gov.in'
+    setAuthError(null);
+
+    try {
+      const response = await fetch('http://localhost:9000/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          kgid: kgid.trim(),
+          password: password,
+          email: email.trim() || undefined
+        })
       });
-    }, 400);
+
+      const data = await response.json();
+
+      if (data.authenticated) {
+        onLoginSuccess(data.officer);
+      } else {
+        setAuthError(data.error || "Authentication failed. Please check your credentials.");
+      }
+    } catch (err) {
+      console.error("Authentication network error:", err);
+      setAuthError("Authentication service unreachable. Please ensure the backend is running.");
+    } finally {
+      setIsAuthenticating(false);
+    }
+  };
+
+  const fillDemoAccount = (demoKgid) => {
+    setKgid(demoKgid);
+    setPassword('KGID@123');
+    setAuthError(null);
   };
 
   return (
@@ -183,10 +208,10 @@ export default function LoginPage({ onLoginSuccess }) {
         {/* ============================================================ */}
         {/* LEFT SIDE: OFFICER LOGIN PANEL (40-45% on Desktop)          */}
         {/* ============================================================ */}
-        <section className="w-full lg:w-[42%] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-6 sm:p-8 shadow-2xl relative">
+        <section className="w-full lg:w-[44%] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-6 sm:p-7 shadow-2xl relative">
           {/* Top Form Header */}
-          <div className="mb-5 pb-4 border-b border-[#263142]">
-            <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-[#93B4E8] bg-[#172640] px-2.5 py-1 rounded w-fit border border-[#263142] mb-3">
+          <div className="mb-4 pb-3 border-b border-[#263142]">
+            <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-[#93B4E8] bg-[#172640] px-2.5 py-1 rounded w-fit border border-[#263142] mb-2.5">
               <Shield className="w-3 h-3 text-[#93B4E8]" />
               <span>OFFICER AUTHENTICATION</span>
             </div>
@@ -200,25 +225,25 @@ export default function LoginPage({ onLoginSuccess }) {
           </div>
 
           {/* Authentication Form */}
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-3.5">
             
             {/* Field 1: KGID Input */}
-            <div className="space-y-1.5">
+            <div className="space-y-1">
               <div className="flex items-center justify-between">
                 <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                   <Shield className="w-3 h-3 text-[#93B4E8]" />
-                  <span>KGID (Govt. ID)</span>
+                  <span>KGID</span>
                 </label>
                 {isVerifying && (
                   <span className="flex items-center gap-1 text-[10px] font-mono text-[#93B4E8] animate-pulse">
                     <Loader2 className="w-3 h-3 animate-spin" />
-                    <span>Verifying...</span>
+                    <span>Verifying officer...</span>
                   </span>
                 )}
                 {officerData && !isVerifying && (
                   <span className="flex items-center gap-1 text-[10px] font-mono font-bold text-emerald-400 bg-[#102619] px-2 py-0.2 rounded border border-emerald-900/60">
                     <Check className="w-3 h-3 stroke-[3]" />
-                    <span>Identified</span>
+                    <span>Officer Identified</span>
                   </span>
                 )}
               </div>
@@ -229,7 +254,7 @@ export default function LoginPage({ onLoginSuccess }) {
                   required
                   value={kgid}
                   onChange={(e) => setKgid(e.target.value)}
-                  placeholder="Enter KGID (e.g. KGID143106)"
+                  placeholder="Enter your KGID"
                   className={`w-full bg-[#141C28] border rounded-lg py-2.5 px-3 text-xs text-slate-100 placeholder-slate-500 focus:outline-none transition-all font-mono ${
                     kgidError 
                       ? 'border-rose-500/80 focus:border-rose-500 focus:ring-1 focus:ring-rose-500/30' 
@@ -240,9 +265,9 @@ export default function LoginPage({ onLoginSuccess }) {
                 />
               </div>
 
-              {/* KGID Verification Error Message */}
+              {/* KGID Lookup Error Banner */}
               {kgidError && !isVerifying && (
-                <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2 rounded-lg border border-rose-900/50 animate-fade-in font-medium">
+                <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2 rounded-lg border border-rose-900/50 animate-fade-in font-medium mt-1">
                   <AlertTriangle className="w-3.5 h-3.5 shrink-0 mt-0.5" />
                   <span>{kgidError}</span>
                 </div>
@@ -250,7 +275,7 @@ export default function LoginPage({ onLoginSuccess }) {
             </div>
 
             {/* Field 2: Officer Name (READ-ONLY, AUTO-POPULATED FROM DB) */}
-            <div className="space-y-1.5">
+            <div className="space-y-1">
               <div className="flex items-center justify-between">
                 <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                   <User className="w-3 h-3 text-[#93B4E8]" />
@@ -271,14 +296,14 @@ export default function LoginPage({ onLoginSuccess }) {
                     {isVerifying ? (
                       <span className="text-slate-400 not-italic flex items-center gap-1.5">
                         <Loader2 className="w-3.5 h-3.5 animate-spin text-[#93B4E8]" />
-                        <span>Verifying officer in police database...</span>
+                        <span>Verifying officer...</span>
                       </span>
                     ) : officerData ? (
                       <span className="text-white font-bold not-italic">
                         {officerData.name}
                       </span>
                     ) : (
-                      "Auto-identified upon valid KGID"
+                      "Automatically found upon entering KGID"
                     )}
                   </span>
 
@@ -291,7 +316,7 @@ export default function LoginPage({ onLoginSuccess }) {
                 </div>
               </div>
 
-              {/* Station & Designation Badge */}
+              {/* Station & Designation Info */}
               {officerData?.unit && (
                 <div className="text-[10px] font-mono text-slate-400 flex items-center gap-1.5 pt-0.5">
                   <span className="text-[#93B4E8]">Station:</span>
@@ -306,8 +331,25 @@ export default function LoginPage({ onLoginSuccess }) {
               )}
             </div>
 
-            {/* Field 3: Password */}
-            <div className="space-y-1.5">
+            {/* Field 3: Official Email ID */}
+            <div className="space-y-1">
+              <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
+                <Mail className="w-3 h-3 text-[#93B4E8]" />
+                <span>Official Email ID</span>
+              </label>
+              <div className="relative flex items-center">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter official email"
+                  className="w-full bg-[#141C28] border border-[#263142] rounded-lg py-2.5 px-3 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#2F5DA8] focus:ring-1 focus:ring-[#2F5DA8]/50 transition-all font-medium"
+                />
+              </div>
+            </div>
+
+            {/* Field 4: Password */}
+            <div className="space-y-1">
               <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                 <Lock className="w-3 h-3 text-[#93B4E8]" />
                 <span>Password</span>
@@ -333,16 +375,24 @@ export default function LoginPage({ onLoginSuccess }) {
               </div>
             </div>
 
-            {/* Submit Action Button */}
+            {/* Authentication Failure Error Banner */}
+            {authError && (
+              <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2.5 rounded-lg border border-rose-900/50 animate-fade-in font-medium">
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
+                <span>{authError}</span>
+              </div>
+            )}
+
+            {/* Primary Action Button */}
             <button
               type="submit"
               disabled={isAuthenticating || !officerData || isVerifying}
-              className="w-full mt-2 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-[#172640] disabled:text-slate-500 text-white py-3 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
+              className="w-full mt-1.5 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-[#172640] disabled:text-slate-500 text-white py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
             >
               {isAuthenticating ? (
                 <>
-                  <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                  <span>AUTHENTICATING PROTOCOL...</span>
+                  <Loader2 className="w-4 h-4 animate-spin text-white" />
+                  <span>AUTHENTICATING...</span>
                 </>
               ) : (
                 <>
@@ -351,21 +401,53 @@ export default function LoginPage({ onLoginSuccess }) {
                 </>
               )}
             </button>
-
-            {/* Subtext */}
-            <div className="text-center pt-1">
-              <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider">
-                Authorized personnel only
-              </span>
-            </div>
           </form>
+
+          {/* Prototype Access Information Panel */}
+          <div className="mt-4 pt-3.5 border-t border-[#263142] text-[10px] font-mono text-slate-400 bg-[#0E1520] p-3 rounded-xl border border-[#263142]">
+            <div className="flex items-center gap-1.5 text-slate-300 font-bold mb-1">
+              <Info className="w-3.5 h-3.5 text-[#93B4E8]" />
+              <span>PROTOTYPE ACCESS</span>
+            </div>
+            <p className="text-[10px] text-slate-400 leading-tight mb-2">
+              This is a prototype. Kindly use these details to gain access:
+            </p>
+            
+            <div className="space-y-1 mb-2">
+              <span className="text-[9px] uppercase tracking-wider text-slate-400 font-bold block">
+                Select Demo KGID:
+              </span>
+              <div className="flex flex-wrap gap-1.5">
+                {DEMO_ACCOUNTS.map((acc) => (
+                  <button
+                    key={acc.kgid}
+                    type="button"
+                    onClick={() => fillDemoAccount(acc.kgid)}
+                    className={`px-2 py-0.5 rounded text-[10px] border transition-all cursor-pointer ${
+                      kgid === acc.kgid 
+                        ? 'bg-[#2F5DA8] text-white border-[#3A6DBD] font-bold' 
+                        : 'bg-[#141C28] text-slate-300 border-[#263142] hover:border-slate-500'
+                    }`}
+                  >
+                    {acc.kgid} ({acc.name.split(' ')[0]})
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex items-center gap-1.5 text-[10px] text-slate-300 pt-1 border-t border-[#263142]/60">
+              <KeyRound className="w-3 h-3 text-[#93B4E8]" />
+              <span>Password:</span>
+              <code className="bg-[#141C28] px-1.5 py-0.2 rounded text-[#93B4E8] font-bold">KGID@123</code>
+            </div>
+          </div>
         </section>
 
 
         {/* ============================================================ */}
         {/* RIGHT SIDE: ALOKA WELCOME & OVERVIEW (55-60% on Desktop)    */}
         {/* ============================================================ */}
-        <section className="w-full lg:w-[58%] flex flex-col justify-center py-4 lg:py-2">
+        <section className="w-full lg:w-[56%] flex flex-col justify-center py-2">
           
           {/* 1. Animated Logo */}
           <div className="flex items-center gap-3.5 mb-4 anim-init-logo">
@@ -394,7 +476,7 @@ export default function LoginPage({ onLoginSuccess }) {
           </div>
 
           {/* 2. Welcome Message */}
-          <div className="mb-6 anim-init-welcome">
+          <div className="mb-5 anim-init-welcome">
             <h2 className="text-lg sm:text-xl font-bold text-slate-100 mb-1.5 tracking-tight">
               Welcome to Aloka Intelligence
             </h2>

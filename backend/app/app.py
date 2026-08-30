@@ -481,6 +481,55 @@ async def lookup_employee(kgid: str):
         }
 
 
+class LoginRequest(BaseModel):
+    kgid: str
+    password: str
+    email: Optional[str] = None
+
+
+@app.post("/auth/login")
+@app.post("/api/auth/login")
+async def prototype_login(req: LoginRequest):
+    """
+    Prototype authentication endpoint for officer login.
+    Validates the KGID against the employee database and verifies the configured prototype demo password.
+    """
+    clean_kgid = req.kgid.strip().upper()
+    if not clean_kgid:
+        return {"authenticated": False, "error": "KGID is required."}
+
+    demo_password = os.getenv("DEMO_PASSWORD", "KGID@123")
+    
+    # 1. Lookup officer in database
+    officer_info = await lookup_employee(clean_kgid)
+    if not officer_info.get("found"):
+        return {
+            "authenticated": False,
+            "error": "KGID NOT FOUND. Please verify the KGID and try again."
+        }
+
+    # 2. Check prototype password
+    if req.password != demo_password:
+        return {
+            "authenticated": False,
+            "error": "INVALID PASSWORD. Please check your password and try again."
+        }
+
+    # 3. Success
+    return {
+        "authenticated": True,
+        "officer": {
+            "employee_id": officer_info.get("employee_id"),
+            "kgid": officer_info.get("kgid"),
+            "name": officer_info.get("name"),
+            "rank": officer_info.get("rank"),
+            "designation": officer_info.get("designation"),
+            "unit": officer_info.get("unit"),
+            "email": req.email or officer_info.get("email")
+        }
+    }
+
+
 @app.get("/api/health")
 def health_check():
     """Health check endpoint."""
