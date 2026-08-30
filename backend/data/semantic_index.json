@@ -1,0 +1,4004 @@
+{
+  "cases": [
+    {
+      "CaseMasterID": 1,
+      "CaseNo": "KSP-CASE-0001",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2024-02-10",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 2,
+      "CaseNo": "KSP-CASE-0002",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-04-06",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 3,
+      "CaseNo": "KSP-CASE-0003",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-09-24",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 4,
+      "CaseNo": "KSP-CASE-0004",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 370,351 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-03-25",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 5,
+      "CaseNo": "KSP-CASE-0005",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-12-22",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 6,
+      "CaseNo": "KSP-CASE-0006",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-04-28",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 7,
+      "CaseNo": "KSP-CASE-0007",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-10-13",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 8,
+      "CaseNo": "KSP-CASE-0008",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-03-19",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 9,
+      "CaseNo": "KSP-CASE-0009",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-01-20",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 10,
+      "CaseNo": "KSP-CASE-0010",
+      "BriefFacts": "Information was received that a male dead body aged around 54 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-12-04",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 11,
+      "CaseNo": "KSP-CASE-0011",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-06-26",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 12,
+      "CaseNo": "KSP-CASE-0012",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-05-26",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 13,
+      "CaseNo": "KSP-CASE-0013",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-08-10",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 14,
+      "CaseNo": "KSP-CASE-0014",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-01-05",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 15,
+      "CaseNo": "KSP-CASE-0015",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-05-24",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 16,
+      "CaseNo": "KSP-CASE-0016",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 190,451 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-05-19",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 17,
+      "CaseNo": "KSP-CASE-0017",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-12-29",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 18,
+      "CaseNo": "KSP-CASE-0018",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-12-10",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 19,
+      "CaseNo": "KSP-CASE-0019",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-12-17",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 20,
+      "CaseNo": "KSP-CASE-0020",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-09-08",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 21,
+      "CaseNo": "KSP-CASE-0021",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-07-01",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 22,
+      "CaseNo": "KSP-CASE-0022",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-11-08",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 23,
+      "CaseNo": "KSP-CASE-0023",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2026-02-28",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 24,
+      "CaseNo": "KSP-CASE-0024",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 279,675 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-11-19",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 25,
+      "CaseNo": "KSP-CASE-0025",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-08-19",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 26,
+      "CaseNo": "KSP-CASE-0026",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-04-14",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 27,
+      "CaseNo": "KSP-CASE-0027",
+      "BriefFacts": "Information was received that a male dead body aged around 54 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-03-07",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 28,
+      "CaseNo": "KSP-CASE-0028",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 369,166 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-06-21",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 29,
+      "CaseNo": "KSP-CASE-0029",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 249,011 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-10-27",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 30,
+      "CaseNo": "KSP-CASE-0030",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-04-05",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 31,
+      "CaseNo": "KSP-CASE-0031",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-12-02",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 32,
+      "CaseNo": "KSP-CASE-0032",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-07-03",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 33,
+      "CaseNo": "KSP-CASE-0033",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 154,379 rupees.",
+      "CrimeRegisteredDate": "2025-05-02",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 34,
+      "CaseNo": "KSP-CASE-0034",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-06-04",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 35,
+      "CaseNo": "KSP-CASE-0035",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 202,327 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-05-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 36,
+      "CaseNo": "KSP-CASE-0036",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-04-16",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 37,
+      "CaseNo": "KSP-CASE-0037",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-11-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 38,
+      "CaseNo": "KSP-CASE-0038",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 185,146 rupees.",
+      "CrimeRegisteredDate": "2026-03-13",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 39,
+      "CaseNo": "KSP-CASE-0039",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-07-14",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 40,
+      "CaseNo": "KSP-CASE-0040",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 345,761 rupees.",
+      "CrimeRegisteredDate": "2025-10-25",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 41,
+      "CaseNo": "KSP-CASE-0041",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-02-17",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 42,
+      "CaseNo": "KSP-CASE-0042",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 289,894 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-11-06",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 43,
+      "CaseNo": "KSP-CASE-0043",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-10-15",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 44,
+      "CaseNo": "KSP-CASE-0044",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-03-02",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 45,
+      "CaseNo": "KSP-CASE-0045",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-07-23",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 46,
+      "CaseNo": "KSP-CASE-0046",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-06-07",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 47,
+      "CaseNo": "KSP-CASE-0047",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-10-04",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 48,
+      "CaseNo": "KSP-CASE-0048",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-08-14",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 49,
+      "CaseNo": "KSP-CASE-0049",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-01-21",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 50,
+      "CaseNo": "KSP-CASE-0050",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-06-16",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 51,
+      "CaseNo": "KSP-CASE-0051",
+      "BriefFacts": "Information was received that a male dead body aged around 58 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-01-31",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 52,
+      "CaseNo": "KSP-CASE-0052",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-12-28",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 53,
+      "CaseNo": "KSP-CASE-0053",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-19",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 54,
+      "CaseNo": "KSP-CASE-0054",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-09-03",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 55,
+      "CaseNo": "KSP-CASE-0055",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 304,200 rupees.",
+      "CrimeRegisteredDate": "2025-05-29",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 56,
+      "CaseNo": "KSP-CASE-0056",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 196,137 rupees.",
+      "CrimeRegisteredDate": "2024-09-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 57,
+      "CaseNo": "KSP-CASE-0057",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-07-05",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 58,
+      "CaseNo": "KSP-CASE-0058",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-10-15",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 59,
+      "CaseNo": "KSP-CASE-0059",
+      "BriefFacts": "Information was received that a male dead body aged around 57 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-07-26",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 60,
+      "CaseNo": "KSP-CASE-0060",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 55,333 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-07-14",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 61,
+      "CaseNo": "KSP-CASE-0061",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-01-19",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 62,
+      "CaseNo": "KSP-CASE-0062",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-02-29",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 63,
+      "CaseNo": "KSP-CASE-0063",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-01-23",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 64,
+      "CaseNo": "KSP-CASE-0064",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 139,682 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-07-11",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 65,
+      "CaseNo": "KSP-CASE-0065",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 192,653 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-09-07",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 66,
+      "CaseNo": "KSP-CASE-0066",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-08-08",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 67,
+      "CaseNo": "KSP-CASE-0067",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 12,302 rupees.",
+      "CrimeRegisteredDate": "2024-02-03",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 68,
+      "CaseNo": "KSP-CASE-0068",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-12-30",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 69,
+      "CaseNo": "KSP-CASE-0069",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-01-07",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 70,
+      "CaseNo": "KSP-CASE-0070",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 302,758 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-05-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 71,
+      "CaseNo": "KSP-CASE-0071",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2024-04-25",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 72,
+      "CaseNo": "KSP-CASE-0072",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-12-25",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 73,
+      "CaseNo": "KSP-CASE-0073",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-04-20",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 74,
+      "CaseNo": "KSP-CASE-0074",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-04-01",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 75,
+      "CaseNo": "KSP-CASE-0075",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-05-05",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 76,
+      "CaseNo": "KSP-CASE-0076",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-05-11",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 77,
+      "CaseNo": "KSP-CASE-0077",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 244,747 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-03-16",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 78,
+      "CaseNo": "KSP-CASE-0078",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2026-02-24",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 79,
+      "CaseNo": "KSP-CASE-0079",
+      "BriefFacts": "Information was received that a male dead body aged around 37 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2026-01-18",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 80,
+      "CaseNo": "KSP-CASE-0080",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 138,884 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-04-08",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 81,
+      "CaseNo": "KSP-CASE-0081",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 256,018 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-04-28",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 82,
+      "CaseNo": "KSP-CASE-0082",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 276,572 rupees.",
+      "CrimeRegisteredDate": "2024-09-08",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 83,
+      "CaseNo": "KSP-CASE-0083",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-11-09",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 84,
+      "CaseNo": "KSP-CASE-0084",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-08-30",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 85,
+      "CaseNo": "KSP-CASE-0085",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2026-02-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 86,
+      "CaseNo": "KSP-CASE-0086",
+      "BriefFacts": "Information was received that a male dead body aged around 60 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-09-21",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 87,
+      "CaseNo": "KSP-CASE-0087",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 35,595 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-05-08",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 88,
+      "CaseNo": "KSP-CASE-0088",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-03-31",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 89,
+      "CaseNo": "KSP-CASE-0089",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-12-01",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 90,
+      "CaseNo": "KSP-CASE-0090",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-12-06",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 91,
+      "CaseNo": "KSP-CASE-0091",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-12-31",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 92,
+      "CaseNo": "KSP-CASE-0092",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 252,919 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-05-14",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 93,
+      "CaseNo": "KSP-CASE-0093",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2025-09-04",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 94,
+      "CaseNo": "KSP-CASE-0094",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 214,448 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-01-05",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 95,
+      "CaseNo": "KSP-CASE-0095",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-06-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 96,
+      "CaseNo": "KSP-CASE-0096",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 223,078 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-03-14",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 97,
+      "CaseNo": "KSP-CASE-0097",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-09-07",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 98,
+      "CaseNo": "KSP-CASE-0098",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 308,206 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-04-04",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 99,
+      "CaseNo": "KSP-CASE-0099",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-03-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 100,
+      "CaseNo": "KSP-CASE-0100",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-01-15",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 101,
+      "CaseNo": "KSP-CASE-0101",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 380,171 rupees.",
+      "CrimeRegisteredDate": "2024-09-28",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 102,
+      "CaseNo": "KSP-CASE-0102",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-01-09",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 103,
+      "CaseNo": "KSP-CASE-0103",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2025-03-12",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 104,
+      "CaseNo": "KSP-CASE-0104",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-03-08",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 105,
+      "CaseNo": "KSP-CASE-0105",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2025-06-19",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 106,
+      "CaseNo": "KSP-CASE-0106",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 282,283 rupees.",
+      "CrimeRegisteredDate": "2025-03-13",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 107,
+      "CaseNo": "KSP-CASE-0107",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2024-04-23",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 108,
+      "CaseNo": "KSP-CASE-0108",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-06-12",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 109,
+      "CaseNo": "KSP-CASE-0109",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-08-14",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 110,
+      "CaseNo": "KSP-CASE-0110",
+      "BriefFacts": "Information was received that a male dead body aged around 26 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-12-15",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 111,
+      "CaseNo": "KSP-CASE-0111",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 235,398 rupees.",
+      "CrimeRegisteredDate": "2024-08-06",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 112,
+      "CaseNo": "KSP-CASE-0112",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-08-24",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 113,
+      "CaseNo": "KSP-CASE-0113",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-03-11",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 114,
+      "CaseNo": "KSP-CASE-0114",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 100 grams and cash.",
+      "CrimeRegisteredDate": "2025-03-15",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 115,
+      "CaseNo": "KSP-CASE-0115",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-01-10",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 116,
+      "CaseNo": "KSP-CASE-0116",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2024-05-07",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 117,
+      "CaseNo": "KSP-CASE-0117",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 62,608 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-02-03",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 118,
+      "CaseNo": "KSP-CASE-0118",
+      "BriefFacts": "Information was received that a male dead body aged around 31 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-04-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 119,
+      "CaseNo": "KSP-CASE-0119",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 355,139 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 120,
+      "CaseNo": "KSP-CASE-0120",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 47,426 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-07-10",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 121,
+      "CaseNo": "KSP-CASE-0121",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-12-12",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 122,
+      "CaseNo": "KSP-CASE-0122",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-04-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 123,
+      "CaseNo": "KSP-CASE-0123",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2026-01-13",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 124,
+      "CaseNo": "KSP-CASE-0124",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 306,758 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-05-16",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 125,
+      "CaseNo": "KSP-CASE-0125",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-01-16",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 126,
+      "CaseNo": "KSP-CASE-0126",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-11-21",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 127,
+      "CaseNo": "KSP-CASE-0127",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-03-07",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 128,
+      "CaseNo": "KSP-CASE-0128",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-04-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 129,
+      "CaseNo": "KSP-CASE-0129",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2026-02-09",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 130,
+      "CaseNo": "KSP-CASE-0130",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2025-10-01",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 131,
+      "CaseNo": "KSP-CASE-0131",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-02-25",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 132,
+      "CaseNo": "KSP-CASE-0132",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-08-19",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 133,
+      "CaseNo": "KSP-CASE-0133",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-03-04",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 134,
+      "CaseNo": "KSP-CASE-0134",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-04-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 135,
+      "CaseNo": "KSP-CASE-0135",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2025-03-26",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 136,
+      "CaseNo": "KSP-CASE-0136",
+      "BriefFacts": "Information was received that a male dead body aged around 30 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-04-16",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 137,
+      "CaseNo": "KSP-CASE-0137",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-11-19",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 138,
+      "CaseNo": "KSP-CASE-0138",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 222,172 rupees.",
+      "CrimeRegisteredDate": "2026-02-07",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 139,
+      "CaseNo": "KSP-CASE-0139",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-27",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 140,
+      "CaseNo": "KSP-CASE-0140",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-12-14",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 141,
+      "CaseNo": "KSP-CASE-0141",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 211,869 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-10-16",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 142,
+      "CaseNo": "KSP-CASE-0142",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2026-01-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 143,
+      "CaseNo": "KSP-CASE-0143",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-05-15",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 144,
+      "CaseNo": "KSP-CASE-0144",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 115,256 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-12-17",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 145,
+      "CaseNo": "KSP-CASE-0145",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-05-21",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 146,
+      "CaseNo": "KSP-CASE-0146",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-03-05",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 147,
+      "CaseNo": "KSP-CASE-0147",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2024-03-15",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 148,
+      "CaseNo": "KSP-CASE-0148",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-02-13",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 149,
+      "CaseNo": "KSP-CASE-0149",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-02-16",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 150,
+      "CaseNo": "KSP-CASE-0150",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-02-21",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 151,
+      "CaseNo": "KSP-CASE-0151",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-03-25",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 152,
+      "CaseNo": "KSP-CASE-0152",
+      "BriefFacts": "Information was received that a male dead body aged around 26 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-04-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 153,
+      "CaseNo": "KSP-CASE-0153",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 365,668 rupees.",
+      "CrimeRegisteredDate": "2025-08-27",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 154,
+      "CaseNo": "KSP-CASE-0154",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-03-06",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 155,
+      "CaseNo": "KSP-CASE-0155",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 339,879 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-08-11",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 156,
+      "CaseNo": "KSP-CASE-0156",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 140,268 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-04-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 157,
+      "CaseNo": "KSP-CASE-0157",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2025-10-05",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 158,
+      "CaseNo": "KSP-CASE-0158",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-10-06",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 159,
+      "CaseNo": "KSP-CASE-0159",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-03-09",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 160,
+      "CaseNo": "KSP-CASE-0160",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-09-05",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 161,
+      "CaseNo": "KSP-CASE-0161",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-12-05",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 162,
+      "CaseNo": "KSP-CASE-0162",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-01-10",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 163,
+      "CaseNo": "KSP-CASE-0163",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 206,550 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-05-20",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 164,
+      "CaseNo": "KSP-CASE-0164",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-02-04",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 165,
+      "CaseNo": "KSP-CASE-0165",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2026-01-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 166,
+      "CaseNo": "KSP-CASE-0166",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-07-03",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 167,
+      "CaseNo": "KSP-CASE-0167",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-05-29",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 168,
+      "CaseNo": "KSP-CASE-0168",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-09-10",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 169,
+      "CaseNo": "KSP-CASE-0169",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 467,931 rupees.",
+      "CrimeRegisteredDate": "2024-01-10",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 170,
+      "CaseNo": "KSP-CASE-0170",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-11-07",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 171,
+      "CaseNo": "KSP-CASE-0171",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-08-21",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 172,
+      "CaseNo": "KSP-CASE-0172",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-03-29",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 173,
+      "CaseNo": "KSP-CASE-0173",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2025-11-23",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 174,
+      "CaseNo": "KSP-CASE-0174",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-05-20",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 175,
+      "CaseNo": "KSP-CASE-0175",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-04-29",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 176,
+      "CaseNo": "KSP-CASE-0176",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 95,640 rupees.",
+      "CrimeRegisteredDate": "2025-04-05",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 177,
+      "CaseNo": "KSP-CASE-0177",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 137,845 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-17",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 178,
+      "CaseNo": "KSP-CASE-0178",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 135,428 rupees.",
+      "CrimeRegisteredDate": "2025-03-17",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 179,
+      "CaseNo": "KSP-CASE-0179",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-08-12",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 180,
+      "CaseNo": "KSP-CASE-0180",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-10-13",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 181,
+      "CaseNo": "KSP-CASE-0181",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2024-10-06",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 182,
+      "CaseNo": "KSP-CASE-0182",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 157,988 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-05-22",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 183,
+      "CaseNo": "KSP-CASE-0183",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-06-02",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 184,
+      "CaseNo": "KSP-CASE-0184",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-05-25",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 185,
+      "CaseNo": "KSP-CASE-0185",
+      "BriefFacts": "Information was received that a male dead body aged around 52 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-05-05",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 186,
+      "CaseNo": "KSP-CASE-0186",
+      "BriefFacts": "Information was received that a male dead body aged around 44 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-05-09",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 187,
+      "CaseNo": "KSP-CASE-0187",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-12-10",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 188,
+      "CaseNo": "KSP-CASE-0188",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-02-24",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 189,
+      "CaseNo": "KSP-CASE-0189",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-10-01",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 190,
+      "CaseNo": "KSP-CASE-0190",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-01-23",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 191,
+      "CaseNo": "KSP-CASE-0191",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-12-15",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 192,
+      "CaseNo": "KSP-CASE-0192",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 285,171 rupees.",
+      "CrimeRegisteredDate": "2024-06-12",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 193,
+      "CaseNo": "KSP-CASE-0193",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-09-08",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 194,
+      "CaseNo": "KSP-CASE-0194",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-06-27",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 195,
+      "CaseNo": "KSP-CASE-0195",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-04-08",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 196,
+      "CaseNo": "KSP-CASE-0196",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-11-07",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 197,
+      "CaseNo": "KSP-CASE-0197",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-01-18",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 198,
+      "CaseNo": "KSP-CASE-0198",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-10-28",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 199,
+      "CaseNo": "KSP-CASE-0199",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-11-30",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 200,
+      "CaseNo": "KSP-CASE-0200",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2026-03-13",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 201,
+      "CaseNo": "KSP-CASE-0201",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 352,605 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-07-08",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 202,
+      "CaseNo": "KSP-CASE-0202",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-01-07",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 203,
+      "CaseNo": "KSP-CASE-0203",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 58,721 rupees.",
+      "CrimeRegisteredDate": "2026-01-10",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 204,
+      "CaseNo": "KSP-CASE-0204",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2025-09-27",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 205,
+      "CaseNo": "KSP-CASE-0205",
+      "BriefFacts": "Information was received that a male dead body aged around 52 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-09-15",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 206,
+      "CaseNo": "KSP-CASE-0206",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 322,883 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-04-17",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 207,
+      "CaseNo": "KSP-CASE-0207",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 298,560 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-07-14",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 208,
+      "CaseNo": "KSP-CASE-0208",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-08-12",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 209,
+      "CaseNo": "KSP-CASE-0209",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 322,675 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-01-15",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 210,
+      "CaseNo": "KSP-CASE-0210",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-07-05",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 211,
+      "CaseNo": "KSP-CASE-0211",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2025-05-20",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 212,
+      "CaseNo": "KSP-CASE-0212",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-05-17",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 213,
+      "CaseNo": "KSP-CASE-0213",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 182,390 rupees.",
+      "CrimeRegisteredDate": "2024-07-22",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 214,
+      "CaseNo": "KSP-CASE-0214",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-03-13",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 215,
+      "CaseNo": "KSP-CASE-0215",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2026-02-23",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 216,
+      "CaseNo": "KSP-CASE-0216",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-09-02",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 217,
+      "CaseNo": "KSP-CASE-0217",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 218,
+      "CaseNo": "KSP-CASE-0218",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-09-10",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 219,
+      "CaseNo": "KSP-CASE-0219",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-01-24",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 220,
+      "CaseNo": "KSP-CASE-0220",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-07-16",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 221,
+      "CaseNo": "KSP-CASE-0221",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-02-14",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 222,
+      "CaseNo": "KSP-CASE-0222",
+      "BriefFacts": "Information was received that a male dead body aged around 52 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-03-13",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 223,
+      "CaseNo": "KSP-CASE-0223",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-12-04",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 224,
+      "CaseNo": "KSP-CASE-0224",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 402,010 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-08-19",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 225,
+      "CaseNo": "KSP-CASE-0225",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-05-25",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 226,
+      "CaseNo": "KSP-CASE-0226",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 285,024 rupees.",
+      "CrimeRegisteredDate": "2024-01-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 227,
+      "CaseNo": "KSP-CASE-0227",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-05-06",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 228,
+      "CaseNo": "KSP-CASE-0228",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-04-04",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 229,
+      "CaseNo": "KSP-CASE-0229",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-03-06",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 230,
+      "CaseNo": "KSP-CASE-0230",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-08-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 231,
+      "CaseNo": "KSP-CASE-0231",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-10-10",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 232,
+      "CaseNo": "KSP-CASE-0232",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-03-19",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 233,
+      "CaseNo": "KSP-CASE-0233",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-11-15",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 234,
+      "CaseNo": "KSP-CASE-0234",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 380,967 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-02-16",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 235,
+      "CaseNo": "KSP-CASE-0235",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-05-14",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 236,
+      "CaseNo": "KSP-CASE-0236",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-01-23",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 237,
+      "CaseNo": "KSP-CASE-0237",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-07-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 238,
+      "CaseNo": "KSP-CASE-0238",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-09-21",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 239,
+      "CaseNo": "KSP-CASE-0239",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-12-11",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 240,
+      "CaseNo": "KSP-CASE-0240",
+      "BriefFacts": "Information was received that a male dead body aged around 59 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-08-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 241,
+      "CaseNo": "KSP-CASE-0241",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 266,838 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-04-20",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 242,
+      "CaseNo": "KSP-CASE-0242",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 207,168 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-26",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 243,
+      "CaseNo": "KSP-CASE-0243",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2024-08-07",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 244,
+      "CaseNo": "KSP-CASE-0244",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 32,844 rupees.",
+      "CrimeRegisteredDate": "2024-05-14",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 245,
+      "CaseNo": "KSP-CASE-0245",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2026-05-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 246,
+      "CaseNo": "KSP-CASE-0246",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 313,963 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-03-24",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 247,
+      "CaseNo": "KSP-CASE-0247",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-02-07",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 248,
+      "CaseNo": "KSP-CASE-0248",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-03-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 249,
+      "CaseNo": "KSP-CASE-0249",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2024-07-08",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 250,
+      "CaseNo": "KSP-CASE-0250",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2024-10-08",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 251,
+      "CaseNo": "KSP-CASE-0251",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 487,832 rupees.",
+      "CrimeRegisteredDate": "2025-12-01",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 252,
+      "CaseNo": "KSP-CASE-0252",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 224,719 rupees.",
+      "CrimeRegisteredDate": "2025-01-23",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 253,
+      "CaseNo": "KSP-CASE-0253",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-01-02",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 254,
+      "CaseNo": "KSP-CASE-0254",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-07-25",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 255,
+      "CaseNo": "KSP-CASE-0255",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2026-05-29",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 256,
+      "CaseNo": "KSP-CASE-0256",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 196,607 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-12-20",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 257,
+      "CaseNo": "KSP-CASE-0257",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-10-15",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 258,
+      "CaseNo": "KSP-CASE-0258",
+      "BriefFacts": "Information was received that a male dead body aged around 59 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-10-15",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 259,
+      "CaseNo": "KSP-CASE-0259",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2025-08-28",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 260,
+      "CaseNo": "KSP-CASE-0260",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 433,966 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-04-18",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 261,
+      "CaseNo": "KSP-CASE-0261",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-12-27",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 262,
+      "CaseNo": "KSP-CASE-0262",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-01-03",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 263,
+      "CaseNo": "KSP-CASE-0263",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2026-02-02",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 264,
+      "CaseNo": "KSP-CASE-0264",
+      "BriefFacts": "Information was received that a male dead body aged around 60 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-10-27",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 265,
+      "CaseNo": "KSP-CASE-0265",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2026-04-12",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 266,
+      "CaseNo": "KSP-CASE-0266",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-08-15",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 267,
+      "CaseNo": "KSP-CASE-0267",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-09",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 268,
+      "CaseNo": "KSP-CASE-0268",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-10-31",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 269,
+      "CaseNo": "KSP-CASE-0269",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2024-04-14",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 270,
+      "CaseNo": "KSP-CASE-0270",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-05-01",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 271,
+      "CaseNo": "KSP-CASE-0271",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2026-04-19",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 272,
+      "CaseNo": "KSP-CASE-0272",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 480,174 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-03-13",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 273,
+      "CaseNo": "KSP-CASE-0273",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-08-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 274,
+      "CaseNo": "KSP-CASE-0274",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-08-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 275,
+      "CaseNo": "KSP-CASE-0275",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-05-09",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 276,
+      "CaseNo": "KSP-CASE-0276",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 392,410 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-06-15",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 277,
+      "CaseNo": "KSP-CASE-0277",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 80,030 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-05-02",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 278,
+      "CaseNo": "KSP-CASE-0278",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 348,857 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-11-22",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 279,
+      "CaseNo": "KSP-CASE-0279",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-03-14",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 280,
+      "CaseNo": "KSP-CASE-0280",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-04-06",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 281,
+      "CaseNo": "KSP-CASE-0281",
+      "BriefFacts": "Information was received that a male dead body aged around 42 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-12-31",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 282,
+      "CaseNo": "KSP-CASE-0282",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-07-07",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 283,
+      "CaseNo": "KSP-CASE-0283",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2026-05-08",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 284,
+      "CaseNo": "KSP-CASE-0284",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-01-06",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 285,
+      "CaseNo": "KSP-CASE-0285",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 258,798 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-02-07",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 286,
+      "CaseNo": "KSP-CASE-0286",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-02-03",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 287,
+      "CaseNo": "KSP-CASE-0287",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-05-07",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 288,
+      "CaseNo": "KSP-CASE-0288",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-07-21",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 289,
+      "CaseNo": "KSP-CASE-0289",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-01-07",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 290,
+      "CaseNo": "KSP-CASE-0290",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-06-03",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 291,
+      "CaseNo": "KSP-CASE-0291",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 112,215 rupees.",
+      "CrimeRegisteredDate": "2025-10-26",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 292,
+      "CaseNo": "KSP-CASE-0292",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-04-07",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 293,
+      "CaseNo": "KSP-CASE-0293",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2026-04-23",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 294,
+      "CaseNo": "KSP-CASE-0294",
+      "BriefFacts": "Information was received that a male dead body aged around 28 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-01-10",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 295,
+      "CaseNo": "KSP-CASE-0295",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-03-03",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 296,
+      "CaseNo": "KSP-CASE-0296",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 400,639 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-08-09",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 297,
+      "CaseNo": "KSP-CASE-0297",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 376,383 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-12-13",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 298,
+      "CaseNo": "KSP-CASE-0298",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2024-04-25",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 299,
+      "CaseNo": "KSP-CASE-0299",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 79,103 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-09-17",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 300,
+      "CaseNo": "KSP-CASE-0300",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2026-05-27",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 301,
+      "CaseNo": "KSP-CASE-0301",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2026-03-28",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 302,
+      "CaseNo": "KSP-CASE-0302",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 433,081 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-02-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 303,
+      "CaseNo": "KSP-CASE-0303",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-10-26",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 304,
+      "CaseNo": "KSP-CASE-0304",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-10-21",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 305,
+      "CaseNo": "KSP-CASE-0305",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 408,965 rupees.",
+      "CrimeRegisteredDate": "2025-10-31",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 306,
+      "CaseNo": "KSP-CASE-0306",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-09-26",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 307,
+      "CaseNo": "KSP-CASE-0307",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 33,913 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-08-04",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 308,
+      "CaseNo": "KSP-CASE-0308",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-06-27",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 309,
+      "CaseNo": "KSP-CASE-0309",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2024-02-04",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 310,
+      "CaseNo": "KSP-CASE-0310",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2025-12-16",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 311,
+      "CaseNo": "KSP-CASE-0311",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2026-01-06",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 312,
+      "CaseNo": "KSP-CASE-0312",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2025-01-20",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 313,
+      "CaseNo": "KSP-CASE-0313",
+      "BriefFacts": "Information was received that a male dead body aged around 60 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-01-03",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 314,
+      "CaseNo": "KSP-CASE-0314",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2025-01-31",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 315,
+      "CaseNo": "KSP-CASE-0315",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-07-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 316,
+      "CaseNo": "KSP-CASE-0316",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-12-12",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 317,
+      "CaseNo": "KSP-CASE-0317",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-10-09",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 318,
+      "CaseNo": "KSP-CASE-0318",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-03-09",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 319,
+      "CaseNo": "KSP-CASE-0319",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-11-28",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 320,
+      "CaseNo": "KSP-CASE-0320",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2026-04-11",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 321,
+      "CaseNo": "KSP-CASE-0321",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2025-09-27",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 322,
+      "CaseNo": "KSP-CASE-0322",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 351,107 rupees.",
+      "CrimeRegisteredDate": "2025-02-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 323,
+      "CaseNo": "KSP-CASE-0323",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2025-01-22",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 324,
+      "CaseNo": "KSP-CASE-0324",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 238,888 rupees.",
+      "CrimeRegisteredDate": "2024-05-22",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 325,
+      "CaseNo": "KSP-CASE-0325",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2024-01-13",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 326,
+      "CaseNo": "KSP-CASE-0326",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 415,067 rupees.",
+      "CrimeRegisteredDate": "2024-04-08",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 327,
+      "CaseNo": "KSP-CASE-0327",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2024-08-31",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 328,
+      "CaseNo": "KSP-CASE-0328",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-04-13",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 329,
+      "CaseNo": "KSP-CASE-0329",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-15",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 330,
+      "CaseNo": "KSP-CASE-0330",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-07-25",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 331,
+      "CaseNo": "KSP-CASE-0331",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-06-17",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 332,
+      "CaseNo": "KSP-CASE-0332",
+      "BriefFacts": "Information was received that a male dead body aged around 55 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-01-02",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 333,
+      "CaseNo": "KSP-CASE-0333",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 236,962 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-05-03",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 334,
+      "CaseNo": "KSP-CASE-0334",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 440,971 rupees.",
+      "CrimeRegisteredDate": "2024-01-24",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 335,
+      "CaseNo": "KSP-CASE-0335",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 258,098 rupees.",
+      "CrimeRegisteredDate": "2026-04-07",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 336,
+      "CaseNo": "KSP-CASE-0336",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-05-02",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 337,
+      "CaseNo": "KSP-CASE-0337",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2025-10-12",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 338,
+      "CaseNo": "KSP-CASE-0338",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-08-16",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 339,
+      "CaseNo": "KSP-CASE-0339",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-11-12",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 340,
+      "CaseNo": "KSP-CASE-0340",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-02-18",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 341,
+      "CaseNo": "KSP-CASE-0341",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-04-30",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 342,
+      "CaseNo": "KSP-CASE-0342",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 399,250 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-29",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 343,
+      "CaseNo": "KSP-CASE-0343",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 359,640 rupees.",
+      "CrimeRegisteredDate": "2025-11-19",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 344,
+      "CaseNo": "KSP-CASE-0344",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-09-11",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 345,
+      "CaseNo": "KSP-CASE-0345",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-08-26",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 346,
+      "CaseNo": "KSP-CASE-0346",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2025-02-20",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 347,
+      "CaseNo": "KSP-CASE-0347",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2025-05-09",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 348,
+      "CaseNo": "KSP-CASE-0348",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 240,991 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-02",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 349,
+      "CaseNo": "KSP-CASE-0349",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 497,091 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-09-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 350,
+      "CaseNo": "KSP-CASE-0350",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-20 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-02-24",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 351,
+      "CaseNo": "KSP-CASE-0351",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 123,720 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-05-07",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 352,
+      "CaseNo": "KSP-CASE-0352",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 95,444 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-07-27",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 353,
+      "CaseNo": "KSP-CASE-0353",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-02-20",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 354,
+      "CaseNo": "KSP-CASE-0354",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-01-02",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 355,
+      "CaseNo": "KSP-CASE-0355",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-01-10",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 356,
+      "CaseNo": "KSP-CASE-0356",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-04-07",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 357,
+      "CaseNo": "KSP-CASE-0357",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-04-29",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 358,
+      "CaseNo": "KSP-CASE-0358",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2025-03-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 359,
+      "CaseNo": "KSP-CASE-0359",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 39,680 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-07-25",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 360,
+      "CaseNo": "KSP-CASE-0360",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2025-11-24",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 361,
+      "CaseNo": "KSP-CASE-0361",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-02-07",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 362,
+      "CaseNo": "KSP-CASE-0362",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 212,421 rupees.",
+      "CrimeRegisteredDate": "2024-07-01",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 363,
+      "CaseNo": "KSP-CASE-0363",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 289,963 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-01-24",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 364,
+      "CaseNo": "KSP-CASE-0364",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 372,480 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-12-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 365,
+      "CaseNo": "KSP-CASE-0365",
+      "BriefFacts": "Information was received that a male dead body aged around 35 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-02-09",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 366,
+      "CaseNo": "KSP-CASE-0366",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-07-18",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 367,
+      "CaseNo": "KSP-CASE-0367",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2026-05-30",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 368,
+      "CaseNo": "KSP-CASE-0368",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-07-10",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 369,
+      "CaseNo": "KSP-CASE-0369",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 362,006 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-04-18",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 370,
+      "CaseNo": "KSP-CASE-0370",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 180,458 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-11-16",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 371,
+      "CaseNo": "KSP-CASE-0371",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2026-02-17",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 372,
+      "CaseNo": "KSP-CASE-0372",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-12-25",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 373,
+      "CaseNo": "KSP-CASE-0373",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-06-06",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 374,
+      "CaseNo": "KSP-CASE-0374",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 81,566 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-09-02",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 375,
+      "CaseNo": "KSP-CASE-0375",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-03-09",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 376,
+      "CaseNo": "KSP-CASE-0376",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2025-01-24",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 377,
+      "CaseNo": "KSP-CASE-0377",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-09-29",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 378,
+      "CaseNo": "KSP-CASE-0378",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 226,765 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-05-21",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 379,
+      "CaseNo": "KSP-CASE-0379",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 131,367 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-06-14",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 380,
+      "CaseNo": "KSP-CASE-0380",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 41,555 rupees.",
+      "CrimeRegisteredDate": "2025-04-10",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 381,
+      "CaseNo": "KSP-CASE-0381",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-09-27",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 382,
+      "CaseNo": "KSP-CASE-0382",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 219,568 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-07-29",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 383,
+      "CaseNo": "KSP-CASE-0383",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-03-16",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 384,
+      "CaseNo": "KSP-CASE-0384",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-09-13",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 385,
+      "CaseNo": "KSP-CASE-0385",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 303,316 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-09-12",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 386,
+      "CaseNo": "KSP-CASE-0386",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 443,781 rupees.",
+      "CrimeRegisteredDate": "2025-06-26",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 387,
+      "CaseNo": "KSP-CASE-0387",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 278,593 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-05-10",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 388,
+      "CaseNo": "KSP-CASE-0388",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 283,848 rupees.",
+      "CrimeRegisteredDate": "2025-07-20",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 389,
+      "CaseNo": "KSP-CASE-0389",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 343,463 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-04-03",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 390,
+      "CaseNo": "KSP-CASE-0390",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2025-02-07",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 391,
+      "CaseNo": "KSP-CASE-0391",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 275,625 rupees.",
+      "CrimeRegisteredDate": "2026-03-01",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 392,
+      "CaseNo": "KSP-CASE-0392",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-05-20",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 393,
+      "CaseNo": "KSP-CASE-0393",
+      "BriefFacts": "Information was received that a male dead body aged around 47 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-05-31",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 394,
+      "CaseNo": "KSP-CASE-0394",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-12-02",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 395,
+      "CaseNo": "KSP-CASE-0395",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-03-04",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 396,
+      "CaseNo": "KSP-CASE-0396",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2026-02-18",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 397,
+      "CaseNo": "KSP-CASE-0397",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-03-22",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 398,
+      "CaseNo": "KSP-CASE-0398",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2025-03-25",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 399,
+      "CaseNo": "KSP-CASE-0399",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2026-04-10",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 400,
+      "CaseNo": "KSP-CASE-0400",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-01-05",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 401,
+      "CaseNo": "KSP-CASE-0401",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-01-07",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 402,
+      "CaseNo": "KSP-CASE-0402",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-03-07",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 403,
+      "CaseNo": "KSP-CASE-0403",
+      "BriefFacts": "Information was received that a male dead body aged around 40 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2026-01-18",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 404,
+      "CaseNo": "KSP-CASE-0404",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 193,404 rupees.",
+      "CrimeRegisteredDate": "2025-07-07",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 405,
+      "CaseNo": "KSP-CASE-0405",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-04-15",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 406,
+      "CaseNo": "KSP-CASE-0406",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-03-17",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 407,
+      "CaseNo": "KSP-CASE-0407",
+      "BriefFacts": "Information was received that a male dead body aged around 25 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-04-03",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 408,
+      "CaseNo": "KSP-CASE-0408",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-07-07",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 409,
+      "CaseNo": "KSP-CASE-0409",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2025-07-21",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 410,
+      "CaseNo": "KSP-CASE-0410",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 484,595 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-10-29",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 411,
+      "CaseNo": "KSP-CASE-0411",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-01-06",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 412,
+      "CaseNo": "KSP-CASE-0412",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-06-24",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 413,
+      "CaseNo": "KSP-CASE-0413",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 382,092 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-07-28",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 414,
+      "CaseNo": "KSP-CASE-0414",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 264,375 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-10-07",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 415,
+      "CaseNo": "KSP-CASE-0415",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2024-03-16",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 416,
+      "CaseNo": "KSP-CASE-0416",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 74,478 rupees from their wallet.",
+      "CrimeRegisteredDate": "2026-04-02",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 417,
+      "CaseNo": "KSP-CASE-0417",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 22,503 rupees.",
+      "CrimeRegisteredDate": "2024-09-13",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 418,
+      "CaseNo": "KSP-CASE-0418",
+      "BriefFacts": "Information was received that a male dead body aged around 39 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-03-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 419,
+      "CaseNo": "KSP-CASE-0419",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-02-15",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 420,
+      "CaseNo": "KSP-CASE-0420",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-06-15",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 421,
+      "CaseNo": "KSP-CASE-0421",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2026-03-11",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 422,
+      "CaseNo": "KSP-CASE-0422",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 265,055 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-04-06",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 423,
+      "CaseNo": "KSP-CASE-0423",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-03-03",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 424,
+      "CaseNo": "KSP-CASE-0424",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 100 rupees.",
+      "CrimeRegisteredDate": "2024-03-30",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 425,
+      "CaseNo": "KSP-CASE-0425",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 480,076 rupees from their wallet.",
+      "CrimeRegisteredDate": "2024-05-04",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 426,
+      "CaseNo": "KSP-CASE-0426",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 350,345 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-03-23",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 427,
+      "CaseNo": "KSP-CASE-0427",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-03-07",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 428,
+      "CaseNo": "KSP-CASE-0428",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-04-16",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 429,
+      "CaseNo": "KSP-CASE-0429",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 3 injuries.",
+      "CrimeRegisteredDate": "2024-09-11",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 430,
+      "CaseNo": "KSP-CASE-0430",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-05-06",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 431,
+      "CaseNo": "KSP-CASE-0431",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-10-14",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 432,
+      "CaseNo": "KSP-CASE-0432",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-05-10",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 433,
+      "CaseNo": "KSP-CASE-0433",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2025-06-11",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 434,
+      "CaseNo": "KSP-CASE-0434",
+      "BriefFacts": "Information was received that a male dead body aged around 37 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-12-06",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 435,
+      "CaseNo": "KSP-CASE-0435",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 24,217 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-12-19",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 436,
+      "CaseNo": "KSP-CASE-0436",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-01-16",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 437,
+      "CaseNo": "KSP-CASE-0437",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2025-05-04",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 438,
+      "CaseNo": "KSP-CASE-0438",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-05-07",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 439,
+      "CaseNo": "KSP-CASE-0439",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-12-26",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 440,
+      "CaseNo": "KSP-CASE-0440",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2026-01-19",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 441,
+      "CaseNo": "KSP-CASE-0441",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2025-07-11",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 442,
+      "CaseNo": "KSP-CASE-0442",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-05-14",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 443,
+      "CaseNo": "KSP-CASE-0443",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 263,869 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-03-03",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 444,
+      "CaseNo": "KSP-CASE-0444",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 20 grams and cash.",
+      "CrimeRegisteredDate": "2025-04-10",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 445,
+      "CaseNo": "KSP-CASE-0445",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2026-04-28",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 446,
+      "CaseNo": "KSP-CASE-0446",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-12-28",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 447,
+      "CaseNo": "KSP-CASE-0447",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 1 injuries.",
+      "CrimeRegisteredDate": "2024-06-23",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 448,
+      "CaseNo": "KSP-CASE-0448",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 10 grams and cash.",
+      "CrimeRegisteredDate": "2024-08-23",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 449,
+      "CaseNo": "KSP-CASE-0449",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-05-05",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 450,
+      "CaseNo": "KSP-CASE-0450",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-05-05",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 451,
+      "CaseNo": "KSP-CASE-0451",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 54,581 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-08-06",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 452,
+      "CaseNo": "KSP-CASE-0452",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-50 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-02-05",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 453,
+      "CaseNo": "KSP-CASE-0453",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-08-03",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 454,
+      "CaseNo": "KSP-CASE-0454",
+      "BriefFacts": "Information was received that a male dead body aged around 36 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2025-01-04",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 455,
+      "CaseNo": "KSP-CASE-0455",
+      "BriefFacts": "Information was received that a male dead body aged around 42 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2024-03-16",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 456,
+      "CaseNo": "KSP-CASE-0456",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-04-16",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 457,
+      "CaseNo": "KSP-CASE-0457",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 134,490 rupees.",
+      "CrimeRegisteredDate": "2025-11-09",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 458,
+      "CaseNo": "KSP-CASE-0458",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-01-12",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 459,
+      "CaseNo": "KSP-CASE-0459",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 100 grams and cash.",
+      "CrimeRegisteredDate": "2025-08-06",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 460,
+      "CaseNo": "KSP-CASE-0460",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 100 grams and cash.",
+      "CrimeRegisteredDate": "2025-06-15",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 461,
+      "CaseNo": "KSP-CASE-0461",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-01-24",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 462,
+      "CaseNo": "KSP-CASE-0462",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2024-05-05",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 463,
+      "CaseNo": "KSP-CASE-0463",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2025-08-05",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 464,
+      "CaseNo": "KSP-CASE-0464",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 394,418 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-11-14",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 465,
+      "CaseNo": "KSP-CASE-0465",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 50 rupees.",
+      "CrimeRegisteredDate": "2024-10-08",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 466,
+      "CaseNo": "KSP-CASE-0466",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-07-11",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 467,
+      "CaseNo": "KSP-CASE-0467",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-07-17",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 468,
+      "CaseNo": "KSP-CASE-0468",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 291,080 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-10-06",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 469,
+      "CaseNo": "KSP-CASE-0469",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-08-30",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 470,
+      "CaseNo": "KSP-CASE-0470",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-02-23",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 471,
+      "CaseNo": "KSP-CASE-0471",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 233,232 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-07-04",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 472,
+      "CaseNo": "KSP-CASE-0472",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2024-05-25",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 473,
+      "CaseNo": "KSP-CASE-0473",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2025-11-11",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 474,
+      "CaseNo": "KSP-CASE-0474",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2026-05-26",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 475,
+      "CaseNo": "KSP-CASE-0475",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2024-01-22",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 476,
+      "CaseNo": "KSP-CASE-0476",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-03-04",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 477,
+      "CaseNo": "KSP-CASE-0477",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 10 rupees.",
+      "CrimeRegisteredDate": "2024-09-03",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 478,
+      "CaseNo": "KSP-CASE-0478",
+      "BriefFacts": "Complainant reported that some unknown persons entered their house at night and stole gold ornaments weighing 50 grams and cash.",
+      "CrimeRegisteredDate": "2025-04-02",
+      "PoliceStationID": 1001,
+      "UnitName": "Koramangala Police Station"
+    },
+    {
+      "CaseMasterID": 479,
+      "CaseNo": "KSP-CASE-0479",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 297,856 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-02-13",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 480,
+      "CaseNo": "KSP-CASE-0480",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-04-05",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 481,
+      "CaseNo": "KSP-CASE-0481",
+      "BriefFacts": "A verbal dispute escalated in public, during which the accused physically assaulted the victim and threatened them with dire consequences.",
+      "CrimeRegisteredDate": "2024-10-22",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 482,
+      "CaseNo": "KSP-CASE-0482",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-01-14",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 483,
+      "CaseNo": "KSP-CASE-0483",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 222,417 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2026-03-09",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 484,
+      "CaseNo": "KSP-CASE-0484",
+      "BriefFacts": "The victim was found murdered inside their residence. The body had severe neck injuries inflicted with a sharp knife.",
+      "CrimeRegisteredDate": "2025-12-02",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 485,
+      "CaseNo": "KSP-CASE-0485",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 344,992 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2025-10-18",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 486,
+      "CaseNo": "KSP-CASE-0486",
+      "BriefFacts": "Accused pick up a sudden argument with the victim regarding a parking issue and assaulted them with a wooden stick, causing 2 injuries.",
+      "CrimeRegisteredDate": "2024-09-10",
+      "PoliceStationID": 1007,
+      "UnitName": "Vidyaranyapuram Police Station"
+    },
+    {
+      "CaseMasterID": 487,
+      "CaseNo": "KSP-CASE-0487",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 311,229 rupees.",
+      "CrimeRegisteredDate": "2026-01-15",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 488,
+      "CaseNo": "KSP-CASE-0488",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 181,835 rupees.",
+      "CrimeRegisteredDate": "2024-03-07",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 489,
+      "CaseNo": "KSP-CASE-0489",
+      "BriefFacts": "Accused called the complainant posing as a bank customer service representative, obtained the OTP, and transferred 146,260 rupees from their wallet.",
+      "CrimeRegisteredDate": "2025-03-22",
+      "PoliceStationID": 1002,
+      "UnitName": "Indiranagar Police Station"
+    },
+    {
+      "CaseMasterID": 490,
+      "CaseNo": "KSP-CASE-0490",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-10 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2024-09-14",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 491,
+      "CaseNo": "KSP-CASE-0491",
+      "BriefFacts": "The complainant received a phishing link via SMS offering rewards, and after clicking it, 174,447 rupees were fraudulently debited from their bank account.",
+      "CrimeRegisteredDate": "2024-01-02",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 492,
+      "CaseNo": "KSP-CASE-0492",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-10-24",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 493,
+      "CaseNo": "KSP-CASE-0493",
+      "BriefFacts": "Complainant parked their two-wheeler bearing registration number KA-03-EX-100 near the market, and found it missing when they returned.",
+      "CrimeRegisteredDate": "2026-04-01",
+      "PoliceStationID": 1005,
+      "UnitName": "Devaraja Police Station"
+    },
+    {
+      "CaseMasterID": 494,
+      "CaseNo": "KSP-CASE-0494",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2025-08-14",
+      "PoliceStationID": 1010,
+      "UnitName": "Hubballi Town Police Station"
+    },
+    {
+      "CaseMasterID": 495,
+      "CaseNo": "KSP-CASE-0495",
+      "BriefFacts": "A physical dispute arose between two groups over a property land line, during which the accused assaulted the victim with a sharp weapon, causing instantaneous death.",
+      "CrimeRegisteredDate": "2025-03-26",
+      "PoliceStationID": 1006,
+      "UnitName": "Lashkar Police Station"
+    },
+    {
+      "CaseMasterID": 496,
+      "CaseNo": "KSP-CASE-0496",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 106,443 rupees.",
+      "CrimeRegisteredDate": "2025-06-03",
+      "PoliceStationID": 1008,
+      "UnitName": "Hubballi Suburban Police Station"
+    },
+    {
+      "CaseMasterID": 497,
+      "CaseNo": "KSP-CASE-0497",
+      "BriefFacts": "Information was received that a male dead body aged around 50 was found near the highway with severe stab wounds on the chest.",
+      "CrimeRegisteredDate": "2026-04-01",
+      "PoliceStationID": 1003,
+      "UnitName": "Whitefield Police Station"
+    },
+    {
+      "CaseMasterID": 498,
+      "CaseNo": "KSP-CASE-0498",
+      "BriefFacts": "Accused intentionally intercepted the victim's way and beat them up with iron rods, causing severe contusions and hospitalization.",
+      "CrimeRegisteredDate": "2026-02-28",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    },
+    {
+      "CaseMasterID": 499,
+      "CaseNo": "KSP-CASE-0499",
+      "BriefFacts": "Unidentified thieves broke the lock of a shop and stole electronic items and laptop computers valued at 20 rupees.",
+      "CrimeRegisteredDate": "2025-11-18",
+      "PoliceStationID": 1009,
+      "UnitName": "Gokul Road Police Station"
+    },
+    {
+      "CaseMasterID": 500,
+      "CaseNo": "KSP-CASE-0500",
+      "BriefFacts": "Complainant was cheated online by a fraudulent investment scheme through a social media advertisement, losing 448,362 rupees.",
+      "CrimeRegisteredDate": "2024-10-23",
+      "PoliceStationID": 1004,
+      "UnitName": "HSR Layout Police Station"
+    }
+  ]
+}

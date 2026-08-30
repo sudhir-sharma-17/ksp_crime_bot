@@ -253,6 +253,7 @@ async def handle_query(request: QueryRequest, role: str = Depends(verify_token))
             "all_sql_results": result.get("all_sql_results", []),
             "all_pagination": result.get("all_pagination", []),
             "chart_metadata": result.get("chart_metadata"),
+            "visualization": result.get("chart_metadata"),
         }
 
         # Cache response

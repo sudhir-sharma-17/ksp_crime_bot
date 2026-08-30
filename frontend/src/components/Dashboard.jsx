@@ -1,10 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import { Plus, MessageSquare, ArrowUp, ChevronLeft, ChevronRight, Sparkles, Trash2, Database, Search, Copy, Check, Globe, Loader2 } from 'lucide-react';
-import { PieChart, Pie, Cell, Tooltip as RechartsTooltip, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip as RechartsTooltip, Tooltip, ResponsiveContainer, BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { jsPDF } from "jspdf";
 import autoTable from 'jspdf-autotable';
+
+const CHART_COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#ec4899', '#f97316'];
 
 const headerLogoSrc = 'https://en.wikipedia.org/wiki/Special:FilePath/Seal_of_Karnataka.svg';
 
@@ -55,12 +57,16 @@ const mdComponents = {
   blockquote: ({ children }) => (
     <blockquote className="border-l-4 border-blue-500 pl-3 text-gray-600 dark:text-slate-400 italic my-2 text-sm">{children}</blockquote>
   ),
-  // Completely strip out markdown tables from rendering in the chat pane
-  table: () => null,
-  thead: () => null,
-  th: () => null,
-  td: () => null,
-  tr: () => null,
+  table: ({ children }) => (
+    <div className="overflow-x-auto my-3 rounded-lg border border-slate-200 dark:border-slate-800">
+      <table className="min-w-full text-xs divide-y divide-slate-200 dark:divide-slate-800">{children}</table>
+    </div>
+  ),
+  thead: ({ children }) => <thead className="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200">{children}</thead>,
+  th: ({ children }) => <th className="px-3 py-2 text-left font-semibold">{children}</th>,
+  tbody: ({ children }) => <tbody className="divide-y divide-slate-100 dark:divide-slate-800/60">{children}</tbody>,
+  td: ({ children }) => <td className="px-3 py-2 text-slate-700 dark:text-slate-300">{children}</td>,
+  tr: ({ children }) => <tr className="hover:bg-slate-50/50 dark:hover:bg-slate-800/40">{children}</tr>,
 };
 
 
@@ -253,6 +259,8 @@ export default function Dashboard() {
   };
 
   const [isLoading, setIsLoading] = useState(false);
+  const [queryQueue, setQueryQueue] = useState([]);
+  const isProcessingRef = useRef(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [currentTime, setCurrentTime] = useState(new Date());
 
@@ -394,34 +402,40 @@ export default function Dashboard() {
       abortControllerRef.current.abort();
       abortControllerRef.current = null;
     }
+    setQueryQueue([]);
+    isProcessingRef.current = false;
     setIsLoading(false);
     setMessages((prev) => [
       ...prev,
       {
         sender: 'ai',
-        text: '⚠️ **Query Terminated**\n\nThe query execution was canceled by the user.'
+        text: '⚠️ **Query Terminated**\n\nThe query execution and all queued requests were canceled by the user.'
       }
     ]);
   };
 
-  const handleSendMessage = async (e) => {
-    e?.preventDefault();
-    const query = inputVal.trim();
-    if (!query || isLoading) return;
+  const executeQuery = async (queryText) => {
+    if (!queryText || !queryText.trim()) return;
     
+    const query = queryText.trim();
+    isProcessingRef.current = true;
+    setIsLoading(true);
+
     // Create abort controller for this execution
     const controller = new AbortController();
     abortControllerRef.current = controller;
     
     setCachedSql(null); // Clear cache on new prompt
-    setMessages((prev) => [...prev, { sender: 'user', text: query }]);
-    setInputVal('');
-    setIsLoading(true);
-
-    const recentHistory = messages.slice(-4).map(m => ({
-      role: (m.sender === 'user' || m.isUser) ? "user" : "assistant",
-      content: m.user_query || m.text || m.response
-    }));
+    
+    let currentHistory = [];
+    setMessages((prev) => {
+      const updated = [...prev, { sender: 'user', text: query }];
+      currentHistory = updated.slice(-6).map(m => ({
+        role: (m.sender === 'user' || m.isUser) ? "user" : "assistant",
+        content: m.user_query || m.text || m.response
+      }));
+      return updated;
+    });
 
     try {
       const response = await fetch(`/query`, {
@@ -430,7 +444,7 @@ export default function Dashboard() {
         signal: controller.signal,
         body: JSON.stringify({ 
           query,
-          chat_history: recentHistory,
+          chat_history: currentHistory.slice(0, -1),
           session_id: sessionId
         }),
       });
@@ -457,6 +471,7 @@ export default function Dashboard() {
           all_sql_results: data.all_sql_results,
           all_pagination: data.all_pagination || [],
           chart_metadata: data.chart_metadata,
+          visualization: data.visualization || data.chart_metadata,
         };
         setActiveDataIndex(prev.length);
         return [...prev, newMsg];
@@ -476,8 +491,33 @@ export default function Dashboard() {
       ]);
     } finally {
       abortControllerRef.current = null;
+      isProcessingRef.current = false;
       setIsLoading(false);
       inputRef.current?.focus();
+    }
+  };
+
+  // Queue consumer effect: automatically executes next query when previous finishes
+  useEffect(() => {
+    if (!isLoading && !isProcessingRef.current && queryQueue.length > 0) {
+      const nextQuery = queryQueue[0];
+      setQueryQueue((prev) => prev.slice(1));
+      executeQuery(nextQuery);
+    }
+  }, [isLoading, queryQueue]);
+
+  const handleSendMessage = (e) => {
+    e?.preventDefault();
+    const query = inputVal.trim();
+    if (!query) return;
+    
+    setInputVal('');
+
+    if (isLoading || isProcessingRef.current) {
+      // Enqueue the query for next execution
+      setQueryQueue((prev) => [...prev, query]);
+    } else {
+      executeQuery(query);
     }
   };
 
@@ -817,6 +857,28 @@ export default function Dashboard() {
 
           {/* Chat Input */}
           <div className="absolute bottom-0 left-0 right-0 bg-gray-50 dark:bg-slate-950 border-t border-gray-200 dark:border-slate-800 p-4">
+            {/* Queued Queries Indicator */}
+            {queryQueue.length > 0 && (
+              <div className="mb-2 flex items-center justify-between px-3 py-1.5 bg-blue-50/90 dark:bg-slate-800/90 border border-blue-200 dark:border-slate-700 rounded-lg text-xs text-blue-900 dark:text-blue-200 shadow-sm animate-fade-in">
+                <div className="flex items-center gap-2 truncate">
+                  <span className="flex h-2 w-2 relative">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+                  </span>
+                  <span className="font-bold uppercase tracking-wider text-[10px] text-blue-700 dark:text-blue-300">Queued ({queryQueue.length}):</span>
+                  <span className="truncate italic text-slate-700 dark:text-slate-300">"{queryQueue[0]}"{queryQueue.length > 1 ? ` (+${queryQueue.length - 1} more)` : ''}</span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setQueryQueue([])}
+                  className="text-slate-400 hover:text-red-500 text-[10px] font-bold uppercase ml-2 px-1 rounded hover:bg-red-50 dark:hover:bg-slate-700 cursor-pointer"
+                  title="Clear queued queries"
+                >
+                  Clear
+                </button>
+              </div>
+            )}
+
             <form
               onSubmit={handleSendMessage}
               className="relative flex items-center bg-white dark:bg-slate-900 border border-gray-300 dark:border-slate-700 shadow-sm rounded focus-within:border-blue-900 dark:focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-900 dark:focus-within:ring-blue-500 transition-all"
@@ -826,9 +888,8 @@ export default function Dashboard() {
                 type="text"
                 value={inputVal}
                 onChange={(e) => setInputVal(e.target.value)}
-                placeholder="Query database..."
-                className={`flex-1 bg-transparent border-none focus:ring-0 text-gray-900 dark:text-slate-100 text-sm placeholder-gray-400 dark:placeholder-slate-500 py-2.5 px-3 ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
-                disabled={isLoading}
+                placeholder={isLoading ? "Query running... Type next query to queue..." : "Query database..."}
+                className="flex-1 bg-transparent border-none focus:ring-0 text-gray-900 dark:text-slate-100 text-sm placeholder-gray-400 dark:placeholder-slate-500 py-2.5 px-3"
               />
               <button 
                 type="button"
@@ -840,8 +901,9 @@ export default function Dashboard() {
               </button>
               <button
                 type="submit"
-                disabled={isLoading || !inputVal.trim()}
-                className="m-1 w-8 h-8 bg-blue-900 hover:bg-blue-800 disabled:bg-gray-300 disabled:text-gray-500 text-white rounded flex items-center justify-center transition-all shrink-0"
+                disabled={!inputVal.trim()}
+                className="m-1 w-8 h-8 bg-blue-900 hover:bg-blue-800 disabled:bg-gray-300 disabled:text-gray-500 text-white rounded flex items-center justify-center transition-all shrink-0 cursor-pointer"
+                title={isLoading ? "Queue query" : "Send query"}
               >
                 <ArrowUp className="w-4 h-4" />
               </button>
@@ -877,29 +939,73 @@ export default function Dashboard() {
             ) : (
               <div className="animate-fade-in flex flex-col gap-6 min-h-full pr-2 pb-10">
 
-                {/* ── CHART CONTAINER (TOP SECTION) ── */}
-                <div className="w-full bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm flex flex-col shrink-0 text-slate-800 dark:text-slate-200 transition-colors duration-300">
-                  <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest">Visual Intelligence Dashboard</h3>
-                  <div className="h-64 w-full mt-4">
-                    {activeData && activeData.length > 0 ? (
-                      <ResponsiveContainer height="100%" width="100%">
-                        <BarChart data={activeData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
-                          <CartesianGrid stroke="#e2e8f0" strokeDasharray="3 3" vertical={false}/>
-                          {/* Dynamically grab the first key for X-Axis, and fallback to a default if needed */}
-                          <XAxis dataKey={Object.keys(activeData[0])[0] || Object.keys(activeData[0])[1]} fontSize={12} stroke="#64748b" tickLine={false} />
-                          <YAxis axisLine={false} fontSize={12} stroke="#64748b" tickLine={false}/>
-                          <Tooltip contentStyle={{ backgroundColor: '#fff', border: 'none', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}/>
-                          {/* Dynamically grab a numeric key for the Bar, or just use the last column */}
-                          <Bar dataKey={Object.keys(activeData[0])[Object.keys(activeData[0]).length - 1]} fill="#3b82f6" radius={[4, 4, 0, 0]}/>
-                        </BarChart>
-                      </ResponsiveContainer>
-                    ) : (
-                      <div className="flex h-full w-full items-center justify-center border-2 border-dashed border-slate-200 rounded-lg">
-                        <p className="text-slate-400 text-sm font-medium">No visual data available for this query.</p>
+                {/* ── AUTOMATIC VISUALIZATION DASHBOARD ── */}
+                {(() => {
+                  const viz = activeMessageWithData?.chart_metadata || activeMessageWithData?.visualization;
+                  const isChart = viz && viz.response_type === 'chart' && viz.chart_type !== 'none' && viz.data && viz.data.length > 0;
+                  
+                  if (!isChart) return null;
+
+                  const chartType = viz.chart_type;
+                  const chartData = viz.data;
+                  const chartTitle = viz.title || "Visual Intelligence Dashboard";
+
+                  return (
+                    <div className="w-full bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-5 shadow-sm flex flex-col shrink-0 text-slate-800 dark:text-slate-200 transition-colors duration-300">
+                      <div className="flex items-center justify-between">
+                        <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest">{chartTitle}</h3>
+                        <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-950 text-blue-800 dark:text-blue-300 font-mono">
+                          {chartType.toUpperCase()} CHART
+                        </span>
                       </div>
-                    )}
-                  </div>
-                </div>
+                      <div className="h-64 w-full mt-4">
+                        <ResponsiveContainer height="100%" width="100%">
+                          {chartType === 'pie' ? (
+                            <PieChart>
+                              <Pie
+                                data={chartData}
+                                dataKey="value"
+                                nameKey="label"
+                                cx="50%"
+                                cy="50%"
+                                outerRadius={80}
+                                innerRadius={40}
+                                paddingAngle={4}
+                                label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                              >
+                                {chartData.map((entry, index) => (
+                                  <Cell key={`cell-${index}`} fill={CHART_COLORS[index % CHART_COLORS.length]} />
+                                ))}
+                              </Pie>
+                              <Tooltip contentStyle={{ backgroundColor: '#fff', border: 'none', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }} />
+                              <Legend />
+                            </PieChart>
+                          ) : chartType === 'line' ? (
+                            <LineChart data={chartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                              <CartesianGrid stroke="#e2e8f0" strokeDasharray="3 3" vertical={false} />
+                              <XAxis dataKey="label" fontSize={12} stroke="#64748b" tickLine={false} />
+                              <YAxis axisLine={false} fontSize={12} stroke="#64748b" tickLine={false} />
+                              <Tooltip contentStyle={{ backgroundColor: '#fff', border: 'none', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }} />
+                              <Line type="monotone" dataKey="value" stroke="#3b82f6" strokeWidth={3} dot={{ r: 5, fill: '#3b82f6' }} activeDot={{ r: 8 }} />
+                            </LineChart>
+                          ) : (
+                            <BarChart data={chartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                              <CartesianGrid stroke="#e2e8f0" strokeDasharray="3 3" vertical={false} />
+                              <XAxis dataKey="label" fontSize={12} stroke="#64748b" tickLine={false} />
+                              <YAxis axisLine={false} fontSize={12} stroke="#64748b" tickLine={false} />
+                              <Tooltip contentStyle={{ backgroundColor: '#fff', border: 'none', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }} />
+                              <Bar dataKey="value" fill="#3b82f6" radius={[4, 4, 0, 0]}>
+                                {chartData.map((entry, index) => (
+                                  <Cell key={`cell-${index}`} fill={CHART_COLORS[index % CHART_COLORS.length]} />
+                                ))}
+                              </Bar>
+                            </BarChart>
+                          )}
+                        </ResponsiveContainer>
+                      </div>
+                    </div>
+                  );
+                })()}
                 {activeMessageWithData.all_sql_results.map((resultSet, idx) => {
                   const sqlCommand = activeMessageWithData.all_generated_sql?.[idx];
                   if (sqlCommand === 'CHITCHAT') return null;
