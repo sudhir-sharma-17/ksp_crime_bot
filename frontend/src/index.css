@@ -142,6 +142,47 @@
 .anim-init-cap-6 { opacity: 0; animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 2.10s forwards; }
 .anim-init-cap-7 { opacity: 0; animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 2.25s forwards; }
 
+/* Staggered Command Center Landing Animations */
+.anim-landing-seal {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
+}
+
+.anim-landing-badge {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.25s forwards;
+}
+
+.anim-landing-title {
+  opacity: 0;
+  animation: slideFadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+}
+
+.anim-landing-desc {
+  opacity: 0;
+  animation: slideFadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) 0.55s forwards;
+}
+
+.anim-landing-card-1 {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.70s forwards;
+}
+
+.anim-landing-card-2 {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.82s forwards;
+}
+
+.anim-landing-card-3 {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.94s forwards;
+}
+
+.anim-landing-card-4 {
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) 1.06s forwards;
+}
+
 /* Subtle Background Grid Texture */
 .bg-command-grid {
   background-image: 
@@ -157,13 +198,14 @@
   .anim-init-title,
   .anim-init-subtitle,
   .anim-init-welcome,
-  .anim-init-cap-1,
-  .anim-init-cap-2,
-  .anim-init-cap-3,
-  .anim-init-cap-4,
-  .anim-init-cap-5,
-  .anim-init-cap-6,
-  .anim-init-cap-7 {
+  .anim-landing-seal,
+  .anim-landing-badge,
+  .anim-landing-title,
+  .anim-landing-desc,
+  .anim-landing-card-1,
+  .anim-landing-card-2,
+  .anim-landing-card-3,
+  .anim-landing-card-4 {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;

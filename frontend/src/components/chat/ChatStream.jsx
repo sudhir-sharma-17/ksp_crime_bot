@@ -73,8 +73,8 @@ export default function ChatStream({
       <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-3.5">
         {/* Landing State with Command Center Suggestions */}
         {isFreshSession && (
-          <div className="flex flex-col items-center justify-center py-8 px-2 text-center animate-fade-in select-none">
-            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] flex items-center justify-center shadow-[0_4px_20px_-4px_rgba(37,99,235,0.12)] mb-4 p-3">
+          <div className="flex flex-col items-center justify-center py-8 px-2 text-center select-none">
+            <div className="w-16 h-16 rounded-2xl bg-white dark:bg-[#141C28] border border-slate-200 dark:border-[#263142] flex items-center justify-center shadow-[0_4px_20px_-4px_rgba(37,99,235,0.12)] mb-4 p-3 anim-landing-seal">
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
                 alt="KSP Emblem" 
@@ -82,13 +82,13 @@ export default function ChatStream({
               />
             </div>
 
-            <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-[#93B4E8] mb-1">
+            <span className="text-[11px] font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-[#93B4E8] mb-1 anim-landing-badge">
               State Intelligence Command Center
             </span>
-            <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-slate-100 tracking-wider mb-2 font-mono uppercase">
+            <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-slate-100 tracking-wider mb-2 font-mono uppercase anim-landing-title">
               ALOKA INTELLIGENCE
             </h1>
-            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-md mb-7 leading-relaxed font-normal">
+            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-md mb-7 leading-relaxed font-normal anim-landing-desc">
               "How can I assist your investigation today? Ask any case lookup, statistical analysis, or semantic inquiry."
             </p>
 
@@ -96,12 +96,13 @@ export default function ChatStream({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full text-left max-w-lg mb-4">
               {SUGGESTIONS.map((item, idx) => {
                 const Icon = item.icon;
+                const cardAnimClass = `anim-landing-card-${idx + 1}`;
                 return (
                   <button
                     key={idx}
                     type="button"
                     onClick={() => handleSuggestionClick(item.query)}
-                    className="p-3.5 rounded-2xl bg-white dark:bg-[#141C28] hover:bg-slate-50/90 dark:hover:bg-[#172640] border border-slate-200/90 dark:border-[#263142] hover:border-blue-500 dark:hover:border-blue-500 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-all duration-200 text-left cursor-pointer group"
+                    className={`p-3.5 rounded-2xl bg-white dark:bg-[#141C28] hover:bg-slate-50/90 dark:hover:bg-[#172640] border border-slate-200/90 dark:border-[#263142] hover:border-blue-500 dark:hover:border-blue-500 shadow-[0_1px_3px_rgba(0,0,0,0.04)] hover:shadow-md transition-all duration-200 text-left cursor-pointer group ${cardAnimClass}`}
                   >
                     <div className="flex items-center gap-2.5 mb-1.5">
                       <div className={`p-1.5 rounded-xl border ${item.iconBg} shrink-0`}>
