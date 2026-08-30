@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Shield, 
   User, 
-  Mail, 
   Lock, 
   Eye, 
   EyeOff, 
@@ -75,13 +74,12 @@ const DEMO_ACCOUNTS = [
 ];
 
 export default function LoginPage({ onLoginSuccess }) {
-  const [kgid, setKgid] = useState('KGID970867');
+  const [kgid, setKgid] = useState('');
   const [officerData, setOfficerData] = useState(null);
   const [isVerifying, setIsVerifying] = useState(false);
   const [kgidError, setKgidError] = useState(null);
   const [authError, setAuthError] = useState(null);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('KGID@123');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
 
@@ -114,9 +112,6 @@ export default function LoginPage({ onLoginSuccess }) {
         if (data.found) {
           setOfficerData(data);
           setKgidError(null);
-          if (data.email) {
-            setEmail(data.email);
-          }
         } else {
           setOfficerData(null);
           setKgidError(data.message || "KGID NOT FOUND. Please verify the KGID and try again.");
@@ -151,8 +146,7 @@ export default function LoginPage({ onLoginSuccess }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           kgid: kgid.trim(),
-          password: password,
-          email: email.trim() || undefined
+          password: password
         })
       });
 
@@ -225,10 +219,10 @@ export default function LoginPage({ onLoginSuccess }) {
           </div>
 
           {/* Authentication Form */}
-          <form onSubmit={handleSubmit} className="space-y-3.5">
+          <form onSubmit={handleSubmit} className="space-y-4">
             
             {/* Field 1: KGID Input */}
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                   <Shield className="w-3 h-3 text-[#93B4E8]" />
@@ -275,7 +269,7 @@ export default function LoginPage({ onLoginSuccess }) {
             </div>
 
             {/* Field 2: Officer Name (READ-ONLY, AUTO-POPULATED FROM DB) */}
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                   <User className="w-3 h-3 text-[#93B4E8]" />
@@ -303,7 +297,7 @@ export default function LoginPage({ onLoginSuccess }) {
                         {officerData.name}
                       </span>
                     ) : (
-                      "Automatically found upon entering KGID"
+                      "Auto-identified upon entering KGID"
                     )}
                   </span>
 
@@ -331,25 +325,8 @@ export default function LoginPage({ onLoginSuccess }) {
               )}
             </div>
 
-            {/* Field 3: Official Email ID */}
-            <div className="space-y-1">
-              <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                <Mail className="w-3 h-3 text-[#93B4E8]" />
-                <span>Official Email ID</span>
-              </label>
-              <div className="relative flex items-center">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter official email"
-                  className="w-full bg-[#141C28] border border-[#263142] rounded-lg py-2.5 px-3 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#2F5DA8] focus:ring-1 focus:ring-[#2F5DA8]/50 transition-all font-medium"
-                />
-              </div>
-            </div>
-
-            {/* Field 4: Password */}
-            <div className="space-y-1">
+            {/* Field 3: Password */}
+            <div className="space-y-1.5">
               <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                 <Lock className="w-3 h-3 text-[#93B4E8]" />
                 <span>Password</span>
@@ -386,8 +363,8 @@ export default function LoginPage({ onLoginSuccess }) {
             {/* Primary Action Button */}
             <button
               type="submit"
-              disabled={isAuthenticating || !officerData || isVerifying}
-              className="w-full mt-1.5 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-[#172640] disabled:text-slate-500 text-white py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
+              disabled={isAuthenticating || !officerData || isVerifying || !password}
+              className="w-full mt-2 bg-[#2F5DA8] hover:bg-[#3A6DBD] disabled:bg-[#172640] disabled:text-slate-500 text-white py-2.5 px-4 rounded-xl text-xs font-bold uppercase tracking-wider font-mono shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:cursor-not-allowed"
             >
               {isAuthenticating ? (
                 <>
@@ -415,7 +392,7 @@ export default function LoginPage({ onLoginSuccess }) {
             
             <div className="space-y-1 mb-2">
               <span className="text-[9px] uppercase tracking-wider text-slate-400 font-bold block">
-                Select Demo KGID:
+                Quick-Select Demo KGID:
               </span>
               <div className="flex flex-wrap gap-1.5">
                 {DEMO_ACCOUNTS.map((acc) => (
