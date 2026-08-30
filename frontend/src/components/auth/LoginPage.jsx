@@ -18,8 +18,9 @@ import {
   Layers, 
   Activity,
   Check,
-  Info,
-  KeyRound
+  Sparkles,
+  KeyRound,
+  UserCheck
 } from 'lucide-react';
 
 const CAPABILITIES = [
@@ -67,10 +68,28 @@ const CAPABILITIES = [
   }
 ];
 
-const DEMO_ACCOUNTS = [
-  { kgid: 'KGID970867', name: 'Divya Joshi', rank: 'Sub-Inspector', unit: 'Koramangala PS' },
-  { kgid: 'KGID752959', name: 'Pradeep Kumar', rank: 'Inspector', unit: 'Indiranagar PS' },
-  { kgid: 'KGID609762', name: 'Swathi Kumar', rank: 'Inspector', unit: 'Lashkar PS' }
+const DEMO_OFFICERS = [
+  { 
+    id: 'divya',
+    name: 'Divya', 
+    fullName: 'Divya Joshi', 
+    rank: 'Sub-Inspector', 
+    kgid: 'KGID970867' 
+  },
+  { 
+    id: 'pradeep',
+    name: 'Pradeep', 
+    fullName: 'Pradeep Kumar', 
+    rank: 'Inspector', 
+    kgid: 'KGID752959' 
+  },
+  { 
+    id: 'swathi',
+    name: 'Swathi', 
+    fullName: 'Swathi Kumar', 
+    rank: 'Inspector', 
+    kgid: 'KGID609762' 
+  }
 ];
 
 export default function LoginPage({ onLoginSuccess }) {
@@ -165,7 +184,7 @@ export default function LoginPage({ onLoginSuccess }) {
     }
   };
 
-  const fillDemoAccount = (demoKgid) => {
+  const handleSelectDemoOfficer = (demoKgid) => {
     setKgid(demoKgid);
     setPassword('KGID@123');
     setAuthError(null);
@@ -202,7 +221,7 @@ export default function LoginPage({ onLoginSuccess }) {
         {/* ============================================================ */}
         {/* LEFT SIDE: OFFICER LOGIN PANEL (40-45% on Desktop)          */}
         {/* ============================================================ */}
-        <section className="w-full lg:w-[430px] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-5 sm:p-6 shadow-2xl relative shrink-0">
+        <section className="w-full lg:w-[440px] max-w-md bg-[#101722] border border-[#263142] rounded-2xl p-5 sm:p-6 shadow-2xl relative shrink-0">
           {/* Top Form Header */}
           <div className="mb-3.5 pb-2.5 border-b border-[#263142]">
             <div className="flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-wider text-[#93B4E8] bg-[#172640] px-2.5 py-1 rounded w-fit border border-[#263142] mb-2">
@@ -354,7 +373,7 @@ export default function LoginPage({ onLoginSuccess }) {
 
             {/* Authentication Failure Error Banner */}
             {authError && (
-              <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2 rounded-lg border border-rose-900/50 animate-fade-in font-medium">
+              <div className="flex items-start gap-1.5 text-[11px] text-rose-400 bg-rose-950/30 p-2.5 rounded-lg border border-rose-900/50 animate-fade-in font-medium">
                 <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
                 <span>{authError}</span>
               </div>
@@ -380,44 +399,71 @@ export default function LoginPage({ onLoginSuccess }) {
             </button>
           </form>
 
-          {/* Prototype Access Information Panel */}
-          <div className="mt-3 pt-2.5 border-t border-[#263142] text-[10px] font-mono text-slate-400 bg-[#0E1520] p-2.5 rounded-xl border border-[#263142]">
-            <div className="flex items-center gap-1.5 text-slate-300 font-bold mb-1">
-              <Info className="w-3.5 h-3.5 text-[#93B4E8]" />
-              <span>PROTOTYPE ACCESS</span>
-            </div>
-            <p className="text-[9.5px] text-slate-400 leading-tight mb-1.5">
-              This is a prototype. Kindly use these details to gain access:
-            </p>
-            
-            <div className="space-y-1 mb-1.5">
-              <span className="text-[9px] uppercase tracking-wider text-slate-400 font-bold block">
-                Quick-Select Demo KGID:
+          {/* ============================================================ */}
+          {/* NOTICEABLE DEMO ACCESS PANEL FOR HACKATHON JUDGES            */}
+          {/* ============================================================ */}
+          <div className="mt-4 pt-3 border-t border-[#263142] bg-[#141C28]/90 p-3.5 rounded-xl border border-[#2F5DA8]/40 shadow-inner">
+            {/* Header Badge & Subtitle */}
+            <div className="flex items-center justify-between mb-1">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-slate-100 font-mono tracking-wide">
+                <Sparkles className="w-3.5 h-3.5 text-[#93B4E8]" />
+                <span className="text-[#93B4E8]">FIRST TIME HERE?</span>
+              </div>
+              <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-[#172640] text-[#93B4E8] border border-[#263142] uppercase font-bold">
+                Demo
               </span>
-              <div className="flex flex-wrap gap-1.5">
-                {DEMO_ACCOUNTS.map((acc) => (
-                  <button
-                    key={acc.kgid}
-                    type="button"
-                    onClick={() => fillDemoAccount(acc.kgid)}
-                    className={`px-2 py-0.5 rounded text-[9.5px] border transition-all cursor-pointer ${
-                      kgid === acc.kgid 
-                        ? 'bg-[#2F5DA8] text-white border-[#3A6DBD] font-bold' 
-                        : 'bg-[#141C28] text-slate-300 border-[#263142] hover:border-slate-500'
-                    }`}
-                  >
-                    {acc.kgid} ({acc.name.split(' ')[0]})
-                  </button>
-                ))}
+            </div>
+            
+            <p className="text-[10.5px] text-slate-300 leading-tight mb-2.5">
+              Use Demo Access to explore Aloka Intelligence.
+            </p>
+
+            {/* Officer Selection Buttons */}
+            <div className="space-y-1.5 mb-2.5">
+              <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400 font-bold block">
+                SELECT DEMO OFFICER
+              </span>
+              <div className="grid grid-cols-3 gap-1.5">
+                {DEMO_OFFICERS.map((officer) => {
+                  const isSelected = kgid === officer.kgid;
+                  return (
+                    <button
+                      key={officer.id}
+                      type="button"
+                      onClick={() => handleSelectDemoOfficer(officer.kgid)}
+                      className={`flex flex-col items-center justify-center p-2 rounded-lg border transition-all cursor-pointer text-center ${
+                        isSelected 
+                          ? 'bg-[#172640] border-[#3A6DBD] text-white ring-1 ring-[#3A6DBD]/60 shadow-xs' 
+                          : 'bg-[#101722] border-[#263142] text-slate-300 hover:border-[#2F5DA8] hover:bg-[#141C28]'
+                      }`}
+                    >
+                      <div className="flex items-center gap-1 mb-0.5">
+                        <UserCheck className={`w-3 h-3 ${isSelected ? 'text-[#93B4E8]' : 'text-slate-400'}`} />
+                        <span className="text-[11px] font-bold tracking-tight">
+                          {officer.name}
+                        </span>
+                      </div>
+                      <span className="text-[9px] font-mono text-slate-400">
+                        {officer.kgid}
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
-            <div className="flex items-center gap-1.5 text-[9.5px] text-slate-300 pt-1 border-t border-[#263142]/60">
-              <KeyRound className="w-3 h-3 text-[#93B4E8]" />
-              <span>Password:</span>
-              <code className="bg-[#141C28] px-1.5 py-0.2 rounded text-[#93B4E8] font-bold">KGID@123</code>
+            {/* Demo Password Info */}
+            <div className="flex items-center justify-between text-[10px] font-mono text-slate-300 pt-2 border-t border-[#263142]/80">
+              <div className="flex items-center gap-1.5">
+                <KeyRound className="w-3 h-3 text-[#93B4E8]" />
+                <span className="text-slate-400">Demo Password:</span>
+              </div>
+              <code className="bg-[#101722] px-2 py-0.5 rounded border border-[#263142] text-[#93B4E8] font-bold">
+                KGID@123
+              </code>
             </div>
           </div>
+
         </section>
 
 
