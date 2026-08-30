@@ -343,7 +343,7 @@ export default function Dashboard() {
         ...prev,
         {
           sender: 'system',
-          text: '⚠️ **Connection Error**\n\nUnable to reach the backend database service.',
+          text: '⚠️ **ANALYSIS INTERRUPTED**\n\nAloka could not complete this request. Unable to reach the database service.',
         },
       ]);
     } finally {

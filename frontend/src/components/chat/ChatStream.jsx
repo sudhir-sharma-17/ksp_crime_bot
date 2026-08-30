@@ -1,6 +1,7 @@
 import React from 'react';
 import MessageCard from './MessageCard';
 import Composer from './Composer';
+import ProcessingCard from './ProcessingCard';
 import { Shield, Square, Sparkles, FolderSearch, BarChart3, Search, Building2 } from 'lucide-react';
 
 const SUGGESTIONS = [
@@ -126,47 +127,9 @@ export default function ChatStream({
           />
         ))}
 
-        {/* Polished Thinking Status */}
+        {/* AI Analysis Processing Card */}
         {isLoading && (
-          <div className="flex items-center justify-between p-4 rounded-2xl bg-blue-50/90 dark:bg-slate-900 border border-blue-200 dark:border-slate-800 shadow-xs animate-fade-in mb-3 select-none">
-            <div className="flex items-center gap-3">
-              <div className="relative w-8 h-8 rounded-xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-xs border border-slate-200 dark:border-slate-700 shrink-0">
-                <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Seal_of_Karnataka.svg" 
-                  alt="Thinking Emblem" 
-                  className="w-4 h-4 object-contain animate-pulse"
-                />
-              </div>
-              <div className="flex flex-col">
-                <div className="flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-ping"></span>
-                  <span className="text-[11px] font-mono font-bold text-blue-950 dark:text-cyan-300 uppercase tracking-widest">
-                    ANALYZING REQUEST
-                  </span>
-                </div>
-                <div className="flex items-center gap-1 text-xs text-slate-600 dark:text-slate-400 font-medium">
-                  <span>Querying criminological database</span>
-                  <span className="flex gap-0.5 ml-1">
-                    <span className="w-1 h-1 bg-cyan-600 dark:bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
-                    <span className="w-1 h-1 bg-cyan-600 dark:bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></span>
-                    <span className="w-1 h-1 bg-cyan-600 dark:bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></span>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Terminate Query Button */}
-            <button
-              type="button"
-              onClick={cancelQuery}
-              className="flex items-center gap-1.5 bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold py-1.5 px-3 rounded-xl shadow-xs transition-all cursor-pointer select-none"
-              title="Cancel running query"
-              aria-label="Terminate query"
-            >
-              <Square className="w-3 h-3 fill-current" />
-              <span>Terminate</span>
-            </button>
-          </div>
+          <ProcessingCard onTerminate={cancelQuery} />
         )}
 
         <div ref={messagesEndRef} />
