@@ -267,7 +267,7 @@ DB_SCHEMA = {
             "RankID": "rank.RankID",
             "DesignationID": "designation.DesignationID"
         },
-        "aliases": ["officer", "officers", "police officer", "investigating officer", "io", "police person", "registering officer", "employee"]
+        "aliases": ["employee", "employees", "officer", "officers", "police officer", "police officers", "investigating officer", "io", "police person", "registering officer", "police personnel", "personnel", "police employee", "staff", "police staff"]
     },
     "unit": {
         "columns": {
@@ -405,7 +405,7 @@ DB_SCHEMA = {
         },
         "primary_key": "DesignationID",
         "foreign_keys": {},
-        "aliases": ["designation"]
+        "aliases": ["designation", "designations", "post", "posts", "job designation", "official designation", "designation name", "role", "position"]
     },
     "rank": {
         "columns": {
@@ -416,7 +416,7 @@ DB_SCHEMA = {
         },
         "primary_key": "RankID",
         "foreign_keys": {},
-        "aliases": ["rank", "police rank"]
+        "aliases": ["rank", "ranks", "police rank", "officer rank", "rank name", "rank hierarchy"]
     },
     "unittype": {
         "columns": {
@@ -688,14 +688,12 @@ async def query_llm(prompt: str, system_prompt: str = "", chat_history: Optional
     import asyncio
     models_to_try = [
         groq_model,                      # Default model from .env
-        "openai/gpt-oss-120b",           # fallback 120b
-        "openai/gpt-oss-20b",            # fallback 20b
-        "qwen/qwen3.8-27b",              # fallback Qwen 3.8
-        "qwen/qwen3.6-27b",              # fallback Qwen 3.6
-        "groq/compound",                 # fallback Groq Compound
-        "groq/compound-mini",            # fallback Groq Compound Mini
-        "openai/gpt-oss-safeguard-20b",  # fallback Safeguard 20b
-        "canopylabs/orpheus-v1-english"  # fallback Orpheus English
+        "openai/gpt-oss-safeguard-20b",  # Active available model
+        "qwen/qwen3.8-27b",              # Qwen 3.8
+        "qwen/qwen3.6-27b",              # Qwen 3.6
+        "canopylabs/orpheus-v1-english", # Orpheus English
+        "openai/gpt-oss-20b",            # Fallback 20b
+        "openai/gpt-oss-120b",           # Fallback 120b
     ]
     # Remove duplicates but maintain order
     unique_models = []
@@ -752,12 +750,12 @@ async def query_llm(prompt: str, system_prompt: str = "", chat_history: Optional
                         logger.warning(f"[LLM] Daily token limit (TPD) reached for model '{current_model}'. Switching to next model...")
                         break  # Break inner loop, move to next model in models_to_try
                     
-                    wait_sec = 2.0
                     match = re.search(r'try again in ([\d\.]+)s', err_msg, re.IGNORECASE)
-                    if match:
-                        wait_sec = float(match.group(1)) + 0.5
-                    if wait_sec > 10:
-                        wait_sec = 2.0
+                    wait_sec = float(match.group(1)) + 0.5 if match else 2.0
+                    
+                    if wait_sec > 3.0 or retries >= 1:
+                        logger.warning(f"[LLM] Model '{current_model}' busy ({wait_sec:.1f}s cooldown). Switching to next model...")
+                        break  # Immediately failover to next model in pool
                         
                     logger.info(f"[LLM] Short term rate limit hit. Sleeping for {wait_sec:.2f}s before retry...")
                     await asyncio.sleep(wait_sec)
@@ -981,7 +979,13 @@ def clean_sql_query(sql: str) -> str:
         sql = sql.split("->")[0].strip()
     if "--" in sql:
         sql = sql.split("--")[0].strip()
-    sql = sql.strip('`').strip(';').strip().strip('`').strip()
+    sql = sql.strip(';').strip()
+    
+    # Normalize and cleanly escape MySQL 8 reserved keyword table 'rank'
+    sql = re.sub(r'(?i)`rank`', 'rank', sql)
+    sql = re.sub(r'(?i)\bJOIN\s+rank\b', 'JOIN `rank`', sql)
+    sql = re.sub(r'(?i)\bFROM\s+rank\b', 'FROM `rank`', sql)
+    sql = re.sub(r'(?i)\brank\.', '`rank`.', sql)
     
     # Strip any trailing emoji/symbols/explanations
     match_end = re.search(r'(?is).*\bLIMIT\s+\d+|.*\bOFFSET\s+\d+|.*[\'\")\w\d]', sql)
@@ -1179,19 +1183,34 @@ async def query_planner_node(state: State) -> State:
         "- victim: victim, victims, affected person, suffered person (Columns: VictimName, AgeYear, GenderID)\n"
         "- complainantdetails: complainant, person who filed complaint, reporter, informant (Columns: ComplainantName, AgeYear, GenderID)\n"
         "- arrestsurrender: arrest, arrested, detained, surrender, was anyone arrested (Columns: ArrestSurrenderDate, IOID, PoliceStationID, IsAccused)\n"
-        "- employee: officer, police officer, investigating officer, IO, registering officer (Columns: FirstName, EmployeeID, RankID)\n"
+        "- employee: employee, employees, officer, officers, police officer, investigating officer, IO, police personnel, personnel, police employee, police staff (Columns: EmployeeID, FirstName, RankID, DesignationID, UnitID, DistrictID)\n"
+        "- designation: designation, designations, post, posts, job designation, official designation, designation name, role (Columns: DesignationID, DesignationName)\n"
+        "- rank: rank, ranks, police rank, officer rank, rank name, hierarchy (Columns: RankID, RankName, Hierarchy)\n"
         "- unit: police station, station, police unit, PS (Columns: UnitName, UnitID)\n"
         "- court: court, law court, judiciary (Columns: CourtName, CourtID)\n"
         "- act / section / actsectionassociation: sections, acts, applied laws, section of law\n"
         "- crimehead: major head, crime group, category\n"
         "- crimesubhead: minor head, sub head\n"
         "- castemaster / religionmaster / occupationmaster: caste, religion, occupation lookup\n\n"
-        "MULTI-TABLE REASONING RULES:\n"
+        "MULTI-TABLE & RELATIONSHIP REASONING RULES:\n"
         "1. When the user asks for multiple related entities in a single question (e.g. 'Show the accused, victim, complainant, investigating officer, police station and court for KSP-CASE-0004'), include ALL corresponding tables in `target_tables` (e.g. [\"casemaster\", \"accused\", \"victim\", \"complainantdetails\", \"employee\", \"unit\", \"court\"]).\n"
         "2. When the user asks for acts and sections (e.g. 'What acts and sections were applied to KSP-CASE-0004?'), set target_tables to [\"casemaster\", \"actsectionassociation\", \"section\", \"act\"].\n"
         "3. When the user asks if an accused was arrested (e.g. 'Was the accused in KSP-CASE-0004 arrested?'), set target_tables to [\"casemaster\", \"accused\", \"arrestsurrender\"].\n"
         "4. When the user asks for cases involving a person and their police stations (e.g. 'Show me all cases involving Vijay Mishra and the police stations that handled them'), set target_tables to [\"accused\", \"casemaster\", \"unit\"] and add a filter on accused.AccusedName.\n"
-        "5. AVOID UNNECESSARY JOINS: When the user asks a single-entity question (e.g. 'Who is the victim of KSP-CASE-0004?'), include ONLY the minimum required tables ([\"casemaster\", \"victim\"]). Do NOT include unrelated tables.\n\n"
+        "5. EMPLOYEE, RANK & DESIGNATION RELATIONSHIP REASONING:\n"
+        "   - When querying employees/officers/personnel and their designations (e.g., 'Return the employee details with their employee id and designation', 'List police personnel and their designations', 'Which designation does each employee have?', 'Give me the officer ID and their designation'):\n"
+        "     * target_tables: [\"employee\", \"designation\"]\n"
+        "     * requested_fields: [\"employee.EmployeeID\", \"employee.FirstName\", \"designation.DesignationName\"]\n"
+        "     * relationships_required: [{\"from\": \"employee.DesignationID\", \"to\": \"designation.DesignationID\"}]\n"
+        "   - When querying officers with rank (e.g., 'Give me all officers with their employee ID and rank'):\n"
+        "     * target_tables: [\"employee\", \"rank\"]\n"
+        "     * requested_fields: [\"employee.EmployeeID\", \"employee.FirstName\", \"rank.RankName\"]\n"
+        "     * relationships_required: [{\"from\": \"employee.RankID\", \"to\": \"rank.RankID\"}]\n"
+        "   - When querying employee ID, name, rank and designation (e.g., 'Show employee ID, name, rank and designation for all officers'):\n"
+        "     * target_tables: [\"employee\", \"rank\", \"designation\"]\n"
+        "     * requested_fields: [\"employee.EmployeeID\", \"employee.FirstName\", \"rank.RankName\", \"designation.DesignationName\"]\n"
+        "     * relationships_required: [{\"from\": \"employee.RankID\", \"to\": \"rank.RankID\"}, {\"from\": \"employee.DesignationID\", \"to\": \"designation.DesignationID\"}]\n"
+        "6. AVOID UNNECESSARY JOINS: When the user asks a single-entity question (e.g. 'Who is the victim of KSP-CASE-0004?'), include ONLY the minimum required tables ([\"casemaster\", \"victim\"]). Do NOT include unrelated tables.\n\n"
         "ANALYTICAL & AGGREGATION REASONING RULES:\n"
         "1. For total counts (e.g. 'How many cases are there?'), set target_tables to [\"casemaster\"], aggregation: {\"function\": \"COUNT\", \"expression\": \"*\"}.\n"
         "2. For station ranking or counts per station (e.g. 'Which police station has the most cases?', 'Show the top 5 police stations by number of cases', 'How many cases does each police station have?', 'How many cases are there for each police station?'):\n"
@@ -1393,6 +1412,9 @@ async def schema_validator_node(state: State) -> State:
         if "actsectionassociation" not in validated_target_tables:
             validated_target_tables.insert(1, "actsectionassociation")
 
+    if ("designation" in validated_target_tables or "rank" in validated_target_tables) and "employee" not in validated_target_tables and "casemaster" not in validated_target_tables:
+        validated_target_tables.insert(0, "employee")
+
     computed_joins = resolve_table_joins(validated_target_tables)
     plan["relationships_required"] = computed_joins
     plan["target_tables"] = validated_target_tables
@@ -1441,8 +1463,8 @@ async def generate_sql_node(state: State) -> State:
         "You are Aloka, an expert SQL generator for the Karnataka State Police. Convert the validated Query Plan into an exact MySQL SELECT statement.\n\n"
         f"AUTHORITATIVE MYSQL SCHEMA (Strictly use ONLY these lowercase table names and exact column cases):\n{core_schema_str}\n\n"
         "STRICT SQL GENERATION RULES:\n"
-        "1. TABLE NAMES: Must be strictly lowercase (e.g., casemaster, accused, victim, complainantdetails, employee, unit, court, district, state, arrestsurrender, act, section, actsectionassociation, crimehead, crimesubhead, castemaster, religionmaster, occupationmaster).\n"
-        "2. COLUMN NAMES: Must match the exact casing specified in the schema definition (e.g., CaseMasterID, CrimeNo, CaseNo, AccusedName, AgeYear, GenderID, FirstName, UnitName, caste_master_id, caste_master_name).\n"
+        "1. TABLE NAMES: Must be strictly lowercase (e.g., casemaster, accused, victim, complainantdetails, employee, unit, court, district, state, arrestsurrender, act, section, actsectionassociation, crimehead, crimesubhead, castemaster, religionmaster, occupationmaster, designation, rank).\n"
+        "2. COLUMN NAMES: Must match the exact casing specified in the schema definition (e.g., CaseMasterID, CrimeNo, CaseNo, AccusedName, AgeYear, GenderID, FirstName, UnitName, EmployeeID, RankName, DesignationName, caste_master_id, caste_master_name).\n"
         "3. CASE IDENTIFIER: Always filter case IDs like 'KSP-CASE-XXXX' using `casemaster.CaseNo = 'KSP-CASE-XXXX'`. Do NOT filter on `CrimeNo`.\n"
         "4. JOINS & MULTI-TABLE REASONING:\n"
         "   - Connect tables strictly using the validated relationships in `relationships_required` or schema foreign keys.\n"
@@ -1454,9 +1476,15 @@ async def generate_sql_node(state: State) -> State:
         "     * LEFT JOIN unit ON casemaster.PoliceStationID = unit.UnitID\n"
         "     * LEFT JOIN court ON casemaster.CourtID = court.CourtID\n"
         "     * LEFT JOIN arrestsurrender ON casemaster.CaseMasterID = arrestsurrender.CaseMasterID\n"
+        "   - When querying employees/officers with their designation and/or rank (starting FROM employee):\n"
+        "     * LEFT JOIN designation ON employee.DesignationID = designation.DesignationID\n"
+        "     * LEFT JOIN rank ON employee.RankID = rank.RankID\n"
+        "     * Example Employee + Designation: `SELECT employee.EmployeeID, employee.FirstName, designation.DesignationName FROM employee LEFT JOIN designation ON employee.DesignationID = designation.DesignationID ORDER BY employee.EmployeeID`\n"
+        "     * Example Employee + Rank: `SELECT employee.EmployeeID, employee.FirstName, rank.RankName FROM employee LEFT JOIN rank ON employee.RankID = rank.RankID ORDER BY employee.EmployeeID`\n"
+        "     * Example Employee + Rank + Designation: `SELECT employee.EmployeeID, employee.FirstName, rank.RankName, designation.DesignationName FROM employee LEFT JOIN rank ON employee.RankID = rank.RankID LEFT JOIN designation ON employee.DesignationID = designation.DesignationID ORDER BY employee.EmployeeID`\n"
         "   - When acts and sections are requested, join: `JOIN actsectionassociation ON casemaster.CaseMasterID = actsectionassociation.CaseMasterID JOIN section ON actsectionassociation.SectionID = section.SectionCode AND actsectionassociation.ActID = section.ActCode JOIN act ON actsectionassociation.ActID = act.ActCode`.\n"
         "   - When querying cases for a specific accused person with station: `SELECT accused.AccusedName, casemaster.CaseNo, unit.UnitName AS PoliceStation FROM accused JOIN casemaster ON accused.CaseMasterID = casemaster.CaseMasterID JOIN unit ON casemaster.PoliceStationID = unit.UnitID WHERE accused.AccusedName LIKE '%<Name>%'`.\n"
-        "   - Always prefix selected column names with their table name or alias to avoid ambiguity (e.g. `casemaster.CaseNo`, `accused.AccusedName`, `victim.VictimName`, `complainantdetails.ComplainantName`, `employee.FirstName AS InvestigatingOfficer`, `unit.UnitName AS PoliceStation`, `court.CourtName`).\n"
+        "   - Always prefix selected column names with their table name or alias to avoid ambiguity (e.g. `casemaster.CaseNo`, `accused.AccusedName`, `victim.VictimName`, `complainantdetails.ComplainantName`, `employee.FirstName AS InvestigatingOfficer`, `employee.EmployeeID`, `rank.RankName`, `designation.DesignationName`, `unit.UnitName AS PoliceStation`, `court.CourtName`).\n"
         "   - Do NOT add unnecessary joins if a table is not requested in target_tables.\n"
         "5. CASTE / RELIGION / OCCUPATION: Join complainantdetails on CasteID = castemaster.caste_master_id, ReligionID = religionmaster.ReligionID, OccupationID = occupationmaster.OccupationID.\n"
         "6. ANALYTICAL & AGGREGATION RULES:\n"
