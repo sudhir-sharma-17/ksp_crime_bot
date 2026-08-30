@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Shield, 
   User, 
-  Mail, 
   Lock, 
   Eye, 
   EyeOff, 
@@ -71,7 +70,6 @@ export default function LoginPage({ onLoginSuccess }) {
   const [officerData, setOfficerData] = useState(null);
   const [isVerifying, setIsVerifying] = useState(false);
   const [kgidError, setKgidError] = useState(null);
-  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('AlokaKSP@2026');
   const [showPassword, setShowPassword] = useState(false);
   const [isAuthenticating, setIsAuthenticating] = useState(false);
@@ -103,9 +101,6 @@ export default function LoginPage({ onLoginSuccess }) {
         if (data.found) {
           setOfficerData(data);
           setKgidError(null);
-          if (data.email) {
-            setEmail(data.email);
-          }
         } else {
           setOfficerData(null);
           setKgidError(data.message || "KGID NOT FOUND. Please verify and try again.");
@@ -123,7 +118,6 @@ export default function LoginPage({ onLoginSuccess }) {
             email: "vikram.joshi@ksp.gov.in"
           };
           setOfficerData(fallbackData);
-          setEmail(fallbackData.email);
           setKgidError(null);
         } else {
           setOfficerData(null);
@@ -153,7 +147,7 @@ export default function LoginPage({ onLoginSuccess }) {
         rank: officerData.rank,
         designation: officerData.designation,
         unit: officerData.unit,
-        email: email.trim() || officerData.email || 'officer@ksp.gov.in'
+        email: officerData.email || 'officer@ksp.gov.in'
       });
     }, 400);
   };
@@ -312,25 +306,7 @@ export default function LoginPage({ onLoginSuccess }) {
               )}
             </div>
 
-            {/* Field 3: Official Email (Auto-populated or Editable) */}
-            <div className="space-y-1.5">
-              <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                <Mail className="w-3 h-3 text-[#93B4E8]" />
-                <span>Official Email ID</span>
-              </label>
-              <div className="relative flex items-center">
-                <input
-                  type="email"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter official email (e.g. officer@ksp.gov.in)"
-                  className="w-full bg-[#141C28] border border-[#263142] rounded-lg py-2.5 px-3 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#2F5DA8] focus:ring-1 focus:ring-[#2F5DA8]/50 transition-all font-medium"
-                />
-              </div>
-            </div>
-
-            {/* Field 4: Password */}
+            {/* Field 3: Password */}
             <div className="space-y-1.5">
               <label className="text-[11px] font-mono font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                 <Lock className="w-3 h-3 text-[#93B4E8]" />
