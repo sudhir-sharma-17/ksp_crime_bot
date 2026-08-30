@@ -10,8 +10,8 @@ const DEFAULT_WELCOME = [
     sender: 'ai',
     text: `## Welcome to Aloka Intelligence
 
-### State Police Investigative AI Assistant
-* **Database Access:** 500 active FIR cases, accused records, victim profiles, investigating officers, legal sections, and police units.
+### State Police Intelligence Assistant
+* **Direct Database Access:** 500 active FIR cases, accused records, victim profiles, investigating officers, legal sections, and police units.
 * **Capabilities:** Multi-table relational queries, time-series crime trends, status distributions, semantic search over brief facts, and instant translations (English, Kannada, Hindi).
 
 Ask any criminological inquiry, case lookup, or analytical question to begin.`
@@ -35,6 +35,7 @@ export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isListening, setIsListening] = useState(false);
+  const [activeTab, setActiveTab] = useState('chat'); // 'chat' | 'canvas' for mobile/tablet responsive views
 
   // Layout Dimensions (Resizable)
   const [sidebarWidth, setSidebarWidth] = useState(250);
@@ -142,7 +143,7 @@ export default function Dashboard() {
         setSessionsList(data);
       }
     } catch (err) {
-      console.error("Failed to fetch protocols:", err);
+      console.error("Failed to fetch sessions:", err);
     }
   };
 
@@ -173,6 +174,7 @@ export default function Dashboard() {
     setSessionId(crypto.randomUUID());
     setInputVal('');
     setQueryQueue([]);
+    setActiveTab('chat');
   };
 
   const handleLoadSession = async (id) => {
@@ -183,6 +185,7 @@ export default function Dashboard() {
         setMessages(data.messages || DEFAULT_WELCOME);
         setSessionId(id);
         setActiveDataIndex(null);
+        setActiveTab('chat');
       }
     } catch (err) {
       console.error("Failed to load session:", err);
@@ -395,12 +398,20 @@ export default function Dashboard() {
   };
 
   const activeMessageWithData = activeDataIndex !== null ? messages[activeDataIndex] : null;
+  const hasDataOnCanvas = Boolean(activeMessageWithData && activeMessageWithData.all_sql_results && activeMessageWithData.all_sql_results.length > 0);
 
   return (
     <div className="h-screen flex flex-col bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans overflow-hidden transition-colors duration-300">
-      <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      <Header 
+        isDarkMode={isDarkMode} 
+        setIsDarkMode={setIsDarkMode} 
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        hasDataOnCanvas={hasDataOnCanvas}
+      />
 
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 overflow-hidden relative">
+        {/* Sidebar */}
         <Sidebar
           sidebarOpen={sidebarOpen}
           setSidebarOpen={setSidebarOpen}
@@ -415,31 +426,37 @@ export default function Dashboard() {
           handleDeleteSession={handleDeleteSession}
         />
 
-        <ChatStream
-          chatWidth={chatWidth}
-          startChatResize={startChatResize}
-          messages={messages}
-          activeDataIndex={activeDataIndex}
-          setActiveDataIndex={setActiveDataIndex}
-          handleTranslate={handleTranslate}
-          isLoading={isLoading}
-          cancelQuery={cancelQuery}
-          queryQueue={queryQueue}
-          setQueryQueue={setQueryQueue}
-          inputVal={inputVal}
-          setInputVal={setInputVal}
-          handleSendMessage={handleSendMessage}
-          isListening={isListening}
-          toggleVoiceCommand={toggleVoiceCommand}
-          messagesEndRef={messagesEndRef}
-          inputRef={inputRef}
-        />
+        {/* Conversation Stream (hidden on mobile if canvas tab is selected) */}
+        <div className={`${activeTab === 'canvas' ? 'hidden md:flex' : 'flex'} flex-col h-full shrink-0`}>
+          <ChatStream
+            chatWidth={chatWidth}
+            startChatResize={startChatResize}
+            messages={messages}
+            activeDataIndex={activeDataIndex}
+            setActiveDataIndex={setActiveDataIndex}
+            handleTranslate={handleTranslate}
+            isLoading={isLoading}
+            cancelQuery={cancelQuery}
+            queryQueue={queryQueue}
+            setQueryQueue={setQueryQueue}
+            inputVal={inputVal}
+            setInputVal={setInputVal}
+            handleSendMessage={handleSendMessage}
+            isListening={isListening}
+            toggleVoiceCommand={toggleVoiceCommand}
+            messagesEndRef={messagesEndRef}
+            inputRef={inputRef}
+          />
+        </div>
 
-        <DataCanvas
-          activeMessageWithData={activeMessageWithData}
-          activeDataIndex={activeDataIndex}
-          handleLoadMore={handleLoadMore}
-        />
+        {/* Data Canvas (hidden on mobile if chat tab is selected) */}
+        <div className={`${activeTab === 'chat' ? 'hidden md:flex' : 'flex'} flex-1 h-full overflow-hidden`}>
+          <DataCanvas
+            activeMessageWithData={activeMessageWithData}
+            activeDataIndex={activeDataIndex}
+            handleLoadMore={handleLoadMore}
+          />
+        </div>
       </div>
 
       <Footer currentTime={currentTime} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, Mic, X } from 'lucide-react';
+import { ArrowUp, Mic, X, Terminal } from 'lucide-react';
 
 export default function Composer({
   inputVal,
@@ -13,26 +13,26 @@ export default function Composer({
   inputRef
 }) {
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800/80 p-3.5 shrink-0 transition-colors">
+    <div className="bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 p-3 sm:p-4 shrink-0 transition-colors">
       {/* Queued Queries Indicator */}
       {queryQueue.length > 0 && (
-        <div className="mb-2.5 flex items-center justify-between px-3 py-1.5 bg-blue-50/90 dark:bg-slate-900/90 border border-blue-200/80 dark:border-blue-900/50 rounded-lg text-xs shadow-xs animate-fade-in">
+        <div className="mb-2.5 flex items-center justify-between px-3.5 py-2 bg-blue-50/90 dark:bg-slate-900/90 border border-blue-200 dark:border-blue-900/60 rounded-xl text-xs shadow-xs animate-fade-in">
           <div className="flex items-center gap-2 truncate">
-            <span className="flex h-2 w-2 relative shrink-0">
+            <span className="flex h-2.5 w-2.5 relative shrink-0">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-600"></span>
             </span>
-            <span className="font-bold uppercase tracking-wider text-[10px] text-blue-800 dark:text-blue-300 shrink-0">
+            <span className="font-mono font-bold uppercase tracking-wider text-[10px] text-blue-800 dark:text-blue-300 shrink-0">
               Queued ({queryQueue.length}):
             </span>
-            <span className="truncate italic text-slate-700 dark:text-slate-300">
+            <span className="truncate italic text-slate-700 dark:text-slate-300 font-medium">
               "{queryQueue[0]}"{queryQueue.length > 1 ? ` (+${queryQueue.length - 1} more)` : ''}
             </span>
           </div>
           <button
             type="button"
             onClick={() => setQueryQueue([])}
-            className="flex items-center gap-1 text-slate-400 hover:text-red-500 text-[10px] font-bold uppercase ml-2 px-1.5 py-0.5 rounded hover:bg-red-50 dark:hover:bg-slate-800 cursor-pointer transition-colors"
+            className="flex items-center gap-1 text-slate-400 hover:text-red-500 text-[10px] font-bold uppercase ml-2 px-2 py-0.5 rounded hover:bg-red-50 dark:hover:bg-slate-800 cursor-pointer transition-colors"
             title="Clear queued queries"
           >
             <X className="w-3 h-3" />
@@ -41,11 +41,15 @@ export default function Composer({
         </div>
       )}
 
-      {/* Input Composer Form */}
+      {/* Input Form */}
       <form
         onSubmit={handleSendMessage}
-        className="relative flex items-center bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700/80 rounded-xl shadow-xs focus-within:border-blue-600 dark:focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 transition-all"
+        className="relative flex items-center bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700/80 rounded-2xl shadow-sm focus-within:border-blue-600 dark:focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 transition-all p-1"
       >
+        <div className="pl-3 text-slate-400 hidden sm:block">
+          <Terminal className="w-4 h-4" />
+        </div>
+
         <input
           ref={inputRef}
           type="text"
@@ -53,34 +57,34 @@ export default function Composer({
           onChange={(e) => setInputVal(e.target.value)}
           placeholder={
             isLoading
-              ? "Executing query... Type next query to queue for execution..."
-              : "Query KSP database (cases, accused, status, trends, etc.)..."
+              ? "Executing inquiry... Type next query to queue for sequential processing..."
+              : "Ask Aloka (e.g., 'Who are the accused in KSP-CASE-0004?', 'Show cases by station')..."
           }
-          className="flex-1 bg-transparent border-none focus:ring-0 text-slate-900 dark:text-slate-100 text-xs placeholder-slate-400 dark:placeholder-slate-500 py-3 px-3.5 outline-none"
+          className="flex-1 bg-transparent border-none focus:ring-0 text-slate-900 dark:text-slate-100 text-xs sm:text-sm placeholder-slate-400 dark:placeholder-slate-500 py-2.5 px-3 outline-none font-medium"
         />
 
         {/* Voice Command Button */}
         <button 
           type="button"
           onClick={toggleVoiceCommand} 
-          className={`p-2 rounded-lg m-1 transition-all shrink-0 cursor-pointer ${
+          className={`p-2 rounded-xl transition-all shrink-0 cursor-pointer ${
             isListening 
               ? 'bg-red-500 text-white animate-pulse shadow-xs' 
               : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800'
           }`}
-          title={isListening ? "Listening... Click to stop" : "Voice Input"}
+          title={isListening ? "Listening... Click to stop" : "Voice Command"}
         >
           <Mic className="w-4 h-4" />
         </button>
 
-        {/* Submit Action Button */}
+        {/* Submit Button */}
         <button
           type="submit"
           disabled={!inputVal.trim()}
-          className="m-1 w-8 h-8 bg-blue-900 hover:bg-blue-800 disabled:bg-slate-200 dark:disabled:bg-slate-800 disabled:text-slate-400 text-white rounded-lg flex items-center justify-center transition-all shrink-0 cursor-pointer disabled:cursor-not-allowed shadow-xs"
-          title={isLoading ? "Queue query for next execution" : "Execute query"}
+          className="w-9 h-9 bg-blue-900 hover:bg-blue-800 disabled:bg-slate-200 dark:disabled:bg-slate-800 disabled:text-slate-400 text-white rounded-xl flex items-center justify-center transition-all shrink-0 cursor-pointer disabled:cursor-not-allowed shadow-xs"
+          title={isLoading ? "Queue query" : "Send inquiry"}
         >
-          <ArrowUp className="w-4 h-4" />
+          <ArrowUp className="w-4 h-4 stroke-[2.5]" />
         </button>
       </form>
     </div>
